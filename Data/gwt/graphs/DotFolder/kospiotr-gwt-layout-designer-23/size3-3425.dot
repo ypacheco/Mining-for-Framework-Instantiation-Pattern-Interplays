@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=3425,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.view.client.ProvidesKey"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="kospiotr-gwt-layout-designer",filePath="/kospiotr-gwt-layout-designer/gwt-layout-designer-master/src/main/java/pl/pkosmowski/gxtshowcase/client/navigator/NavigationComponent.java",contextSignature="com.sencha.gxt.data.shared.ModelKeyProvider createModelKeyProvider()",graphId="3425"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.view.client.ProvidesKey",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="java.lang.String getKey(main.java.pl.pkosmowski.gxtshowcase.client.navigator.NavigationComponent)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+}

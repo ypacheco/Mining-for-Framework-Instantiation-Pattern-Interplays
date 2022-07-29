@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4599,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/GradientBuilderApp.java~GradientBuilderApp~1189",1="amonker-AmonkerFX~/amonker-AmonkerFX/AmonkerFX-master/src/cn/jingyun/javafx/amonker/ui/ButtonStyles.java~ButtonStyles~1840"]
+162[label="javafx.scene.control.ToolBarBuilder",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+163[label="VAR:javafx.scene.control.ToolBarBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+160[label="VAR:javafx.scene.control.ToolBarBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+161[label="build()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+160->161[label="CALL"]
+163->162[label="OF_TYPE"]
+160->162[label="OF_TYPE"]
+}

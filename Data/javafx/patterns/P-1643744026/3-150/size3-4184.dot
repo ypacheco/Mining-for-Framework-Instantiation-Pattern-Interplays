@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4184,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="DC37-Super-Mario-Paint~/DC37-Super-Mario-Paint/Super-Mario-Paint-master/src/smp/SuperMarioPaint.java~SuperMarioPaint~262",1="DC37-Super-Mario-Paint~/DC37-Super-Mario-Paint/Super-Mario-Paint-master/src/smp/SuperMarioPaint.java~void start(javafx.stage.Stage)~264"]
+48[label="javafx.application.Preloader.StateChangeNotification",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+47[label="VAR:javafx.application.Preloader.StateChangeNotification",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+46[label="new StateChangeNotification()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+47->48[label="OF_TYPE"]
+47->46[label="CALL"]
+}

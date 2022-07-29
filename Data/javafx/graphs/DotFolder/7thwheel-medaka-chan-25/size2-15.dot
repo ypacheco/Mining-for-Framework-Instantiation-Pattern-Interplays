@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=15,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.ComboBox"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="7thwheel-medaka-chan",filePath="/7thwheel-medaka-chan/medaka-chan-master/src/seventhwheel/pos/control/combobox/SuppliersComboBox.java",contextSignature="SuppliersComboBox",graphId="15"]
+0[label="seventhwheel.pos.control.combobox.SuppliersComboBox",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.ComboBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

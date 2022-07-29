@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=653,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="akjava-GWTRecorderjs",filePath="/akjava-GWTRecorderjs/GWTRecorderjs-master/src/com/akjava/gwt/recorder/client/AudioDestinationNode.java",contextSignature="AudioDestinationNode",graphId="653"]
+0[label="com.akjava.gwt.recorder.client.AudioDestinationNode",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

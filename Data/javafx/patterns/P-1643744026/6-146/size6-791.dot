@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=791,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="candybibby-Snake~/candybibby-Snake/Snake-master/src/graphicsJavaFX/Controller.java~Controller~2239",1="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/DesktopViewer/DesktopViewerController.java~DesktopViewerController~2537"]
+1[label="javafx.scene.layout.AnchorPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+30[label="FIELD:javafx.scene.layout.AnchorPane",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+4[label="FIELD:javafx.scene.layout.AnchorPane",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+48[label="FIELD:javafx.scene.layout.AnchorPane",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+50[label="FIELD:javafx.scene.layout.AnchorPane",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+32[label="FIELD:javafx.scene.layout.AnchorPane",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+32->1[label="OF_TYPE"]
+48->1[label="OF_TYPE"]
+30->1[label="OF_TYPE"]
+4->1[label="OF_TYPE"]
+50->1[label="OF_TYPE"]
+}

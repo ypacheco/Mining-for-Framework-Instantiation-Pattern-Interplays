@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2424,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=7.0,patternRootClient=0]
+patternInstancesInfo[0="Jamakasi-JMCLauncherFX~/Jamakasi-JMCLauncherFX/JMCLauncherFX-master/src/jmclauncherfx/OptionsWindowController.java~OptionsWindowController~610",1="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/Project.java~Project~1849",2="tarchan-ClipFX~/tarchan-ClipFX/ClipFX-master/src/com/mac/tarchan/clipfx/ClipFXController.java~ClipFXController~4467",3="killjoy64-Scouting~/killjoy64-Scouting/Scouting-master/Robotics Scouting MatchList Creator/src/org/petoskeypaladins/scouting/matchlist/Controller.java~Controller~3460",4="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/MainPane.java~MainPane~1847",5="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/PathSetPane.java~PathSetPane~1845",6="walker-clint-AIProj3~/walker-clint-AIProj3/AIProj3-master/src/application/GameBoardController.java~GameBoardController~4712"]
+28[label="FIELD:javafx.stage.FileChooser",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+29[label="javafx.stage.FileChooser",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+6[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->28[label="DECLARE_FIELD"]
+28->29[label="OF_TYPE"]
+0->6[label="DECLARE_FIELD"]
+}

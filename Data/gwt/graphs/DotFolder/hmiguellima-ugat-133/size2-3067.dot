@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3067,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.event.shared.EventHandler"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="hmiguellima-ugat",filePath="/hmiguellima-ugat/ugat-master/src/org/ucp/ugat/client/common/ui/events/ClientEvent.java",contextSignature="IClientEventHandler",graphId="3067"]
+0[label="org.ucp.ugat.client.common.ui.events.ClientEvent.IClientEventHandler",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.event.shared.EventHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

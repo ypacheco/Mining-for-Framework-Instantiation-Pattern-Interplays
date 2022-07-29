@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=1220,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.Command"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="dapicard-gwt-surface",filePath="/dapicard-gwt-surface/gwt-surface-master/gwt-surface/src/main/java/com/axeiya/gwt/surface/client/control/table/DropColumn.java",contextSignature="void onClick(com.google.gwt.event.dom.client.ClickEvent)",graphId="1220"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.Command",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void execute()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+}

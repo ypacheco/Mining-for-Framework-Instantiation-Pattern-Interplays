@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1817,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/MVCTable.java~MVCTable~3009",1="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/MVCTable.java~void addRowCountBox(boolean,int[],org.ucp.gwt.widgets.table.TableModel)~3023"]
+11[label="new PaginationPanel()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+12[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+13[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+14[label="com.google.gwt.user.client.ui.Composite",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+12->13[label="OF_TYPE"]
+12->11[label="CALL"]
+13->14[label="EXTEND",color=blue]
+}

@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3683,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.resources.client.CssResource"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="mansiT-UiBinder",filePath="/mansiT-UiBinder/UiBinder-master/uibinder/src/com/allen_sauer/gwt/dnd/client/util/DragClientBundle.java",contextSignature="DragCssResource",graphId="3683"]
+0[label="com.allen_sauer.gwt.dnd.client.util.DragClientBundle.DragCssResource",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.resources.client.CssResource",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

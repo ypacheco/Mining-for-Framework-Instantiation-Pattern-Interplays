@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=573,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="jalbertcruz-Documentation-manager~/jalbertcruz-Documentation-manager/Documentation-manager-master/src/documentation/manager/DocumentationManager.java~void mkTable()~3244",1="gleba-cppoints~/gleba-cppoints/cppoints-master/src/cpapp/view/EditTableController.java~EditTableController~2746"]
+8[label="javafx.scene.control.TableColumn",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+7[label="PARAMETER:javafx.scene.control.TableColumn",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+7->8[label="OF_TYPE"]
+}

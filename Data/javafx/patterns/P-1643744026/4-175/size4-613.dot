@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=613,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.StackPane"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="sushkrish-CityLife~/sushkrish-CityLife/CityLife-master/src/view/StartScene.java~StartScene~4318",1="sztorman-PSZT~/sztorman-PSZT/PSZT-master/src/Freedom.java~SquareSkin~4432",2="atsticks-FXOne~/atsticks-FXOne/FXOne-master/org.fxone/fxone-ui/src/main/java/org/fxone/ui/rt/components/workbench/NavigationTree.java~NavigationTree~1943"]
+1[label="javafx.scene.layout.StackPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+4[label="FIELD:javafx.scene.image.Image",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+5[label="javafx.scene.image.Image",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->1[label="EXTEND",color=red]
+4->5[label="OF_TYPE"]
+0->4[label="DECLARE_FIELD"]
+}

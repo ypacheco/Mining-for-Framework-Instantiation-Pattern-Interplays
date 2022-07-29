@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=4650,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="t-kensuke-Java8~/t-kensuke-Java8/Java8-master/src/main/java/clock/DigitalClock.java~void start(javafx.stage.Stage)~4447",1="t-kensuke-Java8~/t-kensuke-Java8/Java8-master/src/main/java/clock/DigitalClock.java~DigitalClock~4444"]
+86[label="com.sun.javafx.tk.FontLoader",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+98[label="VAR:com.sun.javafx.tk.FontLoader",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+99[label="getFontMetrics()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+84[label="VAR:com.sun.javafx.tk.FontLoader",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+85[label="computeStringWidth()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+84->86[label="OF_TYPE"]
+98->86[label="OF_TYPE"]
+84->85[label="CALL"]
+98->99[label="CALL"]
+}

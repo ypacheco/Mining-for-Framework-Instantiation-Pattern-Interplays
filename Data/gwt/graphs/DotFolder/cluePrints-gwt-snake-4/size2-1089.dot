@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1089,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.uibinder.client.UiBinder"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="cluePrints-gwt-snake",filePath="/cluePrints-gwt-snake/gwt-snake-master/src/s3/client/presentation/GWTView.java",contextSignature="GWTViewUiBinder",graphId="1089"]
+0[label="s3.client.presentation.GWTView.GWTViewUiBinder",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.uibinder.client.UiBinder",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

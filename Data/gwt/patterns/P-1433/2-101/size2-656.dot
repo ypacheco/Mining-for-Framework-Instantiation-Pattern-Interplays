@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=656,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="chrte-TemperatureWatcher~/chrte-TemperatureWatcher/TemperatureWatcher-master/src/com/google/gwt/sample/stockwatcher/client/TemperatureWatcher.java~TemperatureWatcher~1066",1="cbopp-gwt-taglist~/cbopp-gwt-taglist/gwt-taglist-master/src/main/java/com/virilis_software/gwt/taglist/client/comp/taglist/TagListView.java~TagListView~1038"]
+216[label="com.google.gwt.event.dom.client.KeyPressEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+214[label="VAR:com.google.gwt.event.dom.client.KeyPressEvent",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+214->216[label="OF_TYPE"]
+}

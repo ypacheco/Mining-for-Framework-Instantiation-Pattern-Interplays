@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3718,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.place.shared.Place"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="mcasperson-Automation-Portal-UI",filePath="/mcasperson-Automation-Portal-UI/Automation-Portal-UI-master/src/com/redhat/automationportalui/client/pav/SVNStatsPlace.java",contextSignature="SVNStatsPlace",graphId="3718"]
+0[label="com.redhat.automationportalui.client.pav.SVNStatsPlace",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.place.shared.Place",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

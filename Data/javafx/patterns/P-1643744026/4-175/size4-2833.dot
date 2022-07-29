@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2833,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=null]
+patternInstancesInfo[0="abou0182-Java-projects~/abou0182-Java-projects/Java-projects-master/SpellChecker/src/spellchecker/FXLauncher.java~FXLauncher~1666",1="joelburget-miftiwac~/joelburget-miftiwac/miftiwac-master/src/Dynamic_page.java~Dynamic_page~3333",2="JoshRobertson-BFSim~/JoshRobertson-BFSim/BFSim-master/src/simulator/FXLauncher.java~FXLauncher~715",3="AlexTape-SlidingPuzzleFX~/AlexTape-SlidingPuzzleFX/SlidingPuzzleFX-master/src/de/alextape/slidingpuzzle/SlidingPuzzleGame.java~SlidingPuzzleGame~113",4="Zulukas-IJA~/Zulukas-IJA/IJA-master/src/InsightJournalApplication/GUI.java~GUI~1631"]
+44[label="javafx.scene.control.MenuItemBuilder",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+161[label="VAR:javafx.scene.control.MenuItemBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+232[label="VAR:javafx.scene.control.MenuItemBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+229[label="VAR:javafx.scene.control.MenuItemBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+232->44[label="OF_TYPE"]
+161->44[label="OF_TYPE"]
+229->44[label="OF_TYPE"]
+}

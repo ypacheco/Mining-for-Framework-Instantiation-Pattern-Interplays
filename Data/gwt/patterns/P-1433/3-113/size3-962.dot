@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=962,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.activity.shared.AbstractActivity"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="anozaki-GwtHelloMvpTest~/anozaki-GwtHelloMvpTest/GwtHelloMvpTest-master/src/main/java/com/hellomvp/client/activity/HelloActivity.java~HelloActivity~667",1="bahkified-Test~/bahkified-Test/Test-master/src/main/java/com/blargh/AanP/client/activity/HomeActivity.java~HomeActivity~791"]
+1[label="com.google.gwt.activity.shared.AbstractActivity",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="java.lang.String mayStop()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+}

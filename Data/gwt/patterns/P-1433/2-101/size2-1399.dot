@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1399,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="dapicard-gwt-surface~/dapicard-gwt-surface/gwt-surface-master/gwt-surface/src/main/java/com/axeiya/gwt/surface/client/widget/DecoratedPushButton.java~DecoratedPushButton~1269",1="dapicard-gwt-surface~/dapicard-gwt-surface/gwt-surface-master/gwt-surface/src/main/java/com/axeiya/gwt/surface/client/widget/DecoratedToggleButton.java~DecoratedToggleButton~1267"]
+3[label="com.google.gwt.dom.client.DivElement",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+4[label="FIELD:com.google.gwt.dom.client.DivElement",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+4->3[label="OF_TYPE"]
+}

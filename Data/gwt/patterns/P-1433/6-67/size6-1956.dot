@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1956,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.rpc.AsyncCallback"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="DeannaSurma-Census~/DeannaSurma-Census/Census-master/src/com/cs4302/census/client/Census.java~void createCountyTable(java.lang.String)~114",1="DeannaSurma-Census~/DeannaSurma-Census/Census-master/src/com/cs4302/census/client/Census.java~void createStateTable(java.lang.String)~117"]
+3[label="void onSuccess(com.cs4302.census.shared.profiles.StateProfile)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.rpc.AsyncCallback",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+61[label="VAR:com.google.gwt.user.client.ui.ListBox",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+63[label="com.google.gwt.user.client.ui.ListBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2[label="void onFailure(java.lang.Throwable)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+3->61[label="INSTANTIATE"]
+0->2[label="OVERRIDE"]
+0->3[label="OVERRIDE"]
+61->63[label="OF_TYPE"]
+}

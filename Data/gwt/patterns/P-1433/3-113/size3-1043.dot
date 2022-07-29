@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1043,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="ashtonthomas-gwt-fast-touch-press~/ashtonthomas-gwt-fast-touch-press/gwt-fast-touch-press-master/src/io/ashton/fastpress/client/Gwt_fast_press.java~Gwt_fast_press~744",1="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/presenter/ReportsPresenter.java~void prepareTable()~419"]
+42[label="new Anchor()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+43[label="VAR:com.google.gwt.user.client.ui.Anchor",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+44[label="com.google.gwt.user.client.ui.Anchor",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+43->44[label="OF_TYPE"]
+43->42[label="CALL"]
+}

@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2137,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=6.0,patternRootClient=0]
+patternInstancesInfo[0="mouradsaadi-LO23-IHM~/mouradsaadi-LO23-IHM/LO23-IHM-master/Sudoku-IHM/src/sudoko/ihm/vue/RegisterController.java~RegisterController~3662",1="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/LoginController.java~LoginController~2051",2="Jamakasi-JMCLauncherFX~/Jamakasi-JMCLauncherFX/JMCLauncherFX-master/src/jmclauncherfx/MainFormController.java~MainFormController~612",3="ICastro17-ProjectChatJava~/ICastro17-ProjectChatJava/ProjectChatJava-master/src/telaLogin/gui/TelaLoginController.java~TelaLoginController~536",4="reginaldolopes-estudo-javafx~/reginaldolopes-estudo-javafx/estudo-javafx-master/FormularioLogin/src/com/reginaldolopes/estudojavfx/LoginApp.java~LoginApp~4012",5="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLLoginController.java~FXMLLoginController~3381"]
+9[label="FIELD:javafx.scene.control.PasswordField",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+13[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->13[label="DECLARE_FIELD"]
+0->9[label="DECLARE_FIELD"]
+}

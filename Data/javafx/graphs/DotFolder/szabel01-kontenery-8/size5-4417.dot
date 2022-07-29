@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=4417,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.util.Callback"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="szabel01-kontenery",filePath="/szabel01-kontenery/kontenery-master/src/main/java/pl/p/lodz/container/SpringFxmlLoader.java",contextSignature="java.lang.Object load(java.lang.String)",graphId="4417"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.util.Callback",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void setControllerFactory(javafx.util.Callback)",vertexType="OUTSIDE_CALL",isFrameworkType=true,peripheries=2]
+3[label="javafx.fxml.FXMLLoader",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="java.lang.Object call(java.lang.Class)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+2->0[label="ARGUMENT"]
+2->3[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+}

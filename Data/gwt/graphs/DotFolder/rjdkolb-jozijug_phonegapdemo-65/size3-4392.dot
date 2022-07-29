@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=4392,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.IsWidget",1="com.googlecode.gwtphonegap.client.compass.CompassCallback"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="rjdkolb-jozijug_phonegapdemo",filePath="/rjdkolb-jozijug_phonegapdemo/jozijug_phonegapdemo-master/src/main/java/org/openrap/jozijug/mgwtphonegap/client/activities/compass/VerifyCompassDoneView.java",contextSignature="VerifyCompassDoneView",graphId="4392"]
+0[label="main.java.org.openrap.jozijug.mgwtphonegap.client.activities.compass.VerifyCompassDoneView",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.IsWidget",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="com.googlecode.gwtphonegap.client.compass.CompassCallback",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="IMPLEMENT",color=red]
+}

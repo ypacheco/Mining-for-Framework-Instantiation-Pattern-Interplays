@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=275,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.event.shared.HandlerRegistration"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="ahome-it-ahome-sencha-shared~/ahome-it-ahome-sencha-shared/ahome-sencha-shared-master/ahome-sencha-shared/src/main/java/com/ait/toolkit/sencha/shared/client/core/handlers/CallbackRegistration.java~CallbackRegistration~490",1="ahome-it-ahome-sencha-shared~/ahome-it-ahome-sencha-shared/ahome-sencha-shared-master/ahome-sencha-shared/src/main/java/com/ait/toolkit/sencha/shared/client/core/handlers/ElementHandlerRegistration.java~ElementHandlerRegistration~489"]
+1[label="com.google.gwt.event.shared.HandlerRegistration",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="FIELD:com.google.gwt.core.client.JavaScriptObject",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2->3[label="OF_TYPE"]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="DECLARE_FIELD"]
+}

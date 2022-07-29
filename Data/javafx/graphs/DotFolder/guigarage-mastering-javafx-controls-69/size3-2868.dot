@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2868,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.Button"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="guigarage-mastering-javafx-controls",filePath="/guigarage-mastering-javafx-controls/mastering-javafx-controls-master/src/main/java/com/guigarage/chapter5/TextInputDemo.java",contextSignature="javafx.scene.control.Button createNotFocusableButton(java.lang.String)",graphId="2868"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.Button",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="b",vertexType="OUTSIDE_VARIABLE_EXPRESION",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="ASSIGMENT"]
+2->1[label="OF_TYPE"]
+}

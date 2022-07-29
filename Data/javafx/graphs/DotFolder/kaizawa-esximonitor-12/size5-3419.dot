@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=3419,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.fxml.Initializable"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="kaizawa-esximonitor",filePath="/kaizawa-esximonitor/esximonitor-master/src/com/cafeform/esxi/esximonitor/AboutViewController.java",contextSignature="AboutViewController",graphId="3419"]
+0[label="com.cafeform.esxi.esximonitor.AboutViewController",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.fxml.Initializable",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="versionText",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.scene.control.Label",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+}

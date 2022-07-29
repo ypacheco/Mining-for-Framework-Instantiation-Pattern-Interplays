@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=3870,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.HBox"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="ph73nt-shiny-plopper",filePath="/ph73nt-shiny-plopper/shiny-plopper-master/src/main/java/couk/nucmedone/shinyplopper/config/ComboConfigItem.java",contextSignature="ComboConfigItem",graphId="3870"]
+0[label="main.java.couk.nucmedone.shinyplopper.config.ComboConfigItem",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.HBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="combo",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.scene.control.ComboBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+}

@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=2289,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.Pane"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="cmd802-projectmain",filePath="/cmd802-projectmain/projectmain-master/GroupProject/src/submenu/WavesSubmenu.java",contextSignature="WavesSubmenu",graphId="2289"]
+0[label="submenu.WavesSubmenu",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.Pane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=606,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="javafx.scene.control.Button"]
+possibleCollaborationsInfo[0="606~FIELD_DECLARATION-~javafx.scene.control.Button ~javafx.stage.Stage ~false~false"]
+locationInfo[projectName="JCake-CoupGameProgram",filePath="/JCake-CoupGameProgram/CoupGameProgram-master/src/game/ui/javafx/ActionButton.java",contextSignature="ActionButton",graphId="606"]
+0[label="game.ui.javafx.ActionButton",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.Button",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="playerUI",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="game.ui.javafx.IndividualPlayer",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="javafx.stage.Stage",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+3->4[label="EXTEND",color=blue]
+2->3[label="OF_TYPE"]
+}

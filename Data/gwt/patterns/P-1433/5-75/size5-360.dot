@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=360,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="nakaken0629-mezamashimailgwt~/nakaken0629-mezamashimailgwt/mezamashimailgwt-master/mezamashimailgwt/src/com/appspot/mezamashimailgwt/client/Mezamashimailgwt.java~void onClick(com.google.gwt.event.dom.client.ClickEvent)~4118",1="woox-serverapp~/woox-serverapp/serverapp-master/src/wooxes/net/client/Serverapp.java~Serverapp~4647"]
+5[label="com.google.gwt.user.client.ui.Panel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+25[label="VAR:com.google.gwt.user.client.ui.Panel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+40[label="add()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+3[label="VAR:com.google.gwt.user.client.ui.Panel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+56[label="add()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+3->5[label="OF_TYPE"]
+25->56[label="CALL"]
+25->5[label="OF_TYPE"]
+25->40[label="CALL"]
+}

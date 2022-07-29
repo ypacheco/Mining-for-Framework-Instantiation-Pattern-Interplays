@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=7,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=0]
+patternInstancesInfo[0="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLNoticiaController.java~FXMLNoticiaController~3377",1="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLAnadirNoticiaController.java~FXMLAnadirNoticiaController~3367",2="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLAnadirMomentoController.java~FXMLAnadirMomentoController~3384",3="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLRegistroController.java~FXMLRegistroController~3372",4="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLMomentoController.java~FXMLMomentoController~3370"]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+27[label="FIELD:javafx.scene.shape.Line",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+10[label="FIELD:javafx.scene.shape.Circle",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+12[label="FIELD:javafx.scene.shape.Circle",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+4[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+29[label="FIELD:javafx.scene.shape.Line",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->10[label="DECLARE_FIELD"]
+0->4[label="DECLARE_FIELD"]
+0->27[label="DECLARE_FIELD"]
+0->29[label="DECLARE_FIELD"]
+0->12[label="DECLARE_FIELD"]
+}

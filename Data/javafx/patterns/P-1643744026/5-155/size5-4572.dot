@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=4572,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="nandoacoelho-SGFP-Sistema-Gerenciador-Financeiro-Pessoal~/nandoacoelho-SGFP-Sistema-Gerenciador-Financeiro-Pessoal/SGFP-Sistema-Gerenciador-Financeiro-Pessoal-master/src/sample/Login.java~Login~3743",1="nandoacoelho-SGFP-Sistema-Gerenciador-Financeiro-Pessoal~/nandoacoelho-SGFP-Sistema-Gerenciador-Financeiro-Pessoal/SGFP-Sistema-Gerenciador-Financeiro-Pessoal-master/src/sample/Login.java~void start(javafx.stage.Stage)~3744"]
+13[label="new Apresentacao()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+14[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+18[label="start()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+15[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+16[label="javafx.application.Application",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+15->16[label="EXTEND",color=blue]
+14->15[label="OF_TYPE"]
+14->13[label="CALL"]
+14->18[label="CALL"]
+}

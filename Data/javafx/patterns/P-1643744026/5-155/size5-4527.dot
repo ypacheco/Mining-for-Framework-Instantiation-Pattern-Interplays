@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=4527,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="projects4PB-biomet~/projects4PB-biomet/biomet-master/src/biomet/panels/RootPanel.java~javafx.scene.control.MenuBar createMenuBar()~3959",1="projects4PB-biomet~/projects4PB-biomet/biomet-master/src/biomet/panels/RootPanel.java~RootPanel~3950"]
+7[label="new HSVPopup()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+8[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+12[label="show()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+9[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+10[label="javafx.stage.Popup",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+8->9[label="OF_TYPE"]
+8->7[label="CALL"]
+9->10[label="EXTEND",color=blue]
+8->12[label="CALL"]
+}

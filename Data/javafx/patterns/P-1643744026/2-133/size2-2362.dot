@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2362,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=7.0,patternRootClient=null]
+patternInstancesInfo[0="svadlamudi-GaussJordanElimination~/svadlamudi-GaussJordanElimination/GaussJordanElimination-master/src/gauss/jordan/elimination/MainController.java~MainController~4396",1="svadlamudi-GaussJordanElimination~/svadlamudi-GaussJordanElimination/GaussJordanElimination-master/src/gauss/jordan/elimination/EditingTableCell.java~EditingTableCell~4374",2="svadlamudi-GaussJordanElimination~/svadlamudi-GaussJordanElimination/GaussJordanElimination-master/src/gauss/jordan/elimination/MainController.java~void initialize(java.net.URL,java.util.ResourceBundle)~4398",3="svadlamudi-GaussJordanElimination~/svadlamudi-GaussJordanElimination/GaussJordanElimination-master/src/gauss/jordan/elimination/EditingTableCell.java~void createTextField()~4378"]
+9[label="javafx.scene.input.KeyCombination",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+7[label="VAR:javafx.scene.input.KeyCombination",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+7->9[label="OF_TYPE"]
+}

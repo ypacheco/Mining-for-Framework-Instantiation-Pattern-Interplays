@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3261,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.StackPane"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="james-d-TicTacToe",filePath="/james-d-TicTacToe/TicTacToe-master/src/tictactoe/Square.java",contextSignature="Square",graphId="3261"]
+0[label="tictactoe.Square",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.StackPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

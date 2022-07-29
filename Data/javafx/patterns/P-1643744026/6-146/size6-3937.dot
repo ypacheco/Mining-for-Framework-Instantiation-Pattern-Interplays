@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=3937,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="crosswords-testEnvironment~/crosswords-testEnvironment/testEnvironment-master/src/GUI/MainController.java~void initialize(java.net.URL,java.util.ResourceBundle)~2316",1="crosswords-testEnvironment~/crosswords-testEnvironment/testEnvironment-master/src/GUI/MainController.java~MainController~2315"]
+146[label="javafx.scene.layout.RowConstraints",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+145[label="VAR:javafx.scene.layout.RowConstraints",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+150[label="setPrefHeight()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+148[label="setMinHeight()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+144[label="new RowConstraints()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+152[label="setVgrow()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+145->144[label="CALL"]
+145->148[label="CALL"]
+145->152[label="CALL"]
+145->146[label="OF_TYPE"]
+145->150[label="CALL"]
+}

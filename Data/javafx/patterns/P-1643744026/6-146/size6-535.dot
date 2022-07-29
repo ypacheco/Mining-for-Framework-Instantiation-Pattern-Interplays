@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=535,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=10.0,patternRootClient=null]
+patternInstancesInfo[0="kevinkdo-draw~/kevinkdo-draw/draw-master/src/views/DrawMenuBar.java~DrawMenuBar~3444",1="zvakanaka-bitbit~/zvakanaka-bitbit/bitbit-master/src/bitbit/BitBit.java~BitBit~4923",2="jasonwr-jhuep_ent_web_dev~/jasonwr-jhuep_ent_web_dev/jhuep_ent_web_dev-master/src/hw10/main/Retail.java~Retail~3269",3="weltensturm-milca~/weltensturm-milca/milca-master/src/milca/GUI.java~GUI~4747",4="tarchan-ClipFX~/tarchan-ClipFX/ClipFX-master/src/com/mac/tarchan/clipfx/ClipFXController.java~ClipFXController~4467",5="JoshuaHanrahan-DVDCollectionApp~/JoshuaHanrahan-DVDCollectionApp/DVDCollectionApp-master/src/dvdcollectionapp/view/DvdcollectionappfxmlController.java~DvdcollectionappfxmlController~728",6="Technius-Starbound-Mod-Toolkit~/Technius-Starbound-Mod-Toolkit/Starbound-Mod-Toolkit-master/src/main/java/co/technius/starboundmodtoolkit/ModToolkitMenu.java~ModToolkitMenu~1420",7="atsticks-FXOne~/atsticks-FXOne/FXOne-master/org.fxone/fxone-ui/src/main/java/org/fxone/ui/rt/components/view/ViewMenu.java~ViewMenu~1931",8="jasonwr-jhuep_ent_web_dev~/jasonwr-jhuep_ent_web_dev/jhuep_ent_web_dev-master/src/hw8/main/Retail.java~Retail~3291",9="sebbafer-Sebanana~/sebbafer-Sebanana/Sebanana-master/src/sebanana/views/MyMenubar.java~MyMenubar~4131"]
+4[label="javafx.scene.control.MenuItem",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+3[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+15[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+7[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+9[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+5[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+9->4[label="OF_TYPE"]
+15->4[label="OF_TYPE"]
+5->4[label="OF_TYPE"]
+3->4[label="OF_TYPE"]
+7->4[label="OF_TYPE"]
+}

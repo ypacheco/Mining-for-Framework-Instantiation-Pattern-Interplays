@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=569,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.stage.Stage"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="JCake-CoupGameProgram",filePath="/JCake-CoupGameProgram/CoupGameProgram-master/src/game/remote/WaitScreenUI.java",contextSignature="WaitScreenUI",graphId="569"]
+0[label="game.remote.WaitScreenUI",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.stage.Stage",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="displayText",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.scene.text.Text",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="pane",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+5[label="javafx.scene.layout.Pane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+0->4[label="DECLARE_FIELD"]
+4->5[label="OF_TYPE"]
+}

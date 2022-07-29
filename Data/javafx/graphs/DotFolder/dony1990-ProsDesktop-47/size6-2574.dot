@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=2574,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.Tab"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="dony1990-ProsDesktop",filePath="/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/Recursos/TABs.java",contextSignature="TABs",graphId="2574"]
+0[label="nicon.Recursos.TABs",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.Tab",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="pane",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.scene.layout.AnchorPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="web",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+5[label="javafx.scene.web.WebView",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+0->4[label="DECLARE_FIELD"]
+4->5[label="OF_TYPE"]
+}

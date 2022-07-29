@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4334,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="joelburget-miftiwac~/joelburget-miftiwac/miftiwac-master/src/Dynamic_page.java~Dynamic_page~3333",1="sushkrish-CityLife~/sushkrish-CityLife/CityLife-master/src/view/SelectHome.java~SelectHome~4329",2="sushkrish-CityLife~/sushkrish-CityLife/CityLife-master/src/view/SelectWork.java~SelectWork~4347"]
+13[label="javafx.scene.control.RadioButton[]",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+12[label="FIELD:javafx.scene.control.RadioButton[]",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+6[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->6[label="DECLARE_FIELD"]
+0->12[label="DECLARE_FIELD"]
+12->13[label="OF_TYPE"]
+}

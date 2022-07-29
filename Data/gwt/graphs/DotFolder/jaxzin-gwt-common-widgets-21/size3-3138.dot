@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=3138,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Grid"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jaxzin-gwt-common-widgets",filePath="/jaxzin-gwt-common-widgets/gwt-common-widgets-master/src/com/jaxzin/gwt/ui/client/table/grid/drag/DraggableGrid.java",contextSignature="DraggableGrid",graphId="3138"]
+0[label="com.jaxzin.gwt.ui.client.table.grid.drag.DraggableGrid",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Grid",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="draggedColumn",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->1[label="OF_TYPE"]
+}

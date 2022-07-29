@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=3442,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.Pane"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="kenyjm-LifeGame",filePath="/kenyjm-LifeGame/LifeGame-master/LifeGame/src/lifegame/application/GameField.java",contextSignature="GameField",graphId="3442"]
+0[label="lifegame.application.GameField",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.Pane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="cells",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.scene.shape.Rectangle[][]",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+}

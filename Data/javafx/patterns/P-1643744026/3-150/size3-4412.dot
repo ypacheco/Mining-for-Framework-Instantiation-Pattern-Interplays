@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4412,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="martin-suky-sisuan~/martin-suky-sisuan/sisuan-master/src/main/java/cz/none/sisuan/ui/controller/MainController.java~MainController~3546",1="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/settingsmenu/RadialSettingsMenuCenter.java~RadialSettingsMenuCenter~975"]
+6[label="FIELD:javafx.animation.FadeTransition",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+7[label="javafx.animation.FadeTransition",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+6->7[label="OF_TYPE"]
+0->6[label="DECLARE_FIELD"]
+}

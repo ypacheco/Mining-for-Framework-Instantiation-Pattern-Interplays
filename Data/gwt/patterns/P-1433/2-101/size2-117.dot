@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=117,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="dapicard-gwt-surface~/dapicard-gwt-surface/gwt-surface-master/gwt-surface/src/main/java/com/axeiya/gwt/surface/client/ContentEditableSurface.java~ContentEditableSurface~1180",1="lambourg-WebGallery~/lambourg-WebGallery/WebGallery-master/client/src/com/lambourg/webgallery/client/pictureview/PictureView.java~PictureView~3541",2="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/Balloon.java~Balloon~2986",3="vlapan-PhotoBank~/vlapan-PhotoBank/PhotoBank-master/src/com/vlapan/gwt/photobank/client/ui/selector/AlbumSelector.java~AlbumSelector~4619"]
+14[label="com.google.gwt.user.client.Timer",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+20[label="FIELD:com.google.gwt.user.client.Timer",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+20->14[label="OF_TYPE"]
+}

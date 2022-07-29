@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=3944,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="joelburget-miftiwac~/joelburget-miftiwac/miftiwac-master/src/Dynamic_page.java~Dynamic_page~3333",1="JoshRobertson-BFSim~/JoshRobertson-BFSim/BFSim-master/src/simulator/FXLauncher.java~FXLauncher~715",2="AlexTape-SlidingPuzzleFX~/AlexTape-SlidingPuzzleFX/SlidingPuzzleFX-master/src/de/alextape/slidingpuzzle/SlidingPuzzleGame.java~SlidingPuzzleGame~113"]
+115[label="javafx.scene.control.MenuBuilder",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+264[label="VAR:javafx.scene.control.MenuBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+264->115[label="OF_TYPE"]
+}

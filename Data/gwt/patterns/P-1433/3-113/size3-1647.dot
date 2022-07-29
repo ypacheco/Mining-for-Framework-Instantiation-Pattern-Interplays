@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1647,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="daonb-obudget~/daonb-obudget/obudget-master/src/client/src/org/obudget/client/BudgetAPICaller.java~void go(client.src.org.obudget.client.BudgetAPICallback)~1173",1="Legioth-RemoteConsole~/Legioth-RemoteConsole/RemoteConsole-master/src/org/vaadin/remoteconsole/client/RemoteConsole.java~RemoteConsole~171"]
+10[label="new JSONArray()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+11[label="VAR:com.google.gwt.json.client.JSONArray",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+12[label="com.google.gwt.json.client.JSONArray",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+11->10[label="CALL"]
+11->12[label="OF_TYPE"]
+}

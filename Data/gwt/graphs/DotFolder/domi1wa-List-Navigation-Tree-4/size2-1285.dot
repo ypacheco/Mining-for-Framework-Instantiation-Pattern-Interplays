@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1285,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.resources.client.CssResource"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="domi1wa-List-Navigation-Tree",filePath="/domi1wa-List-Navigation-Tree/List-Navigation-Tree-master/NavigationTree/src/de/navigation/tree/client/resources/css/NavigationTreeCss.java",contextSignature="NavigationTreeCss",graphId="1285"]
+0[label="de.navigation.tree.client.resources.css.NavigationTreeCss",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.resources.client.CssResource",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

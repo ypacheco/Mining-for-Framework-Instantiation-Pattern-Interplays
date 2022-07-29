@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=3027,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.SimplePanel",1="com.google.gwt.user.client.ui.HasFocus"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="hmiguellima-ugat",filePath="/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/CustomTreeItem.java",contextSignature="FocusableTreeItem",graphId="3027"]
+0[label="org.ucp.gwt.widgets.FocusableTreeItem",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.SimplePanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="com.google.gwt.user.client.ui.HasFocus",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+3[label="label",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+4[label="com.google.gwt.user.client.ui.Label",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="IMPLEMENT",color=red]
+0->3[label="DECLARE_FIELD"]
+3->4[label="OF_TYPE"]
+}

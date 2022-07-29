@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=4235,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.junit.client.GWTTestCase"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="niloc132-celltable-tools",filePath="/niloc132-celltable-tools/celltable-tools-master/src/test/java/com/colinalworth/celltable/columns/client/ColumnsWithFactoryTest.java",contextSignature="ColumnsWithFactoryTest",graphId="4235"]
+0[label="test.java.com.colinalworth.celltable.columns.client.ColumnsWithFactoryTest",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.junit.client.GWTTestCase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="java.lang.String getModuleName()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+}

@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=809,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.TableCell"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=11.0,patternRootClient=0]
+patternInstancesInfo[0="Technius-Starbound-Mod-Toolkit~/Technius-Starbound-Mod-Toolkit/Starbound-Mod-Toolkit-master/src/main/java/co/technius/starboundmodtoolkit/utilui/Palette.java~ColorTableCell~1455",1="jalbertcruz-Documentation-manager~/jalbertcruz-Documentation-manager/Documentation-manager-master/src/documentation/manager/OpenFileButtonCell.java~OpenFileButtonCell~3260",2="jalbertcruz-Documentation-manager~/jalbertcruz-Documentation-manager/Documentation-manager-master/src/documentation/manager/CopyButtonCell.java~CopyButtonCell~3256",3="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/util/EditingStringCell.java~EditingStringCell~2165",4="jalbertcruz-Documentation-manager~/jalbertcruz-Documentation-manager/Documentation-manager-master/src/documentation/manager/DelButtonCell.java~DelButtonCell~3259",5="jalbertcruz-Documentation-manager~/jalbertcruz-Documentation-manager/Documentation-manager-master/src/documentation/manager/ButtonCellBase.java~ButtonCellBase~3257",6="Ellen102-test2~/Ellen102-test2/test2-master/src/Rugzak/ItemImageCellFactory.java~ItemImageCell~422",7="sebbafer-Sebanana~/sebbafer-Sebanana/Sebanana-master/src/sebanana/util/grafischeObjecten/rugzak/ItemImageCellFactory.java~ItemImageCell~4127",8="greenua14-TicTacToeClient~/greenua14-TicTacToeClient/TicTacToeClient-master/src/sample/Controllers/CreateOrConnectToGameController.java~IntegerTableCell~2814",9="atsticks-FXOne~/atsticks-FXOne/FXOne-master/org.fxone/fxone-ui/src/main/java/org/homemotion/ui/fx/framework/widget/table/ImageCell.java~ImageCell~1971",10="greenua14-TicTacToeClient~/greenua14-TicTacToeClient/TicTacToeClient-master/src/sample/Controllers/CreateOrConnectToGameController.java~StringTableCell~2812"]
+1[label="javafx.scene.control.TableCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4479,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="ireardon-cs32-final~/ireardon-cs32-final/cs32-final-master/src/edu/brown/cs32/final_group/fx/Main.java~Main~3223",1="dejanristic78-snake~/dejanristic78-snake/snake-master/src/dejan/snake/GuiApplication.java~GuiApplication~2387"]
+20[label="new Player()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+21[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+12[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+21->20[label="CALL"]
+21->12[label="OF_TYPE"]
+}

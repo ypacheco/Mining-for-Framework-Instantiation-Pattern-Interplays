@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=2382,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="tarchan-ClipFX~/tarchan-ClipFX/ClipFX-master/src/com/mac/tarchan/clipfx/ClipFXController.java~ClipFXController~4467",1="bjornbil-reservatie~/bjornbil-reservatie/reservatie-master/ReservatieKommaFinal/src/be/khleuven/bjornbillen/controller/MainController.java~MainController~2178",2="Fisiu-skontrumFx~/Fisiu-skontrumFx/skontrumFx-master/skontrumFxApp/src/application/SkontrumController.java~SkontrumController~457"]
+30[label="FIELD:javafx.scene.Parent",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+31[label="javafx.scene.Parent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+50[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->50[label="DECLARE_FIELD"]
+0->30[label="DECLARE_FIELD"]
+0->2[label="DECLARE_FIELD"]
+30->31[label="OF_TYPE"]
+}

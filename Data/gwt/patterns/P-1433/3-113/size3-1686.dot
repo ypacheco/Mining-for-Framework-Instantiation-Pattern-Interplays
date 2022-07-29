@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1686,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="CarlRazmus-WebStore~/CarlRazmus-WebStore/WebStore-master/src/tddd24/project/client/WebStore.java~WebStore~61",1="CarlRazmus-WebStore~/CarlRazmus-WebStore/WebStore-master/src/tddd24/project/client/WebStore.java~void onModuleLoad()~65"]
+139[label="com.google.gwt.user.client.ui.TreeItem",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+137[label="VAR:com.google.gwt.user.client.ui.TreeItem",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+138[label="getWidget()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+137->139[label="OF_TYPE"]
+137->138[label="CALL"]
+}

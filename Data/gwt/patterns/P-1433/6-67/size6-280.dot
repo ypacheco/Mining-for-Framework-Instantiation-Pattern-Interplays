@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=280,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="WSDOT-WSDOT-Search-GWT~/WSDOT-WSDOT-Search-GWT/WSDOT-Search-GWT-master/src/gov/wa/wsdot/search/client/SearchWidget.java~SearchWidget~449",1="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/Balloon.java~Balloon~2986"]
+18[label="FIELD:com.google.gwt.user.client.ui.Image",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+38[label="FIELD:com.google.gwt.user.client.Timer",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+19[label="com.google.gwt.user.client.ui.Image",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+39[label="com.google.gwt.user.client.Timer",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+261[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+18->19[label="OF_TYPE"]
+0->38[label="DECLARE_FIELD"]
+38->39[label="OF_TYPE"]
+0->261[label="DECLARE_METHOD"]
+0->18[label="DECLARE_FIELD"]
+}

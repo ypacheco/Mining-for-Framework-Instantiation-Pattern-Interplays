@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=570,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.rpc.IsSerializable"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=0]
+patternInstancesInfo[0="woox-serverapp~/woox-serverapp/serverapp-master/src/wooxes/net/shared/Ordinador.java~Ordinador~4662",1="jDramaix-SlidingPuzzle~/jDramaix-SlidingPuzzle/SlidingPuzzle-master/src/be/dramaix/ai/slidingpuzzle/shared/State.java~State~3122",2="jDramaix-SlidingPuzzle~/jDramaix-SlidingPuzzle/SlidingPuzzle-master/src/be/dramaix/ai/slidingpuzzle/shared/Node.java~Node~3121",3="jDramaix-SlidingPuzzle~/jDramaix-SlidingPuzzle/SlidingPuzzle-master/src/be/dramaix/ai/slidingpuzzle/shared/Action.java~Action~3118"]
+1[label="com.google.gwt.user.client.rpc.IsSerializable",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+21[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->21[label="DECLARE_METHOD"]
+}

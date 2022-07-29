@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=260,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=10.0,patternRootClient=null]
+patternInstancesInfo[0="mrempala-sp~/mrempala-sp/sp-master/src/application/VcPtVisualSchematicView.java~void drawUniverseSchematic()~3697",1="mfischbo-fxplumber~/mfischbo-fxplumber/fxplumber-master/fxplumber/src/main/java/de/artignition/fxplumber/model/GraphNode.java~ GraphNode(javafx.geometry.Point2D,javafx.scene.layout.Pane,GraphNodeFactory)~3616",2="indysvision-EatWorldEditor~/indysvision-EatWorldEditor/EatWorldEditor-master/src/com/indyvision/eatworld/editor/handlers/SelectHandler.java~SelectHandler~3191",3="indysvision-EatWorldEditor~/indysvision-EatWorldEditor/EatWorldEditor-master/src/com/indyvision/eatworld/editor/handlers/BorderHandler1.java~BorderHandler1~3194",4="Stephane-Lin-Physics-Animation~/Stephane-Lin-Physics-Animation/Physics-Animation-master/Physics Simulation/src/Mechanics/Pendulum.java~MouseAction~1244",5="mrempala-sp~/mrempala-sp/sp-master/src/application/VcPtVisualSchematicView.java~void drawUniverseVisual()~3692",6="indysvision-EatWorldEditor~/indysvision-EatWorldEditor/EatWorldEditor-master/src/com/indyvision/eatworld/editor/handlers/BorderHandler.java~BorderHandler~3192",7="indysvision-EatWorldEditor~/indysvision-EatWorldEditor/EatWorldEditor-master/src/com/indyvision/eatworld/editor/handlers/ObjectHandler.java~ObjectHandler~3193",8="Stephane-Lin-Physics-Animation~/Stephane-Lin-Physics-Animation/Physics-Animation-master/Physics Simulation/src/Electricity_Magnetism/CoulombsLaw.java~MouseAction~1236",9="mrempala-sp~/mrempala-sp/sp-master/src/application/VcPtVisualSchematicViewClickable.java~void drawUniverseSchematic()~3670"]
+3[label="PARAMETER:javafx.scene.input.MouseEvent",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+17[label="getSceneX()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+3->17[label="CALL"]
+}

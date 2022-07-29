@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=3611,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="Posejdon23-GeneticAlgorithm~/Posejdon23-GeneticAlgorithm/GeneticAlgorithm-master/AG/src/ag1/Main.java~Main~1091",1="srikarr-Woot~/srikarr-Woot/Woot-master/src/Woot.java~Woot~4256"]
+50[label="FIELD:javafx.scene.chart.LineChart",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+52[label="void start(javafx.stage.Stage)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+53[label="PARAMETER:javafx.stage.Stage",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+172[label="VAR:ANONYMOUS",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+52->53[label="PARAMETER"]
+0->52[label="OVERRIDE"]
+52->172[label="INSTANTIATE"]
+0->50[label="DECLARE_FIELD"]
+}

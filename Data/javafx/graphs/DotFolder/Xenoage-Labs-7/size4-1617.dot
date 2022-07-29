@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1617,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.animation.AnimationTimer"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Xenoage-Labs",filePath="/Xenoage-Labs/Labs-master/JavaFXSymbolsTest/src/com/xenoage/labs/javafxsymbolstest/BaseCanvas.java",contextSignature="void BaseCanvas(com.xenoage.labs.javafxsymbolstest.MainPanelController)",graphId="1617"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.animation.AnimationTimer",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="VAR0",vertexType="OUTSIDE_VARIABLE_EXPRESION",isFrameworkType=true,peripheries=2]
+4[label="void handle(long)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="ASSIGMENT"]
+2->1[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+}

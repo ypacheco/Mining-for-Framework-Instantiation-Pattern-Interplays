@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1701,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.Group"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="adamborowski-paibridge",filePath="/adamborowski-paibridge/paibridge-master/src/bridge/nose/BigNose.java",contextSignature="BigNose",graphId="1701"]
+0[label="bridge.nose.BigNose",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.Group",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

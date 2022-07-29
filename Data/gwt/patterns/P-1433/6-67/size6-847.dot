@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=847,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="rjdkolb-jozijug_phonegapdemo~/rjdkolb-jozijug_phonegapdemo/jozijug_phonegapdemo-master/src/main/java/org/openrap/jozijug/mgwtphonegap/client/DetailActivity.java~DetailActivity~4360",1="rjdkolb-jozijug_phonegapdemo~/rjdkolb-jozijug_phonegapdemo/jozijug_phonegapdemo-master/src/main/java/org/openrap/jozijug/mgwtphonegap/client/activities/testphonegap/TestPhoneGapActivity.java~TestPhoneGapActivity~4406"]
+13[label="com.googlecode.mgwt.dom.client.event.tap.HasTapHandlers",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+11[label="VAR:com.googlecode.mgwt.dom.client.event.tap.HasTapHandlers",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+12[label="addTapHandler()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+5[label="void start(com.google.gwt.user.client.ui.AcceptsOneWidget,com.google.web.bindery.event.shared.EventBus)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+15[label="VAR:ANONYMOUS",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+5->11[label="INSTANTIATE"]
+5->15[label="INSTANTIATE"]
+11->13[label="OF_TYPE"]
+0->5[label="OVERRIDE"]
+11->12[label="CALL"]
+}

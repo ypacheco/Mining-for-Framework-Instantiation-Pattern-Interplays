@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3757,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.GridPane"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="nielsmaneschijn-8bit",filePath="/nielsmaneschijn-8bit/8bit-master/src/net/maneschijn/bleep/ui/ControlUI.java",contextSignature="ControlUI",graphId="3757"]
+0[label="net.maneschijn.bleep.ui.ControlUI",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.GridPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

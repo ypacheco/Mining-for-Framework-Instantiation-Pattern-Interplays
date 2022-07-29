@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1545,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.ScrollPane"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="masquerade0324-MMRSS~/masquerade0324-MMRSS/MMRSS-master/src/com/hatenablog/masquerade0324/ArticlesPanel.java~ArticlesPanel~3554",1="amonker-AmonkerFX~/amonker-AmonkerFX/AmonkerFX-master/src/cn/jingyun/javafx/amonker/ui/MultiPageTableListPane.java~MultiPageTableListPane~1829"]
+1[label="javafx.scene.control.ScrollPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+4[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+5[label="VAR:javafx.scene.layout.Pane",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+7[label="javafx.scene.layout.Pane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+6[label="getChildren()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+4->5[label="INSTANTIATE"]
+0->1[label="EXTEND",color=red]
+5->6[label="CALL"]
+0->4[label="DECLARE_METHOD"]
+5->7[label="OF_TYPE"]
+}

@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=268,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=7.0,patternRootClient=null]
+patternInstancesInfo[0="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/widgets/AnswerGrid.java~AnswerGrid~430",1="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/easyoverlay/src/com/akjava/gwt/hangout/easyoverlay/client/EasyOverlay.java~EasyOverlay~492",2="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/sound-player/src/com/akjava/gwt/hangout/soundplayer/client/HangoutSoundPlayer.java~HangoutSoundPlayer~561",3="12010994-GLI-TP1~/12010994-GLI-TP1/GLI-TP1-master/src/main/java/fr/istic/m2gl/gli/client/gli.java~gli~1",4="12010994-GLI-TP1~/12010994-GLI-TP1/GLI-TP1-master/src/main/java/fr/istic/m2gl/gli/client/TableWidget.java~TableWidget~8",5="CarlRazmus-WebStore~/CarlRazmus-WebStore/WebStore-master/src/tddd24/project/client/AdminUI.java~AdminUI~54",6="Max-Hailperin-MessageBoard~/Max-Hailperin-MessageBoard/MessageBoard-master/MessageBoard/src/edu/gac/mcs270/messageboard/client/MessageBoard.java~MessageBoard~324"]
+15[label="new HorizontalPanel()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+16[label="VAR:com.google.gwt.user.client.ui.HorizontalPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+53[label="add()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+41[label="add()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+16->15[label="CALL"]
+16->53[label="CALL"]
+16->41[label="CALL"]
+}

@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4345,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.cell.client.AbstractSafeHtmlCell"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="rdomingonl-layoutTest",filePath="/rdomingonl-layoutTest/layoutTest-master/src/main/java/nl/tc/rd/exp/layouttest/client/mvp/view/WidgetDesignerView.java",contextSignature="void WidgetDesignerView(com.google.gwt.event.shared.EventBus)",graphId="4345"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.cell.client.AbstractSafeHtmlCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=168,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=6.0,patternRootClient=null]
+patternInstancesInfo[0="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/sound-player/src/com/akjava/gwt/hangout/soundplayer/client/HangoutSoundPlayer.java~HangoutSoundPlayer~561",1="tle-BillNun~/tle-BillNun/BillNun-master/src/com/testapp/client/ui/Sample_gwt.java~Sample_gwt~4563",2="coldplayguy-flight87~/coldplayguy-flight87/flight87-master/BookFlight/src/bookflight/client/BookFlight.java~BookFlight~1091",3="krajcovic-stockwatcher~/krajcovic-stockwatcher/stockwatcher-master/src/com/google/gwt/sample/stockwatcher/client/StockWatcher.java~StockWatcher~3429",4="Archerw-mastermind~/Archerw-mastermind/mastermind-master/nyu-smg-mastermind/src/org/mastermind/graphics/MasterMindGraphic.java~MasterMindGraphic~29",5="CarlRazmus-WebStore~/CarlRazmus-WebStore/WebStore-master/src/tddd24/project/client/WebStore.java~WebStore~61"]
+3[label="com.google.gwt.user.client.ui.VerticalPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+4[label="FIELD:com.google.gwt.user.client.ui.VerticalPanel",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+4->3[label="OF_TYPE"]
+}

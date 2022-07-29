@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2037,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="niloc132-celltable-tools~/niloc132-celltable-tools/celltable-tools-master/src/main/java/com/colinalworth/celltable/columns/client/HasDataFlushableEditor.java~IndexedEditor~4231",1="niloc132-celltable-tools~/niloc132-celltable-tools/celltable-tools-master/src/main/java/com/colinalworth/celltable/columns/client/HasDataFlushableEditor.java~HasDataEditorSource~4230"]
+3[label="com.google.gwt.view.client.HasData",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+2[label="FIELD:com.google.gwt.view.client.HasData",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2->3[label="OF_TYPE"]
+0->2[label="DECLARE_FIELD"]
+}

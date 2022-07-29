@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4523,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="guigarage-mastering-javafx-controls~/guigarage-mastering-javafx-controls/mastering-javafx-controls-master/src/main/java/com/guigarage/chapter5/ControlOverviewHelper.java~ControlOverviewHelper~2866",1="mrempala-sp~/mrempala-sp/sp-master/src/application/VcProgramStart.java~VcProgramStart~3679"]
+11[label="new Hyperlink()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+12[label="VAR:javafx.scene.control.Hyperlink",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+13[label="javafx.scene.control.Hyperlink",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+12->11[label="CALL"]
+12->13[label="OF_TYPE"]
+}

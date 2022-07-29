@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=1343,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.resources.client.ClientBundle"]
+possibleCollaborationsInfo[0="1343~CLIENT_METHOD_DECLARATION-RETURN_TYPE-~com.google.gwt.resources.client.ClientBundle ~com.google.gwt.resources.client.CssResource ~false~false"]
+locationInfo[projectName="geomajas-geomajas-widget-definitions-sample",filePath="/geomajas-geomajas-widget-definitions-sample/geomajas-widget-definitions-sample-master/example/src/main/java/example/client/widget/example/ExampleWidgetResource.java",contextSignature="ExampleWidgetResource",graphId="1343"]
+0[label="main.java.example.client.widget.example.ExampleWidgetResource",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.resources.client.ClientBundle",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="main.java.example.client.widget.example.ExampleWidgetCssResource css()",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="main.java.example.client.widget.example.ExampleWidgetCssResource",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="com.google.gwt.resources.client.CssResource",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="DECLARE_METHOD"]
+3->4[label="IMPLEMENT",color=blue]
+2->3[label="RETURN"]
+}

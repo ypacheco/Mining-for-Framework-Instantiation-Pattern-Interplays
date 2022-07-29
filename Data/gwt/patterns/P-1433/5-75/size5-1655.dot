@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1655,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="net.zschech.gwt.websockets.client.CloseHandler",1="net.zschech.gwt.websockets.client.MessageHandler",2="net.zschech.gwt.websockets.client.ErrorHandler",3="net.zschech.gwt.websockets.client.OpenHandler"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="betacraft-RdpGwtClient~/betacraft-RdpGwtClient/RdpGwtClient-master/src/com/droidcloud/viewer/client/ISO.java~ISO~836",1="betacraft-RdpGwtClient~/betacraft-RdpGwtClient/RdpGwtClient-master/src/com/droidcloud/viewer/client/ISO_Localised.java~ISO_Localised~843"]
+1[label="net.zschech.gwt.websockets.client.OpenHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+4[label="net.zschech.gwt.websockets.client.ErrorHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+3[label="net.zschech.gwt.websockets.client.MessageHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+2[label="net.zschech.gwt.websockets.client.CloseHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0->2[label="IMPLEMENT",color=red]
+0->3[label="IMPLEMENT",color=red]
+0->4[label="IMPLEMENT",color=red]
+0->1[label="IMPLEMENT",color=red]
+}

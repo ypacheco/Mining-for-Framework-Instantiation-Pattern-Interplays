@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2415,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="jperedadnr-Game2048HOL~/jperedadnr-Game2048HOL/Game2048HOL-master/src/org/hol/game2048/Board.java~Board~3394",1="brunoborges-fx2048~/brunoborges-fx2048/fx2048-master/src/game2048/Board.java~Board~2229",2="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CECommandeController.java~CECommandeController~2084"]
+67[label="javafx.beans.property.IntegerProperty",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+66[label="FIELD:javafx.beans.property.IntegerProperty",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+14[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->14[label="DECLARE_FIELD"]
+0->66[label="DECLARE_FIELD"]
+66->67[label="OF_TYPE"]
+}

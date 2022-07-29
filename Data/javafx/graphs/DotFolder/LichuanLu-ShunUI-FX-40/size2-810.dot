@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=810,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.chart.BarChart"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="LichuanLu-ShunUI-FX",filePath="/LichuanLu-ShunUI-FX/ShunUI-FX-master/src/view/chart/LinebarChart.java",contextSignature="LinebarChart",graphId="810"]
+0[label="view.chart.LinebarChart",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.chart.BarChart",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

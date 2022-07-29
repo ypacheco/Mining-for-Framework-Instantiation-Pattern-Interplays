@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1995,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="kaladron-Webhack~/kaladron-Webhack/Webhack-master/src/net/webhack/game/client/WebhackGnomeLike.java~WebhackGnomeLike~3338",1="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/EventsCalendarTable.java~EventsCalendarTable_EventRenderer_OnRender~2963"]
+58[label="new FocusPanel()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+59[label="VAR:com.google.gwt.user.client.ui.FocusPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+60[label="com.google.gwt.user.client.ui.FocusPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+59->58[label="CALL"]
+59->60[label="OF_TYPE"]
+}

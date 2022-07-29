@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=441,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.SimplePanel"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=8.0,patternRootClient=0]
+patternInstancesInfo[0="mansiT-UiBinder~/mansiT-UiBinder/UiBinder-master/uibinder/src/com/mansi/client/board/InsertPanelExample.java~InsertPanelExample~3701",1="svandecappelle-AppriseGwt~/svandecappelle-AppriseGwt/AppriseGwt-master/src/main/java/com/mizore/gwt/apprise/client/AppriseElement.java~AppriseElement~4516",2="jhudson8-gwt-jquery-ui~/jhudson8-gwt-jquery-ui/gwt-jquery-ui-master/core/gwt-jquery-ui-mobile/src/main/java/com/google/gwt/jquery/mobile/ui/NavBar.java~LiPanel~3189",3="mansiT-UiBinder~/mansiT-UiBinder/UiBinder-master/uibinder/src/com/mansi/client/board/AbsolutePositionExample.java~AbsolutePositionExample~3696",4="mansiT-UiBinder~/mansiT-UiBinder/UiBinder-master/uibinder/src/com/mansi/client/board/Example.java~Example~3693",5="svandecappelle-AppriseGwt~/svandecappelle-AppriseGwt/AppriseGwt-master/src/main/java/com/mizore/gwt/apprise/client/AppriseOverlay.java~AppriseOverlay~4513",6="nextinterfaces-next~/nextinterfaces-next/next-master/src/next/i/view/widgets/XPopup.java~XPopup~4217",7="laaglu-lib-gwt-file~/laaglu-lib-gwt-file/lib-gwt-file-master/src/main/java/org/vectomatic/dnd/DropPanel.java~DropPanel~3455"]
+1[label="com.google.gwt.user.client.ui.SimplePanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

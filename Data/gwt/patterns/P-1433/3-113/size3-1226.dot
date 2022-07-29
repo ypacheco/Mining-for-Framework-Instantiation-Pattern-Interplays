@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1226,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="Cauac-GXTProject~/Cauac-GXTProject/GXTProject-master/src/main/java/gxtproject/client/Main.java~void load(main.java.gxtproject.client.Main.PhotoLoadConfig,com.google.gwt.core.client.Callback)~78",1="Cauac-GXTProject~/Cauac-GXTProject/GXTProject-master/src/main/java/gxtproject/client/Main.java~Main~77"]
+1[label="com.google.gwt.core.client.Callback",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+17[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+13[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+17->1[label="IMPLEMENT",color=blue]
+13->1[label="IMPLEMENT",color=blue]
+}

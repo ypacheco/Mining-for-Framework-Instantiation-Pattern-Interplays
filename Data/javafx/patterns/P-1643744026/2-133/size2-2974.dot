@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2974,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.TreeCell"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=0]
+patternInstancesInfo[0="almibe-ResourceTree~/almibe-ResourceTree/resource-tree-master/src/main/java/org/almibe/resourcetree/ResourceTree.java~DraggableCell~1796",1="Manzzz-DBClient~/Manzzz-DBClient/DBClient-master/src/main/java/com/application/view/View.java~TextFieldTreeCell~859",2="sipadan2003-JFXTreeView201312~/sipadan2003-JFXTreeView201312/JFXTreeView201312-master/src/jfxtreeview/TreeCellImpl.java~TreeCellImpl~4192",3="sannies-isoviewer-fx~/sannies-isoviewer-fx/isoviewer-fx-master/src/main/java/com/googlecode/mp4parser/mp4inspector/IsoFileTreeView.java~BoxTreeCellImpl~4074"]
+1[label="javafx.scene.control.TreeCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

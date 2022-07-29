@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4482,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="ireardon-cs32-final~/ireardon-cs32-final/cs32-final-master/src/edu/brown/cs32/final_group/fx/TopMenuBar.java~TopMenuBar~3216",1="Treehopper-clippingsparser~/Treehopper-clippingsparser/clippingsparser-master/src/main/java/eu/hohenegger/clippingsparser/gui/Starter.java~Starter~1509"]
+20[label="new OpenHandler()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+21[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+22[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+23[label="javafx.event.EventHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+21->20[label="CALL"]
+22->23[label="IMPLEMENT",color=blue]
+21->22[label="OF_TYPE"]
+}

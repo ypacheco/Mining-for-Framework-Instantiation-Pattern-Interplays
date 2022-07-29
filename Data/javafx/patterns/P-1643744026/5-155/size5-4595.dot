@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=4595,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="mjchao-3D-Graphing-Calculator~/mjchao-3D-Graphing-Calculator/3D-Graphing-Calculator-master/src/mjchao/graph3d/graph/GraphPaper3D.java~void setupListeners()~3645",1="mjchao-3D-Graphing-Calculator~/mjchao-3D-Graphing-Calculator/3D-Graphing-Calculator-master/src/mjchao/graph3d/graph/GraphPaper3D.java~GraphPaper3D~3644"]
+9[label="javafx.scene.input.PickResult",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+12[label="VAR:javafx.scene.input.PickResult",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+7[label="VAR:javafx.scene.input.PickResult",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+13[label="getIntersectedPoint()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+8[label="getIntersectedNode()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+12->9[label="OF_TYPE"]
+7->9[label="OF_TYPE"]
+12->13[label="CALL"]
+7->8[label="CALL"]
+}

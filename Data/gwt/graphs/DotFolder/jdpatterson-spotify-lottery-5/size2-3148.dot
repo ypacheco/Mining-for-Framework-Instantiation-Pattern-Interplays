@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3148,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.rpc.RemoteService"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jdpatterson-spotify-lottery",filePath="/jdpatterson-spotify-lottery/spotify-lottery-master/src/com/vercer/spotify/lottery/client/GwtLotteryCalculator.java",contextSignature="GwtLotteryCalculator",graphId="3148"]
+0[label="com.vercer.spotify.lottery.client.GwtLotteryCalculator",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.rpc.RemoteService",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

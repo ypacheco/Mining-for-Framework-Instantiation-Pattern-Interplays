@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=286,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="javafx.scene.image.ImageView"]
+possibleCollaborationsInfo[0="286~FIELD_DECLARATION-~javafx.scene.image.ImageView ~javafx.scene.image.ImageView ~false~false"]
+locationInfo[projectName="DC37-Super-Mario-Paint",filePath="/DC37-Super-Mario-Paint/Super-Mario-Paint-master/src/smp/components/staff/sequences/StaffAccidental.java",contextSignature="StaffAccidental",graphId="286"]
+0[label="smp.components.staff.sequences.StaffAccidental",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.image.ImageView",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="theNote",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="smp.components.staff.sequences.StaffNote",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+3->1[label="EXTEND",color=blue]
+2->3[label="OF_TYPE"]
+}

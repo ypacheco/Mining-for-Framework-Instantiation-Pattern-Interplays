@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1190,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="j78wu-HyperDex-GUI~/j78wu-HyperDex-GUI/HyperDex-GUI-master/src/com/hyperdex/web/client/view/NavBar.java~NavBar~3082",1="j78wu-HyperDex-GUI~/j78wu-HyperDex-GUI/HyperDex-GUI-master/src/com/hyperdex/web/client/view/spaceDetail.java~spaceDetail~3100"]
+2[label="FIELD:com.google.gwt.dom.client.Element",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+6[label="FIELD:CLIENT",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+7[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+3[label="com.google.gwt.dom.client.Element",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->6[label="DECLARE_FIELD"]
+0->2[label="DECLARE_FIELD"]
+6->7[label="OF_TYPE"]
+2->3[label="OF_TYPE"]
+}

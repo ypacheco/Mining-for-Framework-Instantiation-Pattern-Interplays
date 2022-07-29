@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=2524,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.application.Application"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="dominique09-TP2-Demineur",filePath="/dominique09-TP2-Demineur/TP2-Demineur-master/src/ca/csf/minesweeper/Main.java",contextSignature="Main",graphId="2524"]
+0[label="ca.csf.minesweeper.Main",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.application.Application",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

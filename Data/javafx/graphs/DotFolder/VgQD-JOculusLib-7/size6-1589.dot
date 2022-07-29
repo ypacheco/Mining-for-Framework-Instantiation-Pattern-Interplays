@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1589,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.animation.AnimationTimer"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="VgQD-JOculusLib",filePath="/VgQD-JOculusLib/JOculusLib-master/src/be/student/vgqd/joculus/v1/hud/fx/oculusview/OculusViewDemo.java",contextSignature="void start(javafx.stage.Stage)",graphId="1589"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.animation.AnimationTimer",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="timer",vertexType="OUTSIDE_VARIABLE_EXPRESION",isFrameworkType=true,peripheries=2]
+4[label="void handle(long)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+5[label="void start()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+6[label="super.start()",vertexType="SUPER_CALL",isFrameworkType=true,peripheries=2,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="ASSIGMENT"]
+2->1[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+0->5[label="OVERRIDE"]
+5->6[label="CALL"]
+}

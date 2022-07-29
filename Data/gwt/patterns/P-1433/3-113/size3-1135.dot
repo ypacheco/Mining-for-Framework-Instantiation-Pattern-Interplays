@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1135,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="coldplayguy-flight87~/coldplayguy-flight87/flight87-master/BookFlight/src/bookflight/client/BookFlight.java~BookFlight~1091",1="nakaken0629-mezamashimailgwt~/nakaken0629-mezamashimailgwt/mezamashimailgwt-master/mezamashimailgwt/src/com/appspot/mezamashimailgwt/client/Mezamashimailgwt.java~void onClick(com.google.gwt.event.dom.client.ClickEvent)~4118",2="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/presenter/ReportsPresenter.java~void prepareTable()~419"]
+255[label="com.google.gwt.i18n.client.DateTimeFormat",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+253[label="VAR:com.google.gwt.i18n.client.DateTimeFormat",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+254[label="getFormat()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+253->254[label="CALL"]
+253->255[label="OF_TYPE"]
+}

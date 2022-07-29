@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=3835,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="kaizawa-esximonitor~/kaizawa-esximonitor/esximonitor-master/src/com/cafeform/esxi/esximonitor/OperationButtonBox.java~OperationButtonBox~3427",1="prashker-KingsSGF~/prashker-KingsSGF/KingsSGF-master/src/uiSam/HexTileView.java~HexTileView~3900",2="prashker-KingsSGF~/prashker-KingsSGF/KingsSGF-master/src/uiSam/BankView.java~BankView~3932"]
+87[label="PARAMETER:javafx.scene.image.ImageView",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+3[label="javafx.scene.image.ImageView",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+31[label="FIELD:javafx.scene.image.ImageView",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+87->3[label="OF_TYPE"]
+31->3[label="OF_TYPE"]
+}

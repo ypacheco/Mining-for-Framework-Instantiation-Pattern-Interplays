@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1999,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="MarkGolder-GWT~/MarkGolder-GWT/GWT-master/MNG GWT Tutorial5/src/com/mng/gwt/ebus/client/MyEntryPoint.java~MyEntryPoint~290",1="MarkGolder-GWT~/MarkGolder-GWT/GWT-master/MNG GWT Tutorial5/src/com/mng/gwt/ebus/client/MyEntryPoint.java~void onModuleLoad()~292"]
+39[label="new DeclineEvent()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+40[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+41[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+42[label="com.google.gwt.event.shared.GwtEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+41->42[label="EXTEND",color=blue]
+40->39[label="CALL"]
+40->41[label="OF_TYPE"]
+}

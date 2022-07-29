@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=3119,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.rpc.IsSerializable"]
+possibleCollaborationsInfo[0="3119~CLIENT_METHOD_DECLARATION-PARAMETER_DECLARATION-~com.google.gwt.user.client.rpc.IsSerializable ~com.google.gwt.user.client.rpc.IsSerializable ~false~false"]
+locationInfo[projectName="jDramaix-SlidingPuzzle",filePath="/jDramaix-SlidingPuzzle/SlidingPuzzle-master/src/be/dramaix/ai/slidingpuzzle/shared/Path.java",contextSignature="Path",graphId="3119"]
+0[label="be.dramaix.ai.slidingpuzzle.shared.Path",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.rpc.IsSerializable",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="be.dramaix.ai.slidingpuzzle.shared.Path fromEndNode(be.dramaix.ai.slidingpuzzle.shared.Node)",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="endNode",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+4[label="be.dramaix.ai.slidingpuzzle.shared.Node",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="DECLARE_METHOD"]
+4->1[label="IMPLEMENT",color=blue]
+3->4[label="OF_TYPE"]
+2->3[label="PARAMETER"]
+}

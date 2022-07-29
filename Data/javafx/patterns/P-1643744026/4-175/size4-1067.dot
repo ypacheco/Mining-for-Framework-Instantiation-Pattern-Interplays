@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1067,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="sushkrish-CityLife~/sushkrish-CityLife/CityLife-master/src/view/MarketView.java~MarketView~4333",1="brunoborges-fx2048~/brunoborges-fx2048/fx2048-master/src/game2048/Board.java~Board~2229"]
+76[label="FIELD:javafx.scene.layout.VBox",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+419[label="VAR:javafx.scene.layout.VBox",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+8[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->76[label="DECLARE_FIELD"]
+76->419[label="REFERENCE"]
+0->8[label="DECLARE_FIELD"]
+}

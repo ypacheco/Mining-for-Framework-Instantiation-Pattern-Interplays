@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1222,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="daonb-obudget~/daonb-obudget/obudget-master/src/client/src/org/obudget/client/Application.java~Application~1154",1="daonb-obudget~/daonb-obudget/obudget-master/src/client/src/org/obudget/client/BudgetSuggestionOracle.java~BudgetSuggestionOracle~1160",2="neilsh-gwtfb~/neilsh-gwtfb/gwtfb-master/GwtFB/src/com/gwtfb/client/UserInfoViewController.java~UserInfoViewController~4138"]
+131[label="com.google.gwt.json.client.JSONObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+129[label="VAR:com.google.gwt.json.client.JSONObject",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+129->131[label="OF_TYPE"]
+}

@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3392,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.Label"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jperedadnr-Game2048HOL",filePath="/jperedadnr-Game2048HOL/Game2048HOL-master/src/org/hol/game2048/Tile.java",contextSignature="Tile",graphId="3392"]
+0[label="org.hol.game2048.Tile",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.Label",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

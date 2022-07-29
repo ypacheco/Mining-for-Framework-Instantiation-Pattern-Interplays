@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=1401,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.concurrent.Task"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="THSLMIT-thslmit_watzds",filePath="/THSLMIT-thslmit_watzds/thslmit_watzds-master/src/com/thslmit/watz/SplashLoader.java",contextSignature="SplashLoader",graphId="1401"]
+0[label="com.thslmit.watz.SplashLoader",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.concurrent.Task",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="java.lang.Object call()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="Platform",vertexType="VARIABLE_EXPRESION",isFrameworkType=true,peripheries=2,shape=circle]
+5[label="javafx.application.Platform",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="runLater()",vertexType="INSIDE_CALL",isFrameworkType=true,peripheries=2,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+2->3[label="INSTANTIATE"]
+3->5[label="OF_TYPE"]
+3->4[label="CALL"]
+}

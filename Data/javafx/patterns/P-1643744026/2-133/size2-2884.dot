@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2884,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="cosysoft-financialfx~/cosysoft-financialfx/financialfx-master/fx/src/com/cosysoft/labs/demo/SplitPaneDemo.java~SplitPaneDemo~2310",1="yorlov-VirtualPointer~/yorlov-VirtualPointer/VirtualPointer-master/src/com/blogspot/captain1653/options/OptionsStage.java~OptionsStage~4889",2="cosysoft-financialfx~/cosysoft-financialfx/financialfx-master/incubatorfx/src/com/cosysoft/labs/financialfx/ui/Face.java~Face~2313",3="amonker-AmonkerFX~/amonker-AmonkerFX/AmonkerFX-master/src/cn/jingyun/javafx/amonker/ui/ButtonStyles.java~ButtonStyles~1840"]
+35[label="javafx.scene.layout.VBoxBuilder",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+42[label="VAR:javafx.scene.layout.VBoxBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+42->35[label="OF_TYPE"]
+}

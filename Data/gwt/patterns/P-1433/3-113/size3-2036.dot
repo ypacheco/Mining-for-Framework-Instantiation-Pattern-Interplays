@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2036,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="DeannaSurma-Census~/DeannaSurma-Census/Census-master/src/com/cs4302/census/client/Census.java~Census~109",1="daonb-obudget~/daonb-obudget/obudget-master/src/client/src/org/obudget/client/OBudgetMain.java~OBudgetMain~1171"]
+8[label="com.google.gwt.visualization.client.VisualizationUtils",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+6[label="VAR:com.google.gwt.visualization.client.VisualizationUtils",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+7[label="loadVisualizationApi()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+6->8[label="OF_TYPE"]
+6->7[label="CALL"]
+}

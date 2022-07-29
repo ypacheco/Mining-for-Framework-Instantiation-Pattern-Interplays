@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=396,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=11.0,patternRootClient=null]
+patternInstancesInfo[0="dapicard-gwt-surface~/dapicard-gwt-surface/gwt-surface-master/gwt-surface/src/main/java/com/axeiya/gwt/surface/client/ContentEditableSurface.java~ContentEditableSurface~1180",1="vlapan-PhotoBank~/vlapan-PhotoBank/PhotoBank-master/src/com/vlapan/gwt/photobank/client/ui/Logotype.java~void Logotype(java.lang.String)~4611",2="CarlRazmus-WebStore~/CarlRazmus-WebStore/WebStore-master/src/tddd24/project/client/WebStore.java~void confirmOrder(java.util.ArrayList)~69",3="nextinterfaces-next~/nextinterfaces-next/next-master/src/next/i/controller/XNavigationController.java~next.i.controller.XController popController_(next.i.controller.XController,next.i.controller.XController,boolean)~4149",4="CarlRazmus-WebStore~/CarlRazmus-WebStore/WebStore-master/src/tddd24/project/client/WebStore.java~WebStore~61",5="nextinterfaces-next~/nextinterfaces-next/next-master/src/next/i/view/XTableCell.java~XTableCell~4187",6="nextinterfaces-next~/nextinterfaces-next/next-master/src/next/i/controller/XNavigationController.java~void pushController_(next.i.controller.XController,boolean)~4148",7="lambourg-WebGallery~/lambourg-WebGallery/WebGallery-master/client/src/com/lambourg/webgallery/client/pictureview/PictureView.java~PictureView~3541",8="wolfie-ColumnText~/wolfie-ColumnText/ColumnText-master/src/com/github/wolfie/columntext/client/ui/VColumnTextCSS.java~VColumnTextCSS~4643",9="vlapan-PhotoBank~/vlapan-PhotoBank/PhotoBank-master/src/com/vlapan/gwt/photobank/client/ui/Logotype.java~Logotype~4610",10="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/DragMoveAnimation.java~DragMoveAnimation~3659"]
+7[label="com.google.gwt.dom.client.Style",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+5[label="VAR:com.google.gwt.dom.client.Style",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+5->7[label="OF_TYPE"]
+}

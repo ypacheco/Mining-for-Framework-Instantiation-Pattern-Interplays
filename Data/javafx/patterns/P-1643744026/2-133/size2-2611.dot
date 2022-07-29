@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2611,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.cell.TextFieldTableCell"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="Technius-Starbound-Mod-Toolkit~/Technius-Starbound-Mod-Toolkit/Starbound-Mod-Toolkit-master/src/main/java/co/technius/starboundmodtoolkit/mod/assetpane/RecipeAssetPane.java~IdTableCell~1433",1="Technius-Starbound-Mod-Toolkit~/Technius-Starbound-Mod-Toolkit/Starbound-Mod-Toolkit-master/src/main/java/co/technius/starboundmodtoolkit/mod/assetpane/RecipeAssetPane.java~AmountTableCell~1435"]
+1[label="javafx.scene.control.cell.TextFieldTableCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

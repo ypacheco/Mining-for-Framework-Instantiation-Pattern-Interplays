@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=4381,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.util.StringConverter"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEPaiementAttenteController.java~CEPaiementAttenteController~2031"]
+4[label="java.lang.String toString(cefx.modele.Commande)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+5[label="cefx.modele.Commande fromString(java.lang.String)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+2[label="VAR",vertexType="OUTSIDE_VARIABLE_EXPRESION",isFrameworkType=false]
+1[label="javafx.util.StringConverter",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2->1[label="OF_TYPE"]
+0->2[label="ASSIGMENT"]
+0->4[label="OVERRIDE"]
+0->1[label="EXTEND",color=red]
+0->5[label="OVERRIDE"]
+}

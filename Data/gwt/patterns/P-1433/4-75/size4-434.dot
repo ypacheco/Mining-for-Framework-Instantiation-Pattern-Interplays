@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=434,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Composite"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=0]
+patternInstancesInfo[0="WSDOT-WSDOT-Search-GWT~/WSDOT-WSDOT-Search-GWT/WSDOT-Search-GWT-master/src/gov/wa/wsdot/search/client/SearchWidget.java~SearchWidget~449",1="Archerw-mastermind~/Archerw-mastermind/mastermind-master/nyu-smg-mastermind/src/org/mastermind/graphics/MasterMindGraphic.java~MasterMindGraphic~29",2="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/view/QuestionView.java~QuestionView~425",3="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/MVCTable.java~MVCTable~3009",4="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/EditableCombo.java~EditableCombo~3034"]
+30[label="FIELD:com.google.gwt.user.client.ui.HorizontalPanel",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Composite",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+40[label="FIELD:CLIENT",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->30[label="DECLARE_FIELD"]
+0->1[label="EXTEND",color=red]
+0->40[label="DECLARE_FIELD"]
+}

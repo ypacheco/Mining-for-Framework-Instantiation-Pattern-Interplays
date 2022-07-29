@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=487,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.resources.client.ClientBundle"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="ahome-it-ahome-hammer",filePath="/ahome-it-ahome-hammer/ahome-hammer-master/ahome-hammer/src/com/ait/toolkit/hammer/client/resources/HammerRessource.java",contextSignature="HammerRessource",graphId="487"]
+0[label="com.ait.toolkit.hammer.client.resources.HammerRessource",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.resources.client.ClientBundle",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

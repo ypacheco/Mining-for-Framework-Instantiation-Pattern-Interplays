@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2107,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.ListCell"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=8.0,patternRootClient=0]
+patternInstancesInfo[0="dimalev-bitmap-font-generator~/dimalev-bitmap-font-generator/bitmap-font-generator-master/src/BitmapFontController.java~FontNameCell~2469",1="Totenfluch-TPrivateChat-Client~/Totenfluch-TPrivateChat-Client/TPrivateChat-Client-master/TPvtChat-C/src/me/Totenfluch/pack/Main.java~ColorRectCell~1505",2="dimalev-bitmap-font-generator~/dimalev-bitmap-font-generator/bitmap-font-generator-master/src/FontsList.java~FontNameCell~2466",3="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/TournamentController.java~ComposeActionHistoryCell~3032",4="berker-RSSReader~/berker-RSSReader/RSSReader-master/src/com/deneme/rss/view/feedcell/FeedCell.java~FeedCell~2004",5="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/PrizesController.java~ComposeDefinedPrizeStructCell~2964",6="Fisiu-skontrumFx~/Fisiu-skontrumFx/skontrumFx-master/skontrumFxApp/src/application/DefaultListCell.java~DefaultListCell~459",7="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/AnnouncementsController.java~ComposeDefinedAnnouncementCell~2975"]
+1[label="javafx.scene.control.ListCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

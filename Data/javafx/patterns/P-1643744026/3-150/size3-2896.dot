@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2896,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.event.EventTarget",1="javafx.scene.layout.GridPane"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=6.0,patternRootClient=0]
+patternInstancesInfo[0="nielsmaneschijn-8bit~/nielsmaneschijn-8bit/8bit-master/src/net/maneschijn/bleep/ui/ADSRUI.java~ADSRUI~3763",1="nielsmaneschijn-8bit~/nielsmaneschijn-8bit/8bit-master/src/net/maneschijn/bleep/ui/MixUI.java~MixUI~3767",2="nielsmaneschijn-8bit~/nielsmaneschijn-8bit/8bit-master/src/net/maneschijn/bleep/ui/OverdriveUI.java~OverdriveUI~3762",3="nielsmaneschijn-8bit~/nielsmaneschijn-8bit/8bit-master/src/net/maneschijn/bleep/ui/MoogUI.java~MoogUI~3760",4="nielsmaneschijn-8bit~/nielsmaneschijn-8bit/8bit-master/src/net/maneschijn/bleep/ui/OscUI.java~OscUI~3761",5="nielsmaneschijn-8bit~/nielsmaneschijn-8bit/8bit-master/src/net/maneschijn/bleep/ui/BitcrusherUI.java~BitcrusherUI~3768"]
+2[label="javafx.event.EventTarget",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.GridPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->2[label="IMPLEMENT",color=red]
+0->1[label="EXTEND",color=red]
+}

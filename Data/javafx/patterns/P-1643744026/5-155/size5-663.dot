@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=663,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="sushkrish-CityLife~/sushkrish-CityLife/CityLife-master/src/view/StartScene.java~StartScene~4318",1="JCake-CoupGameProgram~/JCake-CoupGameProgram/CoupGameProgram-master/src/game/remote/PlayerUi.java~PlayerUi~579",2="sandeepb-CiscoECG~/sandeepb-CiscoECG/CiscoECG-master/src/ciscoECGFrontend/MyController.java~MyController~4063"]
+14[label="FIELD:javafx.scene.text.Text",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+10[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+16[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+2[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->14[label="DECLARE_FIELD"]
+0->16[label="DECLARE_FIELD"]
+0->2[label="DECLARE_FIELD"]
+0->10[label="DECLARE_FIELD"]
+}

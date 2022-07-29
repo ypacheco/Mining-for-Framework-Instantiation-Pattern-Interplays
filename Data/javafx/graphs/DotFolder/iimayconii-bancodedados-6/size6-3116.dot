@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=3116,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.Pane"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="iimayconii-bancodedados",filePath="/iimayconii-bancodedados/bancodedados-master/src/br/edu/uft/SqlEditorController.java",contextSignature="SqlEditorController",graphId="3116"]
+0[label="br.edu.uft.SqlEditorController",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.Pane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="sqlArea",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.scene.control.TextArea",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="stage",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+5[label="javafx.stage.Stage",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+0->4[label="DECLARE_FIELD"]
+4->5[label="OF_TYPE"]
+}

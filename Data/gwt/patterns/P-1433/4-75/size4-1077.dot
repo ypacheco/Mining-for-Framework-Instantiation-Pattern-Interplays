@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1077,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="ashtonthomas-gwt-fast-touch-press~/ashtonthomas-gwt-fast-touch-press/gwt-fast-touch-press-master/src/io/ashton/fastpress/client/Gwt_fast_press.java~Gwt_fast_press~744",1="nakaken0629-mezamashimailgwt~/nakaken0629-mezamashimailgwt/mezamashimailgwt-master/mezamashimailgwt/src/com/appspot/mezamashimailgwt/client/Mezamashimailgwt.java~Mezamashimailgwt~4116"]
+103[label="new InlineLabel()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+104[label="VAR:com.google.gwt.user.client.ui.InlineLabel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+6[label="com.google.gwt.user.client.ui.InlineLabel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+118[label="VAR:com.google.gwt.user.client.ui.InlineLabel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+104->103[label="CALL"]
+104->6[label="OF_TYPE"]
+118->6[label="OF_TYPE"]
+}

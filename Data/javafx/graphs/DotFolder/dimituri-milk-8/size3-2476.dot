@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=2476,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.beans.value.ObservableValueBase",1="javafx.beans.value.ObservableValue",2="javafx.beans.value.ObservableValue",3="javafx.beans.value.ObservableValue"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="dimituri-milk",filePath="/dimituri-milk/milk-master/milk-core/src/main/java/lv/dimituri/milk/core/Signal.java",contextSignature="Signal",graphId="2476"]
+0[label="main.java.lv.dimituri.milk.core.Signal",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.beans.value.ObservableValueBase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="javafx.beans.value.ObservableValue",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="IMPLEMENT",color=red]
+0->2[label="IMPLEMENT",color=red]
+0->2[label="IMPLEMENT",color=red]
+}

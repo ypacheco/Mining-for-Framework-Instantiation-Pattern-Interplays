@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=2602,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.BorderPane"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="eaglestorm-EldarJournal",filePath="/eaglestorm-EldarJournal/EldarJournal-master/src/com/eldar/journal/controls/CalendarView.java",contextSignature="CalendarView",graphId="2602"]
+0[label="com.eldar.journal.controls.CalendarView",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.BorderPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1791,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/BlindsController.java~BlindsController~2976",1="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/AnnouncementsController.java~AnnouncementsController~2965"]
+56[label="FIELD:javafx.beans.property.SimpleBooleanProperty",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+11[label="javafx.beans.property.SimpleBooleanProperty",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+28[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+56->11[label="OF_TYPE"]
+0->56[label="DECLARE_FIELD"]
+0->28[label="DECLARE_FIELD"]
+}

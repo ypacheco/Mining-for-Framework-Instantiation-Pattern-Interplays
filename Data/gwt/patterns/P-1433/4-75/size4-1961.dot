@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1961,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/TooltipMouseListener.java~TooltipMouseListener~2969",1="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/TooltipMouseListener.java~void TooltipMouseListener(java.lang.String,java.lang.String)~2971"]
+4[label="void onMouseLeave(com.google.gwt.user.client.ui.Widget)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+5[label="PARAMETER:com.google.gwt.user.client.ui.Widget",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+6[label="com.google.gwt.user.client.ui.Widget",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+13[label="PARAMETER:com.google.gwt.user.client.ui.Widget",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+5->6[label="OF_TYPE"]
+13->6[label="OF_TYPE"]
+4->5[label="PARAMETER"]
+}

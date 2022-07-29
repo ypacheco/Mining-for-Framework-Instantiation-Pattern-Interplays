@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1957,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="Max-Hailperin-MessageBoard~/Max-Hailperin-MessageBoard/MessageBoard-master/MessageBoard/src/edu/gac/mcs270/messageboard/client/MessageBoard.java~void onModuleLoad()~328",1="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/ugat/client/common/ui/FileUploadDialog.java~FileUploadDialog~3053"]
+4[label="void onSubmitComplete(com.google.gwt.user.client.ui.FormPanel.SubmitCompleteEvent)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+5[label="PARAMETER:com.google.gwt.user.client.ui.FormPanel.SubmitCompleteEvent",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+6[label="com.google.gwt.user.client.ui.FormPanel.SubmitCompleteEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+5->6[label="OF_TYPE"]
+4->5[label="PARAMETER"]
+}

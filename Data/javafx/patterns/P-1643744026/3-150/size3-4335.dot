@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4335,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEGestionRemisesController.java~void initializeTableRemise()~2020",1="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEGestionRemisesController.java~void initializeTableTypeLots()~2021",2="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEGestionRemisesController.java~CEGestionRemisesController~2018"]
+9[label="javafx.scene.control.MultipleSelectionModelBase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+7[label="VAR:javafx.scene.control.MultipleSelectionModelBase",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+8[label="isEmpty()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+7->8[label="CALL"]
+7->9[label="OF_TYPE"]
+}

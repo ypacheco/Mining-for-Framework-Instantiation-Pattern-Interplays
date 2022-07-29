@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=4546,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.junit.client.GWTTestCase"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="timeu-processing-js-gwt",filePath="/timeu-processing-js-gwt/processing-js-gwt-master/processingjs-gwt/src/test/java/com/github/timeu/gwtlibs/processingjsgwt/client/ProcessingTest.java",contextSignature="ProcessingTest",graphId="4546"]
+0[label="test.java.com.github.timeu.gwtlibs.processingjsgwt.client.ProcessingTest",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.junit.client.GWTTestCase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="java.lang.String getModuleName()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+}

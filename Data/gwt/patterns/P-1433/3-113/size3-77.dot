@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=77,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=null]
+patternInstancesInfo[0="ashtonthomas-gwt-fast-touch-press~/ashtonthomas-gwt-fast-touch-press/gwt-fast-touch-press-master/src/io/ashton/fastpress/client/Gwt_fast_press.java~Gwt_fast_press~744",1="lambourg-WebGallery~/lambourg-WebGallery/WebGallery-master/client/src/com/lambourg/webgallery/client/folderview/FolderView.java~FolderView~3530",2="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/AppController.java~AppController~396",3="aviera-websockets-gwtready~/aviera-websockets-gwtready/websockets-gwtready-master/src/org/arielviera/gwt/websockets/client/MySampleApplication.java~MySampleApplication~777",4="kospiotr-gwt-layout-designer~/kospiotr-gwt-layout-designer/gwt-layout-designer-master/src/main/java/pl/pkosmowski/gxtshowcase/client/EditorsPanel.java~EditorsPanel~3411"]
+72[label="com.google.gwt.event.shared.EventHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+77[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+71[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+71->72[label="IMPLEMENT",color=blue]
+77->72[label="IMPLEMENT",color=blue]
+}

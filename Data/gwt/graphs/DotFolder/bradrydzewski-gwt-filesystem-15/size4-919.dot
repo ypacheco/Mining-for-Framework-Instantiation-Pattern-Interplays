@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=919,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[0="919~CLIENT_METHOD_DECLARATION-RETURN_TYPE-~com.google.gwt.core.client.JavaScriptObject ~com.google.gwt.core.client.JavaScriptObject ~false~false"]
+locationInfo[projectName="bradrydzewski-gwt-filesystem",filePath="/bradrydzewski-gwt-filesystem/gwt-filesystem-master/gwt-filesystem/src/main/java/com/google/gwt/filesystem/client/DirectoryEntry.java",contextSignature="DirectoryEntry",graphId="919"]
+0[label="main.java.com.google.gwt.filesystem.client.DirectoryEntry",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="main.java.com.google.gwt.filesystem.client.DirectoryReader createReader()",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="main.java.com.google.gwt.filesystem.client.DirectoryReader",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_METHOD"]
+3->1[label="EXTEND",color=blue]
+2->3[label="RETURN"]
+}

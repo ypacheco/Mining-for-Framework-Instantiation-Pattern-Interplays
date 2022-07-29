@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=4053,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Composite"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="michaeljank-prototype-gwt",filePath="/michaeljank-prototype-gwt/prototype-gwt-master/src/main/java/at/apa/ots/manager/frontend/client/local/page/menu/Menu.java",contextSignature="Menu",graphId="4053"]
+0[label="main.java.at.apa.ots.manager.frontend.client.local.page.menu.Menu",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Composite",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="chat",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="com.google.gwt.user.client.ui.Button",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="textArea",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+0->4[label="DECLARE_FIELD"]
+4->3[label="OF_TYPE"]
+}

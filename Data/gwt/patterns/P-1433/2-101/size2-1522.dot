@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1522,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="kospiotr-gwt-layout-designer~/kospiotr-gwt-layout-designer/gwt-layout-designer-master/src/main/java/pl/pkosmowski/gxtshowcase/client/AbstractEditorTab.java~AbstractEditorTab~3421",1="niloc132-celltable-tools~/niloc132-celltable-tools/celltable-tools-master/src/main/java/com/colinalworth/celltable/columns/client/HasDataFlushableEditor.java~HasDataEditorSource~4230"]
+56[label="com.google.gwt.editor.client.ValueAwareEditor",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+41[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+41->56[label="IMPLEMENT",color=blue]
+}

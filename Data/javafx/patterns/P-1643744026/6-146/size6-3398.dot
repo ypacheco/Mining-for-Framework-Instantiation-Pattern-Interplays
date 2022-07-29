@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=3398,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="c1um5y-ShotPatterns~/c1um5y-ShotPatterns/ShotPatterns-master/src/org/shotpatterns/ui/ShotPatternsFX.java~DeleteButtonHandler~2234",1="c1um5y-ShotPatterns~/c1um5y-ShotPatterns/ShotPatterns-master/src/org/shotpatterns/ui/ShotPatternsFX.java~SearchSimilarMoviesButtonHandler~2233",2="c1um5y-ShotPatterns~/c1um5y-ShotPatterns/ShotPatterns-master/src/org/shotpatterns/ui/ShotPatternsFX.java~LoadExcelFilesButtonHandler~2232"]
+11[label="new DialogFX()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+12[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+2[label="void handle(javafx.event.ActionEvent)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+31[label="new DialogFX()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+22[label="show()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+12->22[label="CALL"]
+12->11[label="CALL"]
+0->2[label="OVERRIDE"]
+2->12[label="INSTANTIATE"]
+12->31[label="CALL"]
+}

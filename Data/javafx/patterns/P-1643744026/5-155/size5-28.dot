@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=28,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=8.0,patternRootClient=0]
+patternInstancesInfo[0="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/TournamentController.java~TournamentController~3009",1="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/NiconImage/NiconImageFXMLController.java~NiconImageFXMLController~2548",2="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/NiconNavigator/NavegadorController.java~NavegadorController~2563",3="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/PrizesController.java~PrizesController~2951",4="demibenari-cd-catalog~/demibenari-cd-catalog/cd-catalog-master/src/cd/catalog/MainFormController.java~MainFormController~2392",5="gleba-cppoints~/gleba-cppoints/cppoints-master/src/cpapp/view/ReadFormController.java~ReadFormController~2757",6="ajithkp560-quizmaster~/ajithkp560-quizmaster/quizmaster-master/QuizProgram_SRC/QuizProgram/src/quizprogram/SampleController.java~SampleController~1753",7="sandeepb-CiscoECG~/sandeepb-CiscoECG/CiscoECG-master/src/ciscoECGFrontend/MyController.java~MyController~4063"]
+866[label="PARAMETER:javafx.event.ActionEvent",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+865[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+52[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+140[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->52[label="DECLARE_FIELD"]
+0->865[label="DECLARE_METHOD"]
+0->140[label="DECLARE_FIELD"]
+865->866[label="PARAMETER"]
+}

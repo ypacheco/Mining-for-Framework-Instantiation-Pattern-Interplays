@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=4036,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="szabel01-kontenery~/szabel01-kontenery/kontenery-master/src/main/java/pl/p/lodz/container/controller/FXMLController.java~FXMLController~4418",1="Geekly-fieldmarshalfx~/Geekly-fieldmarshalfx/fieldmarshalfx-master/src/net/geeklythings/fm/ui/fxml/LoadTournamentDialogController.java~LoadTournamentDialogController~500"]
+23[label="new ReadOnlyObjectWrapper()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+24[label="VAR:javafx.beans.property.ReadOnlyObjectWrapper",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+22[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+24->23[label="CALL"]
+0->22[label="OVERRIDE"]
+22->24[label="INSTANTIATE"]
+0->2[label="DECLARE_FIELD"]
+}

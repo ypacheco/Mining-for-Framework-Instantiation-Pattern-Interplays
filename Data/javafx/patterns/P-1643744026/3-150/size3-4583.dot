@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4583,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="kcy1860-viterbi~/kcy1860-viterbi/viterbi-master/src/ai/prob/viterbi/MazeView.java~MazeView~3435",1="Johnmalc-JavaFX~/Johnmalc-JavaFX/JavaFX-master/src/james/Minimal.java~Minimal~661"]
+3[label="javafx.scene.paint.Color[]",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2[label="FIELD:javafx.scene.paint.Color[]",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2->3[label="OF_TYPE"]
+0->2[label="DECLARE_FIELD"]
+}

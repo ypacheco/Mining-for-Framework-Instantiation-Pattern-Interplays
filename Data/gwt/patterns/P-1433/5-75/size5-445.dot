@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=445,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.animation.client.Animation"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="vlapan-PhotoBank~/vlapan-PhotoBank/PhotoBank-master/src/com/vlapan/gwt/photobank/client/ui/NotificationPanel.java~OpenAnimation~4615",1="vlapan-PhotoBank~/vlapan-PhotoBank/PhotoBank-master/src/com/vlapan/gwt/photobank/client/ui/NotificationPanel.java~HideAnimation~4616",2="vlapan-PhotoBank~/vlapan-PhotoBank/PhotoBank-master/src/com/vlapan/gwt/photobank/client/animation/Opacity.java~Opacity~4589"]
+1[label="com.google.gwt.animation.client.Animation",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+6[label="void onCancel()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+2[label="void onStart()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+4[label="void onComplete()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->2[label="OVERRIDE"]
+0->4[label="OVERRIDE"]
+0->1[label="EXTEND",color=red]
+0->6[label="OVERRIDE"]
+}

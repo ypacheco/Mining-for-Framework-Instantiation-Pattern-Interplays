@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2994,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=6.0,patternRootClient=null]
+patternInstancesInfo[0="nablex-jfx-control-date~/nablex-jfx-control-date/jfx-control-date-master/src/main/java/be/nabu/jfx/control/date/DatePicker.java~void initialize()~3722",1="nablex-jfx-control-date~/nablex-jfx-control-date/jfx-control-date-master/src/main/java/be/nabu/jfx/control/date/DatePicker.java~DatePicker~3721",2="victor-fdez-hb-repo~/victor-fdez-hb-repo/hb-repo-master/FLLTutorializator/src/com/honeybadgers/flltutorial/ui/main/navigation/VideoPanel.java~void createScene()~4677"]
+15[label="javafx.beans.binding.BooleanExpression",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+13[label="VAR:javafx.beans.binding.BooleanExpression",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+14[label="getValue()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+13->14[label="CALL"]
+13->15[label="OF_TYPE"]
+}

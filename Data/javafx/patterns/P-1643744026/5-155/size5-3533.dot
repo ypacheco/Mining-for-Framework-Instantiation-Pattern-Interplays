@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=3533,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="Dieuken-rpg~/Dieuken-rpg/rpg-master/src/gui/SchatToevoegen.java~SchatToevoegen~375",1="Dieuken-rpg~/Dieuken-rpg/rpg-master/src/gui/GameStage.java~GameStage~370",2="Dieuken-rpg~/Dieuken-rpg/rpg-master/src/gui/MonsterToevoegen.java~MonsterToevoegen~353"]
+43[label="new BeginScherm()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+44[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+20[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+61[label="VAR:ANONYMOUS",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+0->20[label="DECLARE_METHOD"]
+44->43[label="CALL"]
+20->44[label="INSTANTIATE"]
+20->61[label="INSTANTIATE"]
+}

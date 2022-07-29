@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1306,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="woox-serverapp~/woox-serverapp/serverapp-master/src/wooxes/net/shared/Ordinador.java~Ordinador~4662",1="Peppe-Depot~/Peppe-Depot/Depot-master/src/com/jensjansson/depot/client/ui/DepotConnector.java~DepotConnector~382"]
+3[label="com.google.gwt.user.client.ui.DisclosurePanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+17[label="VAR:com.google.gwt.user.client.ui.DisclosurePanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+20[label="VAR:com.google.gwt.user.client.ui.DisclosurePanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+21[label="setContent()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+17->3[label="OF_TYPE"]
+20->3[label="OF_TYPE"]
+20->21[label="CALL"]
+}

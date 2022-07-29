@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2041,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.ImageBundle"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="laaglu-gwt-incubator-slider~/laaglu-gwt-incubator-slider/gwt-incubator-slider-master/src/main/java/com/google/gwt/widgetideas/client/HSliderBar.java~HSliderBarImages~3449",1="laaglu-gwt-incubator-slider~/laaglu-gwt-incubator-slider/gwt-incubator-slider-master/src/main/java/com/google/gwt/widgetideas/client/VSliderBar.java~VSliderBarImages~3447"]
+1[label="com.google.gwt.user.client.ui.ImageBundle",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="IMPLEMENT",color=red]
+}

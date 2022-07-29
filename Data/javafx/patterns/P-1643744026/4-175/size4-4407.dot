@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4407,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="weltensturm-milca~/weltensturm-milca/milca-master/src/milca/GUIController.java~GUIController~4745",1="Johnmalc-JavaFX~/Johnmalc-JavaFX/JavaFX-master/src/james/Minimal.java~Minimal~661"]
+8[label="FIELD:javafx.scene.control.Label[]",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+67[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+9[label="javafx.scene.control.Label[]",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->8[label="DECLARE_FIELD"]
+8->9[label="OF_TYPE"]
+0->67[label="DECLARE_METHOD"]
+}

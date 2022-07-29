@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2259,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="AndreasLehmann-SecureNote~/AndreasLehmann-SecureNote/SecureNote-master/src/javafxapplication1/presentation/NoteTitleCellFactory.java~NoteTitleCellFactory~147",1="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLPrincipalController.java~FXMLPrincipalController~3387"]
+12[label="javafx.util.StringConverter",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+11[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+10[label="VAR:ANONYMOUS",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+9[label="new StringConverter()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+11->12[label="EXTEND",color=blue]
+10->11[label="OF_TYPE"]
+10->9[label="CALL"]
+}

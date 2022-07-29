@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1828,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.BorderPane"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="amonker-AmonkerFX",filePath="/amonker-AmonkerFX/AmonkerFX-master/src/cn/jingyun/javafx/amonker/ui/FXMLBorderPane.java",contextSignature="FXMLBorderPane",graphId="1828"]
+0[label="cn.jingyun.javafx.amonker.ui.FXMLBorderPane",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.BorderPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

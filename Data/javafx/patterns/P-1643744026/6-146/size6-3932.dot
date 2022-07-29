@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=3932,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="demibenari-cd-catalog~/demibenari-cd-catalog/cd-catalog-master/src/cd/catalog/EditCDFormController.java~EditCDFormController~2395",1="demibenari-cd-catalog~/demibenari-cd-catalog/cd-catalog-master/src/cd/catalog/MainFormController.java~MainFormController~2392"]
+147[label="new AlertDialog()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+148[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+135[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+8[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+16[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+135->148[label="INSTANTIATE"]
+0->8[label="DECLARE_FIELD"]
+0->16[label="DECLARE_FIELD"]
+0->135[label="DECLARE_METHOD"]
+148->147[label="CALL"]
+}

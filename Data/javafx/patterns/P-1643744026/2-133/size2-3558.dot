@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=3558,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="VaibhavJain-JavaFx-2.0-Ludo~/VaibhavJain-JavaFx-2.0-Ludo/JavaFx-2.0-Ludo-master/src/org/vaib/LudoMain.java~LudoMain~1569",1="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/AbstractSettingsLayout.java~AbstractSettingsLayout~1175",2="amonker-AmonkerFX~/amonker-AmonkerFX/AmonkerFX-master/src/cn/jingyun/javafx/amonker/ui/ButtonStyles.java~ButtonStyles~1840"]
+62[label="javafx.scene.control.ButtonBuilder",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+83[label="VAR:javafx.scene.control.ButtonBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+83->62[label="OF_TYPE"]
+}

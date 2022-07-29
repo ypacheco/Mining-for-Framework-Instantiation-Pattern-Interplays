@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1535,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/easyoverlay/src/com/akjava/gwt/hangout/easyoverlay/client/EasyOverlay.java~EasyOverlay~492",1="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/easyoverlay/src/com/akjava/gwt/hangout/easyoverlay/client/EasyOverlay.java~void onApiReady()~507"]
+343[label="com.akjava.gwt.html5.client.download.HTML5Download",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+341[label="VAR:com.akjava.gwt.html5.client.download.HTML5Download",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+342[label="generateBase64DownloadLink()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+341->342[label="CALL"]
+341->343[label="OF_TYPE"]
+}

@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=812,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/coffeeRoom/ChatBoxPanel.java~ChatBoxPanel~267",1="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/coffeeRoom/ChatBoxPanel.java~void refresh()~271"]
+9[label="com.google.gwt.user.client.ui.ScrollPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+7[label="VAR:com.google.gwt.user.client.ui.ScrollPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+8[label="scrollToBottom()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+7->9[label="OF_TYPE"]
+7->8[label="CALL"]
+}

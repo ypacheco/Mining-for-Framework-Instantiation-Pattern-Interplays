@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=221,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.util.Callback"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Catuna-OsuExport",filePath="/Catuna-OsuExport/OsuExport-master/src/view/PanelController.java",contextSignature="void initialize(java.net.URL,java.util.ResourceBundle)",graphId="221"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.util.Callback",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="callback",vertexType="OUTSIDE_VARIABLE_EXPRESION",isFrameworkType=true,peripheries=2]
+4[label="javafx.beans.property.BooleanProperty call(view.OsuFile)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+5[label="javafx.beans.property.BooleanProperty",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="ASSIGMENT"]
+2->1[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+4->5[label="RETURN"]
+}

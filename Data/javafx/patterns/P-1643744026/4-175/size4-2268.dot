@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2268,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.beans.property.SimpleBooleanProperty"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="Jojal-RadialMenu~/Jojal-RadialMenu/RadialMenu-master/src/main/java/fr/jojal/widget/radial/menu/RadialMenuContainer.java~javafx.beans.property.BooleanProperty isSeparatorEnableProperty()~705",1="Jojal-RadialMenu~/Jojal-RadialMenu/RadialMenu-master/src/main/java/fr/jojal/widget/radial/menu/RadialMenuContainer.java~javafx.beans.property.BooleanProperty isChildrenVisibleProperty()~703",2="Jojal-RadialMenu~/Jojal-RadialMenu/RadialMenu-master/src/main/java/fr/jojal/widget/radial/menu/RadialMenuContainer.java~javafx.beans.property.BooleanProperty isChildrenCenterOnParentProperty()~704"]
+1[label="javafx.beans.property.SimpleBooleanProperty",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+2[label="VAR",vertexType="OUTSIDE_VARIABLE_EXPRESION",isFrameworkType=false]
+3[label="javafx.beans.property.BooleanProperty",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->1[label="EXTEND",color=red]
+0->2[label="ASSIGMENT"]
+2->3[label="OF_TYPE"]
+}

@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1605,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=0]
+patternInstancesInfo[0="making-todo-tsa~/making-todo-tsa/todo-tsa-master/todo-fx/src/main/java/todo/app/TodoController.java~TodoController~3522",1="JoshuaHanrahan-DVDCollectionApp~/JoshuaHanrahan-DVDCollectionApp/DVDCollectionApp-master/src/dvdcollectionapp/view/DvdcollectionappfxmlController.java~DvdcollectionappfxmlController~728",2="diogocs1-FPessoais~/diogocs1-FPessoais/FPessoais-master/FinancasPessoais/src/app/controllers/HomeController.java~HomeController~2490",3="NirmalL-Shark~/NirmalL-Shark/Shark-master/src/Controller.java~Controller~1009",4="crosswords-testEnvironment~/crosswords-testEnvironment/testEnvironment-master/src/GUI/MainController.java~MainController~2315"]
+86[label="javafx.scene.control.cell.PropertyValueFactory",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+91[label="VAR:javafx.scene.control.cell.PropertyValueFactory",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+54[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+38[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+16[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->54[label="OVERRIDE"]
+54->91[label="INSTANTIATE"]
+0->38[label="DECLARE_FIELD"]
+0->16[label="DECLARE_FIELD"]
+91->86[label="OF_TYPE"]
+}

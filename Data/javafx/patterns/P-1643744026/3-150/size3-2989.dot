@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2989,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="UrsKR-fxcalendar~/UrsKR-fxcalendar/fxcalendar-master/src/main/java/com/sai/javafx/calendar/BasePane.java~BasePane~1540",1="UrsKR-fxcalendar~/UrsKR-fxcalendar/fxcalendar-master/src/main/java/com/sai/javafx/calendar/FXCalendar.java~FXCalendar~1522"]
+25[label="javafx.beans.property.IntegerPropertyBase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+23[label="VAR:javafx.beans.property.IntegerPropertyBase",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+154[label="VAR:javafx.beans.property.IntegerPropertyBase",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+154->25[label="OF_TYPE"]
+23->25[label="OF_TYPE"]
+}

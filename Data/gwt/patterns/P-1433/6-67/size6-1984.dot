@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1984,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="xephoid-YS~/xephoid-YS/YS-master/src/com/ionmarkgames/ys/client/YSPanel.java~YSPanel~4690",1="xephoid-YS~/xephoid-YS/YS-master/src/com/ionmarkgames/ys/client/YS.java~YS~4689"]
+11[label="new MessagePanel()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+12[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+10[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+13[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+14[label="com.google.gwt.user.client.ui.VerticalPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->10[label="DECLARE_METHOD"]
+12->11[label="CALL"]
+13->14[label="EXTEND",color=blue]
+10->12[label="INSTANTIATE"]
+12->13[label="OF_TYPE"]
+}

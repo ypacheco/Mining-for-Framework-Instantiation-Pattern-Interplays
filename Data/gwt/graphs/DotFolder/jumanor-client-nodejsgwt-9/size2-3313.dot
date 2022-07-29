@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3313,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.uibinder.client.UiBinder"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jumanor-client-nodejsgwt",filePath="/jumanor-client-nodejsgwt/client-nodejsgwt-master/src/main/java/pck/client/chat/TFormChat.java",contextSignature="TFormChatUiBinder",graphId="3313"]
+0[label="main.java.pck.client.chat.TFormChat.TFormChatUiBinder",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.uibinder.client.UiBinder",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

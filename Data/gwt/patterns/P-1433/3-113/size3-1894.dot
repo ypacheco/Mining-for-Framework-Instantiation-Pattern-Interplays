@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1894,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="akjava-WebTestMaker~/akjava-WebTestMaker/WebTestMaker-master/src/com/akjava/gwt/webtestmaker/client/WebTestMaker.java~WebTestMaker~655",1="akjava-WebTestMaker~/akjava-WebTestMaker/WebTestMaker-master/src/com/akjava/gwt/webtestmaker/client/WebTestMaker.java~void onModuleLoad()~662"]
+9[label="com.google.gwt.resources.client.ResourcePrototype",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+7[label="VAR:com.google.gwt.resources.client.ResourcePrototype",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+8[label="getName()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+7->9[label="OF_TYPE"]
+7->8[label="CALL"]
+}

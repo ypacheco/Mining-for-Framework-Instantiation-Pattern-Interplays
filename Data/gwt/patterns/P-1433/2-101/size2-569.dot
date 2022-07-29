@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=569,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.rpc.IsSerializable"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=10.0,patternRootClient=0]
+patternInstancesInfo[0="domhanak-VisualizerGWT~/domhanak-VisualizerGWT/VisualizerGWT-master/src/main/java/cz/muni/fi/bapr/visualizer/server/Experiment.java~Experiment~1279",1="boscomonkey-gwt_raster_panel~/boscomonkey-gwt_raster_panel/gwt_raster_panel-master/src/com/boscomonkey/gwtraster/client/XyCoord.java~XyCoord~898",2="bohdaq-DeedleJSON~/bohdaq-DeedleJSON/DeedleJSON-master/src/com/appspot/deedleit/shared/TimelineServiceEntity.java~TimelineServiceEntity~895",3="domhanak-VisualizerGWT~/domhanak-VisualizerGWT/VisualizerGWT-master/src/main/java/cz/muni/fi/bapr/visualizer/server/Machine.java~Machine~1280",4="jaxzin-gwt-common-widgets~/jaxzin-gwt-common-widgets/gwt-common-widgets-master/src/com/jaxzin/gwt/ui/client/autocompletion/MatcherResultBean.java~MatcherResultBean~3137",5="woox-serverapp~/woox-serverapp/serverapp-master/src/wooxes/net/shared/Red.java~Red~4661",6="domhanak-VisualizerGWT~/domhanak-VisualizerGWT/VisualizerGWT-master/src/main/java/cz/muni/fi/bapr/visualizer/server/ExQuery.java~ExQuery~1281",7="woox-serverapp~/woox-serverapp/serverapp-master/src/wooxes/net/shared/Software.java~Software~4666",8="jDramaix-SlidingPuzzle~/jDramaix-SlidingPuzzle/SlidingPuzzle-master/src/be/dramaix/ai/slidingpuzzle/shared/State.java~CellLocation~3123",9="woox-serverapp~/woox-serverapp/serverapp-master/src/wooxes/net/shared/Hardware.java~Hardware~4665"]
+1[label="com.google.gwt.user.client.rpc.IsSerializable",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="IMPLEMENT",color=red]
+}

@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1465,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/PrizesController.java~PrizesController~2951",1="tgregerson-lc3~/tgregerson-lc3/lc3-master/LC3Sim/src/lc3sim/ui/UIFXMain.java~UIFXMain~4520",2="gleba-cppoints~/gleba-cppoints/cppoints-master/src/cpapp/view/EditTableController.java~EditTableController~2746",3="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEPrincipalController.java~CEPrincipalController~2114"]
+442[label="javafx.scene.control.TableColumn.CellEditEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+845[label="VAR:javafx.scene.control.TableColumn.CellEditEvent",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+845->442[label="OF_TYPE"]
+}

@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=341,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=6.0,patternRootClient=null]
+patternInstancesInfo[0="7thwheel-medaka-chan~/7thwheel-medaka-chan/medaka-chan-master/src/seventhwheel/pos/controller/MainController.java~MainController~25",1="Totenfluch-TPrivateChat-Client~/Totenfluch-TPrivateChat-Client/TPrivateChat-Client-master/TPvtChat-C/src/me/Totenfluch/pack/ConsoleCommandParser.java~void parse(java.lang.String[])~1481",2="JCake-CoupGameProgram~/JCake-CoupGameProgram/CoupGameProgram-master/src/game/remote/CoupApplicationClientSide.java~CoupApplicationClientSide~574",3="indysvision-EatWorldEditor~/indysvision-EatWorldEditor/EatWorldEditor-master/src/com/indyvision/eatworld/editor/handlers/BorderHandler.java~BorderHandler~3192",4="JCake-CoupGameProgram~/JCake-CoupGameProgram/CoupGameProgram-master/src/game/ui/javafx/IndividualPlayer.java~IndividualPlayer~596",5="prashker-KingsSGF~/prashker-KingsSGF/KingsSGF-master/src/uiSam/ConnectDialog.java~ConnectDialog~3937"]
+23[label="javafx.stage.Window",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+87[label="VAR:javafx.stage.Window",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+87->23[label="OF_TYPE"]
+}

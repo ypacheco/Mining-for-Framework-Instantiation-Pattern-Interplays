@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=137,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=10.0,patternRootClient=null]
+patternInstancesInfo[0="cbopp-gwt-taglist~/cbopp-gwt-taglist/gwt-taglist-master/src/test/java/com/virilis_software/gwt/taglist/client/TagListEntryPoint.java~TagListEntryPoint~1048",1="dapicard-gwt-surface~/dapicard-gwt-surface/gwt-surface-master/gwt-surface/src/main/java/com/axeiya/gwt/surface/client/ContentEditableSurface.java~ContentEditableSurface~1180",2="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/ugat/client/common/ui/ModalDialog.java~CDialog_aceitarBtn_onClickAdapter~3055",3="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/ugat/client/common/AppModule.java~AppModule~3041",4="dapicard-gwt-surface~/dapicard-gwt-surface/gwt-surface-master/gwt-surface/src/main/java/com/axeiya/gwt/surface/client/control/block/InsertLink.java~InsertLink~1195",5="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/MVCTable.java~MVCTable~3009",6="dapicard-gwt-surface~/dapicard-gwt-surface/gwt-surface-master/gwt-surface/src/main/java/com/axeiya/gwt/surface/client/control/AbstractToggleControl.java~AbstractToggleControl~1190",7="dapicard-gwt-surface~/dapicard-gwt-surface/gwt-surface-master/gwt-surface/src/main/java/com/axeiya/gwt/surface/client/control/image/InsertImage.java~InsertImage~1201",8="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/Core.java~Core~190",9="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/CMenu.java~CMenu~2973"]
+107[label="com.google.gwt.user.client.Command",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+168[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+168->107[label="IMPLEMENT",color=blue]
+}

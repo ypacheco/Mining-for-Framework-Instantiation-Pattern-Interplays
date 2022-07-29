@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1077,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.Parent"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=9.0,patternRootClient=0]
+patternInstancesInfo[0="iloop-kiosk-KIOSK-Project~/iloop-kiosk-KIOSK-Project/KIOSK-Project-master/src/oit/iloop/kiosk/kiosk_toppage/TopPageParent.java~TopPageParent~3166",1="youseke-digitalclock~/youseke-digitalclock/digitalclock-master/src/puzzlewithtimer/model/DigitalClock.java~DigitalClock~4897",2="Maxxa-MT-common~/Maxxa-MT-common/MT-common-master/src/cz/commons/graphics/KNodeElement.java~KNodeElement~925",3="Maxxa-MT-common~/Maxxa-MT-common/MT-common-master/src/cz/commons/graphics/BinaryNodeElement.java~BinaryNodeElement~929",4="olmetadavid-schoolbook~/olmetadavid-schoolbook/schoolbook-master/src/com/cleverage/school/gui/StudentCreateFormNode.java~StudentCreateFormNode~3807",5="iloop-kiosk-KIOSK-Project~/iloop-kiosk-KIOSK-Project/KIOSK-Project-master/src/oit/iloop/kiosk/kiosk_examination/PopupWindowParent.java~PopupWindowParent~3121",6="iloop-kiosk-KIOSK-Project~/iloop-kiosk-KIOSK-Project/KIOSK-Project-master/src/oit/iloop/kiosk/kiosk_main/TestParent.java~TestParent~3145",7="tasubo-javafx-chart-treemap~/tasubo-javafx-chart-treemap/javafx-chart-treemap-master/src/main/java/javafx/scene/chart/treemap/TreemapLayout.java~TreemapLayout~4487",8="Maxxa-MT-common~/Maxxa-MT-common/MT-common-master/src/cz/commons/graphics/LineElement.java~LineElement~930"]
+1[label="javafx.scene.Parent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

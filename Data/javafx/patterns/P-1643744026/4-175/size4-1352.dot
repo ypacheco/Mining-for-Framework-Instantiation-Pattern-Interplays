@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1352,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=9.0,patternRootClient=0]
+patternInstancesInfo[0="jasonwr-jhuep_ent_web_dev~/jasonwr-jhuep_ent_web_dev/jhuep_ent_web_dev-master/src/hw6/main/WebBuyer.java~WebBuyer~3282",1="matanghuy-SPCA~/matanghuy-SPCA/SPCA-master/SPCA/src/controllers/TransController.java~TransController~3572",2="Jamakasi-JMCLauncherFX~/Jamakasi-JMCLauncherFX/JMCLauncherFX-master/src/jmclauncherfx/OptionsWindowController.java~OptionsWindowController~610",3="amr390-SAT~/amr390-SAT/SAT-master/src/satcucharitas/SatMainViewController.java~SatMainViewController~1853",4="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/PrizesController.java~PrizesController~2951",5="ajithkp560-quizmaster~/ajithkp560-quizmaster/quizmaster-master/QuizProgram_SRC/QuizProgram/src/quizprogram/SampleController.java~SampleController~1753",6="sandeepb-CiscoECG~/sandeepb-CiscoECG/CiscoECG-master/src/ciscoECGFrontend/MyController.java~MyController~4063",7="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CECommandeController.java~CECommandeController~2084",8="RomeoGolf-BC~/RomeoGolf-BC/BC-master/src/romeogolf/bc/MainController.java~MainController~1142"]
+32[label="FIELD:javafx.scene.control.RadioButton",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+4[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+2[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->2[label="DECLARE_FIELD"]
+0->4[label="DECLARE_FIELD"]
+0->32[label="DECLARE_FIELD"]
+}

@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=732,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=0]
+patternInstancesInfo[0="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/AlgebrApp.java~AlgebrApp~3667",1="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/Polynomial.java~Polynomial~3666",2="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/SubPolynomial.java~SubPolynomial~3660",3="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/Product.java~Product~3664"]
+141[label="new Monomial()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+142[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+137[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+161[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+142->141[label="CALL"]
+0->137[label="DECLARE_METHOD"]
+0->161[label="DECLARE_METHOD"]
+137->142[label="INSTANTIATE"]
+}

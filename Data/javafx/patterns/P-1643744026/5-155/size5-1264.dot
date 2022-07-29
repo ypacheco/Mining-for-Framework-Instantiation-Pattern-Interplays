@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1264,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=0]
+patternInstancesInfo[0="mrempala-sp~/mrempala-sp/sp-master/src/application/VcSequencePreview.java~VcSequencePreview~3683",1="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/TournamentController.java~TournamentController~3009",2="sushkrish-CityLife~/sushkrish-CityLife/CityLife-master/src/view/StartScene.java~StartScene~4318",3="brunoborges-fx2048~/brunoborges-fx2048/fx2048-master/src/game2048/Board.java~Board~2229",4="RomeoGolf-BC~/RomeoGolf-BC/BC-master/src/romeogolf/bc/MainController.java~MainController~1142"]
+52[label="FIELD:javafx.scene.layout.HBox",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+8[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+10[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+18[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->18[label="DECLARE_FIELD"]
+0->8[label="DECLARE_FIELD"]
+0->10[label="DECLARE_FIELD"]
+0->52[label="DECLARE_FIELD"]
+}

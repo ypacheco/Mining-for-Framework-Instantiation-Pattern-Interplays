@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=917,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.event.EventHandler"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Maxxa-MT-common",filePath="/Maxxa-MT-common/MT-common-master/src/cz/commons/example/graphics/branchNode/BranchElementExample.java",contextSignature="void initPane(javafx.scene.layout.Pane)",graphId="917"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.event.EventHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void setOnFinished(javafx.event.EventHandler)",vertexType="OUTSIDE_CALL",isFrameworkType=true,peripheries=2]
+3[label="javafx.animation.Animation",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+2->0[label="ARGUMENT"]
+2->3[label="OF_TYPE"]
+}

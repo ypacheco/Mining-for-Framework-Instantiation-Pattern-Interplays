@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2053,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="domi1wa-List-Navigation-Tree~/domi1wa-List-Navigation-Tree/List-Navigation-Tree-master/NavigationTree/src/de/navigation/tree/client/Tree.java~Tree~1283",1="domi1wa-List-Navigation-Tree~/domi1wa-List-Navigation-Tree/List-Navigation-Tree-master/NavigationTree/src/de/navigation/tree/client/TreeItem.java~TreeItem~1282"]
+67[label="com.google.gwt.safehtml.shared.SafeHtml",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+66[label="PARAMETER:com.google.gwt.safehtml.shared.SafeHtml",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+66->67[label="OF_TYPE"]
+}

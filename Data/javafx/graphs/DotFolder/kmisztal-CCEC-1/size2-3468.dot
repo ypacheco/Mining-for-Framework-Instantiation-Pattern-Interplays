@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3468,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.util.Pair"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="kmisztal-CCEC",filePath="/kmisztal-CCEC/CCEC-master/src/cec/cluster/types/TypeOption.java",contextSignature="TypeOption",graphId="3468"]
+0[label="cec.cluster.types.TypeOption",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.util.Pair",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

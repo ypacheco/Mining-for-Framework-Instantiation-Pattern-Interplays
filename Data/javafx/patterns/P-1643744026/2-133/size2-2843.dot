@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2843,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/EventSelectionDialogController.java~void setInListView(javafx.collections.ObservableList,eventManager.controller.EventSelectionDialogController.EventType)~2941",1="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/EventSelectionDialogController.java~EventSelectionDialogController~2934",2="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/DesktopController.java~DesktopController~2943"]
+90[label="javafx.beans.property.StringPropertyBase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+88[label="VAR:javafx.beans.property.StringPropertyBase",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+88->90[label="OF_TYPE"]
+}

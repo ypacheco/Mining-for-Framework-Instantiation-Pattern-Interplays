@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=3661,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="srikarr-Woot~/srikarr-Woot/Woot-master/src/Woot.java~Woot~4256",1="srikarr-Woot~/srikarr-Woot/Woot-master/src/Woot.java~void start(javafx.stage.Stage)~4257"]
+14[label="new Series()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+15[label="VAR:javafx.scene.chart.XYChart.Series",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+18[label="setName()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+16[label="javafx.scene.chart.XYChart.Series",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+20[label="getData()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+15->14[label="CALL"]
+15->16[label="OF_TYPE"]
+15->20[label="CALL"]
+15->18[label="CALL"]
+}

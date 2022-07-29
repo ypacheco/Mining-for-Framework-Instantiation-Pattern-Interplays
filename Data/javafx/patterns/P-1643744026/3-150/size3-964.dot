@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=964,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/NiconImage/NiconImageFXMLController.java~NiconImageFXMLController~2548",1="Cslice-Province~/Cslice-Province/Province-master/ProvincialMiner/src/Provincial_Miner/Gui2.java~Gui2~260"]
+74[label="javafx.scene.layout.Region",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+244[label="VAR:javafx.scene.layout.Region",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+248[label="setVisible()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+244->248[label="CALL"]
+244->74[label="OF_TYPE"]
+}

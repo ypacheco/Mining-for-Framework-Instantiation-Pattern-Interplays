@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=4294,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.util.Callback"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="stepanovdg-VisualJadeMotionModel",filePath="/stepanovdg-VisualJadeMotionModel/VisualJadeMotionModel-master/src/by/bsu/kurs/stepanov/visualisation/control/Controller.java",contextSignature="void initCommunication()",graphId="4294"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.util.Callback",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void setConfirmHandler(javafx.util.Callback)",vertexType="OUTSIDE_CALL",isFrameworkType=true,peripheries=2]
+3[label="javafx.scene.web.WebEngine",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="java.lang.Boolean call(java.lang.String)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+2->0[label="ARGUMENT"]
+2->3[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+}

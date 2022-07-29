@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1071,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=7.0,patternRootClient=null]
+patternInstancesInfo[0="iimayconii-bancodedados~/iimayconii-bancodedados/bancodedados-master/src/br/edu/uft/appViewController.java~void initialize(java.net.URL,java.util.ResourceBundle)~3114",1="Posejdon23-GeneticAlgorithm~/Posejdon23-GeneticAlgorithm/GeneticAlgorithm-master/AG/src/ag1/Main.java~Main~1091",2="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/Project.java~javafx.scene.control.TableCell call(javafx.scene.control.TableColumn)~1851",3="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/NiconNavigator/NavegadorController.java~void AddTabsChangeListener()~2564",4="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/NiconNavigator/NavegadorController.java~void AddWebsChangeListener()~2566",5="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/BlindsController.java~void chargeBlindStructView()~2984",6="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CECommandeController.java~void initialize(java.net.URL,java.util.ResourceBundle)~2095"]
+9[label="javafx.scene.control.SingleSelectionModel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+7[label="VAR:javafx.scene.control.SingleSelectionModel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+8[label="select()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+7->9[label="OF_TYPE"]
+7->8[label="CALL"]
+}

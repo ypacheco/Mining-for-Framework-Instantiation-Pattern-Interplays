@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2111,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.stage.Popup"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=6.0,patternRootClient=0]
+patternInstancesInfo[0="projects4PB-biomet~/projects4PB-biomet/biomet-master/src/biomet/popups/HSVPopup.java~HSVPopup~3970",1="projects4PB-biomet~/projects4PB-biomet/biomet-master/src/biomet/popups/HistogramPopup.java~HistogramPopup~3971",2="projects4PB-biomet~/projects4PB-biomet/biomet-master/src/biomet/popups/ConvolvePopup.java~ConvolvePopup~3976",3="projects4PB-biomet~/projects4PB-biomet/biomet-master/src/biomet/popups/BinarizationPopup.java~BinarizationPopup~3981",4="projects4PB-biomet~/projects4PB-biomet/biomet-master/src/biomet/popups/FilterMedianPopup.java~FilterMedianPopup~3962",5="projects4PB-biomet~/projects4PB-biomet/biomet-master/src/biomet/popups/FindMinutiaePopup.java~FindMinutiaePopup~3966"]
+1[label="javafx.stage.Popup",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

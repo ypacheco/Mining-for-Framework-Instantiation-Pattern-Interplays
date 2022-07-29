@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=4567,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="viniciusbellini-Praticando~/viniciusbellini-Praticando/Praticando-master/src/telas/MenuPrincipal.java~MenuPrincipal~4699",1="viniciusbellini-Praticando~/viniciusbellini-Praticando/Praticando-master/src/telas/MenuPrincipal.java~void start(javafx.stage.Stage)~4701"]
+68[label="new CadMunicipio()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+69[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+73[label="start()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+70[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+1[label="javafx.application.Application",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+69->68[label="CALL"]
+69->73[label="CALL"]
+70->1[label="EXTEND",color=blue]
+69->70[label="OF_TYPE"]
+}

@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1732,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="aramk-mechanix~/aramk-mechanix/mechanix-master/src/au/edu/unimelb/csse/smd/mechanix/client/view/GameController.java~GameController~729",1="aramk-mechanix~/aramk-mechanix/mechanix-master/src/au/edu/unimelb/csse/smd/mechanix/client/view/BenchDropController.java~BenchDropController~728"]
+10[label="com.allen_sauer.gwt.dnd.client.drop.HorizontalPanelDropController",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+9[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+8[label="FIELD:CLIENT",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->8[label="DECLARE_FIELD"]
+8->9[label="OF_TYPE"]
+9->10[label="EXTEND",color=blue]
+}

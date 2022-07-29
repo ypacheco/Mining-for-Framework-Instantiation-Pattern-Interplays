@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3145,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.Parent"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="iloop-kiosk-KIOSK-Project",filePath="/iloop-kiosk-KIOSK-Project/KIOSK-Project-master/src/oit/iloop/kiosk/kiosk_main/TestParent.java",contextSignature="TestParent",graphId="3145"]
+0[label="oit.iloop.kiosk.kiosk_main.TestParent",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.Parent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

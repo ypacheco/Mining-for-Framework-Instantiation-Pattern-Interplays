@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3999,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.animation.Transition"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="ravjot28-FameDen",filePath="/ravjot28-FameDen/FameDen-master/src/com/fameden/animations/ShakeAnimation.java",contextSignature="ShakeAnimation",graphId="3999"]
+0[label="com.fameden.animations.ShakeAnimation",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.animation.Transition",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

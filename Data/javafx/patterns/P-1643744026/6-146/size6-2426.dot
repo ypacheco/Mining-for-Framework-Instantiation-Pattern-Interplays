@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=2426,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=0]
+patternInstancesInfo[0="Jamakasi-JMCLauncherFX~/Jamakasi-JMCLauncherFX/JMCLauncherFX-master/src/jmclauncherfx/OptionsWindowController.java~OptionsWindowController~610",1="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/Project.java~Project~1849",2="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/MainPane.java~MainPane~1847",3="walker-clint-AIProj3~/walker-clint-AIProj3/AIProj3-master/src/application/GameBoardController.java~GameBoardController~4712"]
+30[label="FIELD:javafx.stage.FileChooser",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+31[label="javafx.stage.FileChooser",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+12[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+63[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+46[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->12[label="DECLARE_FIELD"]
+30->31[label="OF_TYPE"]
+0->46[label="DECLARE_FIELD"]
+0->30[label="DECLARE_FIELD"]
+0->63[label="DECLARE_FIELD"]
+}

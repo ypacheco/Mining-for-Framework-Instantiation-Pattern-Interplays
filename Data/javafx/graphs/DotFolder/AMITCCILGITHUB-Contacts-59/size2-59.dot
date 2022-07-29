@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=59,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.HBox"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="AMITCCILGITHUB-Contacts",filePath="/AMITCCILGITHUB-Contacts/Contacts-master/Contacts/src/org/apandey/view/parts/Footer.java",contextSignature="Footer",graphId="59"]
+0[label="org.apandey.view.parts.Footer",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.HBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

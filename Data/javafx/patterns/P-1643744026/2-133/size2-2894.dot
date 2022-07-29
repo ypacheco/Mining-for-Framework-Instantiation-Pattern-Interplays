@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2894,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.MenuButton"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="atsticks-FXOne~/atsticks-FXOne/FXOne-master/org.fxone/fxone-ui/src/main/java/org/fxone/ui/rt/components/perspectives/PerspectiveMenu.java~PerspectiveMenu~1921",1="atsticks-FXOne~/atsticks-FXOne/FXOne-master/org.fxone/fxone-ui/src/main/java/org/fxone/ui/rt/components/view/ViewMenu.java~ViewMenu~1931",2="atsticks-FXOne~/atsticks-FXOne/FXOne-master/org.fxone/fxone-ui/src/main/java/org/fxone/ui/rt/components/view/PerspectiveMenu.java~PerspectiveMenu~1924"]
+1[label="javafx.scene.control.MenuButton",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

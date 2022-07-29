@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2897,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="stachura93-imageDownloadJavaFX~/stachura93-imageDownloadJavaFX/imageDownloadJavaFX-master/src/imageDownload/controller/DownloadPane.java~void showImageView()~4263",1="stachura93-imageDownloadJavaFX~/stachura93-imageDownloadJavaFX/imageDownloadJavaFX-master/src/imageDownload/controller/DownloadPane.java~DownloadPane~4262"]
+12[label="javafx.embed.swing.SwingFXUtils",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+10[label="VAR:javafx.embed.swing.SwingFXUtils",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+11[label="toFXImage()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+10->11[label="CALL"]
+10->12[label="OF_TYPE"]
+}

@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1372,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/profil/ProfilPanel.java~ProfilPanel~278",1="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/coffeeRoom/CoffeeRoomPanel.java~CoffeeRoomPanel~230",2="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/coffeeRoom/ChoixSallePanel.java~ChoixSallePanel~262"]
+20[label="com.google.gwt.user.client.ui.DecoratorPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+19[label="VAR:com.google.gwt.user.client.ui.DecoratorPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+19->20[label="OF_TYPE"]
+}

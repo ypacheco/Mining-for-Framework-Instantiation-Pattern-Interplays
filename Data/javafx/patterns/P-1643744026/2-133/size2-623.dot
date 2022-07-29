@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=623,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.text.Text"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="ireardon-cs32-final~/ireardon-cs32-final/cs32-final-master/src/edu/brown/cs32/final_group/fx/NoteLabel.java~NoteLabel~3222",1="cyberaka-fxddp_poc~/cyberaka-fxddp_poc/fxddp_poc-master/fxddp-gui/src/main/java/com/cyberaka/fxddp/gui/common/FxWrappedText.java~FxWrappedText~2331"]
+1[label="javafx.scene.text.Text",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

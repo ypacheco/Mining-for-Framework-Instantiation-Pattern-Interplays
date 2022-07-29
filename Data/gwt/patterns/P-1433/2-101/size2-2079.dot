@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2079,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="rjdkolb-jozijug_phonegapdemo~/rjdkolb-jozijug_phonegapdemo/jozijug_phonegapdemo-master/src/main/java/org/openrap/jozijug/mgwtphonegap/client/PhoneGapUIEntryPoint.java~PhoneGapUIEntryPoint~4356",1="mansiT-UiBinder~/mansiT-UiBinder/UiBinder-master/uibinder/src/com/allen_sauer/gwt/dnd/client/util/DragEntryPoint.java~DragEntryPoint~3684"]
+68[label="com.google.gwt.dom.client.StyleInjector",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+66[label="VAR:com.google.gwt.dom.client.StyleInjector",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+66->68[label="OF_TYPE"]
+}

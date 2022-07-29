@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=778,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/widgets/AnswerGrid.java~AnswerGrid~430",1="Tok-Erwin~/Tok-Erwin/Erwin-master/src/main/java/erwin/client/Erwin.java~Erwin~388"]
+86[label="new RadioButton()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+87[label="VAR:com.google.gwt.user.client.ui.RadioButton",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+92[label="addValueChangeHandler()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+3[label="com.google.gwt.user.client.ui.RadioButton",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+90[label="setValue()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+87->86[label="CALL"]
+87->92[label="CALL"]
+87->90[label="CALL"]
+87->3[label="OF_TYPE"]
+}

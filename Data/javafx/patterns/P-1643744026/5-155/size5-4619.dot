@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=4619,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="HioLeong-DrawApp~/HioLeong-DrawApp/DrawApp-master/src/main/java/comp2013/hleong/drawapp/DrawApp.java~DrawApp~524",1="HioLeong-DrawApp~/HioLeong-DrawApp/DrawApp-master/src/main/java/comp2013/hleong/drawapp/DrawApp.java~void init(javafx.stage.Stage)~527"]
+21[label="javafx.scene.SnapshotParametersBuilder",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+19[label="VAR:javafx.scene.SnapshotParametersBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+20[label="build()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+22[label="VAR:javafx.scene.SnapshotParametersBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+23[label="create()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+19->21[label="OF_TYPE"]
+22->21[label="OF_TYPE"]
+19->20[label="CALL"]
+22->23[label="CALL"]
+}

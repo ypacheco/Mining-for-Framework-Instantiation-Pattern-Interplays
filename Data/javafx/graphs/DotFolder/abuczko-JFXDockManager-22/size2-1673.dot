@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1673,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.stage.Stage"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="abuczko-JFXDockManager",filePath="/abuczko-JFXDockManager/JFXDockManager-master/JFXDockManager/src/controller/FloatWindow.java",contextSignature="FloatWindow",graphId="1673"]
+0[label="controller.FloatWindow",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.stage.Stage",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

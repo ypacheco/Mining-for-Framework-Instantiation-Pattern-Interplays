@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1199,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.canvas.Canvas"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="SelfGamer-Timeline",filePath="/SelfGamer-Timeline/Timeline-master/src/de/bmsoft/timeline/drawmanager/DrawCanvas.java",contextSignature="DrawCanvas",graphId="1199"]
+0[label="de.bmsoft.timeline.drawmanager.DrawCanvas",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.canvas.Canvas",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

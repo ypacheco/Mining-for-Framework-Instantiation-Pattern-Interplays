@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=1025,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.place.shared.PlaceHistoryHandler.Historian",1="com.google.gwt.event.logical.shared.HasValueChangeHandlers"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="carlos-aguayo-html5gwthistory",filePath="/carlos-aguayo-html5gwthistory/html5gwthistory-master/src/com/dreamskiale/client/history/Html5Historian.java",contextSignature="Html5Historian",graphId="1025"]
+0[label="com.dreamskiale.client.history.Html5Historian",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.place.shared.PlaceHistoryHandler.Historian",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="com.google.gwt.event.logical.shared.HasValueChangeHandlers",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="IMPLEMENT",color=red]
+}

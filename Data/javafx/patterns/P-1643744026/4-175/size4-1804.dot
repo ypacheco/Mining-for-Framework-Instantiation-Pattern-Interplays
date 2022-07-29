@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1804,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="tarchan-ClipFX~/tarchan-ClipFX/ClipFX-master/src/com/mac/tarchan/clipfx/ClipFXController.java~ClipFXController~4467",1="taipeiben-DateTimePicker~/taipeiben-DateTimePicker/DateTimePicker-master/src/main/java/com/browniebytes/javafx/control/DateTimePickerPopup.java~DateTimePickerPopup~4456",2="jesuino-crud-frameworks~/jesuino-crud-frameworks/crud-frameworks-master/crud-frameworks-client-javafx/src/main/java/org/jugvale/crudframeworks/client/presentation/CrudframeworksPresenter.java~CrudframeworksPresenter~3311"]
+25[label="javafx.scene.control.TitledPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+24[label="FIELD:javafx.scene.control.TitledPane",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+4[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->4[label="DECLARE_FIELD"]
+0->24[label="DECLARE_FIELD"]
+24->25[label="OF_TYPE"]
+}

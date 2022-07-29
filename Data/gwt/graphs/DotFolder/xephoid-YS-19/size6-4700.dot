@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=4700,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.HorizontalPanel"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="xephoid-YS",filePath="/xephoid-YS/YS-master/src/com/ionmarkgames/ys/client/ui/NameInqueryPanel.java",contextSignature="NameInqueryPanel",graphId="4700"]
+0[label="com.ionmarkgames.ys.client.ui.NameInqueryPanel",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.HorizontalPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="button",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="com.google.gwt.user.client.ui.Button",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="field",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+5[label="com.google.gwt.user.client.ui.TextBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+0->4[label="DECLARE_FIELD"]
+4->5[label="OF_TYPE"]
+}

@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=3089,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Composite"]
+possibleCollaborationsInfo[0="3089~FIELD_DECLARATION-~com.google.gwt.user.client.ui.Composite ~com.google.gwt.uibinder.client.UiBinder ~false~false"]
+locationInfo[projectName="j78wu-HyperDex-GUI",filePath="/j78wu-HyperDex-GUI/HyperDex-GUI-master/src/com/hyperdex/web/client/view/ValueList.java",contextSignature="ValueList",graphId="3089"]
+0[label="com.hyperdex.web.client.view.ValueList",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Composite",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="uiBinder",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="com.hyperdex.web.client.view.ValueList.ValueListUiBinder",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="com.google.gwt.uibinder.client.UiBinder",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+3->4[label="IMPLEMENT",color=blue]
+2->3[label="OF_TYPE"]
+}

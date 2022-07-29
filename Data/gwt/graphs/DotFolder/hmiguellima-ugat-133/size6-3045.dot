@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=3045,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.WindowCloseListener"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="hmiguellima-ugat",filePath="/hmiguellima-ugat/ugat-master/src/org/ucp/ugat/client/common/AppModule.java",contextSignature="void addTopPanel()",graphId="3045"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.WindowCloseListener",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void addWindowCloseListener(com.google.gwt.user.client.WindowCloseListener)",vertexType="OUTSIDE_CALL",isFrameworkType=true,peripheries=2]
+3[label="com.google.gwt.user.client.Window",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="void onWindowClosed()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+5[label="java.lang.String onWindowClosing()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+2->0[label="ARGUMENT"]
+2->3[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+0->5[label="OVERRIDE"]
+}

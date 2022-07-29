@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2410,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=0]
+patternInstancesInfo[0="PatrickOtt-ReservationManager~/PatrickOtt-ReservationManager/ReservationManager-master/src/main/java/de/professional_webworkx/reservationmanager/controller/MainController.java~MainController~1080",1="warpcorebreach-AAH~/warpcorebreach-AAH/AAH-master/AAH/src/aah/ApplicationFormController.java~ApplicationFormController~4737",2="taipeiben-DateTimePicker~/taipeiben-DateTimePicker/DateTimePicker-master/src/main/java/com/browniebytes/javafx/control/DateTimePickerPopup.java~DateTimePickerPopup~4456",3="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEAjouterTypeLotController.java~CEAjouterTypeLotController~2052",4="Cslice-Province~/Cslice-Province/Province-master/ProvincialMiner/src/Provincial_Miner/Gui2.java~Gui2~260"]
+5[label="javafx.scene.control.DatePicker",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+18[label="FIELD:javafx.scene.control.DatePicker",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+24[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->18[label="DECLARE_FIELD"]
+18->5[label="OF_TYPE"]
+0->24[label="DECLARE_FIELD"]
+}

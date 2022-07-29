@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=358,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=6.0,patternRootClient=null]
+patternInstancesInfo[0="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/sound-player/src/com/akjava/gwt/hangout/soundplayer/client/HangoutSoundPlayer.java~HangoutSoundPlayer~561",1="spydon-esiade~/spydon-esiade/esiade-master/src/net/esiade/client/UpdateCore.java~void UpdateCore(java.util.ArrayList,java.util.ArrayList,java.util.ArrayList,java.util.ArrayList,int,net.esiade.client.CollisionManager,net.esiade.client.DynamicsCore,net.esiade.client.EvolutionCore,int,int,boolean,boolean,boolean,java.util.HashMap)~4509",2="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/Product.java~Product~3664",3="nakaken0629-mezamashimailgwt~/nakaken0629-mezamashimailgwt/mezamashimailgwt-master/mezamashimailgwt/src/com/appspot/mezamashimailgwt/client/Mezamashimailgwt.java~void onClick(com.google.gwt.event.dom.client.ClickEvent)~4118",4="jhudson8-gwt-jquery-ui~/jhudson8-gwt-jquery-ui/gwt-jquery-ui-master/core/gwt-jquery-ui-mobile/src/main/java/com/google/gwt/jquery/mobile/ui/base/ComplexPanel.java~ComplexPanel~3194",5="woox-serverapp~/woox-serverapp/serverapp-master/src/wooxes/net/client/Serverapp.java~Serverapp~4647"]
+1[label="com.google.gwt.user.client.ui.Panel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+28[label="VAR:com.google.gwt.user.client.ui.Panel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+28->1[label="OF_TYPE"]
+}

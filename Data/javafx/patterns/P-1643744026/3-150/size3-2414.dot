@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2414,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="suxue-tetris~/suxue-tetris/tetris-master/src/tetris/core/Game.java~Timer~4352",1="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/SliderTextField.java~IntField~1164"]
+5[label="javafx.beans.property.IntegerProperty",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+4[label="FIELD:javafx.beans.property.IntegerProperty",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+4->5[label="OF_TYPE"]
+0->4[label="DECLARE_FIELD"]
+}

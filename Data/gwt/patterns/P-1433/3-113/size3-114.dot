@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=114,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.cellview.client.TextColumn"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="avida-cookmaster~/avida-cookmaster/cookmaster-master/src/cookmaster/client/TableWithCells.java~void initTable()~773",1="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/administration/AdminPanel.java~com.google.gwt.user.client.ui.Widget creerListeUserPanel()~226"]
+2[label="VAR",vertexType="OUTSIDE_VARIABLE_EXPRESION",isFrameworkType=false]
+1[label="com.google.gwt.user.cellview.client.TextColumn",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+2->1[label="OF_TYPE"]
+0->2[label="ASSIGMENT"]
+0->1[label="EXTEND",color=red]
+}

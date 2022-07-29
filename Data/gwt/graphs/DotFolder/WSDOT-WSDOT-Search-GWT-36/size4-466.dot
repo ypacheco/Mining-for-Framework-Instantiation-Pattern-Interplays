@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=466,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[0="466~CLIENT_METHOD_DECLARATION-RETURN_TYPE-~com.google.gwt.core.client.JavaScriptObject ~com.google.gwt.core.client.JavaScriptObject ~false~false"]
+locationInfo[projectName="WSDOT-WSDOT-Search-GWT",filePath="/WSDOT-WSDOT-Search-GWT/WSDOT-Search-GWT-master/src/gov/wa/wsdot/search/shared/HighwayAlertsItem.java",contextSignature="HighwayAlertsItem",graphId="466"]
+0[label="gov.wa.wsdot.search.shared.HighwayAlertsItem",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+6[label="gov.wa.wsdot.search.shared.StartRoadwayLocation getStartRoadwayLocation()",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+7[label="gov.wa.wsdot.search.shared.StartRoadwayLocation",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+0->1[label="EXTEND",color=red]
+0->6[label="DECLARE_METHOD"]
+7->1[label="EXTEND",color=blue]
+6->7[label="RETURN"]
+}

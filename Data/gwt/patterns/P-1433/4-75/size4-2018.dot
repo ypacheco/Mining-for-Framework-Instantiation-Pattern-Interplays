@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2018,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="pkamenarsky-ocean~/pkamenarsky-ocean/ocean-master/src/com/eleven/client/gl/GL_hl.java~GL_hl~4312",1="pkamenarsky-ocean~/pkamenarsky-ocean/ocean-master/src/com/eleven/client/gl/GL_hl.java~void onModuleLoad()~4317"]
+57[label="gwt.g3d.client.math.MatrixStack",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+159[label="VAR:gwt.g3d.client.math.MatrixStack",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+160[label="push()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+187[label="VAR:gwt.g3d.client.math.MatrixStack",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+159->57[label="OF_TYPE"]
+159->160[label="CALL"]
+187->57[label="OF_TYPE"]
+}

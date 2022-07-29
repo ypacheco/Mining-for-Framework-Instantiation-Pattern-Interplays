@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=960,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JsArrayString"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="brychcy-gwt-jquery~/brychcy-gwt-jquery/gwt-jquery-master/src/com/xedge/jquery/client/js/JavaScriptStringArray.java~JavaScriptStringArray~929",1="highcharts4gwt-highcharts~/highcharts4gwt-highcharts/highchart-wrapper-master/src/main/java/com/github/highcharts4gwt/model/array/jso/JsoArrayString.java~JsoArrayString~1414"]
+1[label="com.google.gwt.core.client.JsArrayString",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

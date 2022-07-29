@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2149,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=13.0,patternRootClient=0]
+patternInstancesInfo[0="jasonwr-jhuep_ent_web_dev~/jasonwr-jhuep_ent_web_dev/jhuep_ent_web_dev-master/src/hw6/main/WebBuyer.java~WebBuyer~3282",1="amr390-SAT~/amr390-SAT/SAT-master/src/satcucharitas/SatMainViewController.java~SatMainViewController~1853",2="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/PrizesController.java~PrizesController~2951",3="warpcorebreach-AAH~/warpcorebreach-AAH/AAH-master/AAH/src/aah/ApplicationFormController.java~ApplicationFormController~4737",4="ajithkp560-quizmaster~/ajithkp560-quizmaster/quizmaster-master/QuizProgram_SRC/QuizProgram/src/quizprogram/SampleController.java~SampleController~1753",5="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEPaiementAttenteController.java~CEPaiementAttenteController~2025",6="Cslice-Province~/Cslice-Province/Province-master/ProvincialMiner/src/Provincial_Miner/Gui2.java~Gui2~260",7="RomeoGolf-BC~/RomeoGolf-BC/BC-master/src/romeogolf/bc/MainController.java~MainController~1142",8="matanghuy-SPCA~/matanghuy-SPCA/SPCA-master/SPCA/src/controllers/TransController.java~TransController~3572",9="Jamakasi-JMCLauncherFX~/Jamakasi-JMCLauncherFX/JMCLauncherFX-master/src/jmclauncherfx/OptionsWindowController.java~OptionsWindowController~610",10="jesuino-crud-frameworks~/jesuino-crud-frameworks/crud-frameworks-master/crud-frameworks-client-javafx/src/main/java/org/jugvale/crudframeworks/client/presentation/CrudframeworksPresenter.java~CrudframeworksPresenter~3311",11="sandeepb-CiscoECG~/sandeepb-CiscoECG/CiscoECG-master/src/ciscoECGFrontend/MyController.java~MyController~4063",12="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CECommandeController.java~CECommandeController~2084"]
+9[label="javafx.scene.control.RadioButton",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+26[label="FIELD:javafx.scene.control.RadioButton",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+40[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->26[label="DECLARE_FIELD"]
+26->9[label="OF_TYPE"]
+0->40[label="DECLARE_FIELD"]
+}

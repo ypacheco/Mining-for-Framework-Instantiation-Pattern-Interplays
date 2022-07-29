@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=412,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="lambourg-WebGallery~/lambourg-WebGallery/WebGallery-master/client/src/com/lambourg/webgallery/client/pictureview/PictureView.java~void onZoomClicked()~3565",1="lambourg-WebGallery~/lambourg-WebGallery/WebGallery-master/client/src/com/lambourg/webgallery/client/pictureview/PictureView.java~PictureView~3541"]
+7[label="com.google.gwt.user.client.ui.LayoutPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+14[label="VAR:com.google.gwt.user.client.ui.LayoutPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+11[label="VAR:com.google.gwt.user.client.ui.LayoutPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+5[label="VAR:com.google.gwt.user.client.ui.LayoutPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+8[label="VAR:com.google.gwt.user.client.ui.LayoutPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+35[label="VAR:com.google.gwt.user.client.ui.LayoutPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+14->7[label="OF_TYPE"]
+11->7[label="OF_TYPE"]
+35->7[label="OF_TYPE"]
+5->7[label="OF_TYPE"]
+8->7[label="OF_TYPE"]
+}

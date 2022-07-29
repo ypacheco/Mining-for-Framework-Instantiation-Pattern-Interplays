@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4537,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/EventManager.java~EventManager~2931",1="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/EventManager.java~void start(javafx.stage.Stage)~2932"]
+10[label="new ExitDialog()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+11[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+12[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+13[label="javafx.fxml.Initializable",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+11->12[label="OF_TYPE"]
+12->13[label="IMPLEMENT",color=blue]
+11->10[label="CALL"]
+}

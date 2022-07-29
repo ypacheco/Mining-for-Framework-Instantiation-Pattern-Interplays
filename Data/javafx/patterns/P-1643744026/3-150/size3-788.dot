@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=788,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=11.0,patternRootClient=null]
+patternInstancesInfo[0="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/Plugins/PluginsController.java~PluginsController~2568",1="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/NiconImage/NiconImageFXMLController.java~NiconImageFXMLController~2548",2="candybibby-Snake~/candybibby-Snake/Snake-master/src/graphicsJavaFX/Controller.java~Controller~2239",3="ajithkp560-quizmaster~/ajithkp560-quizmaster/quizmaster-master/QuizProgram_SRC/QuizAdmin/src/designController.java~designController~1749",4="mrempala-sp~/mrempala-sp/sp-master/src/application/VcSequenceEditor.java~VcSequenceEditor~3686",5="diogocs1-FPessoais~/diogocs1-FPessoais/FPessoais-master/FinancasPessoais/src/app/Main.java~Main~2485",6="timyates-ShadowFX~/timyates-ShadowFX/ShadowFX-master/src/main/java/com/bloidonia/shadowtest/presentation/main/MainPresenter.java~MainPresenter~4549",7="sk44-javafx-gallery~/sk44-javafx-gallery/javafx-gallery-master/src/main/java/sk44/jfxgallery/controllers/SeparatedImageWindowController.java~SeparatedImageWindowController~4199",8="a1153tm-FXProtoType~/a1153tm-FXProtoType/FXProtoType-master/src/prototype/LoginController.java~LoginController~1658",9="jesuino-crud-frameworks~/jesuino-crud-frameworks/crud-frameworks-master/crud-frameworks-client-javafx/src/main/java/org/jugvale/crudframeworks/client/presentation/CrudframeworksPresenter.java~CrudframeworksPresenter~3311",10="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/DesktopViewer/DesktopViewerController.java~DesktopViewerController~2537"]
+5[label="javafx.scene.layout.AnchorPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+12[label="FIELD:javafx.scene.layout.AnchorPane",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+16[label="FIELD:javafx.scene.layout.AnchorPane",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+12->5[label="OF_TYPE"]
+16->5[label="OF_TYPE"]
+}

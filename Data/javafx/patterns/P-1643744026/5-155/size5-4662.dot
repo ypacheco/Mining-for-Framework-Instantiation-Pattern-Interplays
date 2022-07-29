@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=4662,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/EventSelectionDialogController.java~EventSelectionDialogController~2934",1="sannies-isoviewer-fx~/sannies-isoviewer-fx/isoviewer-fx-master/src/main/java/Example.java~javafx.scene.control.TreeItem createNode(java.lang.String)~4067"]
+294[label="PARAMETER:javafx.collections.ObservableList",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+293[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+308[label="VAR:ANONYMOUS",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+309[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+295[label="javafx.collections.ObservableList",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+308->309[label="OF_TYPE"]
+294->295[label="OF_TYPE"]
+293->294[label="PARAMETER"]
+293->308[label="INSTANTIATE"]
+}

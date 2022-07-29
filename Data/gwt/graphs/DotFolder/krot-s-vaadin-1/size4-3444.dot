@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=3444,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.vaadin.terminal.gwt.server.AbstractApplicationServlet"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="krot-s-vaadin",filePath="/krot-s-vaadin/vaadin-master/src/main/java/com/pls/ui/guice/GuiceApplicationServlet.java",contextSignature="GuiceApplicationServlet",graphId="3444"]
+0[label="main.java.com.pls.ui.guice.GuiceApplicationServlet",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.vaadin.terminal.gwt.server.AbstractApplicationServlet",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="java.lang.Class getApplicationClass()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="com.vaadin.Application getNewApplication(javax.servlet.http.HttpServletRequest)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+0->3[label="OVERRIDE"]
+}

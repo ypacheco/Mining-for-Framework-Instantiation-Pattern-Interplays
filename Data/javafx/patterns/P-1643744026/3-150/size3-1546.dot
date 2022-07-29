@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1546,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.animation.AnimationTimer"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="Quillraven-Legend-of-the-druids~/Quillraven-Legend-of-the-druids/Legend-of-the-druids-master/Legend of the Druids/src/com/lotd/core/GameLoop.java~GameLoop~1108",1="suxue-tetris~/suxue-tetris/tetris-master/src/tetris/core/Game.java~Timer~4352"]
+1[label="javafx.animation.AnimationTimer",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+6[label="void handle(long)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->6[label="OVERRIDE"]
+0->1[label="EXTEND",color=red]
+}

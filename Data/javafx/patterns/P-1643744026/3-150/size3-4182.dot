@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4182,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="geyrix57-Proyecto_1_Bases~/geyrix57-Proyecto_1_Bases/Proyecto_1_Bases-master/src/Control/TablespaceControl.java~TablespaceControl~2708",1="geyrix57-Proyecto_1_Bases~/geyrix57-Proyecto_1_Bases/Proyecto_1_Bases-master/src/Control/TablespaceControl.java~void update(java.util.Observable,java.lang.Object)~2709"]
+90[label="javafx.scene.chart.PieChart.Data",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+88[label="VAR:javafx.scene.chart.PieChart.Data",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+107[label="getPieValue()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+88->90[label="OF_TYPE"]
+88->107[label="CALL"]
+}

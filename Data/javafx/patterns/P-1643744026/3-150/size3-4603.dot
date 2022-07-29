@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4603,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="svadlamudi-GaussJordanElimination~/svadlamudi-GaussJordanElimination/GaussJordanElimination-master/src/gauss/jordan/elimination/MatrixInterface.java~MatrixInterface~4379",1="mreina-programmer~/mreina-programmer/programmer-master/Clases/src/view/controlador/ControladorVentana.java~ControladorVentana~3664"]
+22[label="javafx.scene.control.TableView.TableViewSelectionModel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+20[label="VAR:javafx.scene.control.TableView.TableViewSelectionModel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+21[label="setCellSelectionEnabled()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+20->21[label="CALL"]
+20->22[label="OF_TYPE"]
+}

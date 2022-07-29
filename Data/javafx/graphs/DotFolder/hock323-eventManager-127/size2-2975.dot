@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=2975,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.ListCell"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="hock323-eventManager",filePath="/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/AnnouncementsController.java",contextSignature="ComposeDefinedAnnouncementCell",graphId="2975"]
+0[label="eventManager.controller.pokerTournament.AnnouncementsController.ComposeDefinedAnnouncementCell",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.ListCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

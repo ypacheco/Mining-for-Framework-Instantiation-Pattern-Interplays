@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1403,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="BryceLawrence-Tableiness~/BryceLawrence-Tableiness/Tableiness-master/src/truthtablegenerator/GUI.java~GUI~179",1="Tsaru-Java-MP3-Visualizations~/Tsaru-Java-MP3-Visualizations/Java-MP3-Visualizations-master/mp3 Visualization/src/VisualizationInterface.java~VisualizationInterface~1511"]
+10[label="FIELD:javafx.scene.layout.BorderPane",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+175[label="VAR:javafx.scene.layout.BorderPane",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+6[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+16[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->6[label="DECLARE_FIELD"]
+0->10[label="DECLARE_FIELD"]
+0->16[label="DECLARE_FIELD"]
+10->175[label="REFERENCE"]
+}

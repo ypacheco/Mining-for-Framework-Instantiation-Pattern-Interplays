@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=592,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="akjava-GWT-Hangouts",filePath="/akjava-GWT-Hangouts/GWT-Hangouts-master/src/com/akjava/gwt/lib/hangouts/client/av/effects/AudioResourceParameter.java",contextSignature="AudioResourceParameter",graphId="592"]
+0[label="com.akjava.gwt.lib.hangouts.client.av.effects.AudioResourceParameter",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

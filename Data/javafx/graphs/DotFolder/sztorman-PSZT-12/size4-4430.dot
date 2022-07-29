@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=4430,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.VBox"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="sztorman-PSZT",filePath="/sztorman-PSZT/PSZT-master/src/Freedom.java",contextSignature="GameSkin",graphId="4430"]
+0[label="GameSkin",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.VBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="anchorPane",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.scene.layout.AnchorPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+}

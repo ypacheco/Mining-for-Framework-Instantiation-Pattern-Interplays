@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=2235,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/NiconImage/NiconImageFXMLController.java~NiconImageFXMLController~2548",1="JCake-CoupGameProgram~/JCake-CoupGameProgram/CoupGameProgram-master/src/game/remote/PlayerUi.java~PlayerUi~579",2="RomeoGolf-BC~/RomeoGolf-BC/BC-master/src/romeogolf/bc/MainController.java~MainController~1142"]
+70[label="FIELD:javafx.scene.control.ScrollPane",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+71[label="javafx.scene.control.ScrollPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+28[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+10[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->28[label="DECLARE_FIELD"]
+0->10[label="DECLARE_FIELD"]
+0->70[label="DECLARE_FIELD"]
+70->71[label="OF_TYPE"]
+}

@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=4340,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="LichuanLu-ShunUI-FX~/LichuanLu-ShunUI-FX/ShunUI-FX-master/src/view/chart/StackedBarChart.java~StackedBarChart~811",1="TomaszKorecki-InvestorAssistant~/TomaszKorecki-InvestorAssistant/InvestorAssistant-master/Investor's assistant/src/investor/charts/CandleChart.java~CandleStickChart~1473",2="philippone-EMGClassifier~/philippone-EMGClassifier/EMGClassifier-master/src/gui/EMGClassifierGUI.java~EMGClassifierGUI~3875"]
+22[label="javafx.scene.chart.Axis",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+125[label="VAR:javafx.scene.chart.Axis",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+75[label="VAR:javafx.scene.chart.Axis",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+44[label="VAR:javafx.scene.chart.Axis",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+27[label="VAR:javafx.scene.chart.Axis",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+27->22[label="OF_TYPE"]
+44->22[label="OF_TYPE"]
+125->22[label="OF_TYPE"]
+75->22[label="OF_TYPE"]
+}

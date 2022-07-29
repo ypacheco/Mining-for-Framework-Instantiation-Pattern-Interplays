@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1038,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="Marcio-Sistemas-MC-repositorio~/Marcio-Sistemas-MC-repositorio/repositorio-master/controleorcamentofamiliar/src/util/ScreensController.java~ScreensController~891",1="antoniotorres-CAPOS~/antoniotorres-CAPOS/CAPOS-master/src/main/ScreensController.java~ScreensController~1873",2="Totenfluch-TPrivateChat-Client~/Totenfluch-TPrivateChat-Client/TPrivateChat-Client-master/TPvtChat-C/src/me/Totenfluch/pack/Main.java~void start(javafx.stage.Stage)~1485"]
+76[label="new Timeline()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+48[label="VAR:javafx.animation.Timeline",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+66[label="play()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+48->76[label="CALL"]
+48->66[label="CALL"]
+}

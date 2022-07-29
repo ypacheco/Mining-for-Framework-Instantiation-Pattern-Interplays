@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3634,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.rpc.RemoteService"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="lptr-csopibeszi",filePath="/lptr-csopibeszi/csopibeszi-master/src/main/java/hu/lptr/test/gae/csopibeszi/client/MessagesService.java",contextSignature="MessagesService",graphId="3634"]
+0[label="main.java.hu.lptr.test.gae.csopibeszi.client.MessagesService",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.rpc.RemoteService",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

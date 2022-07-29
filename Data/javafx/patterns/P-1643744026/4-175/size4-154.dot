@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=154,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=16.0,patternRootClient=null]
+patternInstancesInfo[0="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/BlindsController.java~BlindsController~2976",1="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/FormatController.java~FormatController~2993",2="if12b051-SWP_Paint~/if12b051-SWP_Paint/SWP_Paint-master/SWP_Paint/src/gui/MainController.java~MainController~3089",3="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEGestionRemisesController.java~CEGestionRemisesController~2018",4="nablex-jfx-control-date~/nablex-jfx-control-date/jfx-control-date-master/src/main/java/be/nabu/jfx/control/date/DatePicker.java~DatePicker~3721",5="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEAjouterTypeLotController.java~CEAjouterTypeLotController~2052",6="suxue-tetris~/suxue-tetris/tetris-master/src/tetris/core/UIController.java~UIController~4358",7="amau-classifier~/amau-classifier/classifier-master/src/main/java/me/data/DataController.java~DataController~1800",8="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEPrincipalController.java~CEPrincipalController~2114",9="markosankovic-CP1401901_BUCKeUSBAccessory~/markosankovic-CP1401901_BUCKeUSBAccessory/CP1401901_BUCKeUSBAccessory-master/src/main/java/com/synapticon/buckeusbaccessory/FXMLController.java~FXMLController~3534",10="Totenfluch-TPrivateChat-Client~/Totenfluch-TPrivateChat-Client/TPrivateChat-Client-master/TPvtChat-C/src/me/Totenfluch/pack/Main.java~Main~1483",11="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/TournamentController.java~TournamentController~3009",12="gossipgirls-spacetraders~/gossipgirls-spacetraders/spacetraders-master/src/spacetraders/NewGameController.java~NewGameController~2775",13="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CECommandeController.java~CECommandeController~2084",14="AaronJRubin-javafx-pong~/AaronJRubin-javafx-pong/javafx-pong-master/src/main/java/Main.java~Main~91",15="didygo-gce-display~/didygo-gce-display/gce-display-master/src/proto1/DashBoard.java~DashBoard~2407"]
+174[label="javafx.beans.value.ChangeListener",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+201[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+314[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+371[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+201->174[label="IMPLEMENT",color=blue]
+314->174[label="IMPLEMENT",color=blue]
+371->174[label="IMPLEMENT",color=blue]
+}

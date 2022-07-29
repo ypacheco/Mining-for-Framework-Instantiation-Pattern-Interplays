@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1000,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="burrsutter-gwt-hellodata",filePath="/burrsutter-gwt-hellodata/gwt-hellodata-master/src/main/java/org/jboss/as/quickstarts/gwthelloworld/client/local/HelloResponse.java",contextSignature="HelloResponse",graphId="1000"]
+0[label="main.java.org.jboss.as.quickstarts.gwthelloworld.client.local.HelloResponse",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

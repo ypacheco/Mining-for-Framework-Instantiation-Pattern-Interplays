@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=958,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="PatrickOtt-ReservationManager~/PatrickOtt-ReservationManager/ReservationManager-master/src/main/java/de/professional_webworkx/reservationmanager/controller/MainController.java~MainController~1080",1="demibenari-cd-catalog~/demibenari-cd-catalog/cd-catalog-master/src/cd/catalog/MainFormController.java~MainFormController~2392"]
+6[label="FIELD:javafx.scene.control.CheckBox",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+16[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+18[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+20[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+24[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->20[label="DECLARE_FIELD"]
+0->16[label="DECLARE_FIELD"]
+0->24[label="DECLARE_FIELD"]
+0->18[label="DECLARE_FIELD"]
+0->6[label="DECLARE_FIELD"]
+}

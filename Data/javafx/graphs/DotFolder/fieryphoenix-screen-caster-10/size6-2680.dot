@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=2680,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.concurrent.Task"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="fieryphoenix-screen-caster",filePath="/fieryphoenix-screen-caster/screen-caster-master/ScreenCaster/src/by/bsuir/zuyeu/controller/ConnectController.java",contextSignature="OpenSessionTask",graphId="2680"]
+0[label="by.bsuir.zuyeu.controller.ConnectController.OpenSessionTask",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.concurrent.Task",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="java.lang.Void call()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="shareRoomNumber",vertexType="VARIABLE_EXPRESION",isFrameworkType=true,peripheries=2,shape=circle]
+5[label="javafx.scene.control.TextInputControl",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="setText()",vertexType="INSIDE_CALL",isFrameworkType=true,peripheries=2,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+2->3[label="INSTANTIATE"]
+3->5[label="OF_TYPE"]
+3->4[label="CALL"]
+}

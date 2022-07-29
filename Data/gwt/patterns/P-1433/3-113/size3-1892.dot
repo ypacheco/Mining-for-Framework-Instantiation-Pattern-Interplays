@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1892,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.HistoryListener"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/ugat/client/common/AppModule.java~AppModule~3041",1="j78wu-HyperDex-GUI~/j78wu-HyperDex-GUI/HyperDex-GUI-master/src/com/hyperdex/web/client/view/HyperDex.java~HyperDex~3084"]
+2[label="com.google.gwt.user.client.HistoryListener",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+47[label="void onHistoryChanged(java.lang.String)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->2[label="IMPLEMENT",color=red]
+0->47[label="OVERRIDE"]
+}

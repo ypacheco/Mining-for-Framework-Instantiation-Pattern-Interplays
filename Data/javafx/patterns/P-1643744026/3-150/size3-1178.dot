@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1178,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="diogocs1-FPessoais~/diogocs1-FPessoais/FPessoais-master/FinancasPessoais/src/app/controllers/HomeController.java~HomeController~2490",1="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/DesktopController.java~DesktopController~2943"]
+134[label="new FXMLLoader()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+135[label="VAR:javafx.fxml.FXMLLoader",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+140[label="getController()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+135->134[label="CALL"]
+135->140[label="CALL"]
+}

@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=101,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=7.0,patternRootClient=null]
+patternInstancesInfo[0="felype87-gwt~/felype87-gwt/gwt-master/Minefield/src/com/felype/minefield/client/Minefield.java~Minefield~1311",1="ggeorgovassilis-flatbus~/ggeorgovassilis-flatbus/flatbus-master/flatbus-test/src/main/java/com/bazarooma/flatbus/demo/ui/SummaryWidget.java~SummaryWidget~1349",2="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/hangout-test/src/com/akjava/gwt/hangout/test2/client/LayoutTest.java~LayoutTest~530",3="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/view/QuestionView.java~QuestionView~425",4="Tok-Erwin~/Tok-Erwin/Erwin-master/src/main/java/erwin/client/Erwin.java~Erwin~388",5="mrsmastara-home~/mrsmastara-home/home-master/youtube/src/main/java/com/youtube/play/client/local/KitchenSink.java~KitchenSink~4059",6="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/Balloon.java~Balloon~2986"]
+5[label="com.google.gwt.user.client.ui.Label",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+14[label="FIELD:com.google.gwt.user.client.ui.Label",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+4[label="FIELD:com.google.gwt.user.client.ui.Label",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+18[label="FIELD:com.google.gwt.user.client.ui.Label",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+4->5[label="OF_TYPE"]
+18->5[label="OF_TYPE"]
+14->5[label="OF_TYPE"]
+}

@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1015,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=null]
+patternInstancesInfo[0="prashker-KingsSGF~/prashker-KingsSGF/KingsSGF-master/src/uiSam/ChatView.java~void initialize()~3929",1="jwhistine-cs246~/jwhistine-cs246/cs246-master/src/spiritualjournal/SpiritualJournal.java~SpiritualJournal~3414",2="kcy1860-viterbi~/kcy1860-viterbi/viterbi-master/src/ai/prob/viterbi/Driver.java~Driver~3432",3="jdtommy-NiceTail~/jdtommy-NiceTail/NiceTail-master/src/sample/RemoveLinesTask.java~RemoveLinesTask~3306",4="bfurner27-CS-246~/bfurner27-CS-246/CS-246-master/src/insightjournalapplication/InsightJournalApplication.java~InsightJournalApplication~2011"]
+9[label="javafx.scene.control.TextArea",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+7[label="VAR:javafx.scene.control.TextArea",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+7->9[label="OF_TYPE"]
+}

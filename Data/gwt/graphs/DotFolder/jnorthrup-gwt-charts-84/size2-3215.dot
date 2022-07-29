@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3215,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jnorthrup-gwt-charts",filePath="/jnorthrup-gwt-charts/gwt-charts-master/gwt-charts/src/main/java/com/googlecode/gwt/charts/client/Selection.java",contextSignature="Selection",graphId="3215"]
+0[label="main.java.com.googlecode.gwt.charts.client.Selection",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

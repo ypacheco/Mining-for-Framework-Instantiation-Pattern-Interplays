@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=187,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.FlowPanel"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/IncrementSlider.java~IncrementSlider~3645",1="lambourg-WebGallery~/lambourg-WebGallery/WebGallery-master/client/src/com/lambourg/webgallery/client/pictureview/ExifBox.java~ExifBox~3570"]
+1[label="com.google.gwt.user.client.ui.FlowPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+8[label="FIELD:com.google.gwt.user.client.ui.Label",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+4[label="FIELD:com.google.gwt.user.client.ui.Label",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+5[label="com.google.gwt.user.client.ui.Label",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->1[label="EXTEND",color=red]
+0->8[label="DECLARE_FIELD"]
+0->4[label="DECLARE_FIELD"]
+8->5[label="OF_TYPE"]
+4->5[label="OF_TYPE"]
+}

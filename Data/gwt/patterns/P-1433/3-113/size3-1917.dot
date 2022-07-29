@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1917,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="cbopp-gwt-taglist~/cbopp-gwt-taglist/gwt-taglist-master/src/main/java/com/virilis_software/gwt/taglist/client/comp/tag/TagView.java~TagView~1029",1="laaglu-lib-gwt-file~/laaglu-lib-gwt-file/lib-gwt-file-master/src/main/java/org/vectomatic/dnd/DropPanel.java~DropPanel~3455"]
+123[label="com.google.gwt.event.dom.client.DragOverEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+121[label="VAR:com.google.gwt.event.dom.client.DragOverEvent",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+122[label="getType()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+121->123[label="OF_TYPE"]
+121->122[label="CALL"]
+}

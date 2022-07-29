@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1481,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="timeu-processing-js-gwt~/timeu-processing-js-gwt/processing-js-gwt-master/processingjs-gwt/src/main/java/com/github/timeu/gwtlibs/processingjsgwt/client/Processing.java~void load(com.google.gwt.resources.client.ExternalTextResource,java.lang.Runnable)~4545",1="akjava-WebTestMaker~/akjava-WebTestMaker/WebTestMaker-master/src/com/akjava/gwt/webtestmaker/client/WebTestMaker.java~void onModuleLoad()~662"]
+6[label="com.google.gwt.resources.client.TextResource",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+5[label="PARAMETER:com.google.gwt.resources.client.TextResource",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+5->6[label="OF_TYPE"]
+}

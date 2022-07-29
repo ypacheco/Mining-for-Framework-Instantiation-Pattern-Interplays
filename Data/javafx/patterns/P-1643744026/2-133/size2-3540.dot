@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=3540,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.shape.Polygon"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=0]
+patternInstancesInfo[0="aydex-TDT4100~/aydex-TDT4100/TDT4100-master/src/oving8/Asteroid.java~Asteroid~1978",1="aydex-TDT4100~/aydex-TDT4100/TDT4100-master/src/oving8/SpaceShip.java~SpaceShip~1979",2="aydex-TDT4100~/aydex-TDT4100/TDT4100-master/src/oving8/SpaceObject.java~SpaceObject~1976",3="aydex-TDT4100~/aydex-TDT4100/TDT4100-master/src/oving8/BaseSpaceObject.java~BaseSpaceObject~1982"]
+1[label="javafx.scene.shape.Polygon",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=913,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="bradrydzewski-gwt-filesystem",filePath="/bradrydzewski-gwt-filesystem/gwt-filesystem-master/gwt-filesystem/src/main/java/com/google/gwt/filesystem/client/FileError.java",contextSignature="FileError",graphId="913"]
+0[label="main.java.com.google.gwt.filesystem.client.FileError",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

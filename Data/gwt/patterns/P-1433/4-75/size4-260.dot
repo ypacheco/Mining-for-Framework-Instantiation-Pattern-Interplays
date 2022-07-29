@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=260,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="svandecappelle-AppriseGwt~/svandecappelle-AppriseGwt/AppriseGwt-master/src/main/java/com/mizore/gwt/apprise/client/Popup.java~Popup~4518",1="jnorthrup-gwt-charts~/jnorthrup-gwt-charts/gwt-charts-master/gwt-charts/src/main/java/com/googlecode/gwt/charts/client/controls/Dashboard.java~Dashboard~3233",2="jnorthrup-gwt-charts~/jnorthrup-gwt-charts/gwt-charts-master/gwt-charts/src/main/java/com/googlecode/gwt/charts/client/ChartWidget.java~ChartWidget~3216",3="lambourg-WebGallery~/lambourg-WebGallery/WebGallery-master/client/src/com/lambourg/webgallery/client/widgets/ExpandingTextArea.java~ExpandingTextArea~3594"]
+29[label="com.google.gwt.core.client.Scheduler.ScheduledCommand",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+28[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+48[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+47[label="VAR:ANONYMOUS",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+48->29[label="IMPLEMENT",color=blue]
+28->29[label="IMPLEMENT",color=blue]
+47->48[label="OF_TYPE"]
+}

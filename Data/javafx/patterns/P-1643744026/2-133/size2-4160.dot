@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=4160,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="jalbertcruz-Documentation-manager~/jalbertcruz-Documentation-manager/Documentation-manager-master/src/documentation/manager/DocumentationManager.java~DocumentationManager~3242",1="yorlov-VirtualPointer~/yorlov-VirtualPointer/VirtualPointer-master/src/com/blogspot/captain1653/options/OptionsStage.java~OptionsStage~4889",2="MattMatero-KanjiQuiz~/MattMatero-KanjiQuiz/KanjiQuiz-master/src/Kanji.java~Kanji~899"]
+130[label="javafx.scene.control.TextFieldBuilder",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+128[label="VAR:javafx.scene.control.TextFieldBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+128->130[label="OF_TYPE"]
+}

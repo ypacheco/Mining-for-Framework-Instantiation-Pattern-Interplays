@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1549,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=11.0,patternRootClient=0]
+patternInstancesInfo[0="amonker-AmonkerFX~/amonker-AmonkerFX/AmonkerFX-master/src/cn/jingyun/javafx/amonker/ui/AmonkerUIApplication.java~AmonkerUIApplication~1831",1="svadlamudi-GaussJordanElimination~/svadlamudi-GaussJordanElimination/GaussJordanElimination-master/src/gauss/jordan/elimination/CloseController.java~CloseController~4388",2="LichuanLu-ShunUI-FX~/LichuanLu-ShunUI-FX/ShunUI-FX-master/src/dialog/Dialog.java~Dialog~787",3="JCake-CoupGameProgram~/JCake-CoupGameProgram/CoupGameProgram-master/src/game/remote/PlayerUi.java~PlayerUi~579",4="walker-clint-AIProj3~/walker-clint-AIProj3/AIProj3-master/src/application/GameBoardController.java~GameBoardController~4712",5="mathiasj33-VocLearn~/mathiasj33-VocLearn/VocLearn-master/src/net/softwarepage/voclearn/code/Gui.java~Gui~3576",6="yaw-javafx-jpa-crud~/yaw-javafx-jpa-crud/javafx-jpa-crud-master/src/main/java/br/com/yaw/jfx/ui/Dialog.java~Dialog~4875",7="JCake-CoupGameProgram~/JCake-CoupGameProgram/CoupGameProgram-master/src/game/ui/javafx/IndividualPlayer.java~IndividualPlayer~596",8="didygo-gce-display~/didygo-gce-display/gce-display-master/src/proto1/DashBoard.java~DashBoard~2407",9="Cslice-Province~/Cslice-Province/Province-master/ProvincialMiner/src/Provincial_Miner/Gui2.java~Gui2~260",10="FloconDeNeige-Programme-Cyprien~/FloconDeNeige-Programme-Cyprien/Programme-Cyprien-master/CYPRIEN/src/name/antonsmirnov/javafx/dialog/Dialog.java~Dialog~474"]
+20[label="FIELD:javafx.scene.Scene",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+28[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->28[label="DECLARE_FIELD"]
+0->20[label="DECLARE_FIELD"]
+}

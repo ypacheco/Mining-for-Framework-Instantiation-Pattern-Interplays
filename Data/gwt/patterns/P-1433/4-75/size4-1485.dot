@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1485,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="akjava-GWTRecorderjs~/akjava-GWTRecorderjs/GWTRecorderjs-master/src/com/akjava/gwt/recorder/client/GWTRecorder.java~void onModuleLoad()~643",1="akjava-GWTRecorderjs~/akjava-GWTRecorderjs/GWTRecorderjs-master/src/com/akjava/gwt/recorder/client/GWTRecorder.java~GWTRecorder~639"]
+21[label="com.google.gwt.media.client.MediaBase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+19[label="VAR:com.google.gwt.media.client.MediaBase",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+23[label="play()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+20[label="addSource()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+19->20[label="CALL"]
+19->21[label="OF_TYPE"]
+19->23[label="CALL"]
+}

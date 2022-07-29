@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3157,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jhudson8-gwt-jquery-ui",filePath="/jhudson8-gwt-jquery-ui/gwt-jquery-ui-master/core/gwt-jquery-ui-mobile/src/main/java/com/google/gwt/event/logical/shared/Touch.java",contextSignature="Touch",graphId="3157"]
+0[label="main.java.com.google.gwt.event.logical.shared.Touch",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

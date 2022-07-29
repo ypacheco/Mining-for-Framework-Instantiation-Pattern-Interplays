@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4377,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.IsWidget"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="rjdkolb-jozijug_phonegapdemo",filePath="/rjdkolb-jozijug_phonegapdemo/jozijug_phonegapdemo-master/src/main/java/org/openrap/jozijug/mgwtphonegap/client/activities/ShowCaseListView.java",contextSignature="ShowCaseListView",graphId="4377"]
+0[label="main.java.org.openrap.jozijug.mgwtphonegap.client.activities.ShowCaseListView",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.IsWidget",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=2386,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=0]
+patternInstancesInfo[0="diogocs1-FPessoais~/diogocs1-FPessoais/FPessoais-master/FinancasPessoais/src/app/controllers/CadastroContaController.java~CadastroContaController~2503",1="diogocs1-FPessoais~/diogocs1-FPessoais/FPessoais-master/FinancasPessoais/src/app/controllers/PagtoController.java~PagtoController~2501",2="diogocs1-FPessoais~/diogocs1-FPessoais/FPessoais-master/FinancasPessoais/src/app/controllers/HomeController.java~HomeController~2490",3="diogocs1-FPessoais~/diogocs1-FPessoais/FPessoais-master/FinancasPessoais/src/app/controllers/CadastroDespesaController.java~CadastroDespesaController~2506"]
+160[label="javafx.scene.control.Dialogs",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+158[label="VAR:javafx.scene.control.Dialogs",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+81[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+24[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->24[label="DECLARE_FIELD"]
+158->160[label="OF_TYPE"]
+81->158[label="INSTANTIATE"]
+0->81[label="OVERRIDE"]
+}

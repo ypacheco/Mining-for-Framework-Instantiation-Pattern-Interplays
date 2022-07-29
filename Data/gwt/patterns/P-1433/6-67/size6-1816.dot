@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1816,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/AlgebrApp.java~AlgebrApp~3667",1="chrte-TemperatureWatcher~/chrte-TemperatureWatcher/TemperatureWatcher-master/src/com/google/gwt/sample/stockwatcher/client/TemperatureWatcher.java~TemperatureWatcher~1066"]
+125[label="new PopupPanel()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+126[label="VAR:com.google.gwt.user.client.ui.PopupPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+172[label="center()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+170[label="add()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+127[label="com.google.gwt.user.client.ui.PopupPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+180[label="hide()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+126->127[label="OF_TYPE"]
+126->170[label="CALL"]
+126->172[label="CALL"]
+126->180[label="CALL"]
+126->125[label="CALL"]
+}

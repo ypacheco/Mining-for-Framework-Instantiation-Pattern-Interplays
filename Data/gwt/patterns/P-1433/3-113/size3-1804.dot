@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1804,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="woox-serverapp~/woox-serverapp/serverapp-master/src/wooxes/net/shared/Ordinador.java~com.google.gwt.user.client.ui.Panel getPanel()~4663",1="avida-cookmaster~/avida-cookmaster/cookmaster-master/src/cookmaster/client/Cookmaster.java~Cookmaster~769",2="woox-serverapp~/woox-serverapp/serverapp-master/src/wooxes/net/shared/Ordinador.java~Ordinador~4662"]
+7[label="new TabLayoutPanel()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+8[label="VAR:com.google.gwt.user.client.ui.TabLayoutPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+21[label="add()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+8->21[label="CALL"]
+8->7[label="CALL"]
+}

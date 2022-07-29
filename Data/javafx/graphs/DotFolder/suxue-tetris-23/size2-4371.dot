@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4371,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.ToggleButton"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="suxue-tetris",filePath="/suxue-tetris/tetris-master/src/tetris/ui/AltToggleButton.java",contextSignature="AltToggleButton",graphId="4371"]
+0[label="tetris.ui.AltToggleButton",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.ToggleButton",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

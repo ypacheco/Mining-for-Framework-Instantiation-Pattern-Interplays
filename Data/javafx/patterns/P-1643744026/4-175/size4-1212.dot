@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1212,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/PrizesController.java~PrizesController~2951",1="sebbafer-Sebanana~/sebbafer-Sebanana/Sebanana-master/src/sebanana/views/instellingenwin/InstellingenController.java~InstellingenController~4137"]
+5[label="javafx.scene.control.ChoiceBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+16[label="VAR:javafx.scene.control.ChoiceBox",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+20[label="getItems()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+17[label="getItems()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+16->20[label="CALL"]
+16->5[label="OF_TYPE"]
+16->17[label="CALL"]
+}

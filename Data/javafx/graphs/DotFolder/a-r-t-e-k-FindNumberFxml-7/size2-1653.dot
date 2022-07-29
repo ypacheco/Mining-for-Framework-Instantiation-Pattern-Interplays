@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1653,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.stage.Stage"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="a-r-t-e-k-FindNumberFxml",filePath="/a-r-t-e-k-FindNumberFxml/FindNumberFxml-master/src/pl/zdzymira/findnumberfxml/view/FxmlPresenterAbstract.java",contextSignature="FxmlPresenterAbstract",graphId="1653"]
+0[label="pl.zdzymira.findnumberfxml.view.FxmlPresenterAbstract",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.stage.Stage",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

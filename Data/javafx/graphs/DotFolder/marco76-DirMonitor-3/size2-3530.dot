@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3530,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.TableView"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="marco76-DirMonitor",filePath="/marco76-DirMonitor/DirMonitor-master/src/ch/javaee/dirMonitor/demo/DemoTableViewAdapter.java",contextSignature="DemoTableViewAdapter",graphId="3530"]
+0[label="ch.javaee.dirMonitor.demo.DemoTableViewAdapter",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.TableView",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

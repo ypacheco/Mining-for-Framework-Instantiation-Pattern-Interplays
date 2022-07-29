@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3215,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.VBox"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="ireardon-cs32-final",filePath="/ireardon-cs32-final/cs32-final-master/src/edu/brown/cs32/final_group/fx/DialogBox.java",contextSignature="DialogBox",graphId="3215"]
+0[label="edu.brown.cs32.final_group.fx.DialogBox",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.VBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2143,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="davelet-InternationalChess-JavaFX2~/davelet-InternationalChess-JavaFX2/InternationalChess-JavaFX2-master/src/cn/davelet/internationalchess/InternationalChess.java~void start(javafx.stage.Stage)~2370",1="davelet-InternationalChess-JavaFX2~/davelet-InternationalChess-JavaFX2/InternationalChess-JavaFX2-master/src/cn/davelet/internationalchess/InternationalChess.java~InternationalChess~2344"]
+24[label="javafx.scene.effect.Bloom",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+23[label="VAR:javafx.scene.effect.Bloom",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+23->24[label="OF_TYPE"]
+}

@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1619,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.canvas.Canvas"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Xenoage-Labs",filePath="/Xenoage-Labs/Labs-master/JavaFXSymbolsTest/src/com/xenoage/labs/javafxsymbolstest/font/FontCanvas.java",contextSignature="FontCanvas",graphId="1619"]
+0[label="com.xenoage.labs.javafxsymbolstest.font.FontCanvas",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.canvas.Canvas",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

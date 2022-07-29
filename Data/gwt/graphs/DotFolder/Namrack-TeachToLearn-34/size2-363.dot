@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=363,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.smartgwt.client.widgets.layout.VLayout"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Namrack-TeachToLearn",filePath="/Namrack-TeachToLearn/TeachToLearn-master/TeachToLearn/src/ttl/client/layout/widgets/BodyWidget.java",contextSignature="BodyWidget",graphId="363"]
+0[label="ttl.client.layout.widgets.BodyWidget",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.smartgwt.client.widgets.layout.VLayout",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

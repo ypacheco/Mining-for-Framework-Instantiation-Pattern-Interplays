@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3192,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.TextBox"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jhudson8-gwt-jquery-ui",filePath="/jhudson8-gwt-jquery-ui/gwt-jquery-ui-master/core/gwt-jquery-ui-mobile/src/main/java/com/google/gwt/jquery/mobile/ui/EmailTextBox.java",contextSignature="EmailTextBox",graphId="3192"]
+0[label="main.java.com.google.gwt.jquery.mobile.ui.EmailTextBox",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.TextBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=83,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="jounik-DashLayout~/jounik-DashLayout/DashLayout-master/src/org/vaadin/jouni/dashlayout/client/ui/VDashLayout.java~VDashLayout~3303",1="domi1wa-List-Navigation-Tree~/domi1wa-List-Navigation-Tree/List-Navigation-Tree-master/NavigationTree/src/de/navigation/tree/client/Tree.java~Tree~1283",2="jhudson8-gwt-jquery-ui~/jhudson8-gwt-jquery-ui/gwt-jquery-ui-master/core/gwt-jquery-ui-mobile/src/main/java/com/google/gwt/jquery/mobile/ui/base/ComplexPanel.java~void doLogicalClear()~3195",3="Archerw-mastermind~/Archerw-mastermind/mastermind-master/nyu-smg-mastermind/src/org/mastermind/graphics/MasterMindGraphic.java~MasterMindGraphic~29"]
+15[label="com.google.gwt.user.client.ui.Widget",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+14[label="PARAMETER:com.google.gwt.user.client.ui.Widget",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+14->15[label="OF_TYPE"]
+}

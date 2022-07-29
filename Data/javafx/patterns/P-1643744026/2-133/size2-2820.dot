@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2820,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=6.0,patternRootClient=null]
+patternInstancesInfo[0="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/GradientBuilderApp.java~GradientBuilderApp~1189",1="yorlov-VirtualPointer~/yorlov-VirtualPointer/VirtualPointer-master/src/com/blogspot/captain1653/options/OptionsStage.java~OptionsStage~4889",2="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/RadialSettingsLayout.java~RadialSettingsLayout~1170",3="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/AbstractSettingsLayout.java~AbstractSettingsLayout~1175",4="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/LinearSettingsLayout.java~LinearSettingsLayout~1172",5="amonker-AmonkerFX~/amonker-AmonkerFX/AmonkerFX-master/src/cn/jingyun/javafx/amonker/ui/ButtonStyles.java~ButtonStyles~1840"]
+38[label="javafx.scene.layout.PaneBuilder",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+187[label="VAR:javafx.scene.layout.PaneBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+187->38[label="OF_TYPE"]
+}

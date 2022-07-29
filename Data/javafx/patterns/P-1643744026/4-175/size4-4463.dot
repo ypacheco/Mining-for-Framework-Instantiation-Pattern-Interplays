@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4463,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="iloop-kiosk-KIOSK-Project~/iloop-kiosk-KIOSK-Project/KIOSK-Project-master/src/oit/iloop/kiosk/kiosk_main/KioskMain.java~KioskMain~3147",1="iloop-kiosk-KIOSK-Project~/iloop-kiosk-KIOSK-Project/KIOSK-Project-master/src/oit/iloop/kiosk/kiosk_starter/KioskStarter.java~KioskStarter~3156"]
+10[label="new TopPageParent()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+11[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+8[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+9[label="javafx.scene.Parent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+8->9[label="EXTEND",color=blue]
+11->8[label="OF_TYPE"]
+11->10[label="CALL"]
+}

@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=579,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="srikarr-Woot~/srikarr-Woot/Woot-master/src/Woot.java~Woot~4256",1="regisik-Fishkers~/regisik-Fishkers/Fishkers-master/src/com/reslinski/zbigniew/fishkers/views/FishkersApp.java~FishkersApp~4019"]
+151[label="new HBox()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+152[label="VAR:javafx.scene.layout.HBox",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+162[label="setStyle()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+160[label="setSpacing()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+28[label="javafx.scene.layout.HBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+155[label="setPadding()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+152->151[label="CALL"]
+152->162[label="CALL"]
+152->28[label="OF_TYPE"]
+152->155[label="CALL"]
+152->160[label="CALL"]
+}

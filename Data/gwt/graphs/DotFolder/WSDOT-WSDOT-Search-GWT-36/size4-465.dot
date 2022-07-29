@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=465,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[0="465~CLIENT_METHOD_DECLARATION-RETURN_TYPE-~com.google.gwt.core.client.JavaScriptObject ~com.google.gwt.core.client.JavaScriptObject ~false~false"]
+locationInfo[projectName="WSDOT-WSDOT-Search-GWT",filePath="/WSDOT-WSDOT-Search-GWT/WSDOT-Search-GWT-master/src/gov/wa/wsdot/search/shared/Photos.java",contextSignature="Photos",graphId="465"]
+0[label="gov.wa.wsdot.search.shared.Photos",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="gov.wa.wsdot.search.shared.FlickrPhotos getPhotos()",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="gov.wa.wsdot.search.shared.FlickrPhotos",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_METHOD"]
+3->1[label="EXTEND",color=blue]
+2->3[label="RETURN"]
+}

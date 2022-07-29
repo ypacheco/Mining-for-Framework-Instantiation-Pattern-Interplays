@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1263,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=13.0,patternRootClient=0]
+patternInstancesInfo[0="mrempala-sp~/mrempala-sp/sp-master/src/application/VcSequencePreview.java~VcSequencePreview~3683",1="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/PrizesController.java~PrizesController~2951",2="sushkrish-CityLife~/sushkrish-CityLife/CityLife-master/src/view/StartScene.java~StartScene~4318",3="taipeiben-DateTimePicker~/taipeiben-DateTimePicker/DateTimePicker-master/src/main/java/com/browniebytes/javafx/control/DateTimePickerPopup.java~DateTimePickerPopup~4456",4="brunoborges-fx2048~/brunoborges-fx2048/fx2048-master/src/game2048/Board.java~Board~2229",5="djapal-sfvchecker~/djapal-sfvchecker/sfvchecker-master/src/gr/djapal/sfv/SFVCheckerApplication.java~SFVCheckerApplication~2512",6="RomeoGolf-BC~/RomeoGolf-BC/BC-master/src/romeogolf/bc/MainController.java~MainController~1142",7="idzik-Application-RCS~/idzik-Application-RCS/Application-RCS-master/RcsApplication/src/application/StartApplications.java~StartApplications~3069",8="HioLeong-DrawApp~/HioLeong-DrawApp/DrawApp-master/src/main/java/comp2013/hleong/drawapp/MainWindow.java~MainWindow~529",9="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/TournamentController.java~TournamentController~3009",10="BryceLawrence-Tableiness~/BryceLawrence-Tableiness/Tableiness-master/src/truthtablegenerator/GUI.java~GUI~179",11="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/DesktopViewer/DesktopViewerController.java~DesktopViewerController~2537",12="aferrandoa-valenciasprints~/aferrandoa-valenciasprints/valenciasprints-master/src/controllers/MainController.java~MainController~1711"]
+52[label="FIELD:javafx.scene.layout.HBox",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+8[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+14[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->8[label="DECLARE_FIELD"]
+0->14[label="DECLARE_FIELD"]
+0->52[label="DECLARE_FIELD"]
+}

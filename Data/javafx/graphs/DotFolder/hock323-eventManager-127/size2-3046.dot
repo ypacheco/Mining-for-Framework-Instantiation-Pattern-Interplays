@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3046,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.stage.Stage"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="hock323-eventManager",filePath="/hock323-eventManager/EventManager-master/src/eventManager/fx/ModalDialog.java",contextSignature="ModalDialog",graphId="3046"]
+0[label="eventManager.fx.ModalDialog",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.stage.Stage",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

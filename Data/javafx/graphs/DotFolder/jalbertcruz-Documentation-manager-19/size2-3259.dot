@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3259,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.TableCell"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jalbertcruz-Documentation-manager",filePath="/jalbertcruz-Documentation-manager/Documentation-manager-master/src/documentation/manager/DelButtonCell.java",contextSignature="DelButtonCell",graphId="3259"]
+0[label="documentation.manager.DelButtonCell",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.TableCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

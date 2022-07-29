@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=315,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="geyrix57-Proyecto_1_Bases~/geyrix57-Proyecto_1_Bases/Proyecto_1_Bases-master/src/Control/ControlLog.java~ControlLog~2710",1="bjornbil-reservatie~/bjornbil-reservatie/reservatie-master/ReservatieKommaFinal/src/be/khleuven/bjornbillen/controller/MainController.java~MainController~2178"]
+50[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+52[label="VAR:javafx.animation.Timeline",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+8[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->50[label="OVERRIDE"]
+0->8[label="DECLARE_FIELD"]
+50->52[label="INSTANTIATE"]
+}

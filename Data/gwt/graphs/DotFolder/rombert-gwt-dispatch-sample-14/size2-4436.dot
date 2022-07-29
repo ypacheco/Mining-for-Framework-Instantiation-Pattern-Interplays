@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4436,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="net.customware.gwt.dispatch.shared.Action"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="rombert-gwt-dispatch-sample",filePath="/rombert-gwt-dispatch-sample/gwt-dispatch-sample-master/dispatch-sample-spring/src/main/java/ro/lmn/gwt/dispatch/spring/shared/IncrementCounter.java",contextSignature="IncrementCounter",graphId="4436"]
+0[label="main.java.ro.lmn.gwt.dispatch.spring.shared.IncrementCounter",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="net.customware.gwt.dispatch.shared.Action",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

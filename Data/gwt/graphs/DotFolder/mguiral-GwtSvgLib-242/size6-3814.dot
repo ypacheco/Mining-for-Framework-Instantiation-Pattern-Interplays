@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=3814,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[0="3814~CLIENT_METHOD_DECLARATION-RETURN_TYPE-CLIENT_METHOD_DECLARATION-RETURN_TYPE-~com.google.gwt.core.client.JavaScriptObject ~com.google.gwt.dom.client.Element ~false~false"]
+locationInfo[projectName="mguiral-GwtSvgLib",filePath="/mguiral-GwtSvgLib/GwtSvgLib-master/src/gwt/html5/svg/client/core/SVGAnimatedRect.java",contextSignature="SVGAnimatedRect",graphId="3814"]
+0[label="gwt.html5.svg.client.core.SVGAnimatedRect",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="gwt.html5.svg.client.core.SVGRect getBaseVal()",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="gwt.html5.svg.client.core.SVGRect",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="com.google.gwt.dom.client.Element",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+5[label="gwt.html5.svg.client.core.SVGRect getAnimVal()",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_METHOD"]
+3->4[label="EXTEND",color=blue]
+2->3[label="RETURN"]
+0->5[label="DECLARE_METHOD"]
+5->3[label="RETURN"]
+}

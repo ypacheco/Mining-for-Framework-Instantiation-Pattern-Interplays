@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=3758,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.GridPane"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="nielsmaneschijn-8bit",filePath="/nielsmaneschijn-8bit/8bit-master/src/net/maneschijn/bleep/ui/VU.java",contextSignature="VU",graphId="3758"]
+0[label="net.maneschijn.bleep.ui.VU",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.GridPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="canvas",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.scene.canvas.Canvas",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+}

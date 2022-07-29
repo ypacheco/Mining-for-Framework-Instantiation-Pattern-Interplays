@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=2511,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.SingleSelectionModel"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="diogocs1-FPessoais",filePath="/diogocs1-FPessoais/FPessoais-master/FinancasPessoais/src/app/logica/CBModel.java",contextSignature="CBModel",graphId="2511"]
+0[label="app.logica.CBModel",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.SingleSelectionModel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="int getItemCount()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="java.lang.String getModelItem(int)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+0->3[label="OVERRIDE"]
+}

@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4541,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.resources.client.ClientBundle"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="timeu-processing-js-gwt",filePath="/timeu-processing-js-gwt/processing-js-gwt-master/processingjs-gwt-sample/src/main/java/sample/client/SampleEntryPoint.java",contextSignature="ProcessingCodeBundle",graphId="4541"]
+0[label="main.java.sample.client.SampleEntryPoint.ProcessingCodeBundle",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.resources.client.ClientBundle",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

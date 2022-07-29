@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=190,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.HasOneWidget",1="com.google.gwt.user.client.ui.IsWidget"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="svandecappelle-AppriseGwt~/svandecappelle-AppriseGwt/AppriseGwt-master/src/main/java/com/mizore/gwt/apprise/client/Apprise.java~Apprise~4515",1="svandecappelle-AppriseGwt~/svandecappelle-AppriseGwt/AppriseGwt-master/src/main/java/com/mizore/gwt/apprise/client/Popup.java~Popup~4518"]
+1[label="com.google.gwt.user.client.ui.IsWidget",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="com.google.gwt.user.client.ui.HasOneWidget",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0->2[label="IMPLEMENT",color=red]
+0->1[label="IMPLEMENT",color=red]
+}

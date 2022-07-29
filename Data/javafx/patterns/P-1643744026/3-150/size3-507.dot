@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=507,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="diogocs1-FPessoais~/diogocs1-FPessoais/FPessoais-master/FinancasPessoais/src/app/controllers/HomeController.java~HomeController~2490",1="tgregerson-lc3~/tgregerson-lc3/lc3-master/LC3Sim/src/lc3sim/ui/UIFXMain.java~UIFXMain~4520",2="sanssecours-FireWorks~/sanssecours-FireWorks/FireWorks-master/src/main/java/org/falafel/FireWorks.java~FireWorks~4081",3="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEPrincipalController.java~CEPrincipalController~2114"]
+77[label="javafx.scene.control.TableView",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+104[label="FIELD:javafx.scene.control.TableView",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+76[label="FIELD:javafx.scene.control.TableView",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+76->77[label="OF_TYPE"]
+104->77[label="OF_TYPE"]
+}

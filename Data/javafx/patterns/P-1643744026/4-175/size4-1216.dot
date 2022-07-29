@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1216,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=10.0,patternRootClient=0]
+patternInstancesInfo[0="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/Plugins/PluginsController.java~PluginsController~2568",1="candybibby-Snake~/candybibby-Snake/Snake-master/src/graphicsJavaFX/Controller.java~Controller~2239",2="cmd802-projectmain~/cmd802-projectmain/projectmain-master/GroupProject/src/topicpane/SHM.java~SHM~2292",3="Technius-Starbound-Mod-Toolkit~/Technius-Starbound-Mod-Toolkit/Starbound-Mod-Toolkit-master/src/main/java/co/technius/starboundmodtoolkit/utilui/SwappableNodePane.java~SwappableNodePane~1458",4="if12b051-SWP_Paint~/if12b051-SWP_Paint/SWP_Paint-master/SWP_Paint/src/gui/MainController.java~MainController~3089",5="soonzsoonz-QuickFoot~/soonzsoonz-QuickFoot/QuickFoot-master/src/application/FXMLAdoptionController.java~FXMLAdoptionController~4247",6="MasterGlaISTIC-aocproject~/MasterGlaISTIC-aocproject/aocproject-master/metronome/src/main/java/fr/istic/aocproject/ihm/IHMController.java~IHMController~898",7="DOOOOOM-jmpd-shared~/DOOOOOM-jmpd-shared/jmpd-shared-master/src/dooooom/jmpd/client/gui/javafx/MainViewController.java~MainViewController~294",8="Tsaru-Java-MP3-Visualizations~/Tsaru-Java-MP3-Visualizations/Java-MP3-Visualizations-master/mp3 Visualization/src/VisualizationInterface.java~VisualizationInterface~1511",9="didygo-gce-display~/didygo-gce-display/gce-display-master/src/proto1/DashBoard.java~DashBoard~2407"]
+10[label="FIELD:javafx.scene.control.Slider",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+14[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+2[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->10[label="DECLARE_FIELD"]
+0->2[label="DECLARE_FIELD"]
+0->14[label="DECLARE_FIELD"]
+}

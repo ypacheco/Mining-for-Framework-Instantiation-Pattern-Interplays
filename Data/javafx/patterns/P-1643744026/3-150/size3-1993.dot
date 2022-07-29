@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1993,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="AMITCCILGITHUB-Contacts~/AMITCCILGITHUB-Contacts/Contacts-master/Contacts/src/org/apandey/view/parts/Body.java~void initComponents()~62",1="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/Project.java~Project~1849",2="novosga-painel-fx~/novosga-painel-fx/painel-fx-master/src/org/novosga/painel/client/ui/Controller.java~Controller~3787",3="AMITCCILGITHUB-Contacts~/AMITCCILGITHUB-Contacts/Contacts-master/Contacts/src/org/apandey/view/parts/Body.java~Body~60"]
+315[label="javafx.stage.FileChooser.ExtensionFilter",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+324[label="VAR:javafx.stage.FileChooser.ExtensionFilter",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+314[label="VAR:javafx.stage.FileChooser.ExtensionFilter",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+324->315[label="OF_TYPE"]
+314->315[label="OF_TYPE"]
+}

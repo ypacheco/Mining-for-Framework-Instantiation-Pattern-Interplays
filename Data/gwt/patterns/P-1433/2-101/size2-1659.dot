@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1659,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="net.customware.gwt.dispatch.shared.Result"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="rombert-gwt-dispatch-sample~/rombert-gwt-dispatch-sample/gwt-dispatch-sample-master/dispatch-sample-spring/src/main/java/ro/lmn/gwt/dispatch/spring/shared/IncrementCounterResult.java~IncrementCounterResult~4437",1="rombert-gwt-dispatch-sample~/rombert-gwt-dispatch-sample/gwt-dispatch-sample-master/dispatch-sample-manual/src/main/java/ro/lmn/gwt/dispatch/shared/IncrementCounterResult.java~IncrementCounterResult~4432",2="rombert-gwt-dispatch-sample~/rombert-gwt-dispatch-sample/gwt-dispatch-sample-master/dispatch-sample-guice/src/main/java/ro/lmn/gwt/dispatch/guice/shared/IncrementCounterResult.java~IncrementCounterResult~4428"]
+1[label="net.customware.gwt.dispatch.shared.Result",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="IMPLEMENT",color=red]
+}

@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=814,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/AlgebrApp.java~AlgebrApp~3667",1="mansiT-UiBinder~/mansiT-UiBinder/UiBinder-master/uibinder/src/com/mansi/client/Uibinder.java~Uibinder~3685"]
+298[label="com.google.gwt.user.client.ui.ButtonBase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+296[label="VAR:com.google.gwt.user.client.ui.ButtonBase",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+296->298[label="OF_TYPE"]
+}

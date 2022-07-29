@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1297,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.beans.value.ChangeListener"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Stormwall-Schedule-Visualizer",filePath="/Stormwall-Schedule-Visualizer/Schedule-Visualizer-master/src/sv/creation/adress/MainLayoutController.java",contextSignature="void initialize()",graphId="1297"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.beans.value.ChangeListener",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void addListener(javafx.beans.value.ChangeListener)",vertexType="OUTSIDE_CALL",isFrameworkType=true,peripheries=2]
+3[label="javafx.beans.value.ObservableValue",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+4[label="void changed(javafx.beans.value.ObservableValue,java.lang.Number,java.lang.Number)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+5[label="observableValue",vertexType="PARAMETER_DECLARATION",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+2->0[label="ARGUMENT"]
+2->3[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+5->3[label="OF_TYPE"]
+4->5[label="PARAMETER"]
+}

@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=722,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Composite"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="j78wu-HyperDex-GUI~/j78wu-HyperDex-GUI/HyperDex-GUI-master/src/com/hyperdex/web/client/view/NavBar.java~NavBar~3082",1="neilsh-gwtfb~/neilsh-gwtfb/gwtfb-master/GwtFB/src/com/gwtfb/client/UserInfoViewController.java~UserInfoViewController~4138"]
+8[label="com.google.gwt.user.client.ui.Anchor",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+7[label="FIELD:com.google.gwt.user.client.ui.Anchor",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+9[label="FIELD:com.google.gwt.user.client.ui.Anchor",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Composite",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+9->8[label="OF_TYPE"]
+7->8[label="OF_TYPE"]
+0->7[label="DECLARE_FIELD"]
+0->9[label="DECLARE_FIELD"]
+0->1[label="EXTEND",color=red]
+}

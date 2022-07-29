@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1061,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.HBox"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Ollowayne-dalekPTT",filePath="/Ollowayne-dalekPTT/dalekPTT-master/src/ptt/dalek/ui/TitledLabelPair.java",contextSignature="TitledLabelPair",graphId="1061"]
+0[label="ptt.dalek.ui.TitledLabelPair",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.HBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="lContent",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.scene.control.Label",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="lTitle",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+0->4[label="DECLARE_FIELD"]
+4->3[label="OF_TYPE"]
+}

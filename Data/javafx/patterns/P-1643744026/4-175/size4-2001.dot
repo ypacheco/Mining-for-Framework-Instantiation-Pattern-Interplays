@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2001,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="svadlamudi-GaussJordanElimination~/svadlamudi-GaussJordanElimination/GaussJordanElimination-master/src/gauss/jordan/elimination/EditingTableCell.java~EditingTableCell~4374",1="gleba-cppoints~/gleba-cppoints/cppoints-master/src/cpapp/view/EditTableController.java~EditTableController~2746"]
+110[label="javafx.scene.control.TablePosition",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+164[label="VAR:javafx.scene.control.TablePosition",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+176[label="VAR:javafx.scene.control.TablePosition",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+224[label="VAR:javafx.scene.control.TablePosition",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+164->110[label="OF_TYPE"]
+224->110[label="OF_TYPE"]
+176->110[label="OF_TYPE"]
+}

@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=55,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=null]
+patternInstancesInfo[0="JoshRobertson-BFSim~/JoshRobertson-BFSim/BFSim-master/src/simulator/Simulator.java~Simulator~714",1="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLPrincipalController.java~FXMLPrincipalController~3387",2="diogocs1-FPessoais~/diogocs1-FPessoais/FPessoais-master/FinancasPessoais/src/app/controllers/HomeController.java~HomeController~2490",3="andersonolisilva-exemplo_jfx~/andersonolisilva-exemplo_jfx/exemplo_jfx-master/src/main/java/br/edu/unirn/avaliacaofx/MainApp.java~MainApp~1863",4="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLLoginController.java~FXMLLoginController~3381"]
+21[label="javafx.stage.Stage",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+20[label="FIELD:javafx.stage.Stage",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+24[label="FIELD:javafx.stage.Stage",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+20->21[label="OF_TYPE"]
+24->21[label="OF_TYPE"]
+}

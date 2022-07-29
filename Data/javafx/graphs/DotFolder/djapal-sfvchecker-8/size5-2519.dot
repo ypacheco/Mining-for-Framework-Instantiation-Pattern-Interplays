@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=2519,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.TableCell"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="djapal-sfvchecker",filePath="/djapal-sfvchecker/sfvchecker-master/src/gr/djapal/sfv/custom/SFVCellFactory.java",contextSignature="javafx.scene.control.TableCell call(javafx.scene.control.TableColumn)",graphId="2519"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.TableCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="cell",vertexType="OUTSIDE_VARIABLE_EXPRESION",isFrameworkType=true,peripheries=2]
+4[label="void updateSelected(boolean)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+5[label="super.updateSelected()",vertexType="SUPER_CALL",isFrameworkType=true,peripheries=2,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="ASSIGMENT"]
+2->1[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+4->5[label="CALL"]
+}

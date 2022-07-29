@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=4487,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.Parent"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="tasubo-javafx-chart-treemap",filePath="/tasubo-javafx-chart-treemap/javafx-chart-treemap-master/src/main/java/javafx/scene/chart/treemap/TreemapLayout.java",contextSignature="TreemapLayout",graphId="4487"]
+0[label="main.java.javafx.scene.chart.treemap.TreemapLayout",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.Parent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="anchorPane",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.scene.layout.AnchorPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+}

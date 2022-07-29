@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2097,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/RadialSettingsLayout.java~RadialSettingsLayout~1170",1="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/LinearSettingsLayout.java~LinearSettingsLayout~1172",2="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CECommandeController.java~CECommandeController~2084"]
+447[label="javafx.beans.property.BooleanProperty",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+469[label="VAR:javafx.beans.property.BooleanProperty",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+469->447[label="OF_TYPE"]
+}

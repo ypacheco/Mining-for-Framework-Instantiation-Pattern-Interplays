@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4526,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="Dieuken-rpg~/Dieuken-rpg/rpg-master/src/gui/BeginScherm.java~BeginScherm~366",1="Dieuken-rpg~/Dieuken-rpg/rpg-master/src/gui/BeginScherm.java~javafx.scene.layout.HBox addHBox()~367"]
+7[label="new HeroCreation()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+8[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+9[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+10[label="javafx.scene.layout.BorderPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+8->7[label="CALL"]
+9->10[label="EXTEND",color=blue]
+8->9[label="OF_TYPE"]
+}

@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=4588,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.animation.client.Animation"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="vlapan-PhotoBank",filePath="/vlapan-PhotoBank/PhotoBank-master/src/com/vlapan/gwt/photobank/client/animation/OpacityIncrease.java",contextSignature="OpacityIncrease",graphId="4588"]
+0[label="com.vlapan.gwt.photobank.client.animation.OpacityIncrease",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.animation.client.Animation",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void onUpdate(double)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+}

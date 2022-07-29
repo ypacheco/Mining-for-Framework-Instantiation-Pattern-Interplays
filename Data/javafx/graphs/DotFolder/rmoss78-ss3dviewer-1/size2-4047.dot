@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4047,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.geometry.Point3D"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="rmoss78-ss3dviewer",filePath="/rmoss78-ss3dviewer/ss3dviewer-master/src/ss3dviewer/PointXYZI.java",contextSignature="PointXYZI",graphId="4047"]
+0[label="ss3dviewer.PointXYZI",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.geometry.Point3D",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=756,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.Scheduler.RepeatingCommand"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="ashtonthomas-gwt-fast-touch-press",filePath="/ashtonthomas-gwt-fast-touch-press/gwt-fast-touch-press-master/src/io/ashton/fastpress/client/fast/FastPressElement.java",contextSignature="void execute()",graphId="756"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.Scheduler.RepeatingCommand",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void scheduleFixedDelay(com.google.gwt.core.client.Scheduler.RepeatingCommand,int)",vertexType="OUTSIDE_CALL",isFrameworkType=true,peripheries=2]
+3[label="com.google.gwt.core.client.Scheduler",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="boolean execute()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+2->0[label="ARGUMENT"]
+2->3[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+}

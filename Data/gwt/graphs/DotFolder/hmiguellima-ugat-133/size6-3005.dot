@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=3005,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.Command"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="hmiguellima-ugat",filePath="/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/Calendar.java",contextSignature="Calendar_ChangeListener",graphId="3005"]
+0[label="org.ucp.gwt.widgets.Calendar.Calendar_ChangeListener",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.Command",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void execute()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="dateBox",vertexType="VARIABLE_EXPRESION",isFrameworkType=true,peripheries=2,shape=circle]
+5[label="com.google.gwt.user.client.ui.ValueBoxBase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="getText()",vertexType="INSIDE_CALL",isFrameworkType=true,peripheries=2,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+2->3[label="INSTANTIATE"]
+3->5[label="OF_TYPE"]
+3->4[label="CALL"]
+}

@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1903,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.HBox"]
+possibleCollaborationsInfo[0="1903~FIELD_DECLARATION-~javafx.scene.layout.HBox ~javafx.scene.layout.HBox ~false~false"]
+locationInfo[projectName="atsticks-FXOne",filePath="/atsticks-FXOne/FXOne-master/org.fxone/fxone-ui/src/main/java/org/fxone/ui/rt/components/footer/Footer.java",contextSignature="Footer",graphId="1903"]
+0[label="main.java.org.fxone.ui.rt.components.footer.Footer",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.HBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="statusLine",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="main.java.org.fxone.ui.rt.components.footer.StatusLine",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+3->1[label="EXTEND",color=blue]
+2->3[label="OF_TYPE"]
+}

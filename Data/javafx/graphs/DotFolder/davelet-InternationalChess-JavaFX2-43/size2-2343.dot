@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=2343,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.event.ActionEvent"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="davelet-InternationalChess-JavaFX2",filePath="/davelet-InternationalChess-JavaFX2/InternationalChess-JavaFX2-master/src/cn/davelet/internationalchess/PieceAcitons.java",contextSignature="PieceAcitons",graphId="2343"]
+0[label="cn.davelet.internationalchess.PieceAcitons",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.event.ActionEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

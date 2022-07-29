@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4551,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.animation.AnimationTimer"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="timyates-ShadowFX",filePath="/timyates-ShadowFX/ShadowFX-master/src/main/java/com/bloidonia/shadowtest/presentation/main/MainPresenter.java",contextSignature="void initialize(java.net.URL,java.util.ResourceBundle)",graphId="4551"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.animation.AnimationTimer",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void start()",vertexType="OUTSIDE_CALL",isFrameworkType=true,peripheries=2]
+4[label="void handle(long)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+2->0[label="ARGUMENT"]
+2->1[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+}

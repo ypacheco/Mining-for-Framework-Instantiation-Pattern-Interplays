@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=4191,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.beans.value.ChangeListener"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="sipadan2003-JFXTreeView201312",filePath="/sipadan2003-JFXTreeView201312/JFXTreeView201312-master/src/jfxtreeview/TreeCellGraph.java",contextSignature="TextFocusHandler",graphId="4191"]
+0[label="jfxtreeview.TreeCellGraph.TextFocusHandler",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.beans.value.ChangeListener",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void changed(javafx.beans.value.ObservableValue,java.lang.Boolean,java.lang.Boolean)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="o",vertexType="PARAMETER_DECLARATION",isFrameworkType=true,peripheries=2]
+4[label="javafx.beans.value.ObservableValue",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+3->4[label="OF_TYPE"]
+2->3[label="PARAMETER"]
+}

@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=87,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="Byclosure-json-rpc-gwt~/Byclosure-json-rpc-gwt/json-rpc-gwt-master/src/main/java/net/brownpig/jsonrpc/client/JSONRPCRequestCallback.java~JSONRPCRequestCallback~51",1="dissdoc-hellogwt~/dissdoc-hellogwt/hellogwt-master/src/main/java/com/hellogwt/client/HelloGWTWidget.java~HelloGWTWidget~1273",2="jerryvig-city-data~/jerryvig-city-data/city-data-master/src/com/mktneutral/citydata/client/CityData.java~CityData~3151"]
+3[label="com.google.gwt.user.client.rpc.AsyncCallback",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+2[label="FIELD:com.google.gwt.user.client.rpc.AsyncCallback",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+}

@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=629,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[0="629~CLIENT_METHOD_DECLARATION-RETURN_TYPE-~com.google.gwt.core.client.JavaScriptObject ~com.google.gwt.core.client.JavaScriptObject ~false~false"]
+locationInfo[projectName="akjava-GWT-Hangouts",filePath="/akjava-GWT-Hangouts/GWT-Hangouts-master/src/com/akjava/gwt/lib/hangouts/client/layout/DefaultVideoFeed.java",contextSignature="DefaultVideoFeed",graphId="629"]
+0[label="com.akjava.gwt.lib.hangouts.client.layout.DefaultVideoFeed",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="com.akjava.gwt.lib.hangouts.client.layout.OnDisplayedParticipantChanged onDisplayedParticipantChanged()",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="com.akjava.gwt.lib.hangouts.client.layout.OnDisplayedParticipantChanged",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_METHOD"]
+3->1[label="EXTEND",color=blue]
+2->3[label="RETURN"]
+}

@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=3639,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.rpc.AsyncCallback"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="lptr-csopibeszi",filePath="/lptr-csopibeszi/csopibeszi-master/src/main/java/hu/lptr/test/gae/csopibeszi/client/ui/MessageForm.java",contextSignature="void onClick(com.google.gwt.event.dom.client.ClickEvent)",graphId="3639"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.rpc.AsyncCallback",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="callback",vertexType="OUTSIDE_VARIABLE_EXPRESION",isFrameworkType=true,peripheries=2]
+4[label="void onFailure(java.lang.Throwable)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+5[label="void onSuccess(java.lang.Void)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="ASSIGMENT"]
+2->1[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+0->5[label="OVERRIDE"]
+}

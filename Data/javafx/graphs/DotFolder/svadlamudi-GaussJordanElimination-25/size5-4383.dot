@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=4383,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.fxml.Initializable"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="svadlamudi-GaussJordanElimination",filePath="/svadlamudi-GaussJordanElimination/GaussJordanElimination-master/src/gauss/jordan/elimination/AboutController.java",contextSignature="AboutController",graphId="4383"]
+0[label="gauss.jordan.elimination.AboutController",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.fxml.Initializable",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="descriptionField",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.scene.control.TextArea",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+}

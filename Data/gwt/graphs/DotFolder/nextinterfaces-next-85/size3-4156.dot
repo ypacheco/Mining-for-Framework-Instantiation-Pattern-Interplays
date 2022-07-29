@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=4156,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.Command"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="nextinterfaces-next",filePath="/nextinterfaces-next/next-master/src/next/i/controller/XController.java",contextSignature="void slideUpReverse_()",graphId="4156"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.Command",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void execute()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+}

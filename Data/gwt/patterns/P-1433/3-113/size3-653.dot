@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=653,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/sound-player/src/com/akjava/gwt/hangout/soundplayer/client/ExtraTest.java~void ExtraTest()~580",1="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/sound-player/src/com/akjava/gwt/hangout/soundplayer/client/HangoutSoundPlayer.java~HangoutSoundPlayer~561",2="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/EventsCalendarTable.java~EventsCalendarTable_EventRenderer_OnRender~2963"]
+5[label="new Image()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+6[label="VAR:com.google.gwt.user.client.ui.Image",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+7[label="com.google.gwt.user.client.ui.Image",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+6->5[label="CALL"]
+6->7[label="OF_TYPE"]
+}

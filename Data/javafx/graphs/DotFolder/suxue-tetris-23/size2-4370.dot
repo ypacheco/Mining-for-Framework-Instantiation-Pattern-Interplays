@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4370,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.Slider"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="suxue-tetris",filePath="/suxue-tetris/tetris-master/src/tetris/ui/CustomizedSlider.java",contextSignature="CustomizedSlider",graphId="4370"]
+0[label="tetris.ui.CustomizedSlider",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.Slider",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

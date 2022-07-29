@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4550,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="jalbertcruz-Documentation-manager~/jalbertcruz-Documentation-manager/Documentation-manager-master/src/documentation/manager/DocumentationManager.java~DocumentationManager~3242",1="jalbertcruz-Documentation-manager~/jalbertcruz-Documentation-manager/Documentation-manager-master/src/documentation/manager/DocumentationManager.java~void mkTable()~3244"]
+9[label="new CopyButtonCell()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+10[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+5[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+6[label="javafx.scene.control.TableCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+5->6[label="EXTEND",color=blue]
+10->9[label="CALL"]
+10->5[label="OF_TYPE"]
+}

@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=162,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.EntryPoint"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Gregoor-automatonizer",filePath="/Gregoor-automatonizer/automatonizer-master/src/com/automatonizer/main/Automatonizer.java",contextSignature="Automatonizer",graphId="162"]
+0[label="com.automatonizer.main.Automatonizer",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.EntryPoint",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void onModuleLoad()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="RootPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=true,peripheries=2,shape=circle]
+5[label="com.google.gwt.user.client.ui.RootPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="get()",vertexType="INSIDE_CALL",isFrameworkType=true,peripheries=2,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+2->3[label="INSTANTIATE"]
+3->5[label="OF_TYPE"]
+3->4[label="CALL"]
+}

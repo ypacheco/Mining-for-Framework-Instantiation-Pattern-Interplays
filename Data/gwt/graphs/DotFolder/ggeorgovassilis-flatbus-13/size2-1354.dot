@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1354,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.IsWidget"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="ggeorgovassilis-flatbus",filePath="/ggeorgovassilis-flatbus/flatbus-master/flatbus-test/src/main/java/com/bazarooma/flatbus/demo/ui/IItemWidget.java",contextSignature="IItemWidget",graphId="1354"]
+0[label="main.java.com.bazarooma.flatbus.demo.ui.IItemWidget",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.IsWidget",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

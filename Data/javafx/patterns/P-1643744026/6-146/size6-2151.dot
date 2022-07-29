@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=2151,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=7.0,patternRootClient=0]
+patternInstancesInfo[0="matanghuy-SPCA~/matanghuy-SPCA/SPCA-master/SPCA/src/controllers/TransController.java~TransController~3572",1="jasonwr-jhuep_ent_web_dev~/jasonwr-jhuep_ent_web_dev/jhuep_ent_web_dev-master/src/hw6/main/WebBuyer.java~WebBuyer~3282",2="Jamakasi-JMCLauncherFX~/Jamakasi-JMCLauncherFX/JMCLauncherFX-master/src/jmclauncherfx/OptionsWindowController.java~OptionsWindowController~610",3="ajithkp560-quizmaster~/ajithkp560-quizmaster/quizmaster-master/QuizProgram_SRC/QuizProgram/src/quizprogram/SampleController.java~SampleController~1753",4="sandeepb-CiscoECG~/sandeepb-CiscoECG/CiscoECG-master/src/ciscoECGFrontend/MyController.java~MyController~4063",5="RomeoGolf-BC~/RomeoGolf-BC/BC-master/src/romeogolf/bc/MainController.java~MainController~1142",6="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CECommandeController.java~CECommandeController~2084"]
+41[label="javafx.scene.control.RadioButton",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+40[label="FIELD:javafx.scene.control.RadioButton",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+6[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+2[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+8[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->40[label="DECLARE_FIELD"]
+0->2[label="DECLARE_FIELD"]
+0->8[label="DECLARE_FIELD"]
+40->41[label="OF_TYPE"]
+0->6[label="DECLARE_FIELD"]
+}

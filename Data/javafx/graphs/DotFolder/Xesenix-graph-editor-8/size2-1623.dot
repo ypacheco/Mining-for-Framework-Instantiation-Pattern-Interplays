@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1623,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.VBox"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Xesenix-graph-editor",filePath="/Xesenix-graph-editor/graph-editor-master/src/main/java/pl/xesenix/graph_editor/GraphControl.java",contextSignature="GraphControl",graphId="1623"]
+0[label="main.java.pl.xesenix.graph_editor.GraphControl",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.VBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

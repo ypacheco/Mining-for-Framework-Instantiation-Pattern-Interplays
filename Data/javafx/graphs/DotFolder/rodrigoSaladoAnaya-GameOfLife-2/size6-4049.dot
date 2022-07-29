@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=4049,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.animation.AnimationTimer"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="rodrigoSaladoAnaya-GameOfLife",filePath="/rodrigoSaladoAnaya-GameOfLife/GameOfLife-master/Play/src/gameOfLife/Play.java",contextSignature="javafx.animation.AnimationTimer getTimer(javafx.scene.text.Text)",graphId="4049"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.animation.AnimationTimer",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void handle(long)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="text",vertexType="VARIABLE_EXPRESION",isFrameworkType=true,peripheries=2,shape=circle]
+5[label="javafx.scene.text.Text",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="setText()",vertexType="INSIDE_CALL",isFrameworkType=true,peripheries=2,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+2->3[label="INSTANTIATE"]
+3->5[label="OF_TYPE"]
+3->4[label="CALL"]
+}

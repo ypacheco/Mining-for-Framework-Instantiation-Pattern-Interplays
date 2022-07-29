@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4536,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.TableCell"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="tgregerson-lc3",filePath="/tgregerson-lc3/lc3-master/LC3Sim/src/lc3sim/ui/UIFXMain.java",contextSignature="javafx.scene.control.TableCell call(javafx.scene.control.TableColumn)",graphId="4536"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.TableCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

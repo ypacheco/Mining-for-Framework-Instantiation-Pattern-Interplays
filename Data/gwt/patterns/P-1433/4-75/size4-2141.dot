@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=2141,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="Namrack-TeachToLearn~/Namrack-TeachToLearn/TeachToLearn-master/TeachToLearn/src/ttl/client/TeachToLearn.java~TeachToLearn~344",1="betacraft-RdpGwtClient~/betacraft-RdpGwtClient/RdpGwtClient-master/src/com/droidcloud/viewer/client/ISO.java~ISO~836"]
+7[label="FIELD:net.zschech.gwt.websockets.client.WebSocket",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+8[label="net.zschech.gwt.websockets.client.WebSocket",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+23[label="VAR:net.zschech.gwt.websockets.client.WebSocket",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->7[label="DECLARE_FIELD"]
+7->23[label="REFERENCE"]
+7->8[label="OF_TYPE"]
+23->8[label="OF_TYPE"]
+}

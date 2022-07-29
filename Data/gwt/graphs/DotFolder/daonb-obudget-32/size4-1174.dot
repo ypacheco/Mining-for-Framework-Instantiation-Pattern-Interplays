@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=1174,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.SuggestOracle.Suggestion"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="daonb-obudget",filePath="/daonb-obudget/obudget-master/src/client/src/org/obudget/client/BudgetSuggestion.java",contextSignature="BudgetSuggestion",graphId="1174"]
+0[label="client.src.org.obudget.client.BudgetSuggestion",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.SuggestOracle.Suggestion",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="java.lang.String getDisplayString()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="java.lang.String getReplacementString()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+0->3[label="OVERRIDE"]
+}

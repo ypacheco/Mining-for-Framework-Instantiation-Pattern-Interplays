@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=2818,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="javafx.scene.shape.Rectangle"]
+possibleCollaborationsInfo[0="2818~CLIENT_METHOD_DECLARATION-RETURN_TYPE-FIELD_DECLARATION-~javafx.scene.shape.Rectangle ~javafx.scene.shape.Circle ~false~false"]
+locationInfo[projectName="gregory-lyons-voyage-to-venus",filePath="/gregory-lyons-voyage-to-venus/voyage-to-venus-master/src/game_gml14/AlienShip.java",contextSignature="AlienShip",graphId="2818"]
+0[label="game_gml14.AlienShip",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.shape.Rectangle",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="hitBox",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="game_gml14.Hitbox",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="javafx.scene.shape.Circle",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+17[label="game_gml14.Hitbox getHitbox()",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+3->4[label="EXTEND",color=blue]
+2->3[label="OF_TYPE"]
+0->17[label="DECLARE_METHOD"]
+17->3[label="RETURN"]
+}

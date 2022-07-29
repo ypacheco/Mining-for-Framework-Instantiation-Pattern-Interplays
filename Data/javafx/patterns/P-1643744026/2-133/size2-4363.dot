@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=4363,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="guigarage-mastering-javafx-controls~/guigarage-mastering-javafx-controls/mastering-javafx-controls-master/src/main/java/com/guigarage/chapter5/SimpleControls.java~SimpleControls~2873",1="if12b051-SWP_Paint~/if12b051-SWP_Paint/SWP_Paint-master/SWP_Paint/src/gui/MainControllerModel.java~MainControllerModel~3084"]
+7[label="javafx.beans.binding.StringExpression",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+5[label="VAR:javafx.beans.binding.StringExpression",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+5->7[label="OF_TYPE"]
+}

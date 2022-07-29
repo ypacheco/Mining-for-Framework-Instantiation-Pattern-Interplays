@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=2068,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.event.logical.shared.HasResizeHandlers",1="com.google.gwt.event.dom.client.HasErrorHandlers",2="com.google.gwt.event.dom.client.HasScrollHandlers",3="com.google.gwt.event.dom.client.HasLoadHandlers"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="mguiral-GwtSvgLib~/mguiral-GwtSvgLib/GwtSvgLib-master/src/gwt/html5/svg/client/user/events/HasDocumentHandlers.java~HasDocumentHandlers~3970",1="mguiral-GwtSvgLib~/mguiral-GwtSvgLib/GwtSvgLib-master/src/gwt/html5/svg/client/user/ui/SVGWidget.java~SVGWidget~3992"]
+2[label="com.google.gwt.event.dom.client.HasErrorHandlers",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.event.dom.client.HasLoadHandlers",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+4[label="com.google.gwt.event.dom.client.HasScrollHandlers",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+3[label="com.google.gwt.event.logical.shared.HasResizeHandlers",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0->3[label="IMPLEMENT",color=red]
+0->2[label="IMPLEMENT",color=red]
+0->4[label="IMPLEMENT",color=red]
+0->1[label="IMPLEMENT",color=red]
+}

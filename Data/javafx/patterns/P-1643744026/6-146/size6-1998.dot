@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1998,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="sannies-isoviewer-fx~/sannies-isoviewer-fx/isoviewer-fx-master/src/main/java/Example.java~Example~4066",1="sannies-isoviewer-fx~/sannies-isoviewer-fx/isoviewer-fx-master/src/main/java/com/googlecode/mp4parser/mp4inspector/IsoFileTreeView.java~IsoFileTreeView~4070"]
+18[label="javafx.scene.control.TreeItem",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+17[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+31[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+30[label="VAR:ANONYMOUS",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+16[label="VAR:ANONYMOUS",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+15[label="new TreeItem()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+16->17[label="OF_TYPE"]
+16->15[label="CALL"]
+17->18[label="EXTEND",color=blue]
+31->18[label="EXTEND",color=blue]
+30->31[label="OF_TYPE"]
+}

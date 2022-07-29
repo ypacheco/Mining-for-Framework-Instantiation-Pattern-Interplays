@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2011,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/IncrementSlider.java~IncrementSlider~3645",1="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/IncrementSlider.java~void setupElement()~3646"]
+46[label="gwtquery.plugins.ui.widgets.Slider.Event",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+44[label="VAR:gwtquery.plugins.ui.widgets.Slider.Event",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+45[label="intValue()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+44->45[label="CALL"]
+44->46[label="OF_TYPE"]
+}

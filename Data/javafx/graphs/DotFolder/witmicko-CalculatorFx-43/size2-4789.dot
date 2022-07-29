@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4789,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.animation.Transition"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="witmicko-CalculatorFx",filePath="/witmicko-CalculatorFx/CalculatorFx-master/src/calc/transitions/BounceInLeftTransition.java",contextSignature="BounceInLeftTransition",graphId="4789"]
+0[label="calc.transitions.BounceInLeftTransition",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.animation.Transition",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=737,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.uibinder.client.UiBinder"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="ashtonthomas-gwt-fast-touch-press",filePath="/ashtonthomas-gwt-fast-touch-press/gwt-fast-touch-press-master/src/io/ashton/fastpress/client/TestSlowPressElement.java",contextSignature="TestSlowPressElementUiBinder",graphId="737"]
+0[label="io.ashton.fastpress.client.TestSlowPressElement.TestSlowPressElementUiBinder",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.uibinder.client.UiBinder",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

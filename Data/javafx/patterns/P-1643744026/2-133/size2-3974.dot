@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=3974,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="sannies-isoviewer-fx~/sannies-isoviewer-fx/isoviewer-fx-master/src/main/java/com/googlecode/mp4parser/mp4inspector/Mp4InspectorMain.java~Mp4InspectorMain~4069",1="wayne07-gui-workshop~/wayne07-gui-workshop/gui-workshop-master/chronos-command/src/main/java/de/idos/chronos/fx/JavaFxLauncher.java~JavaFxLauncher~4740"]
+111[label="javafx.application.Application.Parameters",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+109[label="VAR:javafx.application.Application.Parameters",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+109->111[label="OF_TYPE"]
+}

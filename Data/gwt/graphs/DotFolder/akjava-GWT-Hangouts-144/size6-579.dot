@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=579,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.VerticalPanel"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="akjava-GWT-Hangouts",filePath="/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/sound-player/src/com/akjava/gwt/hangout/soundplayer/client/ExtraTest.java",contextSignature="ExtraTest",graphId="579"]
+0[label="com.akjava.gwt.hangout.soundplayer.client.ExtraTest",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.VerticalPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="canvas",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="com.google.gwt.canvas.client.Canvas",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="img",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+5[label="com.google.gwt.user.client.ui.Image",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+0->4[label="DECLARE_FIELD"]
+4->5[label="OF_TYPE"]
+}

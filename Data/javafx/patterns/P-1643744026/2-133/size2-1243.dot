@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1243,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="joelburget-miftiwac~/joelburget-miftiwac/miftiwac-master/src/Dynamic_page.java~Dynamic_page~3333",1="philippone-EMGClassifier~/philippone-EMGClassifier/EMGClassifier-master/src/gui/EMGClassifierGUI.java~EMGClassifierGUI~3875"]
+25[label="javafx.scene.control.ToggleGroup",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+274[label="VAR:javafx.scene.control.ToggleGroup",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+274->25[label="OF_TYPE"]
+}

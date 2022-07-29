@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2452,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.concurrent.Task"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=8.0,patternRootClient=0]
+patternInstancesInfo[0="nazymko-drive_manager~/nazymko-drive_manager/drive_manager-master/src/main/java/rt/threads/daemons/usedbydemons/InboxChecker.java~InboxChecker~3755",1="nazymko-drive_manager~/nazymko-drive_manager/drive_manager-master/src/main/java/rt/threads/MailLoader.java~MailLoader~3753",2="THSLMIT-thslmit_watzds~/THSLMIT-thslmit_watzds/thslmit_watzds-master/src/com/thslmit/watz/SplashLoader.java~SplashLoader~1401",3="servant79-KirtanLyricsIntegration~/servant79-KirtanLyricsIntegration/KirtanLyricsIntegration-master/src/java/com/jkp/excel/utils/ReadExcelWriteMp3.java~ReadExcelWriteMp3~4162",4="nazymko-drive_manager~/nazymko-drive_manager/drive_manager-master/src/main/java/rt/threads/Sender.java~Sender~3754",5="nazymko-drive_manager~/nazymko-drive_manager/drive_manager-master/src/main/java/rt/threads/Login.java~Login~3752",6="Digital87-GUS-Teryt-Parser~/Digital87-GUS-Teryt-Parser/GUS-Teryt-Parser-master/src/main/java/net/kados/gtp/app/libs/Teryt/Parser.java~Parser~384",7="THSLMIT-thslmit_watzds~/THSLMIT-thslmit_watzds/thslmit_watzds-master/src/com/thslmit/watz/AppThread/IdleClockThread.java~IdleClockThread~1402"]
+2[label="java.lang.Object call()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.concurrent.Task",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->2[label="OVERRIDE"]
+0->1[label="EXTEND",color=red]
+}

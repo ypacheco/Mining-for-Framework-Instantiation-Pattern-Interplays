@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1368,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.HasFocus",1="com.google.gwt.user.client.ui.Composite"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/SafeTextBox.java~SafeTextBox~2999",1="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/AutoCompleteTextBox.java~AutoCompleteTextBox~2968"]
+2[label="com.google.gwt.user.client.ui.HasFocus",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Composite",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->2[label="IMPLEMENT",color=red]
+0->1[label="EXTEND",color=red]
+}

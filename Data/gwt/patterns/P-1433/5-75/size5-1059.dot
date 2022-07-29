@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1059,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.event.dom.client.FocusHandler"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="betacraft-RdpGwtClient~/betacraft-RdpGwtClient/RdpGwtClient-master/src/com/droidcloud/viewer/client/RdesktopFocusListener.java~RdesktopFocusListener~842",1="nextinterfaces-next~/nextinterfaces-next/next-master/src/next/i/view/widgets/XPicker.java~XPicker~4223"]
+1[label="com.google.gwt.event.dom.client.FocusHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="void onFocus(com.google.gwt.event.dom.client.FocusEvent)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="PARAMETER:com.google.gwt.event.dom.client.FocusEvent",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+4[label="com.google.gwt.event.dom.client.FocusEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->2[label="OVERRIDE"]
+3->4[label="OF_TYPE"]
+0->1[label="IMPLEMENT",color=red]
+2->3[label="PARAMETER"]
+}

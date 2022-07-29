@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1361,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.googlecode.gwt.test.GwtTestWithMockito"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=0]
+patternInstancesInfo[0="anozaki-GwtHelloMvpTest~/anozaki-GwtHelloMvpTest/GwtHelloMvpTest-master/src/test/java/com/hellomvp/client/ui/HelloViewImplMockitoTest.java~HelloViewImplMockitoTest~683",1="anozaki-GwtHelloMvpTest~/anozaki-GwtHelloMvpTest/GwtHelloMvpTest-master/src/test/java/com/hellomvp/client/ui/GoodbyeViewImplMockitoTest.java~GoodbyeViewImplMockitoTest~684",2="anozaki-GwtHelloMvpTest~/anozaki-GwtHelloMvpTest/GwtHelloMvpTest-master/src/test/java/com/hellomvp/client/place/HelloPlaceMockitoTest.java~HelloPlaceMockitoTest~682",3="anozaki-GwtHelloMvpTest~/anozaki-GwtHelloMvpTest/GwtHelloMvpTest-master/src/test/java/com/hellomvp/client/place/GoodbyePlaceMockitoTest.java~GoodbyePlaceMockitoTest~681"]
+1[label="com.googlecode.gwt.test.GwtTestWithMockito",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

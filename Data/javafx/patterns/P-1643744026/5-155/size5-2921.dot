@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=2921,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="Maxxa-MT-common~/Maxxa-MT-common/MT-common-master/src/cz/commons/example/graphics/node/DefaultNodeExample.java~DefaultNodeExample~922",1="Maxxa-MT-common~/Maxxa-MT-common/MT-common-master/src/cz/commons/example/graphics/branchNode/BranchElementExample.java~BranchElementExample~916"]
+21[label="new LineElement()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+22[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+4[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+161[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+22->21[label="CALL"]
+4->22[label="INSTANTIATE"]
+4->161[label="INSTANTIATE"]
+0->4[label="DECLARE_METHOD"]
+}

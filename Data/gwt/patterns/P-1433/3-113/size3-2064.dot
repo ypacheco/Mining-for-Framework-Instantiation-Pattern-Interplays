@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2064,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="WSDOT-WSDOT-Search-GWT~/WSDOT-WSDOT-Search-GWT/WSDOT-Search-GWT-master/src/gov/wa/wsdot/search/client/SearchWidget.java~SearchWidget~449",1="daonb-obudget~/daonb-obudget/obudget-master/src/client/src/org/obudget/client/BudgetAPICaller.java~BudgetAPICaller~1172"]
+3[label="com.google.gwt.http.client.UrlBuilder",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+22[label="VAR:com.google.gwt.http.client.UrlBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+23[label="buildString()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+22->23[label="CALL"]
+22->3[label="OF_TYPE"]
+}

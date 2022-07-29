@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=666,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.activity.shared.AbstractActivity"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="anozaki-GwtHelloMvpTest",filePath="/anozaki-GwtHelloMvpTest/GwtHelloMvpTest-master/src/main/java/com/hellomvp/client/activity/GoodbyeActivity.java",contextSignature="GoodbyeActivity",graphId="666"]
+0[label="main.java.com.hellomvp.client.activity.GoodbyeActivity",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.activity.shared.AbstractActivity",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=3750,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="bdkosher-card-games~/bdkosher-card-games/card-games-master/src/org/washcom/cardgames/war/WarHistogram.java~WarHistogram~1994",1="wwtg99-POMA~/wwtg99-POMA/POMA-master/src/cn/edu/suda/gui/NODChartPane.java~NODChartPane~4834"]
+40[label="javafx.scene.chart.BarChart",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+39[label="VAR:javafx.scene.chart.BarChart",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+38[label="new BarChart()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+62[label="getData()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+44[label="setCategoryGap()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+42[label="setTitle()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+39->44[label="CALL"]
+39->62[label="CALL"]
+39->38[label="CALL"]
+39->42[label="CALL"]
+39->40[label="OF_TYPE"]
+}

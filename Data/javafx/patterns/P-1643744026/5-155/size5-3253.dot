@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=3253,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="wwtg99-POMA~/wwtg99-POMA/POMA-master/src/cn/edu/suda/core/AnalysisTask.java~AnalysisTask~4793",1="wwtg99-POMA~/wwtg99-POMA/POMA-master/src/cn/edu/suda/core/TestTask.java~TestTask~4796",2="wwtg99-POMA~/wwtg99-POMA/POMA-master/src/cn/edu/suda/core/ProcessTask.java~ProcessTask~4794"]
+2[label="java.lang.Integer call()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+3[label="VAR:javafx.concurrent.Task",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+9[label="updateMessage()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+7[label="updateMessage()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+3->7[label="CALL"]
+3->9[label="CALL"]
+2->3[label="INSTANTIATE"]
+0->2[label="OVERRIDE"]
+}

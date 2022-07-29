@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=812,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.concurrent.Task"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=0]
+patternInstancesInfo[0="fieryphoenix-screen-caster~/fieryphoenix-screen-caster/screen-caster-master/ScreenCaster/src/by/bsuir/zuyeu/controller/ConnectController.java~DisconnectTask~2681",1="sk44-javafx-gallery~/sk44-javafx-gallery/javafx-gallery-master/src/main/java/sk44/jfxgallery/controllers/MainWindowController.java~LoadImageTask~4201",2="atsticks-FXOne~/atsticks-FXOne/FXOne-master/org.fxone/fxone-ui/src/main/java/org/fxone/ui/rt/components/splash/SimpleSplashScreen.java~ProgressTask~1923",3="berker-RSSReader~/berker-RSSReader/RSSReader-master/src/com/deneme/rss/task/ContentReaderTask.java~ContentReaderTask~2003",4="fieryphoenix-screen-caster~/fieryphoenix-screen-caster/screen-caster-master/ScreenCaster/src/by/bsuir/zuyeu/controller/ConnectController.java~CheckWaitTask~2682"]
+1[label="javafx.concurrent.Task",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="java.lang.Void call()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->2[label="OVERRIDE"]
+0->1[label="EXTEND",color=red]
+}

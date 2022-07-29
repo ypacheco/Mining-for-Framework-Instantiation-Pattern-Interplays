@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1992,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=12.0,patternRootClient=null]
+patternInstancesInfo[0="AMITCCILGITHUB-Contacts~/AMITCCILGITHUB-Contacts/Contacts-master/Contacts/src/org/apandey/view/parts/Body.java~void initComponents()~62",1="zvakanaka-bitbit~/zvakanaka-bitbit/bitbit-master/src/bitbit/BitBit.java~BitBit~4923",2="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/Project.java~Project~1849",3="novosga-painel-fx~/novosga-painel-fx/painel-fx-master/src/org/novosga/painel/client/ui/Controller.java~void initialize(java.net.URL,java.util.ResourceBundle)~3796",4="Baschdl578-ColorReduction~/Baschdl578-ColorReduction/ColorReduction-master/src/main/java/edu/kit/ipd/swt1/SimpleColorReduction/UI.java~UI~149",5="tarchan-ClipFX~/tarchan-ClipFX/ClipFX-master/src/com/mac/tarchan/clipfx/ClipFXController.java~ClipFXController~4467",6="novosga-painel-fx~/novosga-painel-fx/painel-fx-master/src/org/novosga/painel/client/ui/Controller.java~Controller~3787",7="sannies-isoviewer-fx~/sannies-isoviewer-fx/isoviewer-fx-master/src/main/java/com/googlecode/mp4parser/mp4inspector/FileOpenEventHandler.java~FileOpenEventHandler~4068",8="zvakanaka-bitbit~/zvakanaka-bitbit/bitbit-master/src/bitbit/BitBit.java~void setupFileBoxes(javafx.stage.Stage)~4937",9="c1um5y-ShotPatterns~/c1um5y-ShotPatterns/ShotPatterns-master/src/org/shotpatterns/ui/ShotPatternsFX.java~ShotPatternsFX~2231",10="NukeName-MazeFramework~/NukeName-MazeFramework/MazeFramework-master/MazeFramework/src/mazeframework/MazeFramework.java~MazeFramework~1024",11="AMITCCILGITHUB-Contacts~/AMITCCILGITHUB-Contacts/Contacts-master/Contacts/src/org/apandey/view/parts/Body.java~Body~60"]
+397[label="javafx.stage.FileChooser.ExtensionFilter",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+405[label="VAR:javafx.stage.FileChooser.ExtensionFilter",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+405->397[label="OF_TYPE"]
+}

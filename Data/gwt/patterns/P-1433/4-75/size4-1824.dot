@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1824,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="woox-serverapp~/woox-serverapp/serverapp-master/src/wooxes/net/client/Serverapp.java~Serverapp~4647",1="cbopp-gwt-taglist~/cbopp-gwt-taglist/gwt-taglist-master/src/main/java/com/virilis_software/gwt/taglist/client/comp/taglist/TagListView.java~TagListView~1038"]
+56[label="new KeyUpHandler()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+57[label="VAR:ANONYMOUS",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+58[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+59[label="com.google.gwt.event.dom.client.KeyUpHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+57->58[label="OF_TYPE"]
+58->59[label="IMPLEMENT",color=blue]
+57->56[label="CALL"]
+}

@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=852,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=null]
+patternInstancesInfo[0="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/widgets/AnswerGrid.java~AnswerGrid~430",1="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/widgets/ReducedQuestionGrid.java~ReducedQuestionGrid~428",2="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/presenter/ReportsPresenter.java~void prepareTable()~419",3="fmilepe-StockWatcher~/fmilepe-StockWatcher/StockWatcher-master/src/br/mdarte/exemplo/client/stockwatcher.java~stockwatcher~1327",4="chrte-TemperatureWatcher~/chrte-TemperatureWatcher/TemperatureWatcher-master/src/com/google/gwt/sample/stockwatcher/client/TemperatureWatcher.java~TemperatureWatcher~1066"]
+35[label="com.google.gwt.user.client.ui.HTMLTable.CellFormatter",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+57[label="VAR:com.google.gwt.user.client.ui.HTMLTable.CellFormatter",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+33[label="VAR:com.google.gwt.user.client.ui.HTMLTable.CellFormatter",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+33->35[label="OF_TYPE"]
+57->35[label="OF_TYPE"]
+}

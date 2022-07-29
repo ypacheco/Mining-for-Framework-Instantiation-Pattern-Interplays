@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=3794,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[0="3794~CLIENT_METHOD_DECLARATION-RETURN_TYPE-~com.google.gwt.core.client.JavaScriptObject ~com.google.gwt.dom.client.Style.HasCssName ~false~false"]
+locationInfo[projectName="mguiral-GwtSvgLib",filePath="/mguiral-GwtSvgLib/GwtSvgLib-master/src/gwt/html5/svg/client/core/SVGPathSeg.java",contextSignature="SVGPathSeg",graphId="3794"]
+0[label="gwt.html5.svg.client.core.SVGPathSeg",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="gwt.html5.svg.client.dom.constants.PathSeqTypes getPathSeqType()",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="gwt.html5.svg.client.dom.constants.PathSeqTypes",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="com.google.gwt.dom.client.Style.HasCssName",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_METHOD"]
+3->4[label="IMPLEMENT",color=blue]
+2->3[label="RETURN"]
+}

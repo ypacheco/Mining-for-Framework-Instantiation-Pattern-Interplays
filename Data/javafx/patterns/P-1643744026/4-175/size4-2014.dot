@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=2014,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="magomar-jfxpojobinding~/magomar-jfxpojobinding/jfxpojobinding-master/src/main/java/jfxpojobinding/SimpleViewController.java~SimpleViewController~3518",1="idzik-Application-RCS~/idzik-Application-RCS/Application-RCS-master/RcsApplication/src/calendarPicker/DatePicker.java~DatePicker~3072"]
+3[label="javafx.beans.property.ObjectProperty",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+52[label="VAR:javafx.beans.property.ObjectProperty",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+2[label="FIELD:javafx.beans.property.ObjectProperty",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+52->3[label="OF_TYPE"]
+2->52[label="REFERENCE"]
+}

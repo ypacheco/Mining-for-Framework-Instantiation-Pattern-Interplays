@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4061,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.safehtml.client.SafeHtmlTemplates"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="mrsmastara-home",filePath="/mrsmastara-home/home-master/youtube/src/main/java/com/youtube/play/client/local/KitchenSink.java",contextSignature="KitchenSinkTemplates",graphId="4061"]
+0[label="main.java.com.youtube.play.client.local.KitchenSink.KitchenSinkTemplates",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.safehtml.client.SafeHtmlTemplates",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

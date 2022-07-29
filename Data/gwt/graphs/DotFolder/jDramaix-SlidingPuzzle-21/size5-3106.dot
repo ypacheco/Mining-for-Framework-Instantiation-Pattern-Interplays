@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=3106,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.query.client.Function"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jDramaix-SlidingPuzzle",filePath="/jDramaix-SlidingPuzzle/SlidingPuzzle-master/src/be/dramaix/ai/slidingpuzzle/client/Puzzle.java",contextSignature="void slide(int,int)",graphId="3106"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.query.client.Function",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="com.google.gwt.query.client.GQuery delay(int,com.google.gwt.query.client.Function[])",vertexType="OUTSIDE_CALL",isFrameworkType=true,peripheries=2]
+3[label="com.google.gwt.query.client.GQuery",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="void f()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+2->0[label="ARGUMENT"]
+2->3[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+}

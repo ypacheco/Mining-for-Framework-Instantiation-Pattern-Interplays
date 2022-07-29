@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=772,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=7.0,patternRootClient=null]
+patternInstancesInfo[0="nablex-jfx-control-date~/nablex-jfx-control-date/jfx-control-date-master/src/main/java/be/nabu/jfx/control/date/DatePicker.java~void initialize()~3725",1="johnwatson11218-cardcitefx~/johnwatson11218-cardcitefx/cardcitefx-master/Cardcite/src/main/java/cardcite/ui/CardCiteMain.java~void start(javafx.stage.Stage)~3359",2="jeyoon-Snake~/jeyoon-Snake/Snake-master/src/Snake.java~void Snake(World)~3317",3="JASCValentine-BrickBreaker~/JASCValentine-BrickBreaker/BrickBreaker-master/src/brickbreaker/Level.java~void initContent(int)~561",4="Enriqe-Breaking-Bad-Brick-Breaker~/Enriqe-Breaking-Bad-Brick-Breaker/Breaking-Bad-Brick-Breaker-master/src/bbbrickbreaker/Level.java~void initContent(int)~446",5="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/util/AutoCompleteComboBoxListener.java~AutoCompleteComboBoxListener~2166"]
+5[label="PARAMETER:javafx.scene.input.KeyEvent",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+10[label="getCode()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+21[label="getCode()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+27[label="getCode()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+17[label="getCode()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+5->10[label="CALL"]
+5->17[label="CALL"]
+5->21[label="CALL"]
+5->27[label="CALL"]
+}

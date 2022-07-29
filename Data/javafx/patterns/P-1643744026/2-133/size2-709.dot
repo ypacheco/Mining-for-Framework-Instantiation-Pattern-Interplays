@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=709,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.ComboBox"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="7thwheel-medaka-chan~/7thwheel-medaka-chan/medaka-chan-master/src/seventhwheel/pos/control/combobox/SuppliersComboBox.java~SuppliersComboBox~15",1="7thwheel-medaka-chan~/7thwheel-medaka-chan/medaka-chan-master/src/seventhwheel/pos/control/combobox/BumonComboBox.java~BumonComboBox~11",2="7thwheel-medaka-chan~/7thwheel-medaka-chan/medaka-chan-master/src/seventhwheel/pos/control/combobox/CodeComboBox.java~CodeComboBox~12"]
+1[label="javafx.scene.control.ComboBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

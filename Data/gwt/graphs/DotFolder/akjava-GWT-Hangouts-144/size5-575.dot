@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=575,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.VerticalPanel"]
+possibleCollaborationsInfo[0="575~FIELD_DECLARATION-~com.google.gwt.user.client.ui.VerticalPanel ~com.google.gwt.core.client.JavaScriptObject ~false~false"]
+locationInfo[projectName="akjava-GWT-Hangouts",filePath="/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/sound-player/src/com/akjava/gwt/hangout/soundplayer/client/HangoutSoundPlayer.java",contextSignature="PlayData",graphId="575"]
+0[label="com.akjava.gwt.hangout.soundplayer.client.HangoutSoundPlayer.PlayData",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.VerticalPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="sound",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="com.akjava.gwt.lib.hangouts.client.av.effects.Sound",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+3->4[label="EXTEND",color=blue]
+2->3[label="OF_TYPE"]
+}

@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1486,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=7.0,patternRootClient=0]
+patternInstancesInfo[0="candybibby-Snake~/candybibby-Snake/Snake-master/src/graphicsJavaFX/Controller.java~Controller~2239",1="Seraphiana-SecretaryProblemSimulator~/Seraphiana-SecretaryProblemSimulator/SecretaryProblemSimulator-master/src/main/Java/GUI/GUIController.java~GUIController~1202",2="weltensturm-milca~/weltensturm-milca/milca-master/src/milca/GUIController.java~GUIController~4745",3="amr390-SAT~/amr390-SAT/SAT-master/src/satcucharitas/SatMainViewController.java~SatMainViewController~1853",4="RUAN0007-FastestPathSimulator~/RUAN0007-FastestPathSimulator/FastestPathSimulator-master/FastPathSimulator/src/application/FastestPathSimulatorController.java~FastestPathSimulatorController~1116",5="borissuska-csv-tools~/borissuska-csv-tools/csv-tools-master/src/main/java/sk/suska/csv_tools/ui/FormController.java~FormController~2203",6="Cslice-Province~/Cslice-Province/Province-master/ProvincialMiner/src/Provincial_Miner/Gui2.java~Gui2~260"]
+20[label="FIELD:javafx.scene.layout.GridPane",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+30[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->20[label="DECLARE_FIELD"]
+0->30[label="DECLARE_FIELD"]
+}

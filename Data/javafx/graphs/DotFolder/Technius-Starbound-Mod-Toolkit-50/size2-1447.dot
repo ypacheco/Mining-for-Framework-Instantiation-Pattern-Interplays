@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1447,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.beans.property.SimpleBooleanProperty"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Technius-Starbound-Mod-Toolkit",filePath="/Technius-Starbound-Mod-Toolkit/Starbound-Mod-Toolkit-master/src/main/java/co/technius/starboundmodtoolkit/util/AndBoolean.java",contextSignature="AndBoolean",graphId="1447"]
+0[label="main.java.co.technius.starboundmodtoolkit.util.AndBoolean",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.beans.property.SimpleBooleanProperty",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1835,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="felype87-gwt~/felype87-gwt/gwt-master/Minefield/src/com/felype/minefield/client/Minefield.java~Minefield~1311",1="jdpatterson-spotify-lottery~/jdpatterson-spotify-lottery/spotify-lottery-master/src/com/vercer/spotify/lottery/client/LotteryEntryPoint.java~LotteryEntryPoint~3145"]
+134[label="new Grid()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+135[label="VAR:com.google.gwt.user.client.ui.Grid",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+13[label="com.google.gwt.user.client.ui.Grid",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+135->134[label="CALL"]
+135->13[label="OF_TYPE"]
+}

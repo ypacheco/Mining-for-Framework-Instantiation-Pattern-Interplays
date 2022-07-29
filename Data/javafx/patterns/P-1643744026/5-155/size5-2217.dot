@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=2217,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=0]
+patternInstancesInfo[0="JoshuaHanrahan-DVDCollectionApp~/JoshuaHanrahan-DVDCollectionApp/DVDCollectionApp-master/src/dvdcollectionapp/view/DvdcollectionappfxmlController.java~DvdcollectionappfxmlController~728",1="ChrisWongAtCUHK-JavaFX~/ChrisWongAtCUHK-JavaFX/JavaFX-master/IssueTrackingLite/src/issuetrackinglite/IssueTrackingLiteController.java~IssueTrackingLiteController~240",2="sergiohpl-PMS~/sergiohpl-PMS/PMS-master/IssueTrackingLite/src/issuetrackinglite/IssueTrackingLiteController.java~IssueTrackingLiteController~4152",3="santi-gonzalez-javafx-tutos~/santi-gonzalez-javafx-tutos/javafx-tutos-master/IssueTrackingLite/src/issuetrackinglite/IssueTrackingLiteController.java~IssueTrackingLiteController~4083",4="crosswords-testEnvironment~/crosswords-testEnvironment/testEnvironment-master/src/GUI/MainController.java~MainController~2315"]
+47[label="javafx.scene.control.MultipleSelectionModel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+45[label="VAR:javafx.scene.control.MultipleSelectionModel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+44[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+22[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+45->47[label="OF_TYPE"]
+0->44[label="OVERRIDE"]
+0->22[label="DECLARE_FIELD"]
+44->45[label="INSTANTIATE"]
+}

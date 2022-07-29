@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1889,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="chrte-TemperatureWatcher~/chrte-TemperatureWatcher/TemperatureWatcher-master/src/com/google/gwt/sample/stockwatcher/client/TemperatureWatcher.java~void initiateClickHandler(com.google.gwt.sample.stockwatcher.client.DnDFlexTable,com.google.gwt.event.dom.client.ClickEvent)~1073",1="chrte-TemperatureWatcher~/chrte-TemperatureWatcher/TemperatureWatcher-master/src/com/google/gwt/sample/stockwatcher/client/TemperatureWatcher.java~TemperatureWatcher~1066"]
+19[label="com.google.gwt.user.client.ui.HTMLTable.Cell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+17[label="VAR:com.google.gwt.user.client.ui.HTMLTable.Cell",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+26[label="getCellIndex()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+18[label="getCellIndex()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+24[label="getCellIndex()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+17->24[label="CALL"]
+17->19[label="OF_TYPE"]
+17->18[label="CALL"]
+17->26[label="CALL"]
+}

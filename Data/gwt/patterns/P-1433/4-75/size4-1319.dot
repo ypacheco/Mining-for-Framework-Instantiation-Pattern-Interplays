@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1319,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/sound-player/src/com/akjava/gwt/hangout/soundplayer/client/HangoutSoundPlayer.java~HangoutSoundPlayer~561",1="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/sound-player/src/com/akjava/gwt/hangout/soundplayer/client/HangoutSoundPlayer.java~void onApiReady()~565"]
+25[label="com.akjava.gwt.lib.hangoutsutils.client.widgets.VolumeRadioboxes",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+23[label="VAR:com.akjava.gwt.lib.hangoutsutils.client.widgets.VolumeRadioboxes",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+24[label="getVolume()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+42[label="setValue()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+23->25[label="OF_TYPE"]
+23->42[label="CALL"]
+23->24[label="CALL"]
+}

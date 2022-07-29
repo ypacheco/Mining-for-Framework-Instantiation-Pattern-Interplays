@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=419,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.event.Event"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="mfischbo-fxplumber~/mfischbo-fxplumber/fxplumber-master/fxplumber/src/main/java/de/artignition/fxplumber/event/ConnectorEvent.java~ConnectorEvent~3610",1="mfischbo-fxplumber~/mfischbo-fxplumber/fxplumber-master/fxplumber/src/main/java/de/artignition/fxplumber/event/ConnectionEvent.java~ConnectionEvent~3608"]
+1[label="javafx.event.Event",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+10[label="FIELD:javafx.event.EventType",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+8[label="FIELD:javafx.event.EventType",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+2[label="FIELD:javafx.event.EventType",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->1[label="EXTEND",color=red]
+0->10[label="DECLARE_FIELD"]
+0->2[label="DECLARE_FIELD"]
+0->8[label="DECLARE_FIELD"]
+}

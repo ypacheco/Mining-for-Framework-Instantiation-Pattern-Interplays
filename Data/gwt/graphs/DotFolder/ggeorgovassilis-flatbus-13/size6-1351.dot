@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=1351,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Composite"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="ggeorgovassilis-flatbus",filePath="/ggeorgovassilis-flatbus/flatbus-master/flatbus-test/src/main/java/com/bazarooma/flatbus/demo/ui/ProductSelectionWidget.java",contextSignature="ProductSelectionWidget",graphId="1351"]
+0[label="main.java.com.bazarooma.flatbus.demo.ui.ProductSelectionWidget",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Composite",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="addOrderButton",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="com.google.gwt.user.client.ui.Button",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="products",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+5[label="com.google.gwt.user.client.ui.ListBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+0->4[label="DECLARE_FIELD"]
+4->5[label="OF_TYPE"]
+}

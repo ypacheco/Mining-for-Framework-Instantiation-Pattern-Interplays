@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1521,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="WSDOT-WSDOT-Search-GWT~/WSDOT-WSDOT-Search-GWT/WSDOT-Search-GWT-master/src/gov/wa/wsdot/search/client/SearchWidget.java~SearchWidget~449",1="kospiotr-gwt-layout-designer~/kospiotr-gwt-layout-designer/gwt-layout-designer-master/src/main/java/pl/pkosmowski/gxtshowcase/client/AbstractEditorTab.java~AbstractEditorTab~3421"]
+332[label="com.google.gwt.event.dom.client.HasKeyDownHandlers",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+327[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+327->332[label="IMPLEMENT",color=blue]
+}

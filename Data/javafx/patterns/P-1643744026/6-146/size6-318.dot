@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=318,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="joelburget-miftiwac~/joelburget-miftiwac/miftiwac-master/src/Dynamic_page.java~void intializeContinueButton()~3339",1="joelburget-miftiwac~/joelburget-miftiwac/miftiwac-master/src/Dynamic_page.java~Dynamic_page~3333"]
+17[label="javafx.scene.control.TextInputControl",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+15[label="VAR:javafx.scene.control.TextInputControl",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+29[label="setVisible()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+19[label="getText()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+16[label="getLength()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+21[label="clear()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+15->17[label="OF_TYPE"]
+15->16[label="CALL"]
+15->19[label="CALL"]
+15->21[label="CALL"]
+15->29[label="CALL"]
+}

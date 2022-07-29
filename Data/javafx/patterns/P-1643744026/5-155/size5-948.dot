@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=948,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=6.0,patternRootClient=0]
+patternInstancesInfo[0="mrempala-sp~/mrempala-sp/sp-master/src/application/VcSequencePreview.java~VcSequencePreview~3683",1="joelburget-miftiwac~/joelburget-miftiwac/miftiwac-master/src/Dynamic_page.java~Dynamic_page~3333",2="candybibby-Snake~/candybibby-Snake/Snake-master/src/graphicsJavaFX/Controller.java~Controller~2239",3="henrik-bak-scbuildplanner~/henrik-bak-scbuildplanner/scbuildplanner-master/src/main/java/com/ezzored/starcraftbuildplanner/controller/MainWindowController.java~MainWindowController~2923",4="DOOOOOM-jmpd-shared~/DOOOOOM-jmpd-shared/jmpd-shared-master/src/dooooom/jmpd/client/gui/javafx/MainViewController.java~MainViewController~294",5="gleba-cppoints~/gleba-cppoints/cppoints-master/src/cpapp/view/ReadFormController.java~ReadFormController~2757"]
+14[label="FIELD:javafx.scene.control.TextArea",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+4[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+8[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+6[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->4[label="DECLARE_FIELD"]
+0->14[label="DECLARE_FIELD"]
+0->6[label="DECLARE_FIELD"]
+0->8[label="DECLARE_FIELD"]
+}

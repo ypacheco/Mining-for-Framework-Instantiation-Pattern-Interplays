@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3404,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.rpc.RemoteService"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="karuto-cloud-storage-gallery",filePath="/karuto-cloud-storage-gallery/cloud-storage-gallery-master/src/com/mycompany/cloudstoragegallery/client/GreetingService.java",contextSignature="GreetingService",graphId="3404"]
+0[label="com.mycompany.cloudstoragegallery.client.GreetingService",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.rpc.RemoteService",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

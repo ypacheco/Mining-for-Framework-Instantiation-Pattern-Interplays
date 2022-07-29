@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=2009,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.cellview.client.Column"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/administration/AdminPanel.java~com.google.gwt.user.client.ui.Widget creerListeUserPanel()~219"]
+4[label="java.lang.Number getValue(sources.client.model.User)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+2[label="METHOD_CALL",vertexType="OUTSIDE_CALL",isFrameworkType=false]
+3[label="com.google.gwt.user.cellview.client.AbstractCellTable",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+1[label="com.google.gwt.user.cellview.client.Column",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2->0[label="ARGUMENT"]
+0->4[label="OVERRIDE"]
+0->1[label="EXTEND",color=red]
+2->3[label="OF_TYPE"]
+}

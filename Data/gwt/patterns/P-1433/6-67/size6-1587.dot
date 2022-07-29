@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1587,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Composite"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="svor-SimpleGWTProject~/svor-SimpleGWTProject/SimpleGWTProject-master/src/com/tutorialspoint/client/Login.java~Login~4529",1="pandurangpatil-gwt-youtube~/pandurangpatil-gwt-youtube/gwt-youtube-master/gwt-youtube-player/src/main/java/open/pandurang/gwt/youtube/client/YouTubePlayer.java~YouTubePlayer~4258"]
+8[label="FIELD:com.google.gwt.event.shared.SimpleEventBus",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Composite",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+9[label="com.google.gwt.event.shared.SimpleEventBus",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+48[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+17[label="FIELD:CLIENT",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->1[label="EXTEND",color=red]
+8->9[label="OF_TYPE"]
+0->48[label="DECLARE_METHOD"]
+0->8[label="DECLARE_FIELD"]
+0->17[label="DECLARE_FIELD"]
+}

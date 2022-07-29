@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=3520,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="Johnmalc-JavaFX~/Johnmalc-JavaFX/JavaFX-master/src/james/Indicators.java~Indicators~678",1="GimVic-app-GimVic-Desktop~/GimVic-app-GimVic-Desktop/gimvic-desktop-master/Main/src/com/DzinVision/preprosteSuplence/main/Gui.java~void install()~505"]
+13[label="new ProgressIndicator()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+14[label="VAR:javafx.scene.control.ProgressIndicator",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+22[label="setProgress()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+15[label="javafx.scene.control.ProgressIndicator",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+14->13[label="CALL"]
+14->22[label="CALL"]
+14->15[label="OF_TYPE"]
+}

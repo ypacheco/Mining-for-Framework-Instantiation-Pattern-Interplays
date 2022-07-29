@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3482,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.i18n.client.Constants"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="laaglu-lib-gwt-svg-edu-commons",filePath="/laaglu-lib-gwt-svg-edu-commons/lib-gwt-svg-edu-commons-master/src/main/java/org/vectomatic/svg/edu/client/commons/CommonConstants.java",contextSignature="CommonConstants",graphId="3482"]
+0[label="main.java.org.vectomatic.svg.edu.client.commons.CommonConstants",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.i18n.client.Constants",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

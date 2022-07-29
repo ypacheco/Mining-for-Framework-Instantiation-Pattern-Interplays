@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=2845,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/EventSelectionDialogController.java~void setInListView(javafx.collections.ObservableList,eventManager.controller.EventSelectionDialogController.EventType)~2941",1="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/EventSelectionDialogController.java~EventSelectionDialogController~2934"]
+319[label="javafx.beans.property.StringPropertyBase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+323[label="VAR:javafx.beans.property.StringPropertyBase",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+317[label="VAR:javafx.beans.property.StringPropertyBase",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+324[label="set()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+318[label="set()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+323->319[label="OF_TYPE"]
+323->324[label="CALL"]
+317->319[label="OF_TYPE"]
+317->318[label="CALL"]
+}

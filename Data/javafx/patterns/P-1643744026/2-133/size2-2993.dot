@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2993,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=null]
+patternInstancesInfo[0="sk44-javafx-mirroring-tool~/sk44-javafx-mirroring-tool/javafx-mirroring-tool-master/src/main/java/sk44/mirroringtool/MainWindowController.java~MainWindowController~4211",1="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/RadialSettingsLayout.java~RadialSettingsLayout~1170",2="yorlov-VirtualPointer~/yorlov-VirtualPointer/VirtualPointer-master/src/com/blogspot/captain1653/options/OptionsStage.java~OptionsStage~4889",3="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/LinearSettingsLayout.java~LinearSettingsLayout~1172",4="victor-fdez-hb-repo~/victor-fdez-hb-repo/hb-repo-master/FLLTutorializator/src/com/honeybadgers/flltutorial/ui/main/navigation/VideoPanel.java~void createScene()~4680"]
+188[label="javafx.beans.binding.BooleanExpression",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+436[label="VAR:javafx.beans.binding.BooleanExpression",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+436->188[label="OF_TYPE"]
+}

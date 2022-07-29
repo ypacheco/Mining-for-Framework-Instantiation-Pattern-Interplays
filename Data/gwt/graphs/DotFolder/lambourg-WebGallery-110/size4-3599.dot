@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=3599,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.event.logical.shared.ResizeEvent"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="lambourg-WebGallery",filePath="/lambourg-WebGallery/WebGallery-master/client/src/com/lambourg/webgallery/client/widgets/ExpandingTextArea.java",contextSignature="void doResize()",graphId="3599"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.event.logical.shared.ResizeEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void fireEvent(com.google.gwt.event.shared.GwtEvent)",vertexType="OUTSIDE_CALL",isFrameworkType=true,peripheries=2]
+3[label="com.google.gwt.user.client.ui.Widget",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+2->0[label="ARGUMENT"]
+2->3[label="OF_TYPE"]
+}

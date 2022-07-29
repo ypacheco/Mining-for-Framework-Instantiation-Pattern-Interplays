@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=3319,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.StackPane"]
+possibleCollaborationsInfo[0="3319~FIELD_DECLARATION-~javafx.scene.layout.StackPane ~javafx.scene.layout.GridPane ~false~false"]
+locationInfo[projectName="jeyoon-Snake",filePath="/jeyoon-Snake/Snake-master/src/WindowController.java",contextSignature="WindowController",graphId="3319"]
+0[label="WindowController",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.StackPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="gp",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="World",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="javafx.scene.layout.GridPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+3->4[label="EXTEND",color=blue]
+2->3[label="OF_TYPE"]
+}

@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1315,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=null]
+patternInstancesInfo[0="rjdkolb-jozijug_phonegapdemo~/rjdkolb-jozijug_phonegapdemo/jozijug_phonegapdemo-master/src/main/java/org/openrap/jozijug/mgwtphonegap/client/activities/testphonegap/TestPhoneGapActivity.java~TestPhoneGapActivity~4406",1="pandurangpatil-gwt-youtube~/pandurangpatil-gwt-youtube/gwt-youtube-master/gwt-youtube-test/src/main/java/open/pandurang/gwt/youtube/test/client/YouTube.java~YouTube~4273",2="lambourg-WebGallery~/lambourg-WebGallery/WebGallery-master/client/src/com/lambourg/webgallery/client/pictureview/SidePanel.java~void SidePanel(int)~3578",3="rjdkolb-jozijug_phonegapdemo~/rjdkolb-jozijug_phonegapdemo/jozijug_phonegapdemo-master/src/main/java/org/openrap/jozijug/mgwtphonegap/client/activities/testphonegap/TestPhoneGapActivity.java~void start(com.google.gwt.user.client.ui.AcceptsOneWidget,com.google.web.bindery.event.shared.EventBus)~4407",4="pandurangpatil-gwt-youtube~/pandurangpatil-gwt-youtube/gwt-youtube-master/gwt-youtube-test/src/main/java/open/pandurang/gwt/youtube/test/client/YouTube.java~void onApiReady(ApiReadyEvent)~4274"]
+5[label="com.google.gwt.core.shared.GWT",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+3[label="VAR:com.google.gwt.core.shared.GWT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+9[label="log()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+3->5[label="OF_TYPE"]
+3->9[label="CALL"]
+}

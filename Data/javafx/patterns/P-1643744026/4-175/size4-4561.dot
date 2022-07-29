@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4561,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/AnnouncementsController.java~void chargeSavedAnnouncementList()~2966",1="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/AnnouncementsController.java~AnnouncementsController~2965"]
+111[label="new ComposeDefinedAnnouncementCell()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+112[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+113[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+114[label="javafx.scene.control.ListCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+113->114[label="EXTEND",color=blue]
+112->113[label="OF_TYPE"]
+112->111[label="CALL"]
+}

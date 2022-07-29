@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=4610,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.SkinBase",1="javafx.scene.control.Skin"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="uinsion-Draughts",filePath="/uinsion-Draughts/Draughts-master/src/DraughtsControlSkin.java",contextSignature="DraughtsControlSkin",graphId="4610"]
+0[label="DraughtsControlSkin",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.SkinBase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="javafx.scene.control.Skin",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="IMPLEMENT",color=red]
+}

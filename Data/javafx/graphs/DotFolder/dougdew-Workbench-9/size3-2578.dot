@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=2578,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.concurrent.Task"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="dougdew-Workbench",filePath="/dougdew-Workbench/Workbench-master/src/workbench/EditorController.java",contextSignature="ReadWorker",graphId="2578"]
+0[label="workbench.EditorController.ReadWorker",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.concurrent.Task",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="workbench.EditorController.ReadWorkerResults call()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+}

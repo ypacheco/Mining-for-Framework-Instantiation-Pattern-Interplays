@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3800,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.application.Application"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="nwaldispuehl-java-introduction",filePath="/nwaldispuehl-java-introduction/java-intro-master/hands_on_examples/src/main/java/example_01/TreasureHunt.java",contextSignature="TreasureHunt",graphId="3800"]
+0[label="main.java.example_01.TreasureHunt",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.application.Application",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

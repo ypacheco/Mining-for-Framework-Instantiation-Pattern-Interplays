@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=3547,category="extension_graph",isAnonymous=true,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.event.shared.EventHandler"]
+possibleCollaborationsInfo[0="3547~CLIENT_METHOD_DECLARATION-PARAMETER_DECLARATION-~com.google.gwt.event.shared.EventHandler ~com.google.gwt.event.shared.GwtEvent ~true~false"]
+locationInfo[projectName="lambourg-WebGallery",filePath="/lambourg-WebGallery/WebGallery-master/client/src/com/lambourg/webgallery/client/pictureview/PictureView.java",contextSignature="void PictureView()",graphId="3547"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.event.shared.EventHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+6[label="void onToggled(com.lambourg.webgallery.client.events.ToggledEvent)",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+7[label="event",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+8[label="com.lambourg.webgallery.client.events.ToggledEvent",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+9[label="com.google.gwt.event.shared.GwtEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->6[label="DECLARE_METHOD"]
+8->9[label="EXTEND",color=blue]
+7->8[label="OF_TYPE"]
+6->7[label="PARAMETER"]
+}

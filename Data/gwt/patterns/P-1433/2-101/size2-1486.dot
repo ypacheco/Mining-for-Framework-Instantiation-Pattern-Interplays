@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1486,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="jumanor-matamarcianos~/jumanor-matamarcianos/matamarcianos-master/src/main/java/pck/client/TfrmMenu.java~void TfrmMenu()~3316",1="jumanor-matamarcianos~/jumanor-matamarcianos/matamarcianos-master/src/main/java/pck/client/TMotorJuego.java~void ejecutar()~3319",2="daonb-obudget~/daonb-obudget/obudget-master/src/client/src/org/obudget/client/Application.java~Application~1154"]
+28[label="com.google.gwt.i18n.client.NumberFormat",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+38[label="VAR:com.google.gwt.i18n.client.NumberFormat",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+38->28[label="OF_TYPE"]
+}

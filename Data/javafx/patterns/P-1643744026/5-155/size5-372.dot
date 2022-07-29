@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=372,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=12.0,patternRootClient=0]
+patternInstancesInfo[0="making-todo-tsa~/making-todo-tsa/todo-tsa-master/todo-fx/src/main/java/todo/app/TodoController.java~TodoController~3522",1="matanghuy-SPCA~/matanghuy-SPCA/SPCA-master/SPCA/src/controllers/TransController.java~TransController~3572",2="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/TournamentController.java~TournamentController~3009",3="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/Project.java~Project~1849",4="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/FFmpegArgumentsManagerPane.java~FFmpegArgumentsManagerPane~1846",5="taylorthurlow-panda~/taylorthurlow-panda/panda-master/src/edu/TaylorThurlow/WindowMainController.java~WindowMainController~4508",6="diogocs1-FPessoais~/diogocs1-FPessoais/FPessoais-master/FinancasPessoais/src/app/controllers/HomeController.java~HomeController~2490",7="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/MainPane.java~MainPane~1847",8="demibenari-cd-catalog~/demibenari-cd-catalog/cd-catalog-master/src/cd/catalog/MainFormController.java~MainFormController~2392",9="NirmalL-Shark~/NirmalL-Shark/Shark-master/src/Controller.java~Controller~1009",10="crosswords-testEnvironment~/crosswords-testEnvironment/testEnvironment-master/src/GUI/MainController.java~MainController~2315",11="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEPrincipalController.java~CEPrincipalController~2114"]
+52[label="FIELD:javafx.scene.control.TableColumn",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+20[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+8[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+16[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->8[label="DECLARE_FIELD"]
+0->20[label="DECLARE_FIELD"]
+0->16[label="DECLARE_FIELD"]
+0->52[label="DECLARE_FIELD"]
+}

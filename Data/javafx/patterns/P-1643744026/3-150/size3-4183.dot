@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4183,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="joelburget-miftiwac~/joelburget-miftiwac/miftiwac-master/src/Dynamic_page.java~void intializeContinueButton()~3339",1="joelburget-miftiwac~/joelburget-miftiwac/miftiwac-master/src/Dynamic_page.java~Dynamic_page~3333",2="soonzsoonz-QuickFoot~/soonzsoonz-QuickFoot/QuickFoot-master/src/application/AudioConfigModel.java~void addListenerToGenreSelectionModel()~4252"]
+9[label="javafx.beans.binding.IntegerExpression",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+7[label="VAR:javafx.beans.binding.IntegerExpression",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+8[label="getValue()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+7->8[label="CALL"]
+7->9[label="OF_TYPE"]
+}

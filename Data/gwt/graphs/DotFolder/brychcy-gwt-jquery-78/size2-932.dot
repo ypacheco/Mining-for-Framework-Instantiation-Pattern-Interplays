@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=932,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="brychcy-gwt-jquery",filePath="/brychcy-gwt-jquery/gwt-jquery-master/src/com/xedge/jquery/client/model/ConverterHolder.java",contextSignature="ConverterHolder",graphId="932"]
+0[label="com.xedge.jquery.client.model.ConverterHolder",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

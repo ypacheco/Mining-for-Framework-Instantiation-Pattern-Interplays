@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4147,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/Project.java~Project~1849",1="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/MainPane.java~MainPane~1847"]
+83[label="javafx.scene.image.Image getFunction1Image()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+14[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->83[label="OVERRIDE"]
+0->14[label="DECLARE_FIELD"]
+}

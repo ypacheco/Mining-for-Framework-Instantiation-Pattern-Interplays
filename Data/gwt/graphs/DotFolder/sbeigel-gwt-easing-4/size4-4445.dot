@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=4445,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.animation.client.Animation"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="sbeigel-gwt-easing",filePath="/sbeigel-gwt-easing/gwt-easing-master/src/de/beigel/gwt/easing/client/Ease.java",contextSignature="com.google.gwt.animation.client.Animation in(de.beigel.gwt.easing.client.Transition,de.beigel.gwt.easing.client.Updater)",graphId="4445"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.animation.client.Animation",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void onUpdate(double)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="double interpolate(double)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+0->3[label="OVERRIDE"]
+}

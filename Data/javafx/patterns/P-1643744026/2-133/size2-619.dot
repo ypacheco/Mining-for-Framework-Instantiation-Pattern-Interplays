@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=619,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.GridPane"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=7.0,patternRootClient=0]
+patternInstancesInfo[0="jeyoon-Snake~/jeyoon-Snake/Snake-master/src/World.java~World~3318",1="fisimon-Ing_Software~/fisimon-Ing_Software/Ing_Software-master/src/application/Box.java~Box~2686",2="sztorman-PSZT~/sztorman-PSZT/PSZT-master/src/Freedom.java~BoardSkin~4431",3="pedrodonte-genjeefx~/pedrodonte-genjeefx/genjeefx-master/GenJeeFx/src/main/java/generar/ui/SeleccionadorElementos.java~SeleccionadorElementos~3859",4="egordon-btcoracle~/egordon-btcoracle/btcoracle-master/btcoracle/src/orclient/components/NewForm.java~NewForm~2614",5="RobertWeidinger-JavaFXTest3~/RobertWeidinger-JavaFXTest3/JavaFXTest3-master/src/application/SpielfeldViewSpike.java~SpielfeldViewSpike~1135",6="nielsmaneschijn-8bit~/nielsmaneschijn-8bit/8bit-master/src/net/maneschijn/bleep/ui/ControlUI.java~ControlUI~3757"]
+1[label="javafx.scene.layout.GridPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

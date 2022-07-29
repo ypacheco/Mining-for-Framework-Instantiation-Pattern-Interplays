@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3509,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.application.Application"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="m2rtt-Poomine",filePath="/m2rtt-Poomine/Poomine-master/src/application/Taimer.java",contextSignature="Taimer",graphId="3509"]
+0[label="application.Taimer",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.application.Application",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

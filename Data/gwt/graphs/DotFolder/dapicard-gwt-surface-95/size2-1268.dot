@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1268,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Image"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="dapicard-gwt-surface",filePath="/dapicard-gwt-surface/gwt-surface-master/gwt-surface/src/main/java/com/axeiya/gwt/surface/client/widget/Separator.java",contextSignature="Separator",graphId="1268"]
+0[label="main.java.com.axeiya.gwt.surface.client.widget.Separator",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Image",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

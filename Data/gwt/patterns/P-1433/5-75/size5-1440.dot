@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1440,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="coldplayguy-flight87~/coldplayguy-flight87/flight87-master/BookFlight/src/bookflight/client/BookFlight.java~void onModuleLoad()~1092",1="coldplayguy-flight87~/coldplayguy-flight87/flight87-master/BookFlight/src/bookflight/client/BookFlight.java~BookFlight~1091"]
+21[label="new SuggestBox()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+22[label="VAR:com.google.gwt.user.client.ui.SuggestBox",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+23[label="com.google.gwt.user.client.ui.SuggestBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+25[label="VAR:com.google.gwt.user.client.ui.SuggestBox",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+24[label="new SuggestBox()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+22->23[label="OF_TYPE"]
+25->24[label="CALL"]
+22->21[label="CALL"]
+25->23[label="OF_TYPE"]
+}

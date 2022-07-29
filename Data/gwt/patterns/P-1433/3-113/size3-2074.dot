@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2074,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="cbopp-gwt-taglist~/cbopp-gwt-taglist/gwt-taglist-master/src/main/java/com/virilis_software/gwt/taglist/client/comp/tag/TagView.java~void activateDnD()~1032",1="cbopp-gwt-taglist~/cbopp-gwt-taglist/gwt-taglist-master/src/main/java/com/virilis_software/gwt/taglist/client/comp/tag/TagView.java~TagView~1029"]
+58[label="com.google.gwt.event.dom.client.DragDropEventBase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+56[label="VAR:com.google.gwt.event.dom.client.DragDropEventBase",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+57[label="setData()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+56->57[label="CALL"]
+56->58[label="OF_TYPE"]
+}

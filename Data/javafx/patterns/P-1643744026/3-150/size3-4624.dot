@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4624,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="jperedadnr-RiggedHand~/jperedadnr-RiggedHand/RiggedHand-master/src/utils/DragSupport.java~void DragSupport(javafx.scene.Scene,javafx.scene.input.KeyCode,javafx.scene.input.MouseButton,javafx.geometry.Orientation,javafx.beans.property.Property,double)~3397"]
+17[label="javafx.beans.value.WritableValue",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+15[label="VAR:javafx.beans.value.WritableValue",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+16[label="getValue()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+15->16[label="CALL"]
+15->17[label="OF_TYPE"]
+}

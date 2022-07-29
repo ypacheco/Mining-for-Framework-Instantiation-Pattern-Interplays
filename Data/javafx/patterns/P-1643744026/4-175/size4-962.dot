@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=962,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="FloconDeNeige-Programme-Cyprien~/FloconDeNeige-Programme-Cyprien/Programme-Cyprien-master/CYPRIEN/src/gui/derivative/MyImageView.java~void setGrab()~473",1="DC37-Super-Mario-Paint~/DC37-Super-Mario-Paint/Super-Mario-Paint-master/src/smp/components/staff/StaffInstrumentEventHandler.java~StaffInstrumentEventHandler~281"]
+17[label="PARAMETER:javafx.event.Event",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+33[label="consume()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+16[label="void handle(javafx.event.Event)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+18[label="javafx.event.Event",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+17->18[label="OF_TYPE"]
+17->33[label="CALL"]
+16->17[label="PARAMETER"]
+}

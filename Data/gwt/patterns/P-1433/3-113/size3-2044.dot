@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2044,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/DatePicker.java~void showCalendar()~3033",1="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/DatePicker.java~DatePicker~3029"]
+14[label="com.google.gwt.user.client.ui.ChangeListenerCollection",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+12[label="VAR:com.google.gwt.user.client.ui.ChangeListenerCollection",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+13[label="fireChange()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+12->14[label="OF_TYPE"]
+12->13[label="CALL"]
+}

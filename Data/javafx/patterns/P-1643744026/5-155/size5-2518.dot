@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=2518,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="amonker-AmonkerFX~/amonker-AmonkerFX/AmonkerFX-master/src/cn/jingyun/javafx/amonker/ui/AmonkerUIApplication.java~AmonkerUIApplication~1831",1="UrsKR-fxcalendar~/UrsKR-fxcalendar/fxcalendar-master/src/main/java/com/sai/javafx/calendar/DatePickerPane.java~DatePickerPane~1521"]
+3[label="javafx.geometry.Rectangle2D",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2[label="FIELD:javafx.geometry.Rectangle2D",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+6[label="FIELD:CLIENT",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+9[label="FIELD:CLIENT",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+0->9[label="DECLARE_FIELD"]
+0->6[label="DECLARE_FIELD"]
+}

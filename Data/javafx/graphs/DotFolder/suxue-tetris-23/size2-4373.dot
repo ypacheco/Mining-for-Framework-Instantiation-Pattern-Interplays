@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4373,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.Label"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="suxue-tetris",filePath="/suxue-tetris/tetris-master/src/tetris/ui/LargeLabel.java",contextSignature="LargeLabel",graphId="4373"]
+0[label="tetris.ui.LargeLabel",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.Label",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

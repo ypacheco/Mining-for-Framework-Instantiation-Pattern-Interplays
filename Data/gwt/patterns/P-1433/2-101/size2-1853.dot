@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1853,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="Namrack-TeachToLearn~/Namrack-TeachToLearn/TeachToLearn-master/TeachToLearn/src/ttl/client/layout/widgets/LoginWidget.java~LoginWidget~356",1="Namrack-TeachToLearn~/Namrack-TeachToLearn/TeachToLearn-master/TeachToLearn/src/ttl/client/layout/widgets/LoginWidget.java~void LoginWidget()~361"]
+16[label="com.smartgwt.client.widgets.Window",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+15[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+15->16[label="EXTEND",color=blue]
+}

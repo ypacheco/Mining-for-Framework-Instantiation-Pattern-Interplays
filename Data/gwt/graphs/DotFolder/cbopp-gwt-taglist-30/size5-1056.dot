@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=1056,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Composite"]
+possibleCollaborationsInfo[0="1056~FIELD_DECLARATION-~com.google.gwt.user.client.ui.Composite ~com.google.gwt.uibinder.client.UiBinder ~false~false"]
+locationInfo[projectName="cbopp-gwt-taglist",filePath="/cbopp-gwt-taglist/gwt-taglist-master/src/test/java/com/virilis_software/gwt/taglist/client/samples/NonEditView.java",contextSignature="NonEditView",graphId="1056"]
+0[label="test.java.com.virilis_software.gwt.taglist.client.samples.NonEditView",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Composite",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="uiBinder",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="test.java.com.virilis_software.gwt.taglist.client.samples.NonEditView.Binder",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="com.google.gwt.uibinder.client.UiBinder",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+3->4[label="IMPLEMENT",color=blue]
+2->3[label="OF_TYPE"]
+}

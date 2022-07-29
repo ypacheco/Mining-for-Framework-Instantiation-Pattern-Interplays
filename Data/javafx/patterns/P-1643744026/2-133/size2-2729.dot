@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2729,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="LichuanLu-ShunUI-FX~/LichuanLu-ShunUI-FX/ShunUI-FX-master/src/controllers/Controller.java~Controller~779",1="wwtg99-POMA~/wwtg99-POMA/POMA-master/src/cn/edu/suda/gui/WilcoxChartPane.java~WilcoxChartPane~4828",2="johnwatson11218-cardcitefx~/johnwatson11218-cardcitefx/cardcitefx-master/Cardcite/src/main/java/cardcite/ui/CardCiteMain.java~CardCiteMain~3353",3="philippone-EMGClassifier~/philippone-EMGClassifier/EMGClassifier-master/src/gui/EMGClassifierGUI.java~EMGClassifierGUI~3875"]
+46[label="javafx.scene.chart.NumberAxis",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+48[label="VAR:javafx.scene.chart.NumberAxis",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+48->46[label="OF_TYPE"]
+}

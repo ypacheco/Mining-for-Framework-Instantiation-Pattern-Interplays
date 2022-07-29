@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1016,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.place.shared.Place"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="carlos-aguayo-html5gwthistory",filePath="/carlos-aguayo-html5gwthistory/html5gwthistory-master/src/com/dreamskiale/client/GoodbyePlace.java",contextSignature="GoodbyePlace",graphId="1016"]
+0[label="com.dreamskiale.client.GoodbyePlace",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.place.shared.Place",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

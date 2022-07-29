@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3406,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.TreeItem"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jsnsimpson-tilisty",filePath="/jsnsimpson-tilisty/tilisty-master/src/com/tilisty/views/ViewItem.java",contextSignature="ViewItem",graphId="3406"]
+0[label="com.tilisty.views.ViewItem",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.TreeItem",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

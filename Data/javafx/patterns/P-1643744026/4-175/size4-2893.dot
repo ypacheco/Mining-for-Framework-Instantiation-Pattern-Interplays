@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2893,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="LichuanLu-ShunUI-FX~/LichuanLu-ShunUI-FX/ShunUI-FX-master/src/controllers/Controller.java~Controller~779",1="amonker-AmonkerFX~/amonker-AmonkerFX/AmonkerFX-master/src/cn/jingyun/javafx/amonker/ui/AmonkerUIApplication.java~AmonkerUIApplication~1831"]
+16[label="javafx.scene.control.ToolBar",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+41[label="VAR:javafx.scene.control.ToolBar",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+54[label="setOnMousePressed()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+64[label="setOnMouseDragged()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+41->64[label="CALL"]
+41->54[label="CALL"]
+41->16[label="OF_TYPE"]
+}

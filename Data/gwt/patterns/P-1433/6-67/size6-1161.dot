@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1161,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="akjava-WebTestMaker~/akjava-WebTestMaker/WebTestMaker-master/src/com/akjava/gwt/webtestmaker/client/WebTestMaker.java~WebTestMaker~655",1="Tok-Erwin~/Tok-Erwin/Erwin-master/src/main/java/erwin/client/Erwin.java~Erwin~388"]
+16[label="FIELD:com.google.gwt.user.client.ui.CheckBox",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+100[label="VAR:com.google.gwt.user.client.ui.CheckBox",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+10[label="FIELD:com.google.gwt.user.client.ui.CheckBox",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+6[label="FIELD:com.google.gwt.user.client.ui.Label",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+26[label="FIELD:com.google.gwt.user.client.ui.Label",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->26[label="DECLARE_FIELD"]
+16->100[label="REFERENCE"]
+0->6[label="DECLARE_FIELD"]
+0->10[label="DECLARE_FIELD"]
+0->16[label="DECLARE_FIELD"]
+}

@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2381,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="tarchan-ClipFX~/tarchan-ClipFX/ClipFX-master/src/com/mac/tarchan/clipfx/ClipFXController.java~ClipFXController~4467",1="bjornbil-reservatie~/bjornbil-reservatie/reservatie-master/ReservatieKommaFinal/src/be/khleuven/bjornbillen/controller/MainController.java~MainController~2178"]
+30[label="FIELD:javafx.scene.Parent",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+31[label="javafx.scene.Parent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+42[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->42[label="DECLARE_FIELD"]
+0->30[label="DECLARE_FIELD"]
+30->31[label="OF_TYPE"]
+}

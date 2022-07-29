@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2017,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="pkamenarsky-ocean~/pkamenarsky-ocean/ocean-master/src/com/eleven/client/gl/GL_hl.java~GL_hl~4312",1="pkamenarsky-ocean~/pkamenarsky-ocean/ocean-master/src/com/eleven/client/gl/GL_hl.java~void onModuleLoad()~4317"]
+57[label="gwt.g3d.client.math.MatrixStack",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+58[label="VAR:gwt.g3d.client.math.MatrixStack",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+58->57[label="OF_TYPE"]
+}

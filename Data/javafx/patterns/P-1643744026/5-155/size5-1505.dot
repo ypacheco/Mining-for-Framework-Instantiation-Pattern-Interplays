@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1505,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/TournamentController.java~TournamentController~3009",1="geyrix57-Proyecto_1_Bases~/geyrix57-Proyecto_1_Bases/Proyecto_1_Bases-master/src/Control/ControlLog.java~ControlLog~2710",2="Geekly-fieldmarshalfx~/Geekly-fieldmarshalfx/fieldmarshalfx-master/src/net/geeklythings/fm/ui/fxml/LoadTournamentDialogController.java~LoadTournamentDialogController~500"]
+248[label="new Callback()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+249[label="VAR:ANONYMOUS",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+152[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+140[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+249->248[label="CALL"]
+152->249[label="INSTANTIATE"]
+0->140[label="DECLARE_FIELD"]
+0->152[label="OVERRIDE"]
+}

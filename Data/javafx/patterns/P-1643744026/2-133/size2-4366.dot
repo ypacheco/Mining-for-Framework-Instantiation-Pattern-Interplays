@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=4366,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/settingsmenu/RadialSettingsMenu.java~RadialSettingsMenu~976",1="7thwheel-medaka-chan~/7thwheel-medaka-chan/medaka-chan-master/src/seventhwheel/pos/controller/MainController.java~MainController~25",2="Maxxa-MT-common~/Maxxa-MT-common/MT-common-master/src/cz/commons/example/graphics/branchNode/BranchElementExample.java~BranchElementExample~916"]
+294[label="javafx.animation.FadeTransitionBuilder",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+304[label="VAR:javafx.animation.FadeTransitionBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+304->294[label="OF_TYPE"]
+}

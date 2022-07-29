@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1483,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="aramk-mechanix~/aramk-mechanix/mechanix-master/src/au/edu/unimelb/csse/smd/mechanix/client/stage/SwitchMachine.java~SwitchMachine~714",1="Archerw-mastermind~/Archerw-mastermind/mastermind-master/nyu-smg-mastermind/src/org/mastermind/graphics/WidgetAnimation.java~WidgetAnimation~27",2="lambourg-WebGallery~/lambourg-WebGallery/WebGallery-master/client/src/com/lambourg/webgallery/client/pictureview/ControlButton.java~ControlButton~3566"]
+3[label="com.google.gwt.resources.client.ImageResource",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+4[label="FIELD:com.google.gwt.resources.client.ImageResource",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+4->3[label="OF_TYPE"]
+}

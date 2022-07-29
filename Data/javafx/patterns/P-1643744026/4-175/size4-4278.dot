@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4278,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="Tsaru-Java-MP3-Visualizations~/Tsaru-Java-MP3-Visualizations/Java-MP3-Visualizations-master/mp3 Visualization/src/VisualizationInterface.java~void start(javafx.stage.Stage)~1512",1="Tsaru-Java-MP3-Visualizations~/Tsaru-Java-MP3-Visualizations/Java-MP3-Visualizations-master/mp3 Visualization/src/VisualizationInterface.java~VisualizationInterface~1511"]
+19[label="javafx.scene.media.AudioSpectrumListener",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+18[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+17[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+16[label="new SpectrumListener()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+18->19[label="IMPLEMENT",color=blue]
+17->16[label="CALL"]
+17->18[label="OF_TYPE"]
+}

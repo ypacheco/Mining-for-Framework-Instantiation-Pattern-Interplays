@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=269,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/easyoverlay/src/com/akjava/gwt/hangout/easyoverlay/client/EasyOverlay.java~EasyOverlay~492",1="12010994-GLI-TP1~/12010994-GLI-TP1/GLI-TP1-master/src/main/java/fr/istic/m2gl/gli/client/gli.java~gli~1",2="Max-Hailperin-MessageBoard~/Max-Hailperin-MessageBoard/MessageBoard-master/MessageBoard/src/edu/gac/mcs270/messageboard/client/MessageBoard.java~MessageBoard~324"]
+15[label="new HorizontalPanel()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+16[label="VAR:com.google.gwt.user.client.ui.HorizontalPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+53[label="add()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+31[label="add()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+48[label="add()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+16->15[label="CALL"]
+16->31[label="CALL"]
+16->53[label="CALL"]
+16->48[label="CALL"]
+}

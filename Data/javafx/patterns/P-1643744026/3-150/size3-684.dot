@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=684,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="tyduptyler13-AutoCAMS-Parser~/tyduptyler13-AutoCAMS-Parser/AutoCAMS-Parser-master/src/com/myuplay/AutoCAMS/Main.java~Main~4599",1="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/GradientBuilderApp.java~GradientBuilderApp~1189",2="Alittlemurkling-alarm-clock~/Alittlemurkling-alarm-clock/alarm-clock-master/src/org/quux/alarmclock/AlarmCard.java~AlarmCard~130",3="wwtg99-POMA~/wwtg99-POMA/POMA-master/src/cn/edu/suda/gui/NODChartPane.java~NODChartPane~4834"]
+17[label="javafx.scene.layout.BorderPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+114[label="VAR:javafx.scene.layout.BorderPane",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+76[label="VAR:javafx.scene.layout.BorderPane",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+114->17[label="OF_TYPE"]
+76->17[label="OF_TYPE"]
+}

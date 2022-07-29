@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2270,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="UrsKR-fxcalendar~/UrsKR-fxcalendar/fxcalendar-master/src/main/java/com/sai/javafx/calendar/TopPane.java~TopPane~1530",1="UrsKR-fxcalendar~/UrsKR-fxcalendar/fxcalendar-master/src/main/java/com/sai/javafx/calendar/FXCalendar.java~FXCalendar~1522"]
+9[label="FIELD:javafx.beans.property.SimpleIntegerProperty",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+4[label="FIELD:CLIENT",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+62[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->62[label="DECLARE_METHOD"]
+0->9[label="DECLARE_FIELD"]
+0->4[label="DECLARE_FIELD"]
+}

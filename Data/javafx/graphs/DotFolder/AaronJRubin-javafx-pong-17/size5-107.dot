@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=107,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="javafx.scene.shape.Rectangle"]
+possibleCollaborationsInfo[0="107~FIELD_DECLARATION-~javafx.scene.shape.Rectangle ~javafx.stage.Stage ~false~false"]
+locationInfo[projectName="AaronJRubin-javafx-pong",filePath="/AaronJRubin-javafx-pong/javafx-pong-master/src/main/java/game/Paddle.java",contextSignature="Paddle",graphId="107"]
+0[label="main.java.game.Paddle",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.shape.Rectangle",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="debugStage",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="stages.DebugStage",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="javafx.stage.Stage",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+3->4[label="EXTEND",color=blue]
+2->3[label="OF_TYPE"]
+}

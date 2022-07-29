@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1851,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="highcharts4gwt-highcharts",filePath="/highcharts4gwt-highcharts/highchart-wrapper-master/src/main/java/com/github/highcharts4gwt/model/highcharts/option/jso/plotoptions/line/JsoPoint.java",contextSignature="JsoPoint",graphId="1851"]
+0[label="main.java.com.github.highcharts4gwt.model.highcharts.option.jso.plotoptions.line.JsoPoint",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

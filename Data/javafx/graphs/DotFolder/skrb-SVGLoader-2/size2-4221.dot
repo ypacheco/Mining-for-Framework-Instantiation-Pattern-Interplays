@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4221,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.Group"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="skrb-SVGLoader",filePath="/skrb-SVGLoader/SVGLoader-master/src/net/javainthebox/caraibe/svg/SVGContent.java",contextSignature="SVGContent",graphId="4221"]
+0[label="net.javainthebox.caraibe.svg.SVGContent",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.Group",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

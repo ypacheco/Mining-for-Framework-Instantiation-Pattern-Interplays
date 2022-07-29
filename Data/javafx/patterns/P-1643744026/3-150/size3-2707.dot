@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2707,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/GradientBuilderApp.java~GradientBuilderApp~1189",1="cosysoft-financialfx~/cosysoft-financialfx/financialfx-master/incubatorfx/src/com/cosysoft/labs/financialfx/ui/Face.java~Face~2313"]
+58[label="javafx.scene.layout.RegionBuilder",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+56[label="VAR:javafx.scene.layout.RegionBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+57[label="prefHeight()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+56->58[label="OF_TYPE"]
+56->57[label="CALL"]
+}

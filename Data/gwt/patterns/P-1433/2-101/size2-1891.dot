@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1891,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/sound-player/src/com/akjava/gwt/hangout/soundplayer/client/HangoutSoundPlayer.java~HangoutSoundPlayer~561",1="CarlRazmus-WebStore~/CarlRazmus-WebStore/WebStore-master/src/tddd24/project/client/WebStore.java~WebStore~61"]
+67[label="com.google.gwt.user.client.ui.CellPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+65[label="VAR:com.google.gwt.user.client.ui.CellPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+65->67[label="OF_TYPE"]
+}

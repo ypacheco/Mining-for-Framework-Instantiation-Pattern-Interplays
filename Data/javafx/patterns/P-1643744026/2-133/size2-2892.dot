@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2892,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="amonker-AmonkerFX~/amonker-AmonkerFX/AmonkerFX-master/src/cn/jingyun/javafx/amonker/ui/AmonkerUIApplication.java~AmonkerUIApplication~1831",1="AMITCCILGITHUB-Contacts~/AMITCCILGITHUB-Contacts/Contacts-master/Contacts/src/org/apandey/view/parts/Header.java~Header~55"]
+219[label="javafx.scene.control.ToolBar",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+280[label="VAR:javafx.scene.control.ToolBar",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+280->219[label="OF_TYPE"]
+}

@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=1594,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.Group"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="VgQD-JOculusLib",filePath="/VgQD-JOculusLib/JOculusLib-master/src/be/student/vgqd/joculus/v1/hud/fx/oculusview/component/YawView.java",contextSignature="YawView",graphId="1594"]
+0[label="be.student.vgqd.joculus.v1.hud.fx.oculusview.component.YawView",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.Group",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="circle",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.scene.shape.Circle",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+}

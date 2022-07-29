@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2119,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=null]
+patternInstancesInfo[0="greenua14-TicTacToeClient~/greenua14-TicTacToeClient/TicTacToeClient-master/src/sample/Controllers/CreateOrConnectToGameController.java~CreateOrConnectToGameController~2811",1="tgregerson-lc3~/tgregerson-lc3/lc3-master/LC3Sim/src/lc3sim/ui/UIFXMain.java~javafx.util.Callback GetChangeHighlightedCellFactory()~4535",2="tgregerson-lc3~/tgregerson-lc3/lc3-master/LC3Sim/src/lc3sim/ui/UIFXMain.java~void InitMemory()~4529",3="sipadan2003-JFXTreeView201312~/sipadan2003-JFXTreeView201312/JFXTreeView201312-master/src/jfxtreeview/TreeCellGraph.java~TreeCellGraph~4189",4="tgregerson-lc3~/tgregerson-lc3/lc3-master/LC3Sim/src/lc3sim/ui/UIFXMain.java~UIFXMain~4520"]
+24[label="javafx.scene.control.Cell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+36[label="VAR:javafx.scene.control.Cell",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+36->24[label="OF_TYPE"]
+}

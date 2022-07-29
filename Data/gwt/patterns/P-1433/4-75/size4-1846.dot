@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1846,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="rjdkolb-jozijug_phonegapdemo~/rjdkolb-jozijug_phonegapdemo/jozijug_phonegapdemo-master/src/main/java/org/openrap/jozijug/mgwtphonegap/client/activities/AboutPlace.java~AboutPlaceTokenizer~4379",1="rjdkolb-jozijug_phonegapdemo~/rjdkolb-jozijug_phonegapdemo/jozijug_phonegapdemo-master/src/main/java/org/openrap/jozijug/mgwtphonegap/client/activities/ShowCaseListActivity.java~ShowCaseListActivity~4380",2="rjdkolb-jozijug_phonegapdemo~/rjdkolb-jozijug_phonegapdemo/jozijug_phonegapdemo-master/src/main/java/org/openrap/jozijug/mgwtphonegap/client/activities/ShowCaseListActivity.java~void start(com.google.gwt.user.client.ui.AcceptsOneWidget,com.google.web.bindery.event.shared.EventBus)~4382"]
+34[label="new AboutPlace()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+35[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+36[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+24[label="com.google.gwt.place.shared.Place",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+35->34[label="CALL"]
+35->36[label="OF_TYPE"]
+36->24[label="EXTEND",color=blue]
+}

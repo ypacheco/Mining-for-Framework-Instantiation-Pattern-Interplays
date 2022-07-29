@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2296,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.beans.value.ChangeListener"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/GradientBuilderApp.java~void configureToolBar()~1192",1="UrsKR-fxcalendar~/UrsKR-fxcalendar/fxcalendar-master/src/main/java/com/sai/javafx/calendar/FXCalendar.java~void configureListeners()~1526"]
+3[label="javafx.beans.property.ObjectPropertyBase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2[label="METHOD_CALL",vertexType="OUTSIDE_CALL",isFrameworkType=false]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.beans.value.ChangeListener",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+2->3[label="OF_TYPE"]
+2->0[label="ARGUMENT"]
+0->1[label="IMPLEMENT",color=red]
+}

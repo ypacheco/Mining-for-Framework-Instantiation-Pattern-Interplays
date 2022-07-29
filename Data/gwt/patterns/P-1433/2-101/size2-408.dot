@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=408,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=null]
+patternInstancesInfo[0="lambourg-WebGallery~/lambourg-WebGallery/WebGallery-master/client/src/com/lambourg/webgallery/client/folderview/FolderView.java~FolderView~3530",1="lambourg-WebGallery~/lambourg-WebGallery/WebGallery-master/client/src/com/lambourg/webgallery/client/pictureview/PictureView.java~void onZoomClicked()~3565",2="lambourg-WebGallery~/lambourg-WebGallery/WebGallery-master/client/src/com/lambourg/webgallery/client/folderview/Thumbnails.java~void Thumb(com.lambourg.webgallery.shared.PictureDescriptor)~3525",3="lambourg-WebGallery~/lambourg-WebGallery/WebGallery-master/client/src/com/lambourg/webgallery/client/WebGallery.java~WebGallery~3490",4="lambourg-WebGallery~/lambourg-WebGallery/WebGallery-master/client/src/com/lambourg/webgallery/client/pictureview/PictureView.java~PictureView~3541"]
+1[label="com.google.gwt.user.client.ui.LayoutPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+176[label="VAR:com.google.gwt.user.client.ui.LayoutPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+176->1[label="OF_TYPE"]
+}

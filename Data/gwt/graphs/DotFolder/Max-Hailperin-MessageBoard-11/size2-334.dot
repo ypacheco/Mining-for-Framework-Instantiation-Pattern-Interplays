@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=334,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.rpc.RemoteService"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Max-Hailperin-MessageBoard",filePath="/Max-Hailperin-MessageBoard/MessageBoard-master/MessageBoard/src/edu/gac/mcs270/messageboard/shared/MessageStore.java",contextSignature="MessageStore",graphId="334"]
+0[label="edu.gac.mcs270.messageboard.shared.MessageStore",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.rpc.RemoteService",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

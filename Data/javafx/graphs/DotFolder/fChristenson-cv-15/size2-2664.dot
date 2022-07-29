@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=2664,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.image.ImageView"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="fChristenson-cv",filePath="/fChristenson-cv/cv-master/src/se/fidde/cv/model/icons/ExitIcon.java",contextSignature="ExitIcon",graphId="2664"]
+0[label="se.fidde.cv.model.icons.ExitIcon",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.image.ImageView",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

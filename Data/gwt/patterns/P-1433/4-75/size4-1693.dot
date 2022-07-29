@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1693,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.IndexedPanel",1="com.google.gwt.user.client.ui.Panel",2="com.google.gwt.user.client.ui.InsertPanel"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="jhudson8-gwt-jquery-ui~/jhudson8-gwt-jquery-ui/gwt-jquery-ui-master/core/gwt-jquery-ui-mobile/src/main/java/com/google/gwt/jquery/mobile/ui/base/AbstractBar.java~AbstractBar~3200",1="jhudson8-gwt-jquery-ui~/jhudson8-gwt-jquery-ui/gwt-jquery-ui-master/core/gwt-jquery-ui-mobile/src/main/java/com/google/gwt/jquery/mobile/ui/base/AbstractTitledBar.java~AbstractTitledBar~3198",2="jhudson8-gwt-jquery-ui~/jhudson8-gwt-jquery-ui/gwt-jquery-ui-master/core/gwt-jquery-ui-mobile/src/main/java/com/google/gwt/jquery/mobile/ui/base/AbstractWidgetContainer.java~AbstractWidgetContainer~3201"]
+2[label="com.google.gwt.user.client.ui.IndexedPanel",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Panel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+3[label="com.google.gwt.user.client.ui.InsertPanel",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0->2[label="IMPLEMENT",color=red]
+0->1[label="EXTEND",color=red]
+0->3[label="IMPLEMENT",color=red]
+}

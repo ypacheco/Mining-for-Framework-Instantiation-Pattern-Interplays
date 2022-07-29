@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=1434,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.util.StringConverter"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Technius-Starbound-Mod-Toolkit",filePath="/Technius-Starbound-Mod-Toolkit/Starbound-Mod-Toolkit-master/src/main/java/co/technius/starboundmodtoolkit/mod/assetpane/RecipeAssetPane.java",contextSignature="void IdTableCell()",graphId="1434"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.util.StringConverter",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="java.lang.String toString(java.lang.String)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="java.lang.String fromString(java.lang.String)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+0->3[label="OVERRIDE"]
+}

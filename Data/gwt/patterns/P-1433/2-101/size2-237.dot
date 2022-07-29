@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=237,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="bobvash-Resolution-Tracker~/bobvash-Resolution-Tracker/Resolution-Tracker-master/ResolutionTracker/src/com/bobvash/resolutiontracker/client/ResolutionDayWidget.java~ResolutionDayWidget~867",1="BrianHenryIE-GwtDropwizard~/BrianHenryIE-GwtDropwizard/GwtDropwizard-master/src/main/java/ie/brianhenry/gwtdropwizard/client/GwtDropwizardClient.java~void sendNameToServer()~47"]
+98[label="com.google.gwt.user.client.ui.DialogBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+100[label="VAR:com.google.gwt.user.client.ui.DialogBox",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+100->98[label="OF_TYPE"]
+}

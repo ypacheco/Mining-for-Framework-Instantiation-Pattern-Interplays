@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2846,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="nablex-jfx-control-date~/nablex-jfx-control-date/jfx-control-date-master/src/main/java/be/nabu/jfx/control/date/DatePicker.java~void initialize()~3723",1="v1ct04-lagbackup~/v1ct04-lagbackup/lagbackup-master/src/com/v1ct04/ces22/lagbackup/view/main/controllers/MainWindowController.java~MainWindowController~4628"]
+48[label="javafx.beans.binding.ObjectExpression",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+46[label="VAR:javafx.beans.binding.ObjectExpression",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+99[label="set()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+46->48[label="OF_TYPE"]
+46->99[label="CALL"]
+}

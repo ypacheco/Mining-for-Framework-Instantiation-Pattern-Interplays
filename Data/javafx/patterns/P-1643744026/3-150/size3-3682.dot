@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=3682,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="eaglestorm-EldarJournal~/eaglestorm-EldarJournal/EldarJournal-master/src/com/eldar/journal/controls/JournalView.java~JournalView~2598",1="AndreasLehmann-SecureNote~/AndreasLehmann-SecureNote/SecureNote-master/src/javafxapplication1/FXMLDocumentController.java~FXMLDocumentController~143"]
+5[label="javafx.scene.web.HTMLEditor",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+4[label="FIELD:javafx.scene.web.HTMLEditor",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+4->5[label="OF_TYPE"]
+0->4[label="DECLARE_FIELD"]
+}

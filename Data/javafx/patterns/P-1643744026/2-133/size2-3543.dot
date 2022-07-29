@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=3543,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/GradientBuilderApp.java~GradientBuilderApp~1189",1="yorlov-VirtualPointer~/yorlov-VirtualPointer/VirtualPointer-master/src/com/blogspot/captain1653/options/OptionsStage.java~OptionsStage~4889",2="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/LinearSettingsLayout.java~LinearSettingsLayout~1172",3="MattMatero-KanjiQuiz~/MattMatero-KanjiQuiz/KanjiQuiz-master/src/Kanji.java~Kanji~899"]
+404[label="javafx.scene.layout.HBoxBuilder",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+576[label="VAR:javafx.scene.layout.HBoxBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+576->404[label="OF_TYPE"]
+}

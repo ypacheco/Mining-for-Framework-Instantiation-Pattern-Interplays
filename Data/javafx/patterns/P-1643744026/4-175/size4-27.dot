@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=27,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=12.0,patternRootClient=0]
+patternInstancesInfo[0="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/TournamentController.java~TournamentController~3009",1="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/NiconImage/NiconImageFXMLController.java~NiconImageFXMLController~2548",2="tarchan-ClipFX~/tarchan-ClipFX/ClipFX-master/src/com/mac/tarchan/clipfx/ClipFXController.java~ClipFXController~4467",3="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/NiconNavigator/NavegadorController.java~NavegadorController~2563",4="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/PrizesController.java~PrizesController~2951",5="fieryphoenix-screen-caster~/fieryphoenix-screen-caster/screen-caster-master/ScreenCaster/src/by/bsuir/zuyeu/controller/ConnectController.java~ConnectController~2678",6="7thwheel-medaka-chan~/7thwheel-medaka-chan/medaka-chan-master/src/seventhwheel/pos/controller/RegisterItemController.java~RegisterItemController~16",7="demibenari-cd-catalog~/demibenari-cd-catalog/cd-catalog-master/src/cd/catalog/MainFormController.java~MainFormController~2392",8="gleba-cppoints~/gleba-cppoints/cppoints-master/src/cpapp/view/ReadFormController.java~ReadFormController~2757",9="7thwheel-medaka-chan~/7thwheel-medaka-chan/medaka-chan-master/src/seventhwheel/pos/controller/SuppliersController.java~SuppliersController~23",10="ajithkp560-quizmaster~/ajithkp560-quizmaster/quizmaster-master/QuizProgram_SRC/QuizProgram/src/quizprogram/SampleController.java~SampleController~1753",11="sandeepb-CiscoECG~/sandeepb-CiscoECG/CiscoECG-master/src/ciscoECGFrontend/MyController.java~MyController~4063"]
+106[label="PARAMETER:javafx.event.ActionEvent",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+105[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+24[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->24[label="DECLARE_FIELD"]
+105->106[label="PARAMETER"]
+0->105[label="DECLARE_METHOD"]
+}

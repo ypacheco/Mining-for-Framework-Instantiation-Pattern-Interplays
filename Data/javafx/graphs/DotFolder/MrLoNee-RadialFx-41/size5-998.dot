@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=998,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.beans.InvalidationListener"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="MrLoNee-RadialFx",filePath="/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/thermostat/Nest.java",contextSignature="InternalListener",graphId="998"]
+0[label="com.mrlonee.radialfx.thermostat.Nest.InternalListener",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.beans.InvalidationListener",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void invalidated(javafx.beans.Observable)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="value",vertexType="PARAMETER_DECLARATION",isFrameworkType=true,peripheries=2]
+4[label="javafx.beans.Observable",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+3->4[label="OF_TYPE"]
+2->3[label="PARAMETER"]
+}

@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=154,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.EntryPoint"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="FinamTrade-slf4j-gwt",filePath="/FinamTrade-slf4j-gwt/slf4j-gwt-master/src/main/java/ru/finam/slf4jgwt/showcase/client/Showcase.java",contextSignature="Showcase",graphId="154"]
+0[label="main.java.ru.finam.slf4jgwt.showcase.client.Showcase",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.EntryPoint",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void onModuleLoad()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+}

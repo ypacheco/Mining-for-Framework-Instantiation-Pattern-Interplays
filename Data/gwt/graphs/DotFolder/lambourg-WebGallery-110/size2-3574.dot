@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3574,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.FlowPanel"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="lambourg-WebGallery",filePath="/lambourg-WebGallery/WebGallery-master/client/src/com/lambourg/webgallery/client/pictureview/SidePanel.java",contextSignature="LikePanel",graphId="3574"]
+0[label="com.lambourg.webgallery.client.pictureview.SidePanel.LikePanel",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.FlowPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4535,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="v1ct04-lagbackup~/v1ct04-lagbackup/lagbackup-master/src/com/v1ct04/ces22/lagbackup/view/main/controllers/RestoreTabController.java~RestoreTabController~4632",1="v1ct04-lagbackup~/v1ct04-lagbackup/lagbackup-master/src/com/v1ct04/ces22/lagbackup/view/main/creation/NewBackupWindow.java~NewBackupWindow~4639"]
+57[label="new FileChooseElement()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+58[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+13[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+14[label="javafx.scene.layout.HBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+13->14[label="EXTEND",color=blue]
+58->57[label="CALL"]
+58->13[label="OF_TYPE"]
+}

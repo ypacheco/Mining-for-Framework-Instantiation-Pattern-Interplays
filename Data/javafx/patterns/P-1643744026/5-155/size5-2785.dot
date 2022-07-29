@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=2785,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="AMITCCILGITHUB-Contacts~/AMITCCILGITHUB-Contacts/Contacts-master/Contacts/src/org/apandey/preloader/Loading.java~Loading~34",1="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/thermostat/NestNoCss.java~NestNoCss~985"]
+23[label="FIELD:javafx.scene.shape.SVGPath",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+9[label="FIELD:javafx.scene.shape.Circle",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+15[label="FIELD:javafx.scene.shape.Circle",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+17[label="FIELD:javafx.scene.shape.Circle",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->15[label="DECLARE_FIELD"]
+0->23[label="DECLARE_FIELD"]
+0->17[label="DECLARE_FIELD"]
+0->9[label="DECLARE_FIELD"]
+}

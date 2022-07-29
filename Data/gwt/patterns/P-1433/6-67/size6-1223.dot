@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1223,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="brychcy-gwt-jquery~/brychcy-gwt-jquery/gwt-jquery-master/src/com/xedge/jquery/client/JQuery.java~JQuery~923",1="neilsh-gwtfb~/neilsh-gwtfb/gwtfb-master/GwtFB/src/com/gwtfb/client/UserInfoViewController.java~UserInfoViewController~4138"]
+196[label="com.google.gwt.json.client.JSONObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+194[label="VAR:com.google.gwt.json.client.JSONObject",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+195[label="getJavaScriptObject()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+190[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1092[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->190[label="DECLARE_METHOD"]
+194->196[label="OF_TYPE"]
+194->195[label="CALL"]
+190->194[label="INSTANTIATE"]
+0->1092[label="DECLARE_METHOD"]
+}

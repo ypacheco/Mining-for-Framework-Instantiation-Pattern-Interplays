@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=478,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.dev.ArgProcessorBase"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="WeTheInternet-xapi-template",filePath="/WeTheInternet-xapi-template/xapi-template-master/src/main/java/wetheinter/net/dev/template/ProcessingInstructionOptions.java",contextSignature="ProcessingInstructionOptions",graphId="478"]
+0[label="main.java.wetheinter.net.dev.template.ProcessingInstructionOptions",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.dev.ArgProcessorBase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="java.lang.String getName()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+}

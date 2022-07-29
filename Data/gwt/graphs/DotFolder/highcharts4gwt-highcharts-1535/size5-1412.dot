@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=1412,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.SimpleLayoutPanel"]
+possibleCollaborationsInfo[0="1412~FIELD_DECLARATION-~com.google.gwt.user.client.ui.SimpleLayoutPanel ~com.google.gwt.user.client.Timer ~false~false"]
+locationInfo[projectName="highcharts4gwt-highcharts",filePath="/highcharts4gwt-highcharts/highchart-wrapper-master/src/main/java/com/github/highcharts4gwt/client/view/widget/HighchartsLayoutPanel.java",contextSignature="HighchartsLayoutPanel",graphId="1412"]
+0[label="main.java.com.github.highcharts4gwt.client.view.widget.HighchartsLayoutPanel",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.SimpleLayoutPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="timer",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="main.java.com.github.highcharts4gwt.client.view.widget.HighchartsLayoutPanel.DelayRenderingTimer",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="com.google.gwt.user.client.Timer",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+3->4[label="EXTEND",color=blue]
+2->3[label="OF_TYPE"]
+}

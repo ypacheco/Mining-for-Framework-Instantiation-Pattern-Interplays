@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2519,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="v1ct04-lagbackup~/v1ct04-lagbackup/lagbackup-master/src/com/v1ct04/ces22/lagbackup/view/main/creation/NewBackupWindow.java~NewBackupWindow~4639",1="Striix-ChiroLedenlijst~/Striix-ChiroLedenlijst/ChiroLedenlijst-master/Main/src/main/Main.java~Main~1387"]
+62[label="javafx.beans.binding.BooleanBinding",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+60[label="VAR:javafx.beans.binding.BooleanBinding",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+60->62[label="OF_TYPE"]
+}

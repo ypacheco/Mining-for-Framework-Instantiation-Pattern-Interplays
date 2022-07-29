@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=155,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.event.shared.EventHandler"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="GoogleCloudPlatform-appengine-gwtguestbook-namespaces-java",filePath="/GoogleCloudPlatform-appengine-gwtguestbook-namespaces-java/appengine-gwtguestbook-namespaces-java-master/src/com/google/gwt/sample/gwtguestbook/client/EntryUpdateHandler.java",contextSignature="EntryUpdateHandler",graphId="155"]
+0[label="com.google.gwt.sample.gwtguestbook.client.EntryUpdateHandler",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.event.shared.EventHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

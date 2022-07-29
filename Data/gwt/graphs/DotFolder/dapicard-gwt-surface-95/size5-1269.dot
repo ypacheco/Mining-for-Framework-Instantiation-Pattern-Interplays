@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1269,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.PushButton"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="dapicard-gwt-surface",filePath="/dapicard-gwt-surface/gwt-surface-master/gwt-surface/src/main/java/com/axeiya/gwt/surface/client/widget/DecoratedPushButton.java",contextSignature="DecoratedPushButton",graphId="1269"]
+0[label="main.java.com.axeiya.gwt.surface.client.widget.DecoratedPushButton",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.PushButton",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="leftBorder",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="com.google.gwt.dom.client.DivElement",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="rightBorder",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+0->4[label="DECLARE_FIELD"]
+4->3[label="OF_TYPE"]
+}

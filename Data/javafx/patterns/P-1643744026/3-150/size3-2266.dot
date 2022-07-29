@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2266,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=6.0,patternRootClient=null]
+patternInstancesInfo[0="jalbertcruz-Documentation-manager~/jalbertcruz-Documentation-manager/Documentation-manager-master/src/documentation/manager/DocumentationManager.java~DocumentationManager~3242",1="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CECommandeController.java~void initialize(java.net.URL,java.util.ResourceBundle)~2092",2="fChristenson-cv~/fChristenson-cv/cv-master/src/se/fidde/cv/view/screens/CVMain.java~CVMain~2670",3="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CECommandeController.java~CECommandeController~2084"]
+14[label="javafx.beans.value.WritableDoubleValue",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+12[label="VAR:javafx.beans.value.WritableDoubleValue",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+18[label="set()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+12->14[label="OF_TYPE"]
+12->18[label="CALL"]
+}

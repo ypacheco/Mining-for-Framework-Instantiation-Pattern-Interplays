@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=3758,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.animation.Transition"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=0]
+patternInstancesInfo[0="witmicko-CalculatorFx~/witmicko-CalculatorFx/CalculatorFx-master/src/calc/transitions/FlipOutYTransition.java~FlipOutYTransition~4790",1="witmicko-CalculatorFx~/witmicko-CalculatorFx/CalculatorFx-master/src/calc/transitions/FlipInYTransition.java~FlipInYTransition~4781",2="witmicko-CalculatorFx~/witmicko-CalculatorFx/CalculatorFx-master/src/calc/transitions/FlipOutXTransition.java~FlipOutXTransition~4783",3="witmicko-CalculatorFx~/witmicko-CalculatorFx/CalculatorFx-master/src/calc/transitions/FlipInXTransition.java~FlipInXTransition~4762"]
+3[label="javafx.scene.Camera",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2[label="FIELD:javafx.scene.Camera",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.animation.Transition",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->2[label="DECLARE_FIELD"]
+0->1[label="EXTEND",color=red]
+2->3[label="OF_TYPE"]
+}

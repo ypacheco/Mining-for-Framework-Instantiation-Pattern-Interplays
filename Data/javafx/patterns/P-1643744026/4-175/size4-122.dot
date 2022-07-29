@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=122,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.application.Application"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=13.0,patternRootClient=0]
+patternInstancesInfo[0="yamin-elmakis-IronDome2~/yamin-elmakis-IronDome2/IronDome2-master/IronDome2Client/src/WarClient.java~WarClient~4857",1="jasonwr-jhuep_ent_web_dev~/jasonwr-jhuep_ent_web_dev/jhuep_ent_web_dev-master/src/hw6/main/WebBuyer.java~WebBuyer~3282",2="amonker-AmonkerFX~/amonker-AmonkerFX/AmonkerFX-master/src/cn/jingyun/javafx/amonker/ui/AmonkerUIApplication.java~AmonkerUIApplication~1831",3="tgregerson-lc3~/tgregerson-lc3/lc3-master/LC3Sim/src/lc3sim/ui/UIFXMain.java~UIFXMain~4520",4="djapal-sfvchecker~/djapal-sfvchecker/sfvchecker-master/src/gr/djapal/sfv/SFVCheckerApplication.java~SFVCheckerApplication~2512",5="idzik-Application-RCS~/idzik-Application-RCS/Application-RCS-master/RcsApplication/src/application/StartApplications.java~StartApplications~3069",6="nielsmaneschijn-8bit~/nielsmaneschijn-8bit/8bit-master/src/net/maneschijn/bleep/core/MathFX.java~MathFX~3756",7="ChrisWongAtCUHK-JavaFX~/ChrisWongAtCUHK-JavaFX/JavaFX-master/javaaboutcom/src/javafx/layouts/LayoutSizingAligning.java~LayoutSizingAligning~251",8="BryceLawrence-Tableiness~/BryceLawrence-Tableiness/Tableiness-master/src/truthtablegenerator/GUI.java~GUI~179",9="Tsaru-Java-MP3-Visualizations~/Tsaru-Java-MP3-Visualizations/Java-MP3-Visualizations-master/mp3 Visualization/src/VisualizationInterface.java~VisualizationInterface~1511",10="mathiasj33-VocLearn~/mathiasj33-VocLearn/VocLearn-master/src/net/softwarepage/voclearn/code/Gui.java~Gui~3576",11="m2rtt-Poomine~/m2rtt-Poomine/Poomine-master/src/application/Main.java~Main~3508",12="didygo-gce-display~/didygo-gce-display/gce-display-master/src/proto1/DashBoard.java~DashBoard~2407"]
+1[label="javafx.application.Application",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+18[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->1[label="EXTEND",color=red]
+0->18[label="DECLARE_FIELD"]
+0->2[label="DECLARE_FIELD"]
+}

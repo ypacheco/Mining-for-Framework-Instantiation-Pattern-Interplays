@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=191,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.HTML"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=0]
+patternInstancesInfo[0="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/CMenuItem.java~CustomHTML~2985",1="mansiT-UiBinder~/mansiT-UiBinder/UiBinder-master/uibinder/src/com/mansi/client/board/RedBoxDraggableWidget.java~RedBoxDraggableWidget~3697",2="nextinterfaces-next~/nextinterfaces-next/next-master/src/next/i/view/widgets/XCheckbox.java~CheckBoxIndicator~4226",3="nextinterfaces-next~/nextinterfaces-next/next-master/src/next/i/view/widgets/XLabel.java~XLabel~4224",4="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/coffeeRoom/ListUserPanel.java~loginHTML~232"]
+1[label="com.google.gwt.user.client.ui.HTML",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

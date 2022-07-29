@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4052,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.Label"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="rtvasan08-JFxMetroControls",filePath="/rtvasan08-JFxMetroControls/JFxMetroControls-master/src/com/bugfix/jfxmetro/ui/controls/HeaderLabel.java",contextSignature="HeaderLabel",graphId="4052"]
+0[label="com.bugfix.jfxmetro.ui.controls.HeaderLabel",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.Label",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

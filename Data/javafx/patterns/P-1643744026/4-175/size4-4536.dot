@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4536,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="berker-RSSReader~/berker-RSSReader/RSSReader-master/src/com/deneme/rss/view/main/MainController.java~MainController~2007",1="berker-RSSReader~/berker-RSSReader/RSSReader-master/src/com/deneme/rss/view/main/MainController.java~void initialize(java.net.URL,java.util.ResourceBundle)~2008"]
+8[label="new FeedCell()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+9[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+10[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+5[label="javafx.scene.control.ListCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+9->8[label="CALL"]
+9->10[label="OF_TYPE"]
+10->5[label="EXTEND",color=blue]
+}

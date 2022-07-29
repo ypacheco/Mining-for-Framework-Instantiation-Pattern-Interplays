@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=3132,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.TextBox"]
+possibleCollaborationsInfo[0="3132~FIELD_DECLARATION-~com.google.gwt.user.client.ui.TextBox ~com.google.gwt.user.client.ui.PopupPanel com.google.gwt.user.client.ui.SourcesClickEvents ~false~false"]
+locationInfo[projectName="jaxzin-gwt-common-widgets",filePath="/jaxzin-gwt-common-widgets/gwt-common-widgets-master/src/com/jaxzin/gwt/ui/client/autocompletion/AutoCompletionTextBox.java",contextSignature="AutoCompletionTextBox",graphId="3132"]
+0[label="com.jaxzin.gwt.ui.client.autocompletion.AutoCompletionTextBox",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.TextBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="resultPanel",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="com.jaxzin.gwt.ui.client.autocompletion.AutoCompletionResultPanel",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="com.google.gwt.user.client.ui.PopupPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+5[label="com.google.gwt.user.client.ui.SourcesClickEvents",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+3->4[label="EXTEND",color=blue]
+3->5[label="IMPLEMENT",color=blue]
+2->3[label="OF_TYPE"]
+}

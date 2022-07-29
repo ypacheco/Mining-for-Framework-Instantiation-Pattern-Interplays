@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=636,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[0="636~CLIENT_METHOD_DECLARATION-RETURN_TYPE-~com.google.gwt.core.client.JavaScriptObject ~com.google.gwt.core.client.JavaScriptObject ~false~false"]
+locationInfo[projectName="akjava-GWTRecorderjs",filePath="/akjava-GWTRecorderjs/GWTRecorderjs-master/src/com/akjava/gwt/recorder/client/OfflineAudioContext.java",contextSignature="OfflineAudioContext",graphId="636"]
+0[label="com.akjava.gwt.recorder.client.OfflineAudioContext",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="com.akjava.gwt.recorder.client.ScriptProcessorNode createScriptProcessor(int,int,int)",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+5[label="com.akjava.gwt.recorder.client.ScriptProcessorNode",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+0->1[label="EXTEND",color=red]
+0->4[label="DECLARE_METHOD"]
+5->1[label="EXTEND",color=blue]
+4->5[label="RETURN"]
+}

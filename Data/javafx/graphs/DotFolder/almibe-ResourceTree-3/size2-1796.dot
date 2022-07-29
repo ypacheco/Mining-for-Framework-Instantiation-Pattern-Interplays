@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1796,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.TreeCell"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="almibe-ResourceTree",filePath="/almibe-ResourceTree/resource-tree-master/src/main/java/org/almibe/resourcetree/ResourceTree.java",contextSignature="DraggableCell",graphId="1796"]
+0[label="main.java.org.almibe.resourcetree.ResourceTree.DraggableCell",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.TreeCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

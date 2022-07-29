@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2715,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.TableCell"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="geyrix57-Proyecto_1_Bases",filePath="/geyrix57-Proyecto_1_Bases/Proyecto_1_Bases-master/src/Control/ControlLog.java",contextSignature="javafx.scene.control.TableCell call(javafx.scene.control.TableColumn)",graphId="2715"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.TableCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="VAR0",vertexType="OUTSIDE_VARIABLE_EXPRESION",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="ASSIGMENT"]
+2->1[label="OF_TYPE"]
+}

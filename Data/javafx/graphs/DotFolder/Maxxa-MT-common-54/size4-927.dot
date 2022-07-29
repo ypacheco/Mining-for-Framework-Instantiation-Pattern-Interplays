@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=927,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="javafx.scene.Parent"]
+possibleCollaborationsInfo[0="927~CLIENT_METHOD_DECLARATION-RETURN_TYPE-~javafx.scene.Parent ~javafx.scene.Parent ~false~false"]
+locationInfo[projectName="Maxxa-MT-common",filePath="/Maxxa-MT-common/MT-common-master/src/cz/commons/graphics/BinaryNodeWithLine.java",contextSignature="BinaryNodeWithLine",graphId="927"]
+0[label="cz.commons.graphics.BinaryNodeWithLine",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.Parent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="cz.commons.graphics.LineElement getChildLine(cz.commons.graphics.NodePosition)",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="cz.commons.graphics.LineElement",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_METHOD"]
+3->1[label="EXTEND",color=blue]
+2->3[label="RETURN"]
+}

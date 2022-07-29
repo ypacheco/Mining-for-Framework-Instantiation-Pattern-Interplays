@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=778,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="Totenfluch-TPrivateChat-Client~/Totenfluch-TPrivateChat-Client/TPrivateChat-Client-master/TPvtChat-C/src/me/Totenfluch/pack/Main.java~Main~1483",1="nielsmaneschijn-8bit~/nielsmaneschijn-8bit/8bit-master/src/net/maneschijn/bleep/core/MathFX.java~MathFX~3756"]
+470[label="new TextField()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+471[label="VAR:javafx.scene.control.TextField",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+40[label="void start(javafx.stage.Stage)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+12[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+471->470[label="CALL"]
+0->12[label="DECLARE_FIELD"]
+40->471[label="INSTANTIATE"]
+0->40[label="OVERRIDE"]
+}

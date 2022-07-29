@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4362,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.beans.property.DoublePropertyBase"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="abuczko-JFXDockManager~/abuczko-JFXDockManager/JFXDockManager-master/JFXDockManager/src/controller/DockPanel.java~javafx.beans.property.DoubleProperty prefHeightProperty()~1683",1="abuczko-JFXDockManager~/abuczko-JFXDockManager/JFXDockManager-master/JFXDockManager/src/controller/DockPanel.java~javafx.beans.property.DoubleProperty prefWidthProperty()~1682"]
+1[label="javafx.beans.property.DoublePropertyBase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+2[label="VAR",vertexType="OUTSIDE_VARIABLE_EXPRESION",isFrameworkType=false]
+3[label="javafx.beans.property.DoubleProperty",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->2[label="ASSIGMENT"]
+2->3[label="OF_TYPE"]
+0->1[label="EXTEND",color=red]
+}

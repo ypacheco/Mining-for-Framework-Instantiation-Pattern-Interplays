@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=3010,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.ClickListener"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="hmiguellima-ugat",filePath="/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/MVCTable.java",contextSignature="ExportBtnClickHandler",graphId="3010"]
+0[label="org.ucp.gwt.widgets.MVCTable.ExportBtnClickHandler",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.ClickListener",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void onClick(com.google.gwt.user.client.ui.Widget)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="sender",vertexType="PARAMETER_DECLARATION",isFrameworkType=true,peripheries=2]
+4[label="com.google.gwt.user.client.ui.Widget",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+3->4[label="OF_TYPE"]
+2->3[label="PARAMETER"]
+}

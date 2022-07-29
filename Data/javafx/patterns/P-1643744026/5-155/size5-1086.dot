@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1086,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=12.0,patternRootClient=0]
+patternInstancesInfo[0="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/TournamentController.java~TournamentController~3009",1="JustinAarden-C2J-Stamboom~/JustinAarden-C2J-Stamboom/C2J-Stamboom-master/src/stamboom/gui/StamboomFXController.java~StamboomFXController~734",2="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/NiconNavigator/NavegadorController.java~NavegadorController~2563",3="taylorthurlow-panda~/taylorthurlow-panda/panda-master/src/edu/TaylorThurlow/WindowMainController.java~WindowMainController~4508",4="diogocs1-FPessoais~/diogocs1-FPessoais/FPessoais-master/FinancasPessoais/src/app/controllers/HomeController.java~HomeController~2490",5="tgregerson-lc3~/tgregerson-lc3/lc3-master/LC3Sim/src/lc3sim/ui/UIFXMain.java~UIFXMain~4520",6="DOOOOOM-jmpd-shared~/DOOOOOM-jmpd-shared/jmpd-shared-master/src/dooooom/jmpd/client/gui/javafx/MainViewController.java~MainViewController~294",7="NirmalL-Shark~/NirmalL-Shark/Shark-master/src/Controller.java~Controller~1009",8="Tsaru-Java-MP3-Visualizations~/Tsaru-Java-MP3-Visualizations/Java-MP3-Visualizations-master/mp3 Visualization/src/VisualizationInterface.java~VisualizationInterface~1511",9="mouradsaadi-LO23-IHM~/mouradsaadi-LO23-IHM/LO23-IHM-master/Sudoku-IHM/src/sudoko/ihm/vue/FXMLDocumentController.java~FXMLDocumentController~3651",10="Fisiu-skontrumFx~/Fisiu-skontrumFx/skontrumFx-master/skontrumFxApp/src/application/SkontrumController.java~SkontrumController~457",11="mrempala-sp~/mrempala-sp/sp-master/src/application/VcSetupSquibGroups.java~VcSetupSquibGroups~3676"]
+51[label="FIELD:javafx.scene.control.ListView",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+57[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+16[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+20[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->57[label="DECLARE_FIELD"]
+0->16[label="DECLARE_FIELD"]
+0->20[label="DECLARE_FIELD"]
+0->51[label="DECLARE_FIELD"]
+}

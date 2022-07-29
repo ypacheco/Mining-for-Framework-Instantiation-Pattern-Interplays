@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=2525,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CECommandeController.java~CECommandeController~2084",1="killjoy64-Scouting~/killjoy64-Scouting/Scouting-master/Robotics Scouting Client/src/org/petoskeypaladins/scouting/client/Controller.java~Controller~3456"]
+295[label="new ToggleGroup()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+296[label="VAR:javafx.scene.control.ToggleGroup",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+104[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+151[label="VAR:javafx.collections.FXCollections",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+2[label="FIELD:javafx.collections.ObservableList",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->104[label="OVERRIDE"]
+104->296[label="INSTANTIATE"]
+296->295[label="CALL"]
+104->151[label="INSTANTIATE"]
+0->2[label="DECLARE_FIELD"]
+}

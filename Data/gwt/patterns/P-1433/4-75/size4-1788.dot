@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1788,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Widget"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="jhudson8-gwt-jquery-ui~/jhudson8-gwt-jquery-ui/gwt-jquery-ui-master/core/gwt-jquery-ui-mobile/src/main/java/com/google/gwt/jquery/mobile/ui/AbstractCheckableOption.java~AbstractCheckableOption~3175",1="jhudson8-gwt-jquery-ui~/jhudson8-gwt-jquery-ui/gwt-jquery-ui-master/core/gwt-jquery-ui-mobile/src/main/java/com/google/gwt/jquery/mobile/ui/base/AbstractWidget.java~AbstractWidget~3197"]
+30[label="void onAttach()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+31[label="super.onAttach()",vertexType="SUPER_CALL",isFrameworkType=false,shape=box]
+1[label="com.google.gwt.user.client.ui.Widget",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->1[label="EXTEND",color=red]
+30->31[label="CALL"]
+0->30[label="OVERRIDE"]
+}

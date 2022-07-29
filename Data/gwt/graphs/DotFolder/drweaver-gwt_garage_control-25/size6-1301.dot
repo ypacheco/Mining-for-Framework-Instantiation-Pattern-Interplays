@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1301,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Composite",1="com.google.gwt.user.client.ui.IsWidget"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="drweaver-gwt_garage_control",filePath="/drweaver-gwt_garage_control/gwt_garage_control-master/src/drweaver/garagecontrol/client/view/GarageControlOptionsViewBase.java",contextSignature="GarageControlOptionsViewBase",graphId="1301"]
+0[label="drweaver.garagecontrol.client.view.GarageControlOptionsViewBase",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Composite",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="com.google.gwt.user.client.ui.IsWidget",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+3[label="buttonLogout",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+4[label="com.google.gwt.user.client.ui.Button",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+5[label="buttonRefresh",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+0->1[label="EXTEND",color=red]
+0->2[label="IMPLEMENT",color=red]
+0->3[label="DECLARE_FIELD"]
+3->4[label="OF_TYPE"]
+0->5[label="DECLARE_FIELD"]
+5->4[label="OF_TYPE"]
+}

@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=2200,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=0]
+patternInstancesInfo[0="prashker-KingsSGF~/prashker-KingsSGF/KingsSGF-master/src/uiSam/HexTileView.java~HexTileView~3900",1="prashker-KingsSGF~/prashker-KingsSGF/KingsSGF-master/src/uiSam/ThingView.java~ThingView~3940",2="wwtg99-POMA~/wwtg99-POMA/POMA-master/src/cn/edu/suda/core/network/VisualNode.java~VisualNode~4801",3="prashker-KingsSGF~/prashker-KingsSGF/KingsSGF-master/src/uiSam/BankView.java~BankView~3932"]
+232[label="new Point2D()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+233[label="VAR:javafx.geometry.Point2D",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+144[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+161[label="VAR:ANONYMOUS",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+0->144[label="DECLARE_METHOD"]
+144->161[label="INSTANTIATE"]
+144->233[label="INSTANTIATE"]
+233->232[label="CALL"]
+}

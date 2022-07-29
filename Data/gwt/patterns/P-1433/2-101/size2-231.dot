@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=231,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=8.0,patternRootClient=null]
+patternInstancesInfo[0="felype87-gwt~/felype87-gwt/gwt-master/Minefield/src/com/felype/minefield/client/GameLevelDialog.java~GameLevelDialog~1323",1="coldplayguy-flight87~/coldplayguy-flight87/flight87-master/BookFlight/src/bookflight/client/BookFlight.java~void onModuleLoad()~1094",2="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/AlgebrApp.java~AlgebrApp~3667",3="nakaken0629-mezamashimailgwt~/nakaken0629-mezamashimailgwt/mezamashimailgwt-master/mezamashimailgwt/src/com/appspot/mezamashimailgwt/client/Mezamashimailgwt.java~void onClick(com.google.gwt.event.dom.client.ClickEvent)~4118",4="coldplayguy-flight87~/coldplayguy-flight87/flight87-master/BookFlight/src/bookflight/client/BookFlight.java~BookFlight~1091",5="MathieuLorber-GWT-console~/MathieuLorber-GWT-console/GWT-console-master/src/main/java/net/mlorber/gwt/console/client/Console.java~com.google.gwt.user.client.ui.Widget initTitleLabel()~315",6="ghillairet-gef-gwt~/ghillairet-gef-gwt/gef-gwt-master/src/main/java/org/eclipse/swt/widgets/Control.java~void mouseUp(MouseEvent)~1366",7="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/TooltipMouseListener.java~void TooltipMouseListener(java.lang.String,java.lang.String)~2971"]
+9[label="com.google.gwt.user.client.ui.PopupPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+19[label="VAR:com.google.gwt.user.client.ui.PopupPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+19->9[label="OF_TYPE"]
+}

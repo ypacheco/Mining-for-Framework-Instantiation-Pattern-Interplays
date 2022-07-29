@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3112,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.query.client.Selectors"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jDramaix-SlidingPuzzle",filePath="/jDramaix-SlidingPuzzle/SlidingPuzzle-master/src/be/dramaix/ai/slidingpuzzle/client/MySelectors.java",contextSignature="MySelectors",graphId="3112"]
+0[label="be.dramaix.ai.slidingpuzzle.client.MySelectors",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.query.client.Selectors",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

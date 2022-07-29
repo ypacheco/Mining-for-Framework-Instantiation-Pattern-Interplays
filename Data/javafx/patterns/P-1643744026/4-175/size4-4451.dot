@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4451,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="cyberaka-fxddp_poc~/cyberaka-fxddp_poc/fxddp_poc-master/fxddp-gui/src/main/java/com/cyberaka/fxddp/gui/impl/FormView.java~FormView~2335",1="t-kensuke-Java8~/t-kensuke-Java8/Java8-master/src/main/java/clock/DigitalClock.java~DigitalClock~4444"]
+12[label="new javafx.event.EventHandler()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+13[label="VAR:ANONYMOUS",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+14[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+15[label="javafx.event.EventHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+13->12[label="CALL"]
+14->15[label="IMPLEMENT",color=blue]
+13->14[label="OF_TYPE"]
+}

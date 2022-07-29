@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1998,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="Masonu-Sample_MVP_pattern_with_GWT~/Masonu-Sample_MVP_pattern_with_GWT/Sample_MVP_pattern_with_GWT-master/src/fr/mason/louchart/client/presenter/MenuBarPresenter.java~void bind()~304",1="Masonu-Sample_MVP_pattern_with_GWT~/Masonu-Sample_MVP_pattern_with_GWT/Sample_MVP_pattern_with_GWT-master/src/fr/mason/louchart/client/view/MenuBarView.java~MenuBarView~308"]
+6[label="new DisplayPageEvent()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+7[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+2[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+4[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+5[label="com.google.gwt.event.shared.GwtEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+4->5[label="EXTEND",color=blue]
+2->7[label="INSTANTIATE"]
+7->6[label="CALL"]
+7->4[label="OF_TYPE"]
+}

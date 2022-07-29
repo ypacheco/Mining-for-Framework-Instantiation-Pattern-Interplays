@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=2982,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.ClickListener"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="hmiguellima-ugat",filePath="/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/DefaultTableCellEditor.java",contextSignature="com.google.gwt.user.client.ui.Widget getTableCellEditorComponent(org.ucp.gwt.widgets.MVCTable,java.lang.String[],boolean,int,int)",graphId="2982"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.ClickListener",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+5[label="void onClick(com.google.gwt.user.client.ui.Widget)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+6[label="sender",vertexType="PARAMETER_DECLARATION",isFrameworkType=true,peripheries=2]
+7[label="com.google.gwt.user.client.ui.Widget",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->5[label="OVERRIDE"]
+6->7[label="OF_TYPE"]
+5->6[label="PARAMETER"]
+}

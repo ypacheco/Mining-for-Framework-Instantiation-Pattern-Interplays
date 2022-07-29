@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=3649,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/NiconNavigator/NavegadorController.java~void AddTabsChangeListener()~2564",1="TomaszKorecki-InvestorAssistant~/TomaszKorecki-InvestorAssistant/InvestorAssistant-master/Investor's assistant/src/investor/MainMenu.java~void start(javafx.stage.Stage)~1472",2="Xesenix-graph-editor~/Xesenix-graph-editor/graph-editor-master/src/main/java/pl/xesenix/graph_editor/AppController.java~void initialize()~1624"]
+4[label="void changed(javafx.beans.value.ObservableValue,javafx.scene.control.Tab,javafx.scene.control.Tab)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+5[label="PARAMETER:javafx.beans.value.ObservableValue",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+3[label="javafx.beans.value.ObservableValue",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+2[label="METHOD_CALL",vertexType="OUTSIDE_CALL",isFrameworkType=false]
+9[label="PARAMETER:javafx.scene.control.Tab",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+2->3[label="OF_TYPE"]
+4->5[label="PARAMETER"]
+5->3[label="OF_TYPE"]
+4->9[label="PARAMETER"]
+}

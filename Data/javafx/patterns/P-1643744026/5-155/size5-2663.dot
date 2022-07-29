@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=2663,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/TournamentController.java~TournamentController~3009",1="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/PrizesController.java~PrizesController~2951",2="sk44-javafx-gallery~/sk44-javafx-gallery/javafx-gallery-master/src/main/java/sk44/jfxgallery/controllers/ImageWindowController.java~ImageWindowController~4195"]
+88[label="new ContextMenu()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+89[label="VAR:javafx.scene.control.ContextMenu",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+70[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->70[label="DECLARE_METHOD"]
+89->88[label="CALL"]
+70->89[label="INSTANTIATE"]
+0->2[label="DECLARE_FIELD"]
+}

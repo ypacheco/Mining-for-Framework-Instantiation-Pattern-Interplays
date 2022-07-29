@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=396,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.util.Callback"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="girardot-GameManager~/girardot-GameManager/GameManager-master/src/main/java/game/manager/SpringFxmlLoader.java~java.lang.Object load(java.lang.String)~2736",1="szabel01-kontenery~/szabel01-kontenery/kontenery-master/src/main/java/pl/p/lodz/container/SpringFxmlLoader.java~java.lang.Object load(java.lang.String)~4417",2="ChroniX6x-TippFX~/ChroniX6x-TippFX/TippFX-master/TippFX/src/main/java/de/hoffit/tippfx/FXMLLoaderProducer.java~javafx.fxml.FXMLLoader createLoader()~253"]
+3[label="javafx.fxml.FXMLLoader",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2[label="METHOD_CALL",vertexType="OUTSIDE_CALL",isFrameworkType=false]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+4[label="java.lang.Object call(java.lang.Class)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+1[label="javafx.util.Callback",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+2->3[label="OF_TYPE"]
+0->1[label="IMPLEMENT",color=red]
+0->4[label="OVERRIDE"]
+2->0[label="ARGUMENT"]
+}

@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=829,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEPrincipalController.java~CEPrincipalController~2114",1="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CECommandeController.java~CECommandeController~2084"]
+721[label="javafx.util.Callback",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+744[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+767[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+720[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+1018[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+744->721[label="IMPLEMENT",color=blue]
+720->721[label="IMPLEMENT",color=blue]
+1018->721[label="IMPLEMENT",color=blue]
+767->721[label="IMPLEMENT",color=blue]
+}

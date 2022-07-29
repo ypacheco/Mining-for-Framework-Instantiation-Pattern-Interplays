@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=2330,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.concurrent.Task"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="cyberaka-fxddp_poc",filePath="/cyberaka-fxddp_poc/fxddp_poc-master/fxddp-gui/src/main/java/com/cyberaka/fxddp/gui/RabbitsApplication.java",contextSignature="javafx.concurrent.Task createTask()",graphId="2330"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.concurrent.Task",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="java.lang.Void call()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+}

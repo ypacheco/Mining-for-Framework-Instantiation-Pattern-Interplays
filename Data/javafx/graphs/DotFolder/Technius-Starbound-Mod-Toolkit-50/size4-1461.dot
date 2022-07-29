@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=1461,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.BorderPane",1="javafx.event.EventHandler",2="javafx.beans.value.ChangeListener"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Technius-Starbound-Mod-Toolkit",filePath="/Technius-Starbound-Mod-Toolkit/Starbound-Mod-Toolkit-master/src/main/java/co/technius/starboundmodtoolkit/utilui/PalettePane.java",contextSignature="PalettePane",graphId="1461"]
+0[label="main.java.co.technius.starboundmodtoolkit.utilui.PalettePane",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.BorderPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="javafx.event.EventHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+3[label="javafx.beans.value.ChangeListener",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="IMPLEMENT",color=red]
+0->3[label="IMPLEMENT",color=red]
+}

@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1739,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.Scheduler.RepeatingCommand"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="ashtonthomas-gwt-fast-touch-press~/ashtonthomas-gwt-fast-touch-press/gwt-fast-touch-press-master/src/io/ashton/fastpress/client/TestSlowPressElement.java~void execute()~740",1="ghillairet-gef-gwt~/ghillairet-gef-gwt/gef-gwt-master/src/main/java/org/eclipse/swt/widgets/Control.java~void mouseUp(MouseEvent)~1366",2="ashtonthomas-gwt-fast-touch-press~/ashtonthomas-gwt-fast-touch-press/gwt-fast-touch-press-master/src/io/ashton/fastpress/client/fast/FastPressElement.java~void execute()~756"]
+4[label="boolean execute()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+2[label="METHOD_CALL",vertexType="OUTSIDE_CALL",isFrameworkType=false]
+1[label="com.google.gwt.core.client.Scheduler.RepeatingCommand",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+3[label="com.google.gwt.core.client.Scheduler",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->4[label="OVERRIDE"]
+2->3[label="OF_TYPE"]
+0->1[label="IMPLEMENT",color=red]
+2->0[label="ARGUMENT"]
+}

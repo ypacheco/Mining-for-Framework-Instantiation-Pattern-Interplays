@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=913,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="felype87-gwt~/felype87-gwt/gwt-master/Minefield/src/com/felype/minefield/client/Minefield.java~Minefield~1311",1="kaladron-Webhack~/kaladron-Webhack/Webhack-master/src/net/webhack/game/client/WebhackGnomeLike.java~WebhackGnomeLike~3338"]
+18[label="FIELD:com.google.gwt.user.client.Command",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+20[label="FIELD:CLIENT",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+8[label="FIELD:com.google.gwt.user.client.Command",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->20[label="DECLARE_FIELD"]
+0->8[label="DECLARE_FIELD"]
+0->18[label="DECLARE_FIELD"]
+}

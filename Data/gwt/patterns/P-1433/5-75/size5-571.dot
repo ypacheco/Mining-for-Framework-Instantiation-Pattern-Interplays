@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=571,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.rpc.IsSerializable"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="woox-serverapp~/woox-serverapp/serverapp-master/src/wooxes/net/shared/Ordinador.java~Ordinador~4662",1="woox-serverapp~/woox-serverapp/serverapp-master/src/wooxes/net/shared/Usuari.java~Usuari~4667"]
+1[label="com.google.gwt.user.client.rpc.IsSerializable",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+44[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+45[label="com.google.gwt.user.client.ui.Panel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+129[label="VAR:ANONYMOUS",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+0->1[label="IMPLEMENT",color=red]
+0->44[label="DECLARE_METHOD"]
+44->129[label="INSTANTIATE"]
+44->45[label="RETURN"]
+}

@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1542,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.beans.value.ChangeListener"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="zn0315-zuji~/zn0315-zuji/zuji-master/examPaper/src/main/java/com/zuji/util/examPaper/ImageViewerController.java~ImageViewerController~4922",1="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/core/RadialMenuItem.java~RadialMenuItem~961"]
+43[label="void changed(javafx.beans.value.ObservableValue,java.lang.Object,java.lang.Object)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+44[label="PARAMETER:javafx.beans.value.ObservableValue",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+45[label="javafx.beans.value.ObservableValue",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+2[label="javafx.beans.value.ChangeListener",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0->43[label="OVERRIDE"]
+43->44[label="PARAMETER"]
+0->2[label="IMPLEMENT",color=red]
+44->45[label="OF_TYPE"]
+}

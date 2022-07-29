@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=37,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.i18n.client.Constants"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Archerw-mastermind",filePath="/Archerw-mastermind/mastermind-master/nyu-smg-mastermind/src/org/mastermind/i18n/MMConstants.java",contextSignature="MMConstants",graphId="37"]
+0[label="org.mastermind.i18n.MMConstants",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.i18n.client.Constants",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

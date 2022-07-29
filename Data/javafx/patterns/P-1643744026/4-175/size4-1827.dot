@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1827,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=11.0,patternRootClient=null]
+patternInstancesInfo[0="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/settingsmenu/RadialSettingsMenu.java~RadialSettingsMenu~976",1="Marcio-Sistemas-MC-repositorio~/Marcio-Sistemas-MC-repositorio/repositorio-master/controleorcamentofamiliar/src/util/ScreensController.java~ScreensController~891",2="ravjot28-FameDen~/ravjot28-FameDen/FameDen-master/src/com/fameden/fxml/SceneNavigator.java~SceneNavigator~4005",3="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/moviemenu/RadialMovieMenu.java~RadialMovieMenu~969",4="Ollowayne-dalekPTT~/Ollowayne-dalekPTT/dalekPTT-master/src/ptt/dalek/ui/RepositoryPane.java~RepositoryPane~1048",5="EnlightenedCSF-medicineDB~/EnlightenedCSF-medicineDB/medicineDB-master/src/main/java/medicine/screens/ScreensController.java~ScreensController~428",6="antoniotorres-CAPOS~/antoniotorres-CAPOS/CAPOS-master/src/main/ScreensController.java~ScreensController~1873",7="walker-clint-AIProj3~/walker-clint-AIProj3/AIProj3-master/src/application/ScreensController.java~ScreensController~4713",8="geyrix57-Proyecto_1_Bases~/geyrix57-Proyecto_1_Bases/Proyecto_1_Bases-master/src/Control/ScreensController.java~ScreensController~2706",9="fChristenson-cv~/fChristenson-cv/cv-master/src/se/fidde/cv/view/screens/CVMain.java~CVMain~2670",10="mouradsaadi-LO23-IHM~/mouradsaadi-LO23-IHM/LO23-IHM-master/Sudoku-IHM/src/sudoko/ihm/vue/ScreensController.java~ScreensController~3649"]
+30[label="javafx.animation.KeyValue",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+64[label="VAR:javafx.animation.KeyValue",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+15[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+49[label="VAR:javafx.animation.Timeline",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+15->64[label="INSTANTIATE"]
+15->49[label="INSTANTIATE"]
+64->30[label="OF_TYPE"]
+}

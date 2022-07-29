@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1249,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="bobvash-Resolution-Tracker~/bobvash-Resolution-Tracker/Resolution-Tracker-master/ResolutionTracker/src/com/bobvash/resolutiontracker/client/ResolutionDayWidget.java~ResolutionDayWidget~867",1="jaxzin-gwt-common-widgets~/jaxzin-gwt-common-widgets/gwt-common-widgets-master/src/com/jaxzin/gwt/examples/draggablegrid/client/DraggableGridExample.java~DraggableGridExample~3124"]
+309[label="new TextArea()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+310[label="VAR:com.google.gwt.user.client.ui.TextArea",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+317[label="setWidth()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+315[label="setText()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+144[label="com.google.gwt.user.client.ui.TextArea",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+310->144[label="OF_TYPE"]
+310->309[label="CALL"]
+310->315[label="CALL"]
+310->317[label="CALL"]
+}

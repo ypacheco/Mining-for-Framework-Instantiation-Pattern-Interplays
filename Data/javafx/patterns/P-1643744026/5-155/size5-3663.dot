@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=3663,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="DC37-Super-Mario-Paint~/DC37-Super-Mario-Paint/Super-Mario-Paint-master/src/smp/SuperMarioPaint.java~SuperMarioPaint~262",1="DC37-Super-Mario-Paint~/DC37-Super-Mario-Paint/Super-Mario-Paint-master/src/smp/SuperMarioPaint.java~void longStart()~263"]
+22[label="new ProgressNotification()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+23[label="VAR:javafx.application.Preloader.ProgressNotification",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+10[label="javafx.application.Preloader.ProgressNotification",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+9[label="VAR:javafx.application.Preloader.ProgressNotification",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+8[label="new ProgressNotification()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+9->10[label="OF_TYPE"]
+23->22[label="CALL"]
+23->10[label="OF_TYPE"]
+9->8[label="CALL"]
+}

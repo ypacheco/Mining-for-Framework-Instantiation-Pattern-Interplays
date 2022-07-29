@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=3327,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.beans.value.ChangeListener"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="joe-degiovanni-Slipsheet",filePath="/joe-degiovanni-Slipsheet/Slipsheet-master/src/com/mortenson/slipsheet/Slipsheet.java",contextSignature="void start(javafx.stage.Stage)",graphId="3327"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.beans.value.ChangeListener",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void addListener(javafx.beans.value.ChangeListener)",vertexType="OUTSIDE_CALL",isFrameworkType=true,peripheries=2]
+3[label="javafx.beans.value.ObservableValue",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+4[label="void changed(javafx.beans.value.ObservableValue,java.lang.Boolean,java.lang.Boolean)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+5[label="observable",vertexType="PARAMETER_DECLARATION",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+2->0[label="ARGUMENT"]
+2->3[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+5->3[label="OF_TYPE"]
+4->5[label="PARAMETER"]
+}

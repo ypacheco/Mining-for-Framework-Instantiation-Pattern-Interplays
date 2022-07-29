@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2740,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="DenisTyschenko-JavaFx-Graph~/DenisTyschenko-JavaFx-Graph/JavaFx-Graph-master/src/main/java/graph/model/edge/DirectedEdge.java~DirectedEdge~340",1="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/thermostat/NestNoCss.java~NestNoCss~985",2="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/thermostat/Nest.java~Nest~992"]
+31[label="javafx.beans.binding.DoubleBinding",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+101[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+90[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+100[label="VAR:ANONYMOUS",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+101->31[label="EXTEND",color=blue]
+100->101[label="OF_TYPE"]
+90->31[label="EXTEND",color=blue]
+}

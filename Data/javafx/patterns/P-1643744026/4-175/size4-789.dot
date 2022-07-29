@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=789,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=null]
+patternInstancesInfo[0="candybibby-Snake~/candybibby-Snake/Snake-master/src/graphicsJavaFX/Controller.java~Controller~2239",1="ajithkp560-quizmaster~/ajithkp560-quizmaster/quizmaster-master/QuizProgram_SRC/QuizAdmin/src/designController.java~designController~1749",2="timyates-ShadowFX~/timyates-ShadowFX/ShadowFX-master/src/main/java/com/bloidonia/shadowtest/presentation/main/MainPresenter.java~MainPresenter~4549",3="a1153tm-FXProtoType~/a1153tm-FXProtoType/FXProtoType-master/src/prototype/LoginController.java~LoginController~1658",4="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/DesktopViewer/DesktopViewerController.java~DesktopViewerController~2537"]
+5[label="javafx.scene.layout.AnchorPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+12[label="FIELD:javafx.scene.layout.AnchorPane",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+14[label="FIELD:javafx.scene.layout.AnchorPane",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+16[label="FIELD:javafx.scene.layout.AnchorPane",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+14->5[label="OF_TYPE"]
+12->5[label="OF_TYPE"]
+16->5[label="OF_TYPE"]
+}

@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2003,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/Ziraja.java~Ziraja~403",1="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/Ziraja.java~void onModuleLoad()~404"]
+10[label="new CancelledEvent()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+11[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+12[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+13[label="com.google.gwt.event.shared.GwtEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+11->12[label="OF_TYPE"]
+12->13[label="EXTEND",color=blue]
+11->10[label="CALL"]
+}

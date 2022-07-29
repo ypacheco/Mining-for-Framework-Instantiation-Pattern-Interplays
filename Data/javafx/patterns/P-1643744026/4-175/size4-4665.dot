@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4665,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="Williamgood-CST517-VR~/Williamgood-CST517-VR/CST517-VR-master/src/VRApp.java~VRApp~1614",1="fChristenson-cv~/fChristenson-cv/cv-master/src/se/fidde/cv/view/screens/CVMain.java~CVMain~2670"]
+4[label="FIELD:javafx.scene.media.Media",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+5[label="javafx.scene.media.Media",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+12[label="FIELD:CLIENT",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+4->5[label="OF_TYPE"]
+0->12[label="DECLARE_FIELD"]
+0->4[label="DECLARE_FIELD"]
+}

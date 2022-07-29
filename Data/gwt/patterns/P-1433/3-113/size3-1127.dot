@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1127,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="felype87-gwt~/felype87-gwt/gwt-master/Minefield/src/com/felype/minefield/client/Minefield.java~GameTimer~1320",1="nakaken0629-mezamashimailgwt~/nakaken0629-mezamashimailgwt/mezamashimailgwt-master/mezamashimailgwt/src/com/appspot/mezamashimailgwt/client/Mezamashimailgwt.java~void onClick(com.google.gwt.event.dom.client.ClickEvent)~4118",2="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/presenter/ReportsPresenter.java~void prepareTable()~419",3="nakaken0629-mezamashimailgwt~/nakaken0629-mezamashimailgwt/mezamashimailgwt-master/mezamashimailgwt/src/com/appspot/mezamashimailgwt/client/Mezamashimailgwt.java~void onModuleLoad()~4117"]
+87[label="com.google.gwt.i18n.shared.DateTimeFormat",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+85[label="VAR:com.google.gwt.i18n.shared.DateTimeFormat",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+86[label="format()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+85->86[label="CALL"]
+85->87[label="OF_TYPE"]
+}

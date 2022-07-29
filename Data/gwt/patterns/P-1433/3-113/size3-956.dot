@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=956,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.safehtml.client.HasSafeHtml",1="com.google.gwt.user.client.ui.HasHTML"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="kospiotr-gwt-layout-designer~/kospiotr-gwt-layout-designer/gwt-layout-designer-master/src/main/java/pl/pkosmowski/gxtshowcase/client/palete/PaleteButton.java~PaleteButton~3426",1="domi1wa-List-Navigation-Tree~/domi1wa-List-Navigation-Tree/List-Navigation-Tree-master/NavigationTree/src/de/navigation/tree/client/TreeItem.java~TreeItem~1282"]
+8[label="com.google.gwt.safehtml.client.HasSafeHtml",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+7[label="com.google.gwt.user.client.ui.HasHTML",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0->8[label="IMPLEMENT",color=red]
+0->7[label="IMPLEMENT",color=red]
+}

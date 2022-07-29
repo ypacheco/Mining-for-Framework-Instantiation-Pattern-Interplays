@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1367,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.allen_sauer.gwt.dnd.client.drop.AbstractPositioningDropController"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/HorizontalPanelDropController.java~HorizontalPanelDropController~3661",1="chrte-TemperatureWatcher~/chrte-TemperatureWatcher/TemperatureWatcher-master/src/com/google/gwt/sample/stockwatcher/client/FlexTableDropController.java~FlexTableDropController~1082"]
+6[label="com.google.gwt.user.client.ui.InsertPanel",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+5[label="FIELD:com.google.gwt.user.client.ui.InsertPanel",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.allen_sauer.gwt.dnd.client.drop.AbstractPositioningDropController",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+10[label="FIELD:com.google.gwt.user.client.ui.Widget",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+11[label="com.google.gwt.user.client.ui.Widget",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->5[label="DECLARE_FIELD"]
+0->10[label="DECLARE_FIELD"]
+5->6[label="OF_TYPE"]
+0->1[label="EXTEND",color=red]
+10->11[label="OF_TYPE"]
+}

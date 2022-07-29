@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1934,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="laaglu-lib-gwt-svg-edu-commons~/laaglu-lib-gwt-svg-edu-commons/lib-gwt-svg-edu-commons-master/src/main/java/org/vectomatic/svg/edu/client/commons/DifficultyPicker.java~DifficultyPicker~3484",1="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/ugat/client/common/ui/view/DummySelectionSource.java~DummySelectionSource~3071"]
+5[label="PARAMETER:com.google.gwt.event.shared.GwtEvent",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+4[label="void fireEvent(com.google.gwt.event.shared.GwtEvent)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+6[label="com.google.gwt.event.shared.GwtEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+5->6[label="OF_TYPE"]
+4->5[label="PARAMETER"]
+0->4[label="OVERRIDE"]
+}

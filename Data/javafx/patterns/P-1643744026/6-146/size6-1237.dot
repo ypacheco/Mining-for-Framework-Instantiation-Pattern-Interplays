@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1237,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="henrik-bak-scbuildplanner~/henrik-bak-scbuildplanner/scbuildplanner-master/src/main/java/com/ezzored/starcraftbuildplanner/controller/MainWindowController.java~MainWindowController~2923",1="warpcorebreach-AAH~/warpcorebreach-AAH/AAH-master/AAH/src/aah/MgrHomepageController.java~MgrHomepageController~4734"]
+22[label="FIELD:javafx.scene.control.ChoiceBox",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+23[label="javafx.scene.control.ChoiceBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+6[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+8[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+2[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->8[label="DECLARE_FIELD"]
+0->2[label="DECLARE_FIELD"]
+22->23[label="OF_TYPE"]
+0->6[label="DECLARE_FIELD"]
+0->22[label="DECLARE_FIELD"]
+}

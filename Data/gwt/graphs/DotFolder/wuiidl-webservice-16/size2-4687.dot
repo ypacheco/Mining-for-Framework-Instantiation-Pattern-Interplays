@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4687,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.rpc.RemoteService"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="wuiidl-webservice",filePath="/wuiidl-webservice/webservice-master/tourGuide/src/webServices/tourGuide/presentation/interfacesOfServices/user/UsersService.java",contextSignature="UsersService",graphId="4687"]
+0[label="webServices.tourGuide.presentation.interfacesOfServices.user.UsersService",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.rpc.RemoteService",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

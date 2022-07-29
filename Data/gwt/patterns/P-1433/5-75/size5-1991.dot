@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1991,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="rjdkolb-jozijug_phonegapdemo~/rjdkolb-jozijug_phonegapdemo/jozijug_phonegapdemo-master/src/main/java/org/openrap/jozijug/mgwtphonegap/client/places/HomePlace.java~HomePlaceTokenizer~4413",1="bahkified-Test~/bahkified-Test/Test-master/src/main/java/com/blargh/AanP/client/place/HomePlace.java~Tokenizer~802"]
+5[label="new HomePlace()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+6[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+3[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+9[label="PARAMETER:CLIENT",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+4[label="com.google.gwt.place.shared.Place",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+3->4[label="EXTEND",color=blue]
+6->3[label="OF_TYPE"]
+6->5[label="CALL"]
+9->3[label="OF_TYPE"]
+}

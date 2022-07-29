@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1402,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=0]
+patternInstancesInfo[0="zvakanaka-bitbit~/zvakanaka-bitbit/bitbit-master/src/bitbit/BitBit.java~BitBit~4923",1="BryceLawrence-Tableiness~/BryceLawrence-Tableiness/Tableiness-master/src/truthtablegenerator/GUI.java~GUI~179",2="sk44-javafx-gallery~/sk44-javafx-gallery/javafx-gallery-master/src/main/java/sk44/jfxgallery/controllers/ImageWindowController.java~ImageWindowController~4195",3="Tsaru-Java-MP3-Visualizations~/Tsaru-Java-MP3-Visualizations/Java-MP3-Visualizations-master/mp3 Visualization/src/VisualizationInterface.java~VisualizationInterface~1511"]
+24[label="FIELD:javafx.scene.layout.BorderPane",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+42[label="VAR:javafx.scene.layout.BorderPane",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+6[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->24[label="DECLARE_FIELD"]
+24->42[label="REFERENCE"]
+0->6[label="DECLARE_FIELD"]
+}

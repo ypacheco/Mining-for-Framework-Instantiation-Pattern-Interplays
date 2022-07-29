@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=491,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.Scheduler.ScheduledCommand"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="ahome-it-ahome-sencha-shared",filePath="/ahome-it-ahome-sencha-shared/ahome-sencha-shared-master/ahome-sencha-shared/src/main/java/com/ait/toolkit/sencha/shared/client/dom/DomElement.java",contextSignature="main.java.com.ait.toolkit.sencha.shared.client.dom.DomElement alignTo(java.lang.String,java.lang.String)",graphId="491"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.Scheduler.ScheduledCommand",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void scheduleDeferred(com.google.gwt.core.client.Scheduler.ScheduledCommand)",vertexType="OUTSIDE_CALL",isFrameworkType=true,peripheries=2]
+3[label="com.google.gwt.core.client.Scheduler",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="void execute()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+2->0[label="ARGUMENT"]
+2->3[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+}

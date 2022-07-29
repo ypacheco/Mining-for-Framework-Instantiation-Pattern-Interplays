@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=3452,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.WindowResizeListener"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="laaglu-gwt-incubator-slider",filePath="/laaglu-gwt-incubator-slider/gwt-incubator-slider-master/src/main/java/com/google/gwt/widgetideas/client/ResizableWidgetCollection.java",contextSignature="ResizableWidgetCollection",graphId="3452"]
+0[label="main.java.com.google.gwt.widgetideas.client.ResizableWidgetCollection",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.WindowResizeListener",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="resizeCheckTimer",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="com.google.gwt.user.client.Timer",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="void onWindowResized(int,int)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+}

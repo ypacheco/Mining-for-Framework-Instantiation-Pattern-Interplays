@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=4790,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.animation.Transition"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="witmicko-CalculatorFx",filePath="/witmicko-CalculatorFx/CalculatorFx-master/src/calc/transitions/FlipOutYTransition.java",contextSignature="FlipOutYTransition",graphId="4790"]
+0[label="calc.transitions.FlipOutYTransition",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.animation.Transition",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="oldCamera",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.scene.Camera",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+}

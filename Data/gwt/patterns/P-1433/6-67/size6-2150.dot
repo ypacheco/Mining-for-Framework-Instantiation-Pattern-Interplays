@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=2150,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="Archerw-mastermind~/Archerw-mastermind/mastermind-master/nyu-smg-mastermind/src/org/mastermind/graphics/MasterMindGraphic.java~DragButtonPanel~34",1="aramk-mechanix~/aramk-mechanix/mechanix-master/src/au/edu/unimelb/csse/smd/mechanix/client/view/GameController.java~GameController~729"]
+2[label="FIELD:com.allen_sauer.gwt.dnd.client.PickupDragController",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+3[label="com.allen_sauer.gwt.dnd.client.PickupDragController",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+20[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+24[label="VAR:com.allen_sauer.gwt.dnd.client.AbstractDragController",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+12[label="com.allen_sauer.gwt.dnd.client.AbstractDragController",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+24->12[label="OF_TYPE"]
+0->20[label="DECLARE_METHOD"]
+2->3[label="OF_TYPE"]
+0->2[label="DECLARE_FIELD"]
+20->24[label="INSTANTIATE"]
+}

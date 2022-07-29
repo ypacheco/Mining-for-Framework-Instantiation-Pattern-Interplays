@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=3200,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="javafx.concurrent.Task"]
+possibleCollaborationsInfo[0="3200~FIELD_DECLARATION-~javafx.concurrent.Task ~javafx.scene.Group ~false~false"]
+locationInfo[projectName="ireardon-cs32-final",filePath="/ireardon-cs32-final/cs32-final-master/src/edu/brown/cs32/final_group/backend/Player.java",contextSignature="Player",graphId="3200"]
+0[label="edu.brown.cs32.final_group.backend.Player",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.concurrent.Task",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="_composerGrid",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="edu.brown.cs32.final_group.fx.ComposerGrid",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="javafx.scene.Group",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+5[label="java.lang.Void call()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+3->4[label="EXTEND",color=blue]
+2->3[label="OF_TYPE"]
+0->5[label="OVERRIDE"]
+}

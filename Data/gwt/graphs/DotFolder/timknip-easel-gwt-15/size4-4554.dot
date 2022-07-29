@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4554,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[0="4554~CLIENT_METHOD_DECLARATION-RETURN_TYPE-~com.google.gwt.core.client.JavaScriptObject ~com.google.gwt.core.client.JavaScriptObject ~false~false"]
+locationInfo[projectName="timknip-easel-gwt",filePath="/timknip-easel-gwt/easel-gwt-master/src/easeljs/client/display/impl/StageImpl.java",contextSignature="StageImpl",graphId="4554"]
+0[label="easeljs.client.display.impl.StageImpl",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+10[label="easeljs.client.display.impl.DisplayObjectImpl getObjectUnderPoint(float,float)",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+11[label="easeljs.client.display.impl.DisplayObjectImpl",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+0->1[label="EXTEND",color=red]
+0->10[label="DECLARE_METHOD"]
+11->1[label="EXTEND",color=blue]
+10->11[label="RETURN"]
+}

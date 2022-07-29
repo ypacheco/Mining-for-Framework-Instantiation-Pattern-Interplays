@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=138,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=19.0,patternRootClient=0]
+patternInstancesInfo[0="candybibby-Snake~/candybibby-Snake/Snake-master/src/graphicsJavaFX/Controller.java~Controller~2239",1="Technius-Starbound-Mod-Toolkit~/Technius-Starbound-Mod-Toolkit/Starbound-Mod-Toolkit-master/src/main/java/co/technius/starboundmodtoolkit/utilui/SwappableNodePane.java~SwappableNodePane~1458",2="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/NiconNavigator/NavegadorController.java~NavegadorController~2563",3="if12b051-SWP_Paint~/if12b051-SWP_Paint/SWP_Paint-master/SWP_Paint/src/gui/MainController.java~MainController~3089",4="brunoborges-fx2048~/brunoborges-fx2048/fx2048-master/src/game2048/Board.java~Board~2229",5="mouradsaadi-LO23-IHM~/mouradsaadi-LO23-IHM/LO23-IHM-master/Sudoku-IHM/src/sudoko/ihm/vue/FXMLDocumentController.java~FXMLDocumentController~3651",6="szabel01-kontenery~/szabel01-kontenery/kontenery-master/src/main/java/pl/p/lodz/container/controller/FXMLController.java~FXMLController~4418",7="RomeoGolf-BC~/RomeoGolf-BC/BC-master/src/romeogolf/bc/MainController.java~MainController~1142",8="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/TournamentController.java~TournamentController~3009",9="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/NiconImage/NiconImageFXMLController.java~NiconImageFXMLController~2548",10="Jamakasi-JMCLauncherFX~/Jamakasi-JMCLauncherFX/JMCLauncherFX-master/src/jmclauncherfx/OptionsWindowController.java~OptionsWindowController~610",11="nielsmaneschijn-8bit~/nielsmaneschijn-8bit/8bit-master/src/net/maneschijn/bleep/core/MathFX.java~MathFX~3756",12="dodaio-SoftwareBlack21G~/dodaio-SoftwareBlack21G/SoftwareBlack21G-master/Blackjack/src/Viewer/MainGamev2Controller.java~MainGamev2Controller~2521",13="diogocs1-FPessoais~/diogocs1-FPessoais/FPessoais-master/FinancasPessoais/src/app/controllers/HomeController.java~HomeController~2490",14="Edenm-BlackJack~/Edenm-BlackJack/BlackJack-master/src/View/TableController.java~TableController~394",15="NirmalL-Shark~/NirmalL-Shark/Shark-master/src/Controller.java~Controller~1009",16="walker-clint-AIProj3~/walker-clint-AIProj3/AIProj3-master/src/application/GameBoardController.java~GameBoardController~4712",17="Dahwar-Calculator~/Dahwar-Calculator/Calculator-master/src/fr/alsace/lacroix/calculator/SampleController.java~SampleController~308",18="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CECommandeController.java~CECommandeController~2084"]
+36[label="FIELD:javafx.scene.control.Label",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+32[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+16[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+10[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+30[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->36[label="DECLARE_FIELD"]
+0->10[label="DECLARE_FIELD"]
+0->16[label="DECLARE_FIELD"]
+0->32[label="DECLARE_FIELD"]
+0->30[label="DECLARE_FIELD"]
+}

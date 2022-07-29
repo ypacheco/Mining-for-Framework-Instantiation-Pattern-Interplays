@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1883,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="bohdaq-DeedleJSON~/bohdaq-DeedleJSON/DeedleJSON-master/src/com/appspot/deedleit/client/Deedle.java~void onModuleLoad()~891",1="bohdaq-DeedleJSON~/bohdaq-DeedleJSON/DeedleJSON-master/src/com/appspot/deedleit/client/Deedle.java~Deedle~890"]
+11[label="com.google.gwt.user.client.ui.Hyperlink",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+10[label="VAR:com.google.gwt.user.client.ui.Hyperlink",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+23[label="getText()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+49[label="getText()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+47[label="setStyleName()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+10->23[label="CALL"]
+10->49[label="CALL"]
+10->11[label="OF_TYPE"]
+10->47[label="CALL"]
+}

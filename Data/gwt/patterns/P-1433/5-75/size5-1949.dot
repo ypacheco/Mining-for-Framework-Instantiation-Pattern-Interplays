@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1949,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.cell.client.FieldUpdater"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/administration/AdminPanel.java~void execute(sources.client.model.User)~223",1="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/administration/AdminPanel.java~com.google.gwt.user.client.ui.Widget creerListeUserPanel()~221"]
+4[label="void update(int,sources.client.model.User,java.lang.String)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+2[label="METHOD_CALL",vertexType="OUTSIDE_CALL",isFrameworkType=false]
+1[label="com.google.gwt.cell.client.FieldUpdater",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+3[label="com.google.gwt.user.cellview.client.Column",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->4[label="OVERRIDE"]
+2->0[label="ARGUMENT"]
+0->1[label="IMPLEMENT",color=red]
+2->3[label="OF_TYPE"]
+}

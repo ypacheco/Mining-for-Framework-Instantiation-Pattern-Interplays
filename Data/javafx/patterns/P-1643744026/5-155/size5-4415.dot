@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=4415,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="LichuanLu-ShunUI-FX~/LichuanLu-ShunUI-FX/ShunUI-FX-master/src/view/chart/StackedBarChart.java~StackedBarChart~811",1="TomaszKorecki-InvestorAssistant~/TomaszKorecki-InvestorAssistant/InvestorAssistant-master/Investor's assistant/src/investor/charts/CandleChart.java~CandleStickChart~1473"]
+206[label="void layoutPlotChildren()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+324[label="VAR:javafx.scene.shape.LineTo",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+309[label="VAR:javafx.scene.shape.MoveTo",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+263[label="VAR:javafx.scene.chart.Axis",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+296[label="VAR:javafx.scene.chart.Axis",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+206->324[label="INSTANTIATE"]
+206->296[label="INSTANTIATE"]
+206->309[label="INSTANTIATE"]
+206->263[label="INSTANTIATE"]
+}

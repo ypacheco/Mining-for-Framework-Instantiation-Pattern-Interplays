@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=831,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.event.dom.client.DragHandler"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="betacraft-RdpGwtClient",filePath="/betacraft-RdpGwtClient/RdpGwtClient-master/src/com/droidcloud/viewer/client/Input.java",contextSignature="RDesktopMouseDraggedHandler",graphId="831"]
+0[label="com.droidcloud.viewer.client.Input.RDesktopMouseDraggedHandler",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.event.dom.client.DragHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void onDrag(com.google.gwt.event.dom.client.DragEvent)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="e",vertexType="PARAMETER_DECLARATION",isFrameworkType=true,peripheries=2]
+4[label="com.google.gwt.event.dom.client.DragEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+3->4[label="OF_TYPE"]
+2->3[label="PARAMETER"]
+}

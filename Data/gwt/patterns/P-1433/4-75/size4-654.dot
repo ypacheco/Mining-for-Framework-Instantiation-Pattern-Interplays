@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=654,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="WSDOT-WSDOT-Search-GWT~/WSDOT-WSDOT-Search-GWT/WSDOT-Search-GWT-master/src/gov/wa/wsdot/search/client/SearchWidget.java~SearchWidget~449",1="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/Ziraja.java~Ziraja~403"]
+291[label="new Image()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+292[label="VAR:com.google.gwt.user.client.ui.Image",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+19[label="com.google.gwt.user.client.ui.Image",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+299[label="addClickHandler()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+292->19[label="OF_TYPE"]
+292->299[label="CALL"]
+292->291[label="CALL"]
+}

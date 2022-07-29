@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=103,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Coleim-easeljs-gwt_0.6",filePath="/Coleim-easeljs-gwt_0.6/easeljs-gwt_0.6-master/src/easeljs/client/geom/impl/Matrix2DImpl.java",contextSignature="Matrix2DImpl",graphId="103"]
+0[label="easeljs.client.geom.impl.Matrix2DImpl",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=4668,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="joelburget-miftiwac~/joelburget-miftiwac/miftiwac-master/src/Dynamic_page.java~Dynamic_page~3333",1="Catuna-OsuExport~/Catuna-OsuExport/OsuExport-master/src/view/InfoDialog.java~InfoDialog~218"]
+32[label="FIELD:javafx.scene.control.Separator",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+33[label="javafx.scene.control.Separator",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+14[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+5[label="javafx.scene.control.Button",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->32[label="DECLARE_FIELD"]
+0->14[label="DECLARE_FIELD"]
+14->5[label="OF_TYPE"]
+32->33[label="OF_TYPE"]
+}

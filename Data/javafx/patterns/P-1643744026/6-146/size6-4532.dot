@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=4532,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="cmd802-projectmain~/cmd802-projectmain/projectmain-master/GroupProject/src/menu/Menu.java~Menu~2281",1="cmd802-projectmain~/cmd802-projectmain/projectmain-master/GroupProject/src/menu/Menu.java~void addComponents(javafx.scene.layout.HBox)~2282"]
+141[label="new Friction()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+142[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+143[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+13[label="javafx.scene.layout.Pane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+203[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+202[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+142->141[label="CALL"]
+143->13[label="EXTEND",color=blue]
+203->13[label="EXTEND",color=blue]
+202->203[label="OF_TYPE"]
+142->143[label="OF_TYPE"]
+}

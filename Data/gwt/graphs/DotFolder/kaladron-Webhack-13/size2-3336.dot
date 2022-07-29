@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3336,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.resources.client.CssResource"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="kaladron-Webhack",filePath="/kaladron-Webhack/Webhack-master/src/net/webhack/game/client/WebhackGnome.java",contextSignature="WebhackStyle",graphId="3336"]
+0[label="net.webhack.game.client.WebhackGnome.WebhackStyle",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.resources.client.CssResource",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

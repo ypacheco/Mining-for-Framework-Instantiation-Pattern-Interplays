@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=4685,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.Group"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="villu164-SoneOtsing",filePath="/villu164-SoneOtsing/SoneOtsing-master/src/application/LahendBox.java",contextSignature="LahendBox",graphId="4685"]
+0[label="application.LahendBox",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.Group",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="text",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.scene.text.Text",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+}

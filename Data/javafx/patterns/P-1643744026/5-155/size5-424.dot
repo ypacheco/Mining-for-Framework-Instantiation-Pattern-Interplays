@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=424,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=12.0,patternRootClient=0]
+patternInstancesInfo[0="making-todo-tsa~/making-todo-tsa/todo-tsa-master/todo-fx/src/main/java/todo/app/TodoController.java~TodoController~3522",1="geyrix57-Proyecto_1_Bases~/geyrix57-Proyecto_1_Bases/Proyecto_1_Bases-master/src/Control/ControlLog.java~ControlLog~2710",2="JoshuaHanrahan-DVDCollectionApp~/JoshuaHanrahan-DVDCollectionApp/DVDCollectionApp-master/src/dvdcollectionapp/view/DvdcollectionappfxmlController.java~DvdcollectionappfxmlController~728",3="warpcorebreach-AAH~/warpcorebreach-AAH/AAH-master/AAH/src/aah/AptAllotmentController.java~AptAllotmentController~4733",4="diogocs1-FPessoais~/diogocs1-FPessoais/FPessoais-master/FinancasPessoais/src/app/controllers/HomeController.java~HomeController~2490",5="warpcorebreach-AAH~/warpcorebreach-AAH/AAH-master/AAH/src/aah/ManMaintRequestController.java~ManMaintRequestController~4736",6="7thwheel-medaka-chan~/7thwheel-medaka-chan/medaka-chan-master/src/seventhwheel/pos/controller/PosController.java~PosController~30",7="NirmalL-Shark~/NirmalL-Shark/Shark-master/src/Controller.java~Controller~1009",8="7thwheel-medaka-chan~/7thwheel-medaka-chan/medaka-chan-master/src/seventhwheel/pos/controller/SuppliersController.java~SuppliersController~23",9="crosswords-testEnvironment~/crosswords-testEnvironment/testEnvironment-master/src/GUI/MainController.java~MainController~2315",10="warpcorebreach-AAH~/warpcorebreach-AAH/AAH-master/AAH/src/aah/AppReviewController.java~AppReviewController~4716",11="Geekly-fieldmarshalfx~/Geekly-fieldmarshalfx/fieldmarshalfx-master/src/net/geeklythings/fm/ui/fxml/LoadTournamentDialogController.java~LoadTournamentDialogController~500"]
+97[label="new PropertyValueFactory()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+98[label="VAR:javafx.scene.control.cell.PropertyValueFactory",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+81[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+10[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+98->97[label="CALL"]
+81->98[label="INSTANTIATE"]
+0->10[label="DECLARE_FIELD"]
+0->81[label="OVERRIDE"]
+}

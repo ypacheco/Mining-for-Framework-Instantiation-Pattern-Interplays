@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=2138,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/PopupMenu.java~PopupMenu~2997",1="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/Balloon.java~Balloon~2986"]
+5[label="PARAMETER:com.google.gwt.user.client.Command",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+4[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+11[label="VAR:ANONYMOUS",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+12[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+4->11[label="INSTANTIATE"]
+11->12[label="OF_TYPE"]
+0->4[label="DECLARE_METHOD"]
+4->5[label="PARAMETER"]
+}

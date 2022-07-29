@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1757,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="abuczko-JFXDockManager~/abuczko-JFXDockManager/JFXDockManager-master/JFXDockManager/src/controller/DockPanel.java~DockPanel~1677",1="Jojal-RadialMenu~/Jojal-RadialMenu/RadialMenu-master/src/main/java/fr/jojal/widget/radial/menu/RadialMenu.java~RadialMenu~698",2="Jojal-RadialMenu~/Jojal-RadialMenu/RadialMenu-master/src/main/java/fr/jojal/widget/radial/item/RadialItem.java~RadialItem~690"]
+3[label="javafx.beans.property.DoubleProperty",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+13[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+13->3[label="RETURN"]
+}

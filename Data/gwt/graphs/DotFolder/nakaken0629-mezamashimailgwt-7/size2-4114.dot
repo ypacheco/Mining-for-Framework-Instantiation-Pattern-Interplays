@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4114,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.InlineLabel"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="nakaken0629-mezamashimailgwt",filePath="/nakaken0629-mezamashimailgwt/mezamashimailgwt-master/mezamashimailgwt/src/com/appspot/mezamashimailgwt/client/ErrorLabel.java",contextSignature="ErrorLabel",graphId="4114"]
+0[label="com.appspot.mezamashimailgwt.client.ErrorLabel",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.InlineLabel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

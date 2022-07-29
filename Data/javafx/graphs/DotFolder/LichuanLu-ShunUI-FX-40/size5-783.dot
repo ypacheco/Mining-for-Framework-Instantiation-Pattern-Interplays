@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=783,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.chart.NumberAxis.DefaultFormatter"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="LichuanLu-ShunUI-FX",filePath="/LichuanLu-ShunUI-FX/ShunUI-FX-master/src/controllers/Controller.java",contextSignature="void initialize(java.net.URL,java.util.ResourceBundle)",graphId="783"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.chart.NumberAxis.DefaultFormatter",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void setTickLabelFormatter(javafx.util.StringConverter)",vertexType="OUTSIDE_CALL",isFrameworkType=true,peripheries=2]
+3[label="javafx.scene.chart.ValueAxis",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="java.lang.String toString(java.lang.Number)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+2->0[label="ARGUMENT"]
+2->3[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+}

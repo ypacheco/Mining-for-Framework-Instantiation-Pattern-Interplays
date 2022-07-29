@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1232,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="carlos-aguayo-html5gwthistory~/carlos-aguayo-html5gwthistory/html5gwthistory-master/src/com/dreamskiale/client/AppActivityMapper.java~AppActivityMapper~1021",1="mcasperson-Automation-Portal-UI~/mcasperson-Automation-Portal-UI/Automation-Portal-UI-master/src/com/redhat/automationportalui/client/AutomationPortalUIAppActivityMapper.java~AutomationPortalUIAppActivityMapper~3711"]
+3[label="com.google.gwt.activity.shared.Activity",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+2[label="com.google.gwt.activity.shared.Activity getActivity(com.google.gwt.place.shared.Place)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+4[label="PARAMETER:com.google.gwt.place.shared.Place",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+5[label="com.google.gwt.place.shared.Place",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+7[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+2->3[label="RETURN"]
+2->4[label="PARAMETER"]
+4->5[label="OF_TYPE"]
+2->7[label="INSTANTIATE"]
+0->2[label="OVERRIDE"]
+}

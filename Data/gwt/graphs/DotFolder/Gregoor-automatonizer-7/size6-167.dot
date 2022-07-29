@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=167,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Composite"]
+possibleCollaborationsInfo[0="167~FIELD_DECLARATION-~com.google.gwt.user.client.ui.Composite ~com.google.gwt.user.client.ui.Composite ~false~false"]
+locationInfo[projectName="Gregoor-automatonizer",filePath="/Gregoor-automatonizer/automatonizer-master/src/com/automatonizer/view/OverView.java",contextSignature="OverView",graphId="167"]
+0[label="com.automatonizer.view.OverView",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Composite",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="automatonView",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="com.automatonizer.view.AutomatonCanvas",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+5[label="textBox",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+6[label="com.google.gwt.user.client.ui.TextBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+3->1[label="EXTEND",color=blue]
+2->3[label="OF_TYPE"]
+0->5[label="DECLARE_FIELD"]
+5->6[label="OF_TYPE"]
+}

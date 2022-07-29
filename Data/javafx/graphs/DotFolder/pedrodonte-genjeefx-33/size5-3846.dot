@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=3846,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.event.EventHandler"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="pedrodonte-genjeefx",filePath="/pedrodonte-genjeefx/genjeefx-master/GenJeeFx/src/main/java/generar/AplicacionPrincipal.java",contextSignature="GenerarMenuEnPlantillaEHandler",graphId="3846"]
+0[label="main.java.generar.AplicacionPrincipal.GenerarMenuEnPlantillaEHandler",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.event.EventHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void handle(javafx.event.ActionEvent)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="arg0",vertexType="PARAMETER_DECLARATION",isFrameworkType=true,peripheries=2]
+4[label="javafx.event.ActionEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+3->4[label="OF_TYPE"]
+2->3[label="PARAMETER"]
+}

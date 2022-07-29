@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1594,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=8.0,patternRootClient=0]
+patternInstancesInfo[0="soonzsoonz-QuickFoot~/soonzsoonz-QuickFoot/QuickFoot-master/src/application/FXMLAdoptionController.java~FXMLAdoptionController~4247",1="sushkrish-CityLife~/sushkrish-CityLife/CityLife-master/src/view/StartScene.java~StartScene~4318",2="mouradsaadi-LO23-IHM~/mouradsaadi-LO23-IHM/LO23-IHM-master/Sudoku-IHM/src/sudoko/ihm/vue/LoginController.java~LoginController~3659",3="Johnmalc-JavaFX~/Johnmalc-JavaFX/JavaFX-master/src/game/SingleClassNoXmlBallGame.java~SingleClassNoXmlBallGame~649",4="DOOOOOM-jmpd-shared~/DOOOOOM-jmpd-shared/jmpd-shared-master/src/dooooom/jmpd/client/gui/javafx/MainViewController.java~MainViewController~294",5="svadlamudi-GaussJordanElimination~/svadlamudi-GaussJordanElimination/GaussJordanElimination-master/src/gauss/jordan/elimination/MainController.java~MainController~4396",6="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/DesktopViewer/DesktopViewerController.java~DesktopViewerController~2537",7="aferrandoa-valenciasprints~/aferrandoa-valenciasprints/valenciasprints-master/src/controllers/MainController.java~MainController~1711"]
+8[label="FIELD:javafx.scene.image.Image",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+4[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->8[label="DECLARE_FIELD"]
+0->4[label="DECLARE_FIELD"]
+}

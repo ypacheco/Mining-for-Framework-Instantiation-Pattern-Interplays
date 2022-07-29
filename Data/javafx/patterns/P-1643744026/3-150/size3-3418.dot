@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=3418,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="abuczko-JFXDockManager~/abuczko-JFXDockManager/JFXDockManager-master/JFXDockManager/src/controller/DockPanel.java~DockPanel~1677",1="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/ColorPicker.java~ColorChooser~1184"]
+3[label="javafx.beans.property.ReadOnlyObjectWrapper",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2[label="FIELD:javafx.beans.property.ReadOnlyObjectWrapper",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2->3[label="OF_TYPE"]
+0->2[label="DECLARE_FIELD"]
+}

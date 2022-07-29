@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=2386,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.canvas.Canvas"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="dejanristic78-snake",filePath="/dejanristic78-snake/snake-master/src/dejan/snake/GameCanvas.java",contextSignature="GameCanvas",graphId="2386"]
+0[label="dejan.snake.GameCanvas",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.canvas.Canvas",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="gc",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.scene.canvas.GraphicsContext",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+}

@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=4259,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.event.Event"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="srikarr-Woot",filePath="/srikarr-Woot/Woot-master/src/FinishedListeningEvent.java",contextSignature="FinishedListeningEvent",graphId="4259"]
+0[label="FinishedListeningEvent",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.event.Event",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="FINISHED_LISTENING",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.event.EventType",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+}

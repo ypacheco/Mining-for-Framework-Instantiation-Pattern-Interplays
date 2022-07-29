@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2216,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="crosswords-testEnvironment~/crosswords-testEnvironment/testEnvironment-master/src/GUI/MainController.java~void initialize(java.net.URL,java.util.ResourceBundle)~2320",1="v1ct04-lagbackup~/v1ct04-lagbackup/lagbackup-master/src/com/v1ct04/ces22/lagbackup/view/main/controllers/RestoreTabController.java~RestoreTabController~4632",2="DOOOOOM-jmpd-shared~/DOOOOOM-jmpd-shared/jmpd-shared-master/src/dooooom/jmpd/client/gui/javafx/MainViewController.java~MainViewController~294",3="crosswords-testEnvironment~/crosswords-testEnvironment/testEnvironment-master/src/GUI/MainController.java~MainController~2315"]
+130[label="javafx.scene.control.MultipleSelectionModel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+146[label="VAR:javafx.scene.control.MultipleSelectionModel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+146->130[label="OF_TYPE"]
+}

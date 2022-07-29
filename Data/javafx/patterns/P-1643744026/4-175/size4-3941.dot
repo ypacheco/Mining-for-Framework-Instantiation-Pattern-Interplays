@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=3941,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="svadlamudi-GaussJordanElimination~/svadlamudi-GaussJordanElimination/GaussJordanElimination-master/src/gauss/jordan/elimination/MainController.java~MainController~4396",1="killjoy64-Scouting~/killjoy64-Scouting/Scouting-master/Robotics Scouting Client/src/org/petoskeypaladins/scouting/client/Controller.java~Controller~3456"]
+13[label="javafx.scene.control.RadioMenuItem",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+12[label="FIELD:javafx.scene.control.RadioMenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+14[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->12[label="DECLARE_FIELD"]
+12->13[label="OF_TYPE"]
+0->14[label="DECLARE_FIELD"]
+}

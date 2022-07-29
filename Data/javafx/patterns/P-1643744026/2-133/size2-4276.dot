@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=4276,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/colormenu/RadialColorMenu.java~RadialColorMenu~958",1="soonzsoonz-QuickFoot~/soonzsoonz-QuickFoot/QuickFoot-master/src/application/AudioConfigMain.java~AudioConfigMain~4245"]
+42[label="javafx.scene.shape.ShapeBuilder",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+40[label="VAR:javafx.scene.shape.ShapeBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+40->42[label="OF_TYPE"]
+}

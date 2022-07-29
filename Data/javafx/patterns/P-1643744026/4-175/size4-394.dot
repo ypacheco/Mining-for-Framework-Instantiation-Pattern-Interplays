@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=394,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.animation.AnimationTimer"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=14.0,patternRootClient=0]
+patternInstancesInfo[0="digrach-FX_ParticleManager~/digrach-FX_ParticleManager/FX_ParticleManager-master/src/rach/canvas/HistoryParticleCanvas.java~void HistoryParticleCanvas()~2464",1="atsticks-FXOne~/atsticks-FXOne/FXOne-master/org.fxone/fxone-ui/src/main/java/org/fxone/ui/rt/components/clocks/SimpleLabelClockAdapter.java~SimpleLabelClockAdapter~1895",2="Dricus-game-of-life~/Dricus-game-of-life/game-of-life-master/src/main/java/nl/dricus/gameoflife/presentation/display/DisplayPresenter.java~void createAnimation()~388",3="rihani-PrayerTime~/rihani-PrayerTime/PrayerTime-master/src/javafxapplication4/JavaFXApplication4.java~void init()~4040",4="miho-SpringSimulator~/miho-SpringSimulator/SpringSimulator-master/SpringSimulator/src/main/java/eu/mihosoft/vrl/springsimulation/SpringSimulation.java~void startVisual(double)~3637",5="empollondefisica-PlanetGame~/empollondefisica-PlanetGame/PlanetGame-master/src/planetGame/GameScene.java~void GameScene(javafx.scene.Group,javafx.stage.Stage,java.util.ArrayList,int)~2639",6="Xenoage-Labs~/Xenoage-Labs/Labs-master/JavaFXSymbolsTest/src/com/xenoage/labs/javafxsymbolstest/BaseCanvas.java~void BaseCanvas(com.xenoage.labs.javafxsymbolstest.MainPanelController)~1617",7="miho-SpringSimulator~/miho-SpringSimulator/SpringSimulator-master/SpringSimulator/src/main/java/eu/mihosoft/vrl/springsimulation/Main_old.java~void initSimulation(javafx.scene.layout.Pane)~3636",8="RomeoGolf-BC~/RomeoGolf-BC/BC-master/src/romeogolf/bc/MainController.java~MainController~1147",9="pochemuto-vmk-s4-task2~/pochemuto-vmk-s4-task2/vmk-s4-task2-master/src/main/java/org/pochemuto/planets/view/Controller.java~void initialize(java.net.URL,java.util.ResourceBundle)~3890",10="wwtg99-POMA~/wwtg99-POMA/POMA-master/src/cn/edu/suda/core/network/VisualNode.java~void changePosition(double,double)~4804",11="VgQD-JOculusLib~/VgQD-JOculusLib/JOculusLib-master/src/be/student/vgqd/joculus/v1/hud/fx/oculusview/OculusViewDemo.java~void start(javafx.stage.Stage)~1589",12="Xenoage-Labs~/Xenoage-Labs/Labs-master/JavaFXSymbolsTest/src/com/xenoage/labs/javafxsymbolstest/nodes/NodesPane.java~void NodesPane(com.xenoage.labs.javafxsymbolstest.MainPanelController)~1621"]
+2[label="VAR",vertexType="OUTSIDE_VARIABLE_EXPRESION",isFrameworkType=false]
+1[label="javafx.animation.AnimationTimer",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+4[label="void handle(long)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->4[label="OVERRIDE"]
+0->2[label="ASSIGMENT"]
+0->1[label="EXTEND",color=red]
+2->1[label="OF_TYPE"]
+}

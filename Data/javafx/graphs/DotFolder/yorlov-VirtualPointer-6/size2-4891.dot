@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4891,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.stage.Stage"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="yorlov-VirtualPointer",filePath="/yorlov-VirtualPointer/VirtualPointer-master/src/com/blogspot/captain1653/preRegion/PreRegionStage.java",contextSignature="PreRegionStage",graphId="4891"]
+0[label="com.blogspot.captain1653.preRegion.PreRegionStage",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.stage.Stage",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=957,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=10.0,patternRootClient=0]
+patternInstancesInfo[0="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/Plugins/PluginsController.java~PluginsController~2568",1="jasonwr-jhuep_ent_web_dev~/jasonwr-jhuep_ent_web_dev/jhuep_ent_web_dev-master/src/hw6/main/WebBuyer.java~WebBuyer~3282",2="Jamakasi-JMCLauncherFX~/Jamakasi-JMCLauncherFX/JMCLauncherFX-master/src/jmclauncherfx/OptionsWindowController.java~OptionsWindowController~610",3="novosga-painel-fx~/novosga-painel-fx/painel-fx-master/src/org/novosga/painel/client/ui/Controller.java~Controller~3787",4="henrik-bak-scbuildplanner~/henrik-bak-scbuildplanner/scbuildplanner-master/src/main/java/com/ezzored/starcraftbuildplanner/controller/MainWindowController.java~MainWindowController~2923",5="demibenari-cd-catalog~/demibenari-cd-catalog/cd-catalog-master/src/cd/catalog/MainFormController.java~MainFormController~2392",6="gleba-cppoints~/gleba-cppoints/cppoints-master/src/cpapp/view/ReadFormController.java~ReadFormController~2757",7="NirmalL-Shark~/NirmalL-Shark/Shark-master/src/Controller.java~Controller~1009",8="didygo-gce-display~/didygo-gce-display/gce-display-master/src/proto1/DashBoard.java~DashBoard~2407",9="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CECommandeController.java~CECommandeController~2084"]
+20[label="FIELD:javafx.scene.control.CheckBox",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+8[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+46[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+38[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->8[label="DECLARE_FIELD"]
+0->20[label="DECLARE_FIELD"]
+0->38[label="DECLARE_FIELD"]
+0->46[label="DECLARE_FIELD"]
+}

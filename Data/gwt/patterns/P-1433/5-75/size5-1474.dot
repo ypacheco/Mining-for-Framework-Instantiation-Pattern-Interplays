@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1474,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="fmilepe-StockWatcher~/fmilepe-StockWatcher/StockWatcher-master/src/br/mdarte/exemplo/client/stockwatcher.java~stockwatcher~1327",1="GoogleCloudPlatform-appengine-gwtguestbook-namespaces-java~/GoogleCloudPlatform-appengine-gwtguestbook-namespaces-java/appengine-gwtguestbook-namespaces-java-master/src/com/google/gwt/sample/gwtguestbook/client/Guestbook.java~Guestbook~156"]
+23[label="com.google.gwt.user.client.ui.HTMLTable.RowFormatter",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+21[label="VAR:com.google.gwt.user.client.ui.HTMLTable.RowFormatter",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+13[label="void onModuleLoad()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+31[label="VAR:com.google.gwt.user.client.ui.HTMLTable.CellFormatter",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+13->31[label="INSTANTIATE"]
+0->13[label="OVERRIDE"]
+13->21[label="INSTANTIATE"]
+21->23[label="OF_TYPE"]
+}

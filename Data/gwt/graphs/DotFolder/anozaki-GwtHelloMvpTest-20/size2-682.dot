@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=682,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.googlecode.gwt.test.GwtTestWithMockito"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="anozaki-GwtHelloMvpTest",filePath="/anozaki-GwtHelloMvpTest/GwtHelloMvpTest-master/src/test/java/com/hellomvp/client/place/HelloPlaceMockitoTest.java",contextSignature="HelloPlaceMockitoTest",graphId="682"]
+0[label="test.java.com.hellomvp.client.place.HelloPlaceMockitoTest",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.googlecode.gwt.test.GwtTestWithMockito",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

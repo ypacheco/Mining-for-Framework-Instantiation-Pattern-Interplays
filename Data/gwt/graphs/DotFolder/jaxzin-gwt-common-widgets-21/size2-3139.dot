@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3139,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Grid"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jaxzin-gwt-common-widgets",filePath="/jaxzin-gwt-common-widgets/gwt-common-widgets-master/src/com/jaxzin/gwt/ui/client/table/grid/drag/DraggableGrid.java",contextSignature="TransitionColumn",graphId="3139"]
+0[label="com.jaxzin.gwt.ui.client.table.grid.drag.DraggableGrid.DefaultColumnDragListener.TransitionColumn",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Grid",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

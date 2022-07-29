@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=26,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=8.0,patternRootClient=null]
+patternInstancesInfo[0="lauflabs-gwt-garmin-api~/lauflabs-gwt-garmin-api/gwt-garmin-api-master/gwt-garmin-showcase/src/main/java/com/garmin/gwt/communicator/testing/client/Showcase.java~Showcase~3605",1="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/easyoverlay/src/com/akjava/gwt/hangout/easyoverlay/client/EasyOverlay.java~EasyOverlay~492",2="bobvash-Resolution-Tracker~/bobvash-Resolution-Tracker/Resolution-Tracker-master/ResolutionTracker/src/com/bobvash/resolutiontracker/client/ResolutionDayWidget.java~ResolutionDayWidget~867",3="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/AlgebrApp.java~AlgebrApp~3667",4="MikeMitterer-RFSample~/MikeMitterer-RFSample/RFSample-master/src/at/mikemitterer/gwt/rfsample/client/RFSample.java~RFSample~338",5="12010994-GLI-TP1~/12010994-GLI-TP1/GLI-TP1-master/src/main/java/fr/istic/m2gl/gli/client/TableWidget.java~TableWidget~8",6="woox-serverapp~/woox-serverapp/serverapp-master/src/wooxes/net/client/Serverapp.java~Serverapp~4647",7="chrte-TemperatureWatcher~/chrte-TemperatureWatcher/TemperatureWatcher-master/src/com/google/gwt/sample/stockwatcher/client/TemperatureWatcher.java~TemperatureWatcher~1066"]
+71[label="com.google.gwt.event.dom.client.ClickHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+86[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+507[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+344[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+473[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+344->71[label="IMPLEMENT",color=blue]
+507->71[label="IMPLEMENT",color=blue]
+473->71[label="IMPLEMENT",color=blue]
+86->71[label="IMPLEMENT",color=blue]
+}

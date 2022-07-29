@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4461,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="Ollowayne-dalekPTT~/Ollowayne-dalekPTT/dalekPTT-master/src/ptt/dalek/gui/App.java~App~1040",1="BeayemX-ConnectGame~/BeayemX-ConnectGame/ConnectGame-master/src/game/MainGame.java~MainGame~161"]
+161[label="new Updater()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+162[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+19[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+162->19[label="OF_TYPE"]
+162->161[label="CALL"]
+}

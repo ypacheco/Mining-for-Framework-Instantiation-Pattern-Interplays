@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1484,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.place.shared.PlaceHistoryMapper"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=0]
+patternInstancesInfo[0="anozaki-GwtHelloMvpTest~/anozaki-GwtHelloMvpTest/GwtHelloMvpTest-master/src/main/java/com/hellomvp/client/mvp/AppPlaceHistoryMapper.java~AppPlaceHistoryMapper~669",1="mcasperson-Automation-Portal-UI~/mcasperson-Automation-Portal-UI/Automation-Portal-UI-master/src/com/redhat/automationportalui/client/AutomationPortalUIAppPlaceHistoryMapper.java~AutomationPortalUIAppPlaceHistoryMapper~3713",2="rjdkolb-jozijug_phonegapdemo~/rjdkolb-jozijug_phonegapdemo/jozijug_phonegapdemo-master/src/main/java/org/openrap/jozijug/mgwtphonegap/client/AppPlaceHistoryMapper.java~AppPlaceHistoryMapper~4351",3="carlos-aguayo-html5gwthistory~/carlos-aguayo-html5gwthistory/html5gwthistory-master/src/com/dreamskiale/client/AppPlaceHistoryMapper.java~AppPlaceHistoryMapper~1015",4="bahkified-Test~/bahkified-Test/Test-master/src/main/java/com/blargh/AanP/client/mvp/AppPlaceHistoryMapper.java~AppPlaceHistoryMapper~798"]
+1[label="com.google.gwt.place.shared.PlaceHistoryMapper",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="IMPLEMENT",color=red]
+}

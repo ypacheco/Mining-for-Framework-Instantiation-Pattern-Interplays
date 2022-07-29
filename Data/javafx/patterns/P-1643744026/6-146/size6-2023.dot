@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=2023,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="JustinAarden-C2J-Stamboom~/JustinAarden-C2J-Stamboom/C2J-Stamboom-master/src/stamboom/gui/StamboomFXController.java~StamboomFXController~734",1="JoshuaHanrahan-DVDCollectionApp~/JoshuaHanrahan-DVDCollectionApp/DVDCollectionApp-master/src/dvdcollectionapp/view/DvdcollectionappfxmlController.java~DvdcollectionappfxmlController~728"]
+36[label="FIELD:javafx.scene.control.Tab",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+50[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+44[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+8[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+20[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->50[label="DECLARE_FIELD"]
+0->8[label="DECLARE_FIELD"]
+0->20[label="DECLARE_FIELD"]
+0->44[label="DECLARE_FIELD"]
+0->36[label="DECLARE_FIELD"]
+}

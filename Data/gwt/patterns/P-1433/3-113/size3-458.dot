@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=458,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/ugat/client/common/ui/ModalDialog.java~ModalDialog~3054",1="chrte-TemperatureWatcher~/chrte-TemperatureWatcher/TemperatureWatcher-master/src/com/google/gwt/sample/stockwatcher/client/TemperatureWatcher.java~TemperatureWatcher~1066"]
+1[label="com.google.gwt.event.dom.client.KeyPressHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+198[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+136[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+198->1[label="IMPLEMENT",color=blue]
+136->1[label="IMPLEMENT",color=blue]
+}

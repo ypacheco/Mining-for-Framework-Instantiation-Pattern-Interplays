@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=746,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.StackPane"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="KraiZeur-library",filePath="/KraiZeur-library/library-master/src/application/presentationLayer/ScreensController.java",contextSignature="ScreensController",graphId="746"]
+0[label="application.presentationLayer.ScreensController",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.StackPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

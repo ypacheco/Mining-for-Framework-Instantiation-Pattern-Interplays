@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1480,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.safehtml.client.SafeHtmlTemplates"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="jDramaix-SlidingPuzzle~/jDramaix-SlidingPuzzle/SlidingPuzzle-master/src/be/dramaix/ai/slidingpuzzle/client/ConfigPanel.java~Templates~3108",1="mrsmastara-home~/mrsmastara-home/home-master/youtube/src/main/java/com/youtube/play/client/local/KitchenSink.java~KitchenSinkTemplates~4061",2="rjdkolb-jozijug_phonegapdemo~/rjdkolb-jozijug_phonegapdemo/jozijug_phonegapdemo-master/src/main/java/org/openrap/jozijug/mgwtphonegap/client/BasicCell.java~Template~4364"]
+1[label="com.google.gwt.safehtml.client.SafeHtmlTemplates",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="IMPLEMENT",color=red]
+}

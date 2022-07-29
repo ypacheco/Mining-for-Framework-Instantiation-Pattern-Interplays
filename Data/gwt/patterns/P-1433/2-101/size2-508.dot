@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=508,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=6.0,patternRootClient=null]
+patternInstancesInfo[0="dapicard-gwt-surface~/dapicard-gwt-surface/gwt-surface-master/gwt-surface/src/main/java/com/axeiya/gwt/surface/client/ContentEditableSurface.java~ContentEditableSurface~1180",1="jhudson8-gwt-jquery-ui~/jhudson8-gwt-jquery-ui/gwt-jquery-ui-master/core/gwt-jquery-ui-mobile/src/main/java/com/google/gwt/jquery/mobile/ui/base/AbstractWidgetContainer.java~AbstractWidgetContainer~3201",2="dapicard-gwt-surface~/dapicard-gwt-surface/gwt-surface-master/gwt-surface/src/main/java/com/axeiya/gwt/surface/client/inserter/blockinserter/BlockInserter.java~void insert(SurfaceSelection)~1248",3="dapicard-gwt-surface~/dapicard-gwt-surface/gwt-surface-master/gwt-surface/src/main/java/com/axeiya/gwt/surface/client/ContentEditableSurface.java~void onBrowserEvent(com.google.gwt.user.client.Event)~1184",4="Doogiemuc-gwt-comp-tagging~/Doogiemuc-gwt-comp-tagging/gwt-comp-tagging-master/src/com/google/code/gwt/component/tag/InputTag.java~InputTag~126"]
+251[label="com.google.gwt.dom.client.Node",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+491[label="VAR:com.google.gwt.dom.client.Node",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+491->251[label="OF_TYPE"]
+}

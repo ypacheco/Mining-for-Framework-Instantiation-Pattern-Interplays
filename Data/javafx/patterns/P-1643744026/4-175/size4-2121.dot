@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2121,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="sipadan2003-JFXTreeView201312~/sipadan2003-JFXTreeView201312/JFXTreeView201312-master/src/jfxtreeview/TreeCellImpl.java~TreeCellImpl~4192",1="Orlando80-mongo_management_studio~/Orlando80-mongo_management_studio/mongo_management_studio-master/src/Presentation/Controllers/mainController.java~void setUpContextMenu()~1070",2="Orlando80-mongo_management_studio~/Orlando80-mongo_management_studio/mongo_management_studio-master/src/Presentation/Controllers/mainController.java~javafx.scene.control.TreeCell call(javafx.scene.control.TreeView)~1071"]
+29[label="javafx.scene.control.Cell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+27[label="VAR:javafx.scene.control.Cell",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+28[label="getItem()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+37[label="getItem()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+27->29[label="OF_TYPE"]
+27->37[label="CALL"]
+27->28[label="CALL"]
+}

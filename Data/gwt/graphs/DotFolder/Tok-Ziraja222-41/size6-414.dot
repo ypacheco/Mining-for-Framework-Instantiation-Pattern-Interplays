@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=414,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.event.shared.EventHandler"]
+possibleCollaborationsInfo[0="414~CLIENT_METHOD_DECLARATION-PARAMETER_DECLARATION-~com.google.gwt.event.shared.EventHandler ~com.google.gwt.event.shared.GwtEvent ~false~false"]
+locationInfo[projectName="Tok-Ziraja222",filePath="/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/event/CancelledEventHandler.java",contextSignature="CancelledEventHandler",graphId="414"]
+0[label="ziraja.client.event.CancelledEventHandler",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.event.shared.EventHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void onCancelled(ziraja.client.event.CancelledEvent)",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="event",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+4[label="ziraja.client.event.CancelledEvent",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+5[label="com.google.gwt.event.shared.GwtEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="DECLARE_METHOD"]
+4->5[label="EXTEND",color=blue]
+3->4[label="OF_TYPE"]
+2->3[label="PARAMETER"]
+}

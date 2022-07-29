@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=3703,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="adrianjarvis-ryanswordgame~/adrianjarvis-ryanswordgame/ryanswordgame-master/src/wordgame/Card.java~Card~1710",1="vaalfreja-Time~/vaalfreja-Time/Time-master/src/time/TimeController.java~TimeController~4643"]
+15[label="javafx.scene.media.AudioClip",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+14[label="FIELD:javafx.scene.media.AudioClip",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+14->15[label="OF_TYPE"]
+0->14[label="DECLARE_FIELD"]
+}

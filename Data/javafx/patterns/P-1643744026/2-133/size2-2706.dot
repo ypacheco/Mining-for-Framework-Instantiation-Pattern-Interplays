@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2706,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=null]
+patternInstancesInfo[0="Clerenz-MyImageBrowser~/Clerenz-MyImageBrowser/MyImageBrowser-master/src/main/java/de/clemensloos/imagebrowser/gui/ImageBrowserFxGui.java~ImageBrowserFxGui~254",1="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/GradientBuilderApp.java~GradientBuilderApp~1189",2="cosysoft-financialfx~/cosysoft-financialfx/financialfx-master/fx/src/com/cosysoft/labs/demo/SplitPaneDemo.java~SplitPaneDemo~2310",3="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/AbstractSettingsLayout.java~AbstractSettingsLayout~1175",4="amonker-AmonkerFX~/amonker-AmonkerFX/AmonkerFX-master/src/cn/jingyun/javafx/amonker/ui/ButtonStyles.java~ButtonStyles~1840"]
+50[label="javafx.scene.layout.RegionBuilder",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+261[label="VAR:javafx.scene.layout.RegionBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+261->50[label="OF_TYPE"]
+}

@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3399,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.Group"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jperedadnr-RiggedHand",filePath="/jperedadnr-RiggedHand/RiggedHand-master/src/utils/Axes.java",contextSignature="Axes",graphId="3399"]
+0[label="utils.Axes",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.Group",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4460,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="senseobservationsystems-commonsense-gwt-lib",filePath="/senseobservationsystems-commonsense-gwt-lib/commonsense-gwt-lib-master/src/nl/sense_os/commonsense/lib/client/model/httpresponse/GetSensorsResponse.java",contextSignature="GetSensorsResponse",graphId="4460"]
+0[label="nl.sense_os.commonsense.lib.client.model.httpresponse.GetSensorsResponse",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=1258,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.Scheduler.ScheduledCommand"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="dapicard-gwt-surface",filePath="/dapicard-gwt-surface/gwt-surface-master/gwt-surface/src/main/java/com/axeiya/gwt/surface/client/inserter/blockinserter/BlockInserter.java",contextSignature="void extractStop(com.google.gwt.dom.client.Node,com.google.gwt.dom.client.Node,Range)",graphId="1258"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.Scheduler.ScheduledCommand",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void scheduleFinally(com.google.gwt.core.client.Scheduler.ScheduledCommand)",vertexType="OUTSIDE_CALL",isFrameworkType=true,peripheries=2]
+3[label="com.google.gwt.core.client.Scheduler",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="void execute()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+2->0[label="ARGUMENT"]
+2->3[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+}

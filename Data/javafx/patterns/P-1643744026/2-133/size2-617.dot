@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=617,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.HBox"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=9.0,patternRootClient=0]
+patternInstancesInfo[0="pedrodonte-genjeefx~/pedrodonte-genjeefx/genjeefx-master/GenJeeFx/src/main/java/generar/ui/BarraEstadoHBox.java~BarraEstadoHBox~3858",1="atsticks-FXOne~/atsticks-FXOne/FXOne-master/org.fxone/fxone-ui/src/main/java/org/fxone/ui/rt/components/header/HeaderLinks.java~HeaderLinks~1905",2="AMITCCILGITHUB-Contacts~/AMITCCILGITHUB-Contacts/Contacts-master/Contacts/src/org/apandey/view/parts/Footer.java~Footer~59",3="rwihaib-DrawAppFX~/rwihaib-DrawAppFX/DrawAppFX-master/src/drawapp/ImagePanel.java~ImagePanel~4060",4="ph73nt-shiny-plopper~/ph73nt-shiny-plopper/shiny-plopper-master/src/main/java/couk/nucmedone/shinyplopper/config/ConfigItem.java~ConfigItem~3869",5="Ellen102-test2~/Ellen102-test2/test2-master/src/Rugzak/Rugzak.java~Rugzak~423",6="ph73nt-shiny-plopper~/ph73nt-shiny-plopper/shiny-plopper-master/src/main/java/couk/nucmedone/shinyplopper/config/ComboConfigItem.java~ComboConfigItem~3870",7="atsticks-FXOne~/atsticks-FXOne/FXOne-master/org.fxone/fxone-ui/src/main/java/org/fxone/ui/rt/components/header/HeaderMenu.java~HeaderMenu~1906",8="sztorman-PSZT~/sztorman-PSZT/PSZT-master/src/Freedom.java~GameControls~4425"]
+1[label="javafx.scene.layout.HBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

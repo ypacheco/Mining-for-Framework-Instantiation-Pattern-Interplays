@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=4218,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="suxue-tetris~/suxue-tetris/tetris-master/src/tetris/core/Game.java~Timer~4352",1="VgQD-JOculusLib~/VgQD-JOculusLib/JOculusLib-master/src/be/student/vgqd/joculus/v1/hud/fx/oculusview/OculusViewDemo.java~void start(javafx.stage.Stage)~1589"]
+13[label="super.start()",vertexType="SUPER_CALL",isFrameworkType=false,shape=box]
+12[label="void start()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+12->13[label="CALL"]
+}

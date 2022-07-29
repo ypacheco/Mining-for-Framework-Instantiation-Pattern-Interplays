@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=4276,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.event.dom.client.KeyPressHandler"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="papog-grumo",filePath="/papog-grumo/grumo-master/src/com/spacepirates/grumo/client/CanvasKeyHandler.java",contextSignature="CanvasKeyHandler",graphId="4276"]
+0[label="com.spacepirates.grumo.client.CanvasKeyHandler",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.event.dom.client.KeyPressHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void onKeyPress(com.google.gwt.event.dom.client.KeyPressEvent)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="event",vertexType="PARAMETER_DECLARATION",isFrameworkType=true,peripheries=2]
+4[label="com.google.gwt.event.dom.client.KeyPressEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+3->4[label="OF_TYPE"]
+2->3[label="PARAMETER"]
+}

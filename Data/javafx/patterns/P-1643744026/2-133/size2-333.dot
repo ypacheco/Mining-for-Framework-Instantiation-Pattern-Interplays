@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=333,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.TextField"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=9.0,patternRootClient=0]
+patternInstancesInfo[0="AMITCCILGITHUB-Contacts~/AMITCCILGITHUB-Contacts/Contacts-master/Contacts/src/org/apandey/view/controls/TextBox.java~TextBox~54",1="witmicko-CalculatorFx~/witmicko-CalculatorFx/CalculatorFx-master/src/calc/Display.java~Display~4750",2="UrsKR-fxcalendar~/UrsKR-fxcalendar/fxcalendar-master/src/main/java/com/sai/javafx/calendar/DateTextField.java~DateTextField~1529",3="pioluk-comprog~/pioluk-comprog/Sudoku-master/Sudoku-UI/src/main/java/org/comprog/IndexedTextField.java~IndexedTextField~3884",4="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/ColorPicker.java~ColorTextField~1183",5="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/SliderTextField.java~IntField~1164",6="7thwheel-medaka-chan~/7thwheel-medaka-chan/medaka-chan-master/src/seventhwheel/pos/control/NumberTextField.java~NumberTextField~9",7="DanielMichalski-work-utils~/DanielMichalski-work-utils/work-utils-master/src/main/java/java_fx/LimitedTextField.java~LimitedTextField~324",8="martin-suky-sisuan~/martin-suky-sisuan/sisuan-master/src/main/java/cz/none/sisuan/ui/component/IntegerField.java~IntegerField~3543"]
+1[label="javafx.scene.control.TextField",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

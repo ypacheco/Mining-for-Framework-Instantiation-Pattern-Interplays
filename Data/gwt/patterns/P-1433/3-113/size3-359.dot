@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=359,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=8.0,patternRootClient=null]
+patternInstancesInfo[0="jaxzin-gwt-common-widgets~/jaxzin-gwt-common-widgets/gwt-common-widgets-master/src/com/jaxzin/gwt/ui/client/autocompletion/AutoCompletionResultPanel.java~AutoCompletionResultPanel~3130",1="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/PaginationPanel.java~PaginationPanel~2952",2="CarlRazmus-WebStore~/CarlRazmus-WebStore/WebStore-master/src/tddd24/project/widgets/ShoppingCartWidget.java~ShoppingCartWidget~75",3="nakaken0629-mezamashimailgwt~/nakaken0629-mezamashimailgwt/mezamashimailgwt-master/mezamashimailgwt/src/com/appspot/mezamashimailgwt/client/Mezamashimailgwt.java~void onClick(com.google.gwt.event.dom.client.ClickEvent)~4118",4="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/hangout-test/src/com/akjava/gwt/hangout/test2/client/AudioTest.java~AudioTest~538",5="woox-serverapp~/woox-serverapp/serverapp-master/src/wooxes/net/client/Serverapp.java~Serverapp~4647",6="nbuesing-gwtMockitoExample~/nbuesing-gwtMockitoExample/gwtMockitoExample-master/src/com/objectpartners/buesing/sample/client/SampleApplication.java~SampleApplication~4121",7="nakaken0629-mezamashimailgwt~/nakaken0629-mezamashimailgwt/mezamashimailgwt-master/mezamashimailgwt/src/com/appspot/mezamashimailgwt/client/Mezamashimailgwt.java~void onModuleLoad()~4117"]
+18[label="com.google.gwt.user.client.ui.Panel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+16[label="VAR:com.google.gwt.user.client.ui.Panel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+45[label="add()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+16->45[label="CALL"]
+16->18[label="OF_TYPE"]
+}

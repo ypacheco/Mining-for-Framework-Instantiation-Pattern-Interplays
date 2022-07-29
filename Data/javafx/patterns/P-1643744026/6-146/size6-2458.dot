@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=2458,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=0]
+patternInstancesInfo[0="zvakanaka-bitbit~/zvakanaka-bitbit/bitbit-master/src/bitbit/BitBit.java~BitBit~4923",1="JustinAarden-C2J-Stamboom~/JustinAarden-C2J-Stamboom/C2J-Stamboom-master/src/stamboom/gui/StamboomFXController.java~StamboomFXController~734",2="Edenm-BlackJack~/Edenm-BlackJack/BlackJack-master/src/View/TableController.java~TableController~394",3="bjornbil-reservatie~/bjornbil-reservatie/reservatie-master/ReservatieKommaFinal/src/be/khleuven/bjornbillen/controller/MainController.java~MainController~2178"]
+44[label="FIELD:javafx.scene.control.MenuBar",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+50[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+4[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+48[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+52[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->50[label="DECLARE_FIELD"]
+0->52[label="DECLARE_FIELD"]
+0->4[label="DECLARE_FIELD"]
+0->44[label="DECLARE_FIELD"]
+0->48[label="DECLARE_FIELD"]
+}

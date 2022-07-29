@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=4365,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.beans.binding.ObjectBinding"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="sannies-isoviewer-fx~/sannies-isoviewer-fx/isoviewer-fx-master/src/main/java/com/googlecode/mp4parser/mp4inspector/BoxPane.java~javafx.beans.value.ObservableValue call(javafx.scene.control.TableColumn.CellDataFeatures)~4080",1="james-d-TicTacToe~/james-d-TicTacToe/TicTacToe-master/src/tictactoe/Game.java~void createGameStatusBinding()~3263"]
+1[label="javafx.beans.binding.ObjectBinding",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

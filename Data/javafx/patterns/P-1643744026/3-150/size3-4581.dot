@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4581,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="acmi-osm~/acmi-osm/osm-master/src/test/java/View.java~View~1690",1="indysvision-EatWorldEditor~/indysvision-EatWorldEditor/EatWorldEditor-master/src/com/indyvision/eatworld/editor/handlers/BorderHandler1.java~BorderHandler1~3194"]
+3[label="javafx.scene.shape.Polyline",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2[label="FIELD:javafx.scene.shape.Polyline",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+}

@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4402,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.animation.AnimationTimer"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="svanimpe-fx-game-loops",filePath="/svanimpe-fx-game-loops/fx-game-loops-master/src/main/java/svanimpe/fxgameloop/loop/GameLoop.java",contextSignature="GameLoop",graphId="4402"]
+0[label="main.java.svanimpe.fxgameloop.loop.GameLoop",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.animation.AnimationTimer",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

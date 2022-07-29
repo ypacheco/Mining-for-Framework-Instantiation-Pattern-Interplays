@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1158,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/BlindsController.java~BlindsController~2976",1="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/AnnouncementsController.java~AnnouncementsController~2965",2="ProgrammerTony-Chemistry-Calculator~/ProgrammerTony-Chemistry-Calculator/Chemistry-Calculator-master/src/com/mdc/Calculator.java~Calculator~1099"]
+77[label="new MenuItem()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+78[label="VAR:javafx.scene.control.MenuItem",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+3[label="javafx.scene.control.MenuItem",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+8[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+78->77[label="CALL"]
+8->3[label="OF_TYPE"]
+78->3[label="OF_TYPE"]
+}

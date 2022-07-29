@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=1407,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.fxml.Initializable"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="THSLMIT-thslmit_watzds",filePath="/THSLMIT-thslmit_watzds/thslmit_watzds-master/src/com/thslmit/watz/UIController/CheckLinkIDController.java",contextSignature="CheckLinkIDController",graphId="1407"]
+0[label="com.thslmit.watz.UIController.CheckLinkIDController",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.fxml.Initializable",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+}

@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4661,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.rpc.IsSerializable"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="woox-serverapp",filePath="/woox-serverapp/serverapp-master/src/wooxes/net/shared/Red.java",contextSignature="Red",graphId="4661"]
+0[label="wooxes.net.shared.Red",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.rpc.IsSerializable",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

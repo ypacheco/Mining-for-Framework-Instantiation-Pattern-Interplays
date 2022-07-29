@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=1117,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.vaadin.terminal.gwt.server.AbstractApplicationServlet"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="ctranxuan-o-vaadin",filePath="/ctranxuan-o-vaadin/o-vaadin-master/vaadin-modules-dm-sample/vaadin-modules-dm-app/src/main/java/org/ws13/vaadin/osgi/dm/app/SpringApplicationServlet.java",contextSignature="SpringApplicationServlet",graphId="1117"]
+0[label="main.java.org.ws13.vaadin.osgi.dm.app.SpringApplicationServlet",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.vaadin.terminal.gwt.server.AbstractApplicationServlet",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void init(javax.servlet.ServletConfig)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="super.init()",vertexType="SUPER_CALL",isFrameworkType=true,peripheries=2,shape=box]
+4[label="com.vaadin.Application getNewApplication(javax.servlet.http.HttpServletRequest)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+5[label="java.lang.Class getApplicationClass()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+2->3[label="CALL"]
+0->4[label="OVERRIDE"]
+0->5[label="OVERRIDE"]
+}

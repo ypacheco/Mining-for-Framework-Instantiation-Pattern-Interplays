@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4898,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.Pane"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="youseke-digitalclock",filePath="/youseke-digitalclock/digitalclock-master/src/puzzlewithtimer/model/Desk.java",contextSignature="Desk",graphId="4898"]
+0[label="puzzlewithtimer.model.Desk",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.Pane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

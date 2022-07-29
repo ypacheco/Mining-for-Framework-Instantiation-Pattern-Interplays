@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=796,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.Region"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="LichuanLu-ShunUI-FX",filePath="/LichuanLu-ShunUI-FX/ShunUI-FX-master/src/view/WindowResizeButton.java",contextSignature="WindowResizeButton",graphId="796"]
+0[label="view.WindowResizeButton",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.Region",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

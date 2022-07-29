@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=990,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[0="990~CLIENT_METHOD_DECLARATION-PARAMETER_DECLARATION-~com.google.gwt.core.client.JavaScriptObject ~com.google.gwt.core.client.JsArrayString ~false~false"]
+locationInfo[projectName="brychcy-gwt-jquery",filePath="/brychcy-gwt-jquery/gwt-jquery-master/src/com/xedge/jquery/ui/client/model/DialogOptions.java",contextSignature="DialogOptions",graphId="990"]
+0[label="com.xedge.jquery.ui.client.model.DialogOptions",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+10[label="void setDialogClasses(com.xedge.jquery.client.js.JavaScriptStringArray)",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+11[label="dialogClass",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+12[label="com.xedge.jquery.client.js.JavaScriptStringArray",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+13[label="com.google.gwt.core.client.JsArrayString",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->10[label="DECLARE_METHOD"]
+12->13[label="EXTEND",color=blue]
+11->12[label="OF_TYPE"]
+10->11[label="PARAMETER"]
+}

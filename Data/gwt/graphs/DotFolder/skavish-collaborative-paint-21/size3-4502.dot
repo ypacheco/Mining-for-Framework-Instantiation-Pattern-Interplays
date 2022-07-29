@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=4502,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.server.rpc.RemoteServiceServlet",1="com.google.gwt.user.client.rpc.RemoteService"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="skavish-collaborative-paint",filePath="/skavish-collaborative-paint/collaborative-paint-master/src/com/acme/collpaint/server/CollpaintServiceImpl.java",contextSignature="CollpaintServiceImpl",graphId="4502"]
+0[label="com.acme.collpaint.server.CollpaintServiceImpl",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.server.rpc.RemoteServiceServlet",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="com.google.gwt.user.client.rpc.RemoteService",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="IMPLEMENT",color=red]
+}

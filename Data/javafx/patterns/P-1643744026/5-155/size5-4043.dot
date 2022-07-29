@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=4043,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="sannies-isoviewer-fx~/sannies-isoviewer-fx/isoviewer-fx-master/src/main/java/com/googlecode/mp4parser/mp4inspector/BoxPane.java~javafx.beans.value.ObservableValue call(javafx.scene.control.TableColumn.CellDataFeatures)~4080",1="sannies-isoviewer-fx~/sannies-isoviewer-fx/isoviewer-fx-master/src/main/java/com/googlecode/mp4parser/mp4inspector/BoxPane.java~void BoxPane(com.coremedia.iso.boxes.Box)~4079"]
+26[label="new ObservableListWrapper()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+27[label="VAR:com.sun.javafx.collections.ObservableListWrapper",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+12[label="com.sun.javafx.collections.ObservableListWrapper",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+11[label="VAR:com.sun.javafx.collections.ObservableListWrapper",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+10[label="new ObservableListWrapper()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+27->12[label="OF_TYPE"]
+11->10[label="CALL"]
+27->26[label="CALL"]
+11->12[label="OF_TYPE"]
+}

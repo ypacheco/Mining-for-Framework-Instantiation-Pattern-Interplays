@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=563,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=9.0,patternRootClient=null]
+patternInstancesInfo[0="rombert-gwt-dispatch-sample~/rombert-gwt-dispatch-sample/gwt-dispatch-sample-master/dispatch-sample-spring/src/main/java/ro/lmn/gwt/dispatch/spring/client/SpringApplication.java~SpringApplication~4434",1="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/AlgebrApp.java~AlgebrApp~3667",2="rombert-gwt-dispatch-sample~/rombert-gwt-dispatch-sample/gwt-dispatch-sample-master/dispatch-sample-guice/src/main/java/ro/lmn/gwt/dispatch/guice/client/GuiceApplication.java~GuiceApplication~4424",3="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/AlgebrApp.java~void onModuleLoad()~3670",4="woox-serverapp~/woox-serverapp/serverapp-master/src/wooxes/net/shared/Usuari.java~Usuari~4667",5="rombert-gwt-dispatch-sample~/rombert-gwt-dispatch-sample/gwt-dispatch-sample-master/dispatch-sample-manual/src/main/java/ro/lmn/gwt/dispatch/client/Application.java~Application~4429",6="jdpatterson-spotify-lottery~/jdpatterson-spotify-lottery/spotify-lottery-master/src/com/vercer/spotify/lottery/client/LotteryEntryPoint.java~LotteryEntryPoint~3145",7="lptr-csopibeszi~/lptr-csopibeszi/csopibeszi-master/src/main/java/hu/lptr/test/gae/csopibeszi/client/ui/MessageBox.java~MessageBox~3640",8="teamaqua-learntogoogleit-code~/teamaqua-learntogoogleit-code/learntogoogleit-code-master/learngoogle/src/com/learntogoogleit/learn/client/Learngoogle.java~Learngoogle~4537"]
+29[label="new FlowPanel()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+30[label="VAR:com.google.gwt.user.client.ui.FlowPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+175[label="add()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+30->29[label="CALL"]
+30->175[label="CALL"]
+}

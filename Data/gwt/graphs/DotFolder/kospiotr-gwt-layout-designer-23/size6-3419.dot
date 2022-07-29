@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=3419,category="extension_graph",isAnonymous=true,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.event.shared.EventHandler"]
+possibleCollaborationsInfo[0="3419~CLIENT_METHOD_DECLARATION-PARAMETER_DECLARATION-~com.google.gwt.event.shared.EventHandler ~com.google.gwt.event.shared.GwtEvent ~true~false"]
+locationInfo[projectName="kospiotr-gwt-layout-designer",filePath="/kospiotr-gwt-layout-designer/gwt-layout-designer-master/src/main/java/pl/pkosmowski/gxtshowcase/client/MainPanel.java",contextSignature="void PreviewPanel(main.java.pl.pkosmowski.gxtshowcase.client.MainPanel)",graphId="3419"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.event.shared.EventHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+7[label="void onSelect(com.sencha.gxt.widget.core.client.event.SelectEvent)",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+8[label="event",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+9[label="com.sencha.gxt.widget.core.client.event.SelectEvent",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+10[label="com.google.gwt.event.shared.GwtEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->7[label="DECLARE_METHOD"]
+9->10[label="EXTEND",color=blue]
+8->9[label="OF_TYPE"]
+7->8[label="PARAMETER"]
+}

@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3147,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Widget"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jdpatterson-spotify-lottery",filePath="/jdpatterson-spotify-lottery/spotify-lottery-master/src/com/vercer/spotify/lottery/client/FormLabel.java",contextSignature="FormLabel",graphId="3147"]
+0[label="com.vercer.spotify.lottery.client.FormLabel",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Widget",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

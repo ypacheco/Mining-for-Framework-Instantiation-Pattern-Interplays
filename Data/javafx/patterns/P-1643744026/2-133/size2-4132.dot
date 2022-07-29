@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=4132,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="ChrisWongAtCUHK-JavaFX~/ChrisWongAtCUHK-JavaFX/JavaFX-master/ColorfulCircles/src/colorfulcircles/ColorfulCircles.java~ColorfulCircles~225",1="santi-gonzalez-javafx-tutos~/santi-gonzalez-javafx-tutos/javafx-tutos-master/JavaFXColorfulCircles/src/cat/santi/javafx/tuto4/ColorfulCircles.java~ColorfulCircles~4092",2="soonzsoonz-QuickFoot~/soonzsoonz-QuickFoot/QuickFoot-master/src/application/AudioConfigMain.java~AudioConfigMain~4245",3="emag-javafx-practice~/emag-javafx-practice/javafx-practice-master/animation/src/main/java/org/emamotor/javafx/animation/ColorfulCircles.java~ColorfulCircles~2619"]
+49[label="javafx.scene.paint.Stop",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+58[label="VAR:javafx.scene.paint.Stop",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+58->49[label="OF_TYPE"]
+}

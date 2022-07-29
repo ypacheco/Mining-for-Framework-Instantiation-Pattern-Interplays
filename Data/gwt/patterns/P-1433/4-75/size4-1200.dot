@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1200,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="betacraft-RdpGwtClient~/betacraft-RdpGwtClient/RdpGwtClient-master/src/com/droidcloud/viewer/client/ISO.java~ISO~836",1="betacraft-RdpGwtClient~/betacraft-RdpGwtClient/RdpGwtClient-master/src/com/droidcloud/viewer/client/ISO.java~void onOpen(net.zschech.gwt.websockets.client.WebSocket)~837",2="betacraft-RdpGwtClient~/betacraft-RdpGwtClient/RdpGwtClient-master/src/com/droidcloud/viewer/client/MCS.java~void connect(java.lang.String,int,com.droidcloud.viewer.client.RdpPacket_Localised,com.droidcloud.viewer.client.Rdp)~844"]
+13[label="new McsRecievedEvent()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+14[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+15[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+16[label="com.google.gwt.event.shared.GwtEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+15->16[label="EXTEND",color=blue]
+14->13[label="CALL"]
+14->15[label="OF_TYPE"]
+}

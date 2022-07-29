@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=1546,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.event.EventHandler"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="UrsKR-fxcalendar",filePath="/UrsKR-fxcalendar/fxcalendar-master/src/main/java/com/sai/javafx/calendar/BasePane.java",contextSignature="void generateDates()",graphId="1546"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.event.EventHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void handle(javafx.scene.input.MouseEvent)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="event",vertexType="PARAMETER_DECLARATION",isFrameworkType=true,peripheries=2]
+4[label="javafx.scene.input.MouseEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+3->4[label="OF_TYPE"]
+2->3[label="PARAMETER"]
+}

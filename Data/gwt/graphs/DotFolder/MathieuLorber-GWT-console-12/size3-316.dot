@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=316,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Composite",1="com.google.gwt.user.client.ui.HasWidgets"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="MathieuLorber-GWT-console",filePath="/MathieuLorber-GWT-console/GWT-console-master/src/main/java/net/mlorber/gwt/console/client/Console.java",contextSignature="void initLogPanel()",graphId="316"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Composite",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="com.google.gwt.user.client.ui.HasWidgets",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="IMPLEMENT",color=red]
+}

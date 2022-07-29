@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=542,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.HorizontalPanel"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="akjava-GWT-Hangouts",filePath="/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/hangout-test/src/com/akjava/gwt/hangout/test2/client/AudioTest.java",contextSignature="AvatorInfo",graphId="542"]
+0[label="com.akjava.gwt.hangout.test2.client.AudioTest.AvatorInfo",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.HorizontalPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="img",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="com.google.gwt.user.client.ui.Image",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+}

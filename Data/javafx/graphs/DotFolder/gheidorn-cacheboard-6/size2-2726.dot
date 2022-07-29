@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=2726,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.StackPane"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="gheidorn-cacheboard",filePath="/gheidorn-cacheboard/cacheboard-master/src/cacheboard/scene/SceneController.java",contextSignature="SceneController",graphId="2726"]
+0[label="cacheboard.scene.SceneController",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.StackPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

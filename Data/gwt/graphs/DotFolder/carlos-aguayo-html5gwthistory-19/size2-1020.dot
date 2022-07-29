@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1020,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.IsWidget"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="carlos-aguayo-html5gwthistory",filePath="/carlos-aguayo-html5gwthistory/html5gwthistory-master/src/com/dreamskiale/client/HelloView.java",contextSignature="HelloView",graphId="1020"]
+0[label="com.dreamskiale.client.HelloView",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.IsWidget",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

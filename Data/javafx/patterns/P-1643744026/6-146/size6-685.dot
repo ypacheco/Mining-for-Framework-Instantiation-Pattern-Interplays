@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=685,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="tyduptyler13-AutoCAMS-Parser~/tyduptyler13-AutoCAMS-Parser/AutoCAMS-Parser-master/src/com/myuplay/AutoCAMS/Main.java~Main~4599",1="Alittlemurkling-alarm-clock~/Alittlemurkling-alarm-clock/alarm-clock-master/src/org/quux/alarmclock/AlarmCard.java~AlarmCard~130",2="Alittlemurkling-alarm-clock~/Alittlemurkling-alarm-clock/alarm-clock-master/src/org/quux/alarmclock/MainWindow.java~MainWindow~125"]
+17[label="javafx.scene.layout.BorderPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+114[label="VAR:javafx.scene.layout.BorderPane",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+16[label="VAR:javafx.scene.layout.BorderPane",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+76[label="VAR:javafx.scene.layout.BorderPane",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+151[label="setRight()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+21[label="setCenter()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+114->17[label="OF_TYPE"]
+114->151[label="CALL"]
+16->17[label="OF_TYPE"]
+16->21[label="CALL"]
+76->17[label="OF_TYPE"]
+}

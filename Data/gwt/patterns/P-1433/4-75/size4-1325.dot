@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1325,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.rpc.AsyncCallback"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/util/ManagedCallback.java~ManagedCallback~2948",1="neilsh-gwtfb~/neilsh-gwtfb/gwtfb-master/GwtFB/src/com/gwtfb/client/Callback.java~Callback~4131",2="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/util/CallbackAdapter.java~CallbackAdapter~2947"]
+3[label="void onSuccess(java.lang.Object)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.rpc.AsyncCallback",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+2[label="void onFailure(java.lang.Throwable)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->2[label="OVERRIDE"]
+0->1[label="IMPLEMENT",color=red]
+0->3[label="OVERRIDE"]
+}

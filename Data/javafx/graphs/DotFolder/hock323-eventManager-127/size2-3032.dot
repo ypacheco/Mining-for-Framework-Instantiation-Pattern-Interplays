@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3032,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.ListCell"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="hock323-eventManager",filePath="/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/TournamentController.java",contextSignature="ComposeActionHistoryCell",graphId="3032"]
+0[label="eventManager.controller.pokerTournament.TournamentController.ComposeActionHistoryCell",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.ListCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

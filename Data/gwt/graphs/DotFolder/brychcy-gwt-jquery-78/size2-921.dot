@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=921,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.Event"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="brychcy-gwt-jquery",filePath="/brychcy-gwt-jquery/gwt-jquery-master/src/com/xedge/jquery/client/JQEvent.java",contextSignature="JQEvent",graphId="921"]
+0[label="com.xedge.jquery.client.JQEvent",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.Event",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

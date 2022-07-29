@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=988,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[0="988~CLIENT_METHOD_DECLARATION-RETURN_TYPE-~com.google.gwt.core.client.JavaScriptObject ~com.google.gwt.core.client.JavaScriptObject ~false~false"]
+locationInfo[projectName="brychcy-gwt-jquery",filePath="/brychcy-gwt-jquery/gwt-jquery-master/src/com/xedge/jquery/ui/client/model/UIEventValues.java",contextSignature="UIEventValues",graphId="988"]
+0[label="com.xedge.jquery.ui.client.model.UIEventValues",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="com.xedge.jquery.client.model.CoOrdinates getPosition()",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="com.xedge.jquery.client.model.CoOrdinates",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_METHOD"]
+3->1[label="EXTEND",color=blue]
+2->3[label="RETURN"]
+}

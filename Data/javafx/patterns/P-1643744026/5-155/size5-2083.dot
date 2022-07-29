@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=2083,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="hcespedes-ScriptureJournal~/hcespedes-ScriptureJournal/ScriptureJournal-master/src/JournalFX.java~JournalFX~2917",1="jasonwr-jhuep_ent_web_dev~/jasonwr-jhuep_ent_web_dev/jhuep_ent_web_dev-master/src/hw10/main/Retail.java~Retail~3269"]
+490[label="new TextArea()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+491[label="VAR:javafx.scene.control.TextArea",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+521[label="getText()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+527[label="getText()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+492[label="javafx.scene.control.TextArea",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+491->492[label="OF_TYPE"]
+491->521[label="CALL"]
+491->490[label="CALL"]
+491->527[label="CALL"]
+}

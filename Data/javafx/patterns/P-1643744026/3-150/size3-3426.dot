@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=3426,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.animation.Interpolator"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=6.0,patternRootClient=0]
+patternInstancesInfo[0="simdimdim-MenuAnim~/simdimdim-MenuAnim/MenuAnim-master/src/menua/Interpolators.java~Exponential~4178",1="simdimdim-MenuAnim~/simdimdim-MenuAnim/MenuAnim-master/src/menua/Interpolators.java~Cubic~4180",2="simdimdim-MenuAnim~/simdimdim-MenuAnim/MenuAnim-master/src/menua/Interpolators.java~Quintic~4182",3="cmd802-projectmain~/cmd802-projectmain/projectmain-master/GroupProject/src/topicpane/animation/SHMAnimation.java~CustomInterpolator~2300",4="simdimdim-MenuAnim~/simdimdim-MenuAnim/MenuAnim-master/src/menua/Interpolators.java~Quartic~4181",5="simdimdim-MenuAnim~/simdimdim-MenuAnim/MenuAnim-master/src/menua/Interpolators.java~Quadratic~4179"]
+1[label="javafx.animation.Interpolator",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="double curve(double)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->2[label="OVERRIDE"]
+0->1[label="EXTEND",color=red]
+}

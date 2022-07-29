@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=664,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.resources.client.ClientBundle"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="akjava-WebTestMaker",filePath="/akjava-WebTestMaker/WebTestMaker-master/src/com/akjava/gwt/webtestmaker/client/resources/Bundles.java",contextSignature="Bundles",graphId="664"]
+0[label="com.akjava.gwt.webtestmaker.client.resources.Bundles",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.resources.client.ClientBundle",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=3427,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=0]
+patternInstancesInfo[0="Maxxa-MT-common~/Maxxa-MT-common/MT-common-master/src/cz/commons/example/graphics/node/DefaultNodeExample.java~DefaultNodeExample~922",1="Maxxa-MT-common~/Maxxa-MT-common/MT-common-master/src/cz/commons/example/graphics/branchNode/BranchElementExample.java~BranchElementExample~916",2="Maxxa-MT-common~/Maxxa-MT-common/MT-common-master/src/cz/commons/example/graphics/layoutManager/Example.java~Example~920",3="Maxxa-MT-common~/Maxxa-MT-common/MT-common-master/src/cz/commons/example/graphics/layoutManager/ExampleWithSecondPointCalculation.java~ExampleWithSecondPointCalculation~919"]
+3[label="PARAMETER:javafx.scene.layout.Pane",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+4[label="javafx.scene.layout.Pane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+43[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+3->4[label="OF_TYPE"]
+2->43[label="INSTANTIATE"]
+2->3[label="PARAMETER"]
+0->2[label="DECLARE_METHOD"]
+}

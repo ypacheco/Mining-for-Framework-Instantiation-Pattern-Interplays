@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4265,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.stage.Stage"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="stachura93-imageDownloadJavaFX",filePath="/stachura93-imageDownloadJavaFX/imageDownloadJavaFX-master/src/imageDownload/main/CreateStage.java",contextSignature="CreateStage",graphId="4265"]
+0[label="imageDownload.main.CreateStage",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.stage.Stage",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="primaryStage",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->1[label="OF_TYPE"]
+}

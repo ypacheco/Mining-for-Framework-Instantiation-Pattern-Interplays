@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1877,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="jhudson8-gwt-jquery-ui~/jhudson8-gwt-jquery-ui/gwt-jquery-ui-master/core/gwt-jquery-ui-mobile/src/main/java/com/google/gwt/jquery/mobile/ui/base/ComplexPanel.java~ComplexPanel~3194",1="aramk-mechanix~/aramk-mechanix/mechanix-master/src/au/edu/unimelb/csse/smd/mechanix/client/util/text/ImageText.java~ImageText~723"]
+4[label="com.google.gwt.user.client.ui.WidgetCollection",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+13[label="VAR:com.google.gwt.user.client.ui.WidgetCollection",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+14[label="size()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+9[label="VAR:com.google.gwt.user.client.ui.WidgetCollection",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+10[label="get()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+13->4[label="OF_TYPE"]
+9->4[label="OF_TYPE"]
+13->14[label="CALL"]
+9->10[label="CALL"]
+}

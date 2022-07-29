@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=3816,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="cn.jingyun.javafx.amonker.ui.IFunction1Operator"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/Project.java~Project~1849",1="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/MainPane.java~MainPane~1847"]
+2[label="cn.jingyun.javafx.amonker.ui.IFunction1Operator",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+14[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+8[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+12[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->14[label="DECLARE_FIELD"]
+0->12[label="DECLARE_FIELD"]
+0->8[label="DECLARE_FIELD"]
+0->2[label="IMPLEMENT",color=red]
+}

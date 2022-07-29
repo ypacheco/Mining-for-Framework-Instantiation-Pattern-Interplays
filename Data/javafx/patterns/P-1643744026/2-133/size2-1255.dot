@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1255,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.shape.Rectangle"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="suxue-tetris~/suxue-tetris/tetris-master/src/tetris/tetrominos/Mino.java~Mino~4367",1="Ellen102-cirkeltje~/Ellen102-cirkeltje/cirkeltje-master/src/util/Building.java~Building~414"]
+1[label="javafx.scene.shape.Rectangle",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1850,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.animation.client.Animation"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="sbeigel-gwt-easing~/sbeigel-gwt-easing/gwt-easing-master/src/de/beigel/gwt/easing/client/Ease.java~com.google.gwt.animation.client.Animation inOut(de.beigel.gwt.easing.client.Transition,de.beigel.gwt.easing.client.Updater)~4447",1="sbeigel-gwt-easing~/sbeigel-gwt-easing/gwt-easing-master/src/de/beigel/gwt/easing/client/Ease.java~com.google.gwt.animation.client.Animation out(de.beigel.gwt.easing.client.Transition,de.beigel.gwt.easing.client.Updater)~4446",2="sbeigel-gwt-easing~/sbeigel-gwt-easing/gwt-easing-master/src/de/beigel/gwt/easing/client/Ease.java~com.google.gwt.animation.client.Animation in(de.beigel.gwt.easing.client.Transition,de.beigel.gwt.easing.client.Updater)~4445"]
+3[label="double interpolate(double)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.animation.client.Animation",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2[label="void onUpdate(double)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->3[label="OVERRIDE"]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+}

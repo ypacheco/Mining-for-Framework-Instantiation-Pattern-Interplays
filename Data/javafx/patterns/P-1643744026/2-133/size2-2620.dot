@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2620,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="if12b051-SWP_Paint~/if12b051-SWP_Paint/SWP_Paint-master/SWP_Paint/src/gui/MainControllerModel.java~void MainControllerModel()~3083",1="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/GradientBuilderApp.java~GradientBuilderApp~1189"]
+144[label="javafx.beans.binding.StringBinding",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+145[label="VAR:javafx.beans.binding.StringBinding",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+145->144[label="OF_TYPE"]
+}

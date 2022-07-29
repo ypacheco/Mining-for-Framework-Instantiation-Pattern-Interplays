@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=615,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.event.EventHandler"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="JeremieAstray-studentScoreAnalysis",filePath="/JeremieAstray-studentScoreAnalysis/studentScoreAnalysis-master/src/com/jeremie/scoreAnalysis/controller/MainController.java",contextSignature="void initialize(java.net.URL,java.util.ResourceBundle)",graphId="615"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.event.EventHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+5[label="void handle(javafx.event.ActionEvent)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+6[label="actionEvent",vertexType="PARAMETER_DECLARATION",isFrameworkType=true,peripheries=2]
+7[label="javafx.event.ActionEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->5[label="OVERRIDE"]
+6->7[label="OF_TYPE"]
+5->6[label="PARAMETER"]
+}

@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1211,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.resources.client.CssResource"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="dapicard-gwt-surface",filePath="/dapicard-gwt-surface/gwt-surface-master/gwt-surface/src/main/java/com/axeiya/gwt/surface/client/control/resource/css/ButtonCss.java",contextSignature="ButtonCss",graphId="1211"]
+0[label="main.java.com.axeiya.gwt.surface.client.control.resource.css.ButtonCss",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.resources.client.CssResource",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

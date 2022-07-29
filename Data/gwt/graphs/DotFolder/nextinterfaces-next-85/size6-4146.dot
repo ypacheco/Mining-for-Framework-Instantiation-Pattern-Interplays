@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=4146,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.resources.client.ClientBundle"]
+possibleCollaborationsInfo[0="4146~CLIENT_METHOD_DECLARATION-RETURN_TYPE-FIELD_DECLARATION-~com.google.gwt.resources.client.ClientBundle ~com.google.gwt.resources.client.CssResource ~false~false"]
+locationInfo[projectName="nextinterfaces-next",filePath="/nextinterfaces-next/next-master/src/next/i/controller/C.java",contextSignature="C",graphId="4146"]
+0[label="next.i.controller.C",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.resources.client.ClientBundle",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="T",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="next.i.controller.Transforms",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="com.google.gwt.resources.client.CssResource",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+5[label="next.i.controller.Transforms s()",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="DECLARE_FIELD"]
+3->4[label="IMPLEMENT",color=blue]
+2->3[label="OF_TYPE"]
+0->5[label="DECLARE_METHOD"]
+5->3[label="RETURN"]
+}

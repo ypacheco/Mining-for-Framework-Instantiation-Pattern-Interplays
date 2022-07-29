@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=262,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="mrempala-sp~/mrempala-sp/sp-master/src/application/VcPtVisualSchematicView.java~void drawUniverseVisual()~3692",1="indysvision-EatWorldEditor~/indysvision-EatWorldEditor/EatWorldEditor-master/src/com/indyvision/eatworld/editor/handlers/BorderHandler.java~BorderHandler~3192"]
+8[label="PARAMETER:javafx.scene.input.MouseEvent",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+17[label="getSceneX()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+9[label="javafx.scene.input.MouseEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+24[label="getSceneX()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+51[label="getSceneX()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+8->24[label="CALL"]
+8->17[label="CALL"]
+8->9[label="OF_TYPE"]
+8->51[label="CALL"]
+}

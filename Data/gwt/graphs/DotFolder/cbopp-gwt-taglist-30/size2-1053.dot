@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1053,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.resources.client.CssResource"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="cbopp-gwt-taglist",filePath="/cbopp-gwt-taglist/gwt-taglist-master/src/test/java/com/virilis_software/gwt/taglist/client/samples/EditView.java",contextSignature="MyStyle",graphId="1053"]
+0[label="test.java.com.virilis_software.gwt.taglist.client.samples.EditView.MyStyle",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.resources.client.CssResource",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

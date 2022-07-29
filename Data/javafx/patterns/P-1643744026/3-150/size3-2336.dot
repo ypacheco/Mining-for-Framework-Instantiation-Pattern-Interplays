@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2336,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=7.0,patternRootClient=0]
+patternInstancesInfo[0="Jamakasi-JMCLauncherFX~/Jamakasi-JMCLauncherFX/JMCLauncherFX-master/src/jmclauncherfx/MainFormController.java~MainFormController~612",1="Johnmalc-JavaFX~/Johnmalc-JavaFX/JavaFX-master/src/game/BallGameController.java~BallGameController~640",2="Johnmalc-JavaFX~/Johnmalc-JavaFX/JavaFX-master/src/game/SingleClassNoXmlBallGame.java~SingleClassNoXmlBallGame~649",3="djapal-sfvchecker~/djapal-sfvchecker/sfvchecker-master/src/gr/djapal/sfv/SFVCheckerApplication.java~SFVCheckerApplication~2512",4="crosswords-testEnvironment~/crosswords-testEnvironment/testEnvironment-master/src/GUI/MainController.java~MainController~2315",5="mathiasj33-VocLearn~/mathiasj33-VocLearn/VocLearn-master/src/net/softwarepage/voclearn/code/Gui.java~Gui~3576",6="Cslice-Province~/Cslice-Province/Province-master/ProvincialMiner/src/Provincial_Miner/Gui2.java~Gui2~260"]
+44[label="FIELD:javafx.scene.control.ProgressBar",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+48[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->48[label="DECLARE_FIELD"]
+0->44[label="DECLARE_FIELD"]
+}

@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3884,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.TextField"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="pioluk-comprog",filePath="/pioluk-comprog/Sudoku-master/Sudoku-UI/src/main/java/org/comprog/IndexedTextField.java",contextSignature="IndexedTextField",graphId="3884"]
+0[label="main.java.org.comprog.IndexedTextField",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.TextField",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

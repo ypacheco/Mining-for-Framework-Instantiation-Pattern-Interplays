@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1182,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="JCake-CoupGameProgram~/JCake-CoupGameProgram/CoupGameProgram-master/src/game/remote/PlayerUi.java~PlayerUi~579",1="RUAN0007-FastestPathSimulator~/RUAN0007-FastestPathSimulator/FastestPathSimulator-master/FastPathSimulator/src/application/FastestPathSimulatorController.java~FastestPathSimulatorController~1116",2="JCake-CoupGameProgram~/JCake-CoupGameProgram/CoupGameProgram-master/src/game/ui/javafx/IndividualPlayer.java~IndividualPlayer~596"]
+23[label="FIELD:javafx.scene.paint.Color",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+24[label="javafx.scene.paint.Color",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+39[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+23->24[label="OF_TYPE"]
+0->39[label="DECLARE_FIELD"]
+0->23[label="DECLARE_FIELD"]
+}

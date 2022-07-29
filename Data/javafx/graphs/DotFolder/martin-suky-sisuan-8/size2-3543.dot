@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3543,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.TextField"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="martin-suky-sisuan",filePath="/martin-suky-sisuan/sisuan-master/src/main/java/cz/none/sisuan/ui/component/IntegerField.java",contextSignature="IntegerField",graphId="3543"]
+0[label="main.java.cz.none.sisuan.ui.component.IntegerField",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.TextField",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

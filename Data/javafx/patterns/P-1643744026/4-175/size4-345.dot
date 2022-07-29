@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=345,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.Pane"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=0]
+patternInstancesInfo[0="cmd802-projectmain~/cmd802-projectmain/projectmain-master/GroupProject/src/topicpane/SHM.java~SHM~2292",1="weltensturm-milca~/weltensturm-milca/milca-master/src/milca/GUI.java~GUI~4747",2="weltensturm-milca~/weltensturm-milca/milca-master/src/milca/GUIController.java~GUIController~4745",3="prashker-KingsSGF~/prashker-KingsSGF/KingsSGF-master/src/uiSam/FighterView.java~FighterView~3912",4="cmd802-projectmain~/cmd802-projectmain/projectmain-master/GroupProject/src/submenu/PhysicsSubmenu.java~PhysicsSubmenu~2288"]
+1[label="javafx.scene.layout.Pane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+9[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+7[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->9[label="DECLARE_FIELD"]
+0->7[label="DECLARE_FIELD"]
+0->1[label="EXTEND",color=red]
+}

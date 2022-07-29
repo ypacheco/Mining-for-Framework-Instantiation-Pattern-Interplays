@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=3858,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.dom.client.Style.HasCssName"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="mguiral-GwtSvgLib",filePath="/mguiral-GwtSvgLib/GwtSvgLib-master/src/gwt/html5/svg/client/dom/PresentationStyle.java",contextSignature="DominantBaseline",graphId="3858"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.dom.client.Style.HasCssName",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="java.lang.String getCssName()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+}

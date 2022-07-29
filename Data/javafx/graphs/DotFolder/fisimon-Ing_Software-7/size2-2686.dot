@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=2686,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.GridPane"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="fisimon-Ing_Software",filePath="/fisimon-Ing_Software/Ing_Software-master/src/application/Box.java",contextSignature="Box",graphId="2686"]
+0[label="application.Box",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.GridPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

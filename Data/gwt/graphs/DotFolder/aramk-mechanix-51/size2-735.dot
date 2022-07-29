@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=735,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="aramk-mechanix",filePath="/aramk-mechanix/mechanix-master/src/com/google/gwt/widgetideas/graphics/client/JSOStack.java",contextSignature="JSOStack",graphId="735"]
+0[label="com.google.gwt.widgetideas.graphics.client.JSOStack",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

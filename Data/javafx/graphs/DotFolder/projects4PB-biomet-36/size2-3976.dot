@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3976,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.stage.Popup"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="projects4PB-biomet",filePath="/projects4PB-biomet/biomet-master/src/biomet/popups/ConvolvePopup.java",contextSignature="ConvolvePopup",graphId="3976"]
+0[label="biomet.popups.ConvolvePopup",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.stage.Popup",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

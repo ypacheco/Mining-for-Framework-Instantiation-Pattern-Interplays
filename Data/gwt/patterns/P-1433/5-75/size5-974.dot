@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=974,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.PushButton"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="aramk-mechanix~/aramk-mechanix/mechanix-master/src/au/edu/unimelb/csse/smd/mechanix/client/view/SwitchImageButton.java~SwitchImageButton~727",1="aramk-mechanix~/aramk-mechanix/mechanix-master/src/au/edu/unimelb/csse/smd/mechanix/client/view/ImageButton.java~ImageButton~726"]
+1[label="com.google.gwt.user.client.ui.PushButton",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+4[label="FIELD:com.google.gwt.user.client.ui.Image",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="com.google.gwt.user.client.ui.Image",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2[label="FIELD:com.google.gwt.user.client.ui.Image",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->4[label="DECLARE_FIELD"]
+4->3[label="OF_TYPE"]
+2->3[label="OF_TYPE"]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+}

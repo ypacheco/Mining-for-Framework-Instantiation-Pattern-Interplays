@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=3927,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="srikarr-Woot~/srikarr-Woot/Woot-master/src/Woot.java~Woot~4256",1="srikarr-Woot~/srikarr-Woot/Woot-master/src/Woot.java~void start(javafx.stage.Stage)~4257",2="steveonjava-AlpesJUG~/steveonjava-AlpesJUG/AlpesJUG-master/Mega/src/mega/megaController.java~megaController~4310"]
+21[label="new Data()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+22[label="VAR:javafx.scene.chart.XYChart.Data",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+23[label="javafx.scene.chart.XYChart.Data",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+22->23[label="OF_TYPE"]
+22->21[label="CALL"]
+}

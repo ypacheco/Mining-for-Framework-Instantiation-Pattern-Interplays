@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1784,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.rpc.AsyncCallback"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="aramk-mechanix~/aramk-mechanix/mechanix-master/src/au/edu/unimelb/csse/smd/mechanix/client/server/MugleClient.java~void populate(au.edu.unimelb.csse.smd.mechanix.client.model.GameModel,au.edu.unimelb.csse.smd.mechanix.client.view.GameController)~702"]
+3[label="void onSuccess(java.io.Serializable)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.rpc.AsyncCallback",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+2[label="void onFailure(java.lang.Throwable)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->3[label="OVERRIDE"]
+0->2[label="OVERRIDE"]
+}

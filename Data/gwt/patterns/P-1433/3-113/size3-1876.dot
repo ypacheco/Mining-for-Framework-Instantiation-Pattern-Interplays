@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1876,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="bahkified-Test~/bahkified-Test/Test-master/src/main/java/com/blargh/AanP/client/widgets/ShowMorePagerPanel.java~void ShowMorePagerPanel()~810",1="niloc132-celltable-tools~/niloc132-celltable-tools/celltable-tools-master/src/main/java/com/colinalworth/celltable/columns/client/HasDataFlushableEditor.java~HasDataEditorSource~4230"]
+18[label="com.google.gwt.view.client.HasRows",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+16[label="VAR:com.google.gwt.view.client.HasRows",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+20[label="getRowCount()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+16->20[label="CALL"]
+16->18[label="OF_TYPE"]
+}

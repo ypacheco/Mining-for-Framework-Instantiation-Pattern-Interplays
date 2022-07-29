@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1437,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.TabPane"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Technius-Starbound-Mod-Toolkit",filePath="/Technius-Starbound-Mod-Toolkit/Starbound-Mod-Toolkit-master/src/main/java/co/technius/starboundmodtoolkit/mod/assetpane/BackAssetPane.java",contextSignature="BackAssetPane",graphId="1437"]
+0[label="main.java.co.technius.starboundmodtoolkit.mod.assetpane.BackAssetPane",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.TabPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

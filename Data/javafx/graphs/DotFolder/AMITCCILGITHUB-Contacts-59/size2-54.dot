@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=54,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.TextField"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="AMITCCILGITHUB-Contacts",filePath="/AMITCCILGITHUB-Contacts/Contacts-master/Contacts/src/org/apandey/view/controls/TextBox.java",contextSignature="TextBox",graphId="54"]
+0[label="org.apandey.view.controls.TextBox",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.TextField",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

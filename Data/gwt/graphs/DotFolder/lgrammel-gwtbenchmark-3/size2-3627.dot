@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3627,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="lgrammel-gwtbenchmark",filePath="/lgrammel-gwtbenchmark/gwtbenchmark-master/gwt-benchmark/src/de/larsgrammel/gwtbenchmark/client/JsArray.java",contextSignature="JsArray",graphId="3627"]
+0[label="de.larsgrammel.gwtbenchmark.client.JsArray",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4617,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.fxml.Initializable"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="alexei-yasko-PoissonDistributionDemo~/alexei-yasko-PoissonDistributionDemo/PoissonDistributionDemo-master/src/main/java/agd/yaskoam/poisson/DistributionFunctionChartPanel.java~DistributionFunctionChartPanel~1786",1="steveonjava-AlpesJUG~/steveonjava-AlpesJUG/AlpesJUG-master/Mega/src/mega/megaController.java~megaController~4310"]
+4[label="javafx.scene.chart.ScatterChart",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+3[label="FIELD:javafx.scene.chart.ScatterChart",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="javafx.fxml.Initializable",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0->3[label="DECLARE_FIELD"]
+0->2[label="IMPLEMENT",color=red]
+3->4[label="OF_TYPE"]
+}

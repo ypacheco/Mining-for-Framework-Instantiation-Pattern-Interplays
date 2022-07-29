@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=3763,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.GridPane",1="javafx.event.EventTarget"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="nielsmaneschijn-8bit",filePath="/nielsmaneschijn-8bit/8bit-master/src/net/maneschijn/bleep/ui/ADSRUI.java",contextSignature="ADSRUI",graphId="3763"]
+0[label="net.maneschijn.bleep.ui.ADSRUI",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.GridPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="javafx.event.EventTarget",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="IMPLEMENT",color=red]
+}

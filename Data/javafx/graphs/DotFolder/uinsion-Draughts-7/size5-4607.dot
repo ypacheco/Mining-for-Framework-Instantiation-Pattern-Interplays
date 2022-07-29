@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=4607,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="javafx.scene.control.Control"]
+possibleCollaborationsInfo[0="4607~FIELD_DECLARATION-~javafx.scene.control.Control ~javafx.scene.layout.Pane ~false~false"]
+locationInfo[projectName="uinsion-Draughts",filePath="/uinsion-Draughts/Draughts-master/src/DraughtsControl.java",contextSignature="DraughtsControl",graphId="4607"]
+0[label="DraughtsControl",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.Control",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="db_board",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="DraughtsBoard",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="javafx.scene.layout.Pane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+3->4[label="EXTEND",color=blue]
+2->3[label="OF_TYPE"]
+}

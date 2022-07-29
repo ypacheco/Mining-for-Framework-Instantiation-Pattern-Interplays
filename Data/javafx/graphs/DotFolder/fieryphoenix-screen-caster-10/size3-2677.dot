@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=2677,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.AnchorPane",1="javafx.fxml.Initializable"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="fieryphoenix-screen-caster",filePath="/fieryphoenix-screen-caster/screen-caster-master/ScreenCaster/src/by/bsuir/zuyeu/controller/AnchorController.java",contextSignature="AnchorController",graphId="2677"]
+0[label="by.bsuir.zuyeu.controller.AnchorController",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.AnchorPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="javafx.fxml.Initializable",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="IMPLEMENT",color=red]
+}

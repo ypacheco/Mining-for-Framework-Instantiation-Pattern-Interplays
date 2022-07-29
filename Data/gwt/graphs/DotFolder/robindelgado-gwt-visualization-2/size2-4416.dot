@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4416,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="fr.mncc.gwttoolbox.rpc.client.callbacks.SimpleCallback"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="robindelgado-gwt-visualization",filePath="/robindelgado-gwt-visualization/gwt-visualization-master/src/fr/mncc/gwttoolbox/visualization/client/Chart.java",contextSignature="void show()",graphId="4416"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="fr.mncc.gwttoolbox.rpc.client.callbacks.SimpleCallback",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

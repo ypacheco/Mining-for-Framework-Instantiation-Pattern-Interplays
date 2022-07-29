@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=28,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.resources.client.ClientBundle"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Archerw-mastermind",filePath="/Archerw-mastermind/mastermind-master/nyu-smg-mastermind/src/org/mastermind/graphics/GameSounds.java",contextSignature="GameSounds",graphId="28"]
+0[label="org.mastermind.graphics.GameSounds",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.resources.client.ClientBundle",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

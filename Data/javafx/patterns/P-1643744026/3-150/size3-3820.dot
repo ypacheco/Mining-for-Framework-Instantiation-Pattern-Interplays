@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=3820,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="cn.jingyun.javafx.amonker.ui.FXMLVBox"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/Project.java~Project~1849",1="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/FFmpegArgumentsManagerPane.java~FFmpegArgumentsManagerPane~1846",2="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/PathSetPane.java~PathSetPane~1845"]
+1[label="cn.jingyun.javafx.amonker.ui.FXMLVBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+14[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->1[label="EXTEND",color=red]
+0->14[label="DECLARE_FIELD"]
+}

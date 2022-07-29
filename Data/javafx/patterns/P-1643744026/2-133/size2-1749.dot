@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1749,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="bjornbil-reservatie~/bjornbil-reservatie/reservatie-master/ReservatieKommaFinal/src/be/khleuven/bjornbillen/controller/MainController.java~void UpdateTableCell()~2193",1="bjornbil-reservatie~/bjornbil-reservatie/reservatie-master/ReservatieKommaFinal/src/be/khleuven/bjornbillen/controller/MainController.java~void UpdateReservationCell()~2187",2="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEPrincipalController.java~CEPrincipalController~2114"]
+9[label="javafx.scene.control.IndexedCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+122[label="VAR:javafx.scene.control.IndexedCell",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+122->9[label="OF_TYPE"]
+}

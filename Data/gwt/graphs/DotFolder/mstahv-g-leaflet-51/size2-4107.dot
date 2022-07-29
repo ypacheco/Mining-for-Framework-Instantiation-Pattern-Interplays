@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4107,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="mstahv-g-leaflet",filePath="/mstahv-g-leaflet/g-leaflet-master/src/main/java/org/peimari/gleaflet/client/control/Attribution.java",contextSignature="Attribution",graphId="4107"]
+0[label="main.java.org.peimari.gleaflet.client.control.Attribution",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

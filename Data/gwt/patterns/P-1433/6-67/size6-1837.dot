@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1837,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="jDramaix-SlidingPuzzle~/jDramaix-SlidingPuzzle/SlidingPuzzle-master/src/be/dramaix/ai/slidingpuzzle/client/SlidingPuzzleApp.java~SlidingPuzzleApp~3113",1="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/IncrementSlider.java~IncrementSlider~3645"]
+37[label="new Function()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+38[label="VAR:ANONYMOUS",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+39[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+18[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+55[label="VAR:com.google.gwt.query.client.GQuery",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+0->18[label="DECLARE_METHOD"]
+18->38[label="INSTANTIATE"]
+18->55[label="INSTANTIATE"]
+38->37[label="CALL"]
+38->39[label="OF_TYPE"]
+}

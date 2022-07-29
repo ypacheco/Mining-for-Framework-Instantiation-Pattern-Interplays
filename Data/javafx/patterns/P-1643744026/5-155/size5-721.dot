@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=721,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=0]
+patternInstancesInfo[0="JASCValentine-BrickBreaker~/JASCValentine-BrickBreaker/BrickBreaker-master/src/brickbreaker/Level.java~Level~554",1="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/thermostat/NestNoCss.java~NestNoCss~985",2="Enriqe-Breaking-Bad-Brick-Breaker~/Enriqe-Breaking-Bad-Brick-Breaker/Breaking-Bad-Brick-Breaker-master/src/bbbrickbreaker/Level.java~Level~439",3="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/thermostat/Nest.java~Nest~992"]
+178[label="new Group()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+179[label="VAR:javafx.scene.Group",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+100[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+20[label="FIELD:javafx.scene.text.Text",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+100->179[label="INSTANTIATE"]
+0->100[label="DECLARE_METHOD"]
+179->178[label="CALL"]
+0->20[label="DECLARE_FIELD"]
+}

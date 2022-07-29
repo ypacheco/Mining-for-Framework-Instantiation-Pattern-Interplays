@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=612,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.StackPane"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=9.0,patternRootClient=0]
+patternInstancesInfo[0="Manzzz-DBClient~/Manzzz-DBClient/DBClient-master/src/main/java/com/application/view/View.java~BorderedTitledPane~858",1="atsticks-FXOne~/atsticks-FXOne/FXOne-master/org.fxone/fxone-ui/src/main/java/org/fxone/ui/rt/components/view/WebBrowser.java~WebBrowser~1928",2="KraiZeur-library~/KraiZeur-library/library-master/src/application/presentationLayer/ScreensController.java~ScreensController~746",3="fisimon-Ing_Software~/fisimon-Ing_Software/Ing_Software-master/src/application/Arrow.java~Arrow~2690",4="james-d-TicTacToe~/james-d-TicTacToe/TicTacToe-master/src/tictactoe/Square.java~Square~3261",5="Mareck-playground~/Mareck-playground/playground-master/javafx2/src/main/java/eu/scilled/javafx/util/Console.java~Console~893",6="UrsKR-fxcalendar~/UrsKR-fxcalendar/fxcalendar-master/src/main/java/com/sai/javafx/calendar/cell/WeekCell.java~WeekCell~1553",7="suxue-tetris~/suxue-tetris/tetris-master/src/tetris/ui/CenteredContainer.java~CenteredContainer~4369",8="gheidorn-cacheboard~/gheidorn-cacheboard/cacheboard-master/src/cacheboard/scene/SceneController.java~SceneController~2726"]
+1[label="javafx.scene.layout.StackPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

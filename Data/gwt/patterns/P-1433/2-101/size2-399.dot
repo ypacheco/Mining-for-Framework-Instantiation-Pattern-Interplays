@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=399,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.Event"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="brychcy-gwt-jquery~/brychcy-gwt-jquery/gwt-jquery-master/src/com/xedge/jquery/client/JQEvent.java~JQEvent~921",1="nextinterfaces-next~/nextinterfaces-next/next-master/src/next/i/mobile/TouchEvent.java~TouchEvent~4173"]
+1[label="com.google.gwt.user.client.Event",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

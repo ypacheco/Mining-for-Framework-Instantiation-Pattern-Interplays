@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=8,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.stage.Stage"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="7thwheel-medaka-chan",filePath="/7thwheel-medaka-chan/medaka-chan-master/src/seventhwheel/pos/control/MessageBox.java",contextSignature="MessageBox",graphId="8"]
+0[label="seventhwheel.pos.control.MessageBox",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.stage.Stage",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=332,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.server.rpc.RemoteServiceServlet",1="com.google.gwt.user.client.rpc.RemoteService"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Max-Hailperin-MessageBoard",filePath="/Max-Hailperin-MessageBoard/MessageBoard-master/MessageBoard/src/edu/gac/mcs270/messageboard/server/BlobServiceImpl.java",contextSignature="BlobServiceImpl",graphId="332"]
+0[label="edu.gac.mcs270.messageboard.server.BlobServiceImpl",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.server.rpc.RemoteServiceServlet",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="com.google.gwt.user.client.rpc.RemoteService",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="IMPLEMENT",color=red]
+}

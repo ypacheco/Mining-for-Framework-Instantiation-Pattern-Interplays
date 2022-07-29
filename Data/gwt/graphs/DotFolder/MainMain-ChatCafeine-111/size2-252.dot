@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=252,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Image"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="MainMain-ChatCafeine",filePath="/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/coffeeRoom/VueSalle.java",contextSignature="CafeButton",graphId="252"]
+0[label="sources.client.vue.coffeeRoom.VueSalle.CafeButton",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Image",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

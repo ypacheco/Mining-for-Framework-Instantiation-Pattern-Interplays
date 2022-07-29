@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3709,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.rpc.RemoteService"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="marchold-BandRidesServer",filePath="/marchold-BandRidesServer/BandRidesServer-master/Band-Rides-Server/src/com/catglo/bandridesserver/client/GreetingService.java",contextSignature="GreetingService",graphId="3709"]
+0[label="com.catglo.bandridesserver.client.GreetingService",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.rpc.RemoteService",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

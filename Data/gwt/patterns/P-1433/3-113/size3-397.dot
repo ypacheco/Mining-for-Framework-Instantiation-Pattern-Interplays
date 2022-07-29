@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=397,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="vlapan-PhotoBank~/vlapan-PhotoBank/PhotoBank-master/src/com/vlapan/gwt/photobank/client/ui/NotificationPanel.java~OpenAnimation~4615",1="vlapan-PhotoBank~/vlapan-PhotoBank/PhotoBank-master/src/com/vlapan/gwt/photobank/client/ui/Logotype.java~void Logotype(java.lang.String)~4611",2="vlapan-PhotoBank~/vlapan-PhotoBank/PhotoBank-master/src/com/vlapan/gwt/photobank/client/ui/NotificationPanel.java~NotificationPanel~4614",3="vlapan-PhotoBank~/vlapan-PhotoBank/PhotoBank-master/src/com/vlapan/gwt/photobank/client/ui/PhotoWidget.java~PhotoWidget~4612"]
+50[label="com.google.gwt.dom.client.Style",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+48[label="VAR:com.google.gwt.dom.client.Style",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+49[label="setPropertyPx()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+48->49[label="CALL"]
+48->50[label="OF_TYPE"]
+}

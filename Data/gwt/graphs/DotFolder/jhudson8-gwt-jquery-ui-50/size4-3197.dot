@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=3197,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Widget"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jhudson8-gwt-jquery-ui",filePath="/jhudson8-gwt-jquery-ui/gwt-jquery-ui-master/core/gwt-jquery-ui-mobile/src/main/java/com/google/gwt/jquery/mobile/ui/base/AbstractWidget.java",contextSignature="AbstractWidget",graphId="3197"]
+0[label="main.java.com.google.gwt.jquery.mobile.ui.base.AbstractWidget",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Widget",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void onAttach()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="super.onAttach()",vertexType="SUPER_CALL",isFrameworkType=true,peripheries=2,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+2->3[label="CALL"]
+}

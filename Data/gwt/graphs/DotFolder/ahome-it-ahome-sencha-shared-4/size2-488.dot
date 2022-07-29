@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=488,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="ahome-it-ahome-sencha-shared",filePath="/ahome-it-ahome-sencha-shared/ahome-sencha-shared-master/ahome-sencha-shared/src/main/java/com/ait/toolkit/sencha/shared/client/core/ModelFieldDefinition.java",contextSignature="ModelFieldDefinition",graphId="488"]
+0[label="main.java.com.ait.toolkit.sencha.shared.client.core.ModelFieldDefinition",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

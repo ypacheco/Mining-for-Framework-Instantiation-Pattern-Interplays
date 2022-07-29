@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2061,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=15.0,patternRootClient=null]
+patternInstancesInfo[0="Posejdon23-GeneticAlgorithm~/Posejdon23-GeneticAlgorithm/GeneticAlgorithm-master/AG/src/ag1/Main.java~Main~1091",1="Posejdon23-GeneticAlgorithm~/Posejdon23-GeneticAlgorithm/GeneticAlgorithm-master/AG/src/ag1/Main.java~void start(javafx.stage.Stage)~1093",2="tasubo-javafx-chart-treemap~/tasubo-javafx-chart-treemap/javafx-chart-treemap-master/src/main/java/javafx/scene/chart/treemap/Treemap.java~void Treemap(main.java.javafx.scene.chart.treemap.Item)~4493",3="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CECommandeController.java~void initialize(java.net.URL,java.util.ResourceBundle)~2102",4="tatsuyafw-java8-training~/tatsuyafw-java8-training/java8-training-master/src/chapter4/exercise04/MyCircle.java~MyCircle~4501",5="DenisTyschenko-JavaFx-Graph~/DenisTyschenko-JavaFx-Graph/JavaFx-Graph-master/src/main/java/graph/model/edge/DirectedEdge.java~DirectedEdge~340",6="sk44-javafx-gallery~/sk44-javafx-gallery/javafx-gallery-master/src/main/java/sk44/jfxgallery/controllers/SeparatedImageWindowController.java~SeparatedImageWindowController~4199",7="Posejdon23-GeneticAlgorithm~/Posejdon23-GeneticAlgorithm/GeneticAlgorithm-master/AG/src/ag1/Main.java~void tabelaSettings(javafx.scene.layout.GridPane)~1097",8="jperedadnr-RiggedHand~/jperedadnr-RiggedHand/RiggedHand-master/src/riggedhand/RiggedHand.java~RiggedHand~3396",9="suxue-tetris~/suxue-tetris/tetris-master/src/tetris/core/UIController.java~UIController~4358",10="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEPrincipalController.java~CEPrincipalController~2114",11="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CECommandeController.java~CECommandeController~2084"]
+15[label="javafx.beans.binding.DoubleExpression",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+16[label="VAR:javafx.beans.binding.DoubleExpression",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+16->15[label="OF_TYPE"]
+}

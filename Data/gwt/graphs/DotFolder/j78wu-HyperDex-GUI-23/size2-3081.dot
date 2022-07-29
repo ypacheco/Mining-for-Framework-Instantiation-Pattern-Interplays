@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3081,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Composite"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="j78wu-HyperDex-GUI",filePath="/j78wu-HyperDex-GUI/HyperDex-GUI-master/src/com/hyperdex/web/client/view/Space.java",contextSignature="Space",graphId="3081"]
+0[label="com.hyperdex.web.client.view.Space",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Composite",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

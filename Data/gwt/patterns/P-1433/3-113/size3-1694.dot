@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1694,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="drweaver-gwt_garage_control~/drweaver-gwt_garage_control/gwt_garage_control-master/src/drweaver/garagecontrol/client/GarageControl.java~GarageControl~1287",1="Cauac-GXTProject~/Cauac-GXTProject/GXTProject-master/src/main/java/gxtproject/client/Main.java~com.google.gwt.user.client.ui.Widget asWidget()~81"]
+27[label="com.google.gwt.storage.client.Storage",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+25[label="VAR:com.google.gwt.storage.client.Storage",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+24[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+25->27[label="OF_TYPE"]
+24->25[label="INSTANTIATE"]
+}

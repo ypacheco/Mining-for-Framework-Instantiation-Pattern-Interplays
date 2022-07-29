@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1406,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=7.0,patternRootClient=0]
+patternInstancesInfo[0="joelburget-miftiwac~/joelburget-miftiwac/miftiwac-master/src/Dynamic_page.java~Dynamic_page~3333",1="jperedadnr-Game2048HOL~/jperedadnr-Game2048HOL/Game2048HOL-master/src/org/hol/game2048/Board.java~Board~3394",2="tarchan-ClipFX~/tarchan-ClipFX/ClipFX-master/src/com/mac/tarchan/clipfx/ClipFXController.java~ClipFXController~4467",3="Johnmalc-JavaFX~/Johnmalc-JavaFX/JavaFX-master/src/game/SingleClassNoXmlBallGame.java~SingleClassNoXmlBallGame~649",4="brunoborges-fx2048~/brunoborges-fx2048/fx2048-master/src/game2048/Board.java~Board~2229",5="empollondefisica-PlanetGame~/empollondefisica-PlanetGame/PlanetGame-master/src/planetGame/MainMenuScene.java~MainMenuScene~2640",6="didygo-gce-display~/didygo-gce-display/gce-display-master/src/proto1/DashBoard.java~DashBoard~2407"]
+28[label="FIELD:javafx.scene.Group",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+8[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->28[label="DECLARE_FIELD"]
+0->8[label="DECLARE_FIELD"]
+}

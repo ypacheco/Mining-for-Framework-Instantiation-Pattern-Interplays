@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3811,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.Group"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="onebeartoe-parking-lot-availability",filePath="/onebeartoe-parking-lot-availability/parking-lot-availability-master/src/org/onebeartoe/mapster/items/MapItem.java",contextSignature="MapItem",graphId="3811"]
+0[label="org.onebeartoe.mapster.items.MapItem",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.Group",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

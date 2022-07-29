@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=4180,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.animation.Interpolator"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="simdimdim-MenuAnim",filePath="/simdimdim-MenuAnim/MenuAnim-master/src/menua/Interpolators.java",contextSignature="Cubic",graphId="4180"]
+0[label="menua.Interpolators.Cubic",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.animation.Interpolator",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="double curve(double)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+}

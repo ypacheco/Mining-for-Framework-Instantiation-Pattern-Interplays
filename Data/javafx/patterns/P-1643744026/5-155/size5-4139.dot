@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=4139,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="BryceLawrence-Tableiness~/BryceLawrence-Tableiness/Tableiness-master/src/truthtablegenerator/GUI.java~GUI~179",1="Zulukas-IJA~/Zulukas-IJA/IJA-master/src/InsightJournalApplication/GUI.java~GUI~1631"]
+58[label="javafx.scene.input.KeyCodeCombination",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+507[label="VAR:javafx.scene.input.KeyCodeCombination",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+412[label="VAR:javafx.scene.input.KeyCodeCombination",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+512[label="VAR:javafx.scene.input.KeyCodeCombination",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+427[label="VAR:javafx.scene.input.KeyCodeCombination",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+412->58[label="OF_TYPE"]
+512->58[label="OF_TYPE"]
+427->58[label="OF_TYPE"]
+507->58[label="OF_TYPE"]
+}

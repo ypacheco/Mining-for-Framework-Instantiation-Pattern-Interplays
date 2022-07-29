@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=4552,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="dimituri-milk~/dimituri-milk/milk-master/milk-core/src/main/java/lv/dimituri/milk/core/Filters.java~Filters~2472",1="dimituri-milk~/dimituri-milk/milk-master/milk-core/src/main/java/lv/dimituri/milk/core/Maps.java~Maps~2475"]
+40[label="new ConstantSignal()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+41[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+36[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+41->40[label="CALL"]
+0->2[label="DECLARE_METHOD"]
+36->41[label="INSTANTIATE"]
+0->36[label="DECLARE_METHOD"]
+}

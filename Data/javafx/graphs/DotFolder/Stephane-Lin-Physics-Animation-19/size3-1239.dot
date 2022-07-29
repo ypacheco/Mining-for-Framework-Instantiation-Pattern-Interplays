@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1239,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.chart.LineChart"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Stephane-Lin-Physics-Animation",filePath="/Stephane-Lin-Physics-Animation/Physics-Animation-master/Physics Simulation/src/Graph/Graph.java",contextSignature="javafx.scene.layout.BorderPane initiateGraph(java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,double,int)",graphId="1239"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.chart.LineChart",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="VAR0",vertexType="OUTSIDE_VARIABLE_EXPRESION",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="ASSIGMENT"]
+2->1[label="OF_TYPE"]
+}

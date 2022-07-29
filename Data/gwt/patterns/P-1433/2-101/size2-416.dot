@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=416,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=7.0,patternRootClient=null]
+patternInstancesInfo[0="spydon-esiade~/spydon-esiade/esiade-master/src/net/esiade/client/Esiade.java~Esiade~4504",1="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/hangout-test/src/com/akjava/gwt/hangout/test2/client/ImageTest.java~void ImageTest()~526",2="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/AlgebrApp.java~AlgebrApp~3667",3="akjava-WebTestMaker~/akjava-WebTestMaker/WebTestMaker-master/src/com/akjava/gwt/webtestmaker/client/WebTestMaker.java~WebTestMaker~655",4="DeannaSurma-Census~/DeannaSurma-Census/Census-master/src/com/cs4302/census/client/Census.java~Census~109",5="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/accueil/AccueilPanel.java~void createRightPanel()~201",6="jaxzin-gwt-common-widgets~/jaxzin-gwt-common-widgets/gwt-common-widgets-master/src/com/jaxzin/gwt/examples/draggablegrid/client/DraggableGridExample.java~DraggableGridExample~3124"]
+11[label="com.google.gwt.user.client.ui.CheckBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+106[label="VAR:com.google.gwt.user.client.ui.CheckBox",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+106->11[label="OF_TYPE"]
+}

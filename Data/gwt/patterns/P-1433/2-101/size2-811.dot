@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=811,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/sound-player/src/com/akjava/gwt/hangout/soundplayer/client/HangoutSoundPlayer.java~HangoutSoundPlayer~561",1="bahkified-Test~/bahkified-Test/Test-master/src/main/java/com/blargh/AanP/client/widgets/ShowMorePagerPanel.java~void ShowMorePagerPanel()~810"]
+3[label="com.google.gwt.user.client.ui.ScrollPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+7[label="VAR:com.google.gwt.user.client.ui.ScrollPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+7->3[label="OF_TYPE"]
+}

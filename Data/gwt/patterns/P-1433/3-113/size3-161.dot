@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=161,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.AbsolutePanel"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/coffeeRoom/VisualisationSallePanel.java~VisualisationSallePanel~272",1="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/coffeeRoom/CoffeeRoomPanel.java~CoffeeRoomPanel~230"]
+1[label="com.google.gwt.user.client.ui.AbsolutePanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="FIELD:CLIENT",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->2[label="DECLARE_FIELD"]
+0->1[label="EXTEND",color=red]
+}

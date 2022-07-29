@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4628,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.beans.property.ReadOnlyBooleanPropertyBase"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="sk44-javafx-gallery~/sk44-javafx-gallery/javafx-gallery-master/src/main/java/sk44/jfxgallery/models/ImagePager.java~void ImagePager(java.nio.file.Path,int,main.java.sk44.jfxgallery.models.ImagePager.IndexToPathFunction)~4203"]
+3[label="javafx.beans.property.ReadOnlyBooleanProperty",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2[label="VAR",vertexType="OUTSIDE_VARIABLE_EXPRESION",isFrameworkType=false]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.beans.property.ReadOnlyBooleanPropertyBase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2->3[label="OF_TYPE"]
+0->1[label="EXTEND",color=red]
+0->2[label="ASSIGMENT"]
+}

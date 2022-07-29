@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4249,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="if12b051-SWP_Paint~/if12b051-SWP_Paint/SWP_Paint-master/SWP_Paint/src/gui/MainController.java~MainController~3089",1="magomar-jfxpojobinding~/magomar-jfxpojobinding/jfxpojobinding-master/src/main/java/jfxpojobinding/SimpleViewController.java~SimpleViewController~3518",2="ranganathankm-blog~/ranganathankm-blog/blog-master/javafx-sample-tableview/src/main/java/com/blogspot/javanbswing/javafx/table/TableViewSample.java~TableViewSample~3991"]
+142[label="new DoubleStringConverter()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+143[label="VAR:javafx.util.converter.DoubleStringConverter",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+144[label="javafx.util.converter.DoubleStringConverter",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+143->142[label="CALL"]
+143->144[label="OF_TYPE"]
+}

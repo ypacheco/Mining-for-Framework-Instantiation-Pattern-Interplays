@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2289,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=6.0,patternRootClient=0]
+patternInstancesInfo[0="matanghuy-SPCA~/matanghuy-SPCA/SPCA-master/SPCA/src/controllers/TransController.java~TransController~3572",1="joelburget-miftiwac~/joelburget-miftiwac/miftiwac-master/src/Dynamic_page.java~Dynamic_page~3333",2="amr390-SAT~/amr390-SAT/SAT-master/src/satcucharitas/SatMainViewController.java~SatMainViewController~1853",3="novosga-painel-fx~/novosga-painel-fx/painel-fx-master/src/org/novosga/painel/client/ui/Controller.java~Controller~3787",4="ajithkp560-quizmaster~/ajithkp560-quizmaster/quizmaster-master/QuizProgram_SRC/QuizProgram/src/quizprogram/SampleController.java~SampleController~1753",5="RomeoGolf-BC~/RomeoGolf-BC/BC-master/src/romeogolf/bc/MainController.java~MainController~1142"]
+20[label="FIELD:javafx.scene.control.ToggleGroup",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+40[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+12[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->40[label="DECLARE_FIELD"]
+0->12[label="DECLARE_FIELD"]
+0->20[label="DECLARE_FIELD"]
+}

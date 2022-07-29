@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2246,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=9.0,patternRootClient=0]
+patternInstancesInfo[0="zvakanaka-bitbit~/zvakanaka-bitbit/bitbit-master/src/bitbit/BitBit.java~BitBit~4923",1="kevinkdo-draw~/kevinkdo-draw/draw-master/src/views/DrawMenuBar.java~DrawMenuBar~3444",2="tarchan-ClipFX~/tarchan-ClipFX/ClipFX-master/src/com/mac/tarchan/clipfx/ClipFXController.java~ClipFXController~4467",3="atsticks-FXOne~/atsticks-FXOne/FXOne-master/org.fxone/fxone-ui/src/main/java/org/fxone/ui/rt/components/view/ViewMenu.java~ViewMenu~1931",4="kondzioski-bugtracker~/kondzioski-bugtracker/bugtracker-master/src/bugtracker/FXMLDocumentController.java~FXMLDocumentController~3481",5="ireardon-cs32-final~/ireardon-cs32-final/cs32-final-master/src/edu/brown/cs32/final_group/fx/TopMenuBar.java~TopMenuBar~3216",6="svadlamudi-GaussJordanElimination~/svadlamudi-GaussJordanElimination/GaussJordanElimination-master/src/gauss/jordan/elimination/MainController.java~MainController~4396",7="bjornbil-reservatie~/bjornbil-reservatie/reservatie-master/ReservatieKommaFinal/src/be/khleuven/bjornbillen/controller/MainController.java~MainController~2178",8="pioluk-comprog~/pioluk-comprog/Sudoku-master/Sudoku-UI/src/main/java/org/comprog/App.java~App~3883"]
+14[label="FIELD:javafx.scene.control.Menu",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+4[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->4[label="DECLARE_FIELD"]
+0->14[label="DECLARE_FIELD"]
+}

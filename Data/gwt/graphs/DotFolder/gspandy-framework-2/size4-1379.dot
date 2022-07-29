@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=1379,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.vaadin.terminal.gwt.server.HttpServletRequestListener"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="gspandy-framework",filePath="/gspandy-framework/framework-master/src/main/java/org/otojunior/framework/presentation/AbstractApplication.java",contextSignature="AbstractApplication",graphId="1379"]
+0[label="main.java.org.otojunior.framework.presentation.AbstractApplication",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.vaadin.terminal.gwt.server.HttpServletRequestListener",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void onRequestEnd(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="void onRequestStart(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+0->3[label="OVERRIDE"]
+}

@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=2248,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=6.0,patternRootClient=0]
+patternInstancesInfo[0="kevinkdo-draw~/kevinkdo-draw/draw-master/src/views/DrawMenuBar.java~DrawMenuBar~3444",1="zvakanaka-bitbit~/zvakanaka-bitbit/bitbit-master/src/bitbit/BitBit.java~BitBit~4923",2="tarchan-ClipFX~/tarchan-ClipFX/ClipFX-master/src/com/mac/tarchan/clipfx/ClipFXController.java~ClipFXController~4467",3="atsticks-FXOne~/atsticks-FXOne/FXOne-master/org.fxone/fxone-ui/src/main/java/org/fxone/ui/rt/components/view/ViewMenu.java~ViewMenu~1931",4="ireardon-cs32-final~/ireardon-cs32-final/cs32-final-master/src/edu/brown/cs32/final_group/fx/TopMenuBar.java~TopMenuBar~3216",5="bjornbil-reservatie~/bjornbil-reservatie/reservatie-master/ReservatieKommaFinal/src/be/khleuven/bjornbillen/controller/MainController.java~MainController~2178"]
+26[label="FIELD:javafx.scene.control.Menu",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+14[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+20[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+40[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->40[label="DECLARE_FIELD"]
+0->20[label="DECLARE_FIELD"]
+0->14[label="DECLARE_FIELD"]
+0->26[label="DECLARE_FIELD"]
+}

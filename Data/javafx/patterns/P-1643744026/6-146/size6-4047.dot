@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=4047,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="mrempala-sp~/mrempala-sp/sp-master/src/application/VcPtVisualSchematicView.java~VcPtVisualSchematicView~3690",1="mrempala-sp~/mrempala-sp/sp-master/src/application/VcPtVisualSchematicViewClickable.java~VcPtVisualSchematicViewClickable~3668"]
+38[label="new Line()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+39[label="VAR:javafx.scene.shape.Line",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+44[label="setStartX()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+2[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+164[label="VAR:ANONYMOUS",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+39->44[label="CALL"]
+0->2[label="DECLARE_METHOD"]
+2->39[label="INSTANTIATE"]
+2->164[label="INSTANTIATE"]
+39->38[label="CALL"]
+}

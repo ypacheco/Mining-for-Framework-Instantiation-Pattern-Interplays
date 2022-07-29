@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2179,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="sebbafer-Sebanana~/sebbafer-Sebanana/Sebanana-master/src/sebanana/views/GameView.java~GameView~4132",1="sebbafer-Sebanana~/sebbafer-Sebanana/Sebanana-master/src/sebanana/views/StandaardBeeld.java~StandaardBeeld~4134",2="sebbafer-Sebanana~/sebbafer-Sebanana/Sebanana-master/src/sebanana/luisteraars/PlayerLuisteraar.java~PlayerLuisteraar~4111"]
+10[label="PARAMETER:javafx.beans.Observable",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+9[label="void invalidated(javafx.beans.Observable)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+6[label="FIELD:CLIENT",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->6[label="DECLARE_FIELD"]
+9->10[label="PARAMETER"]
+0->9[label="OVERRIDE"]
+}

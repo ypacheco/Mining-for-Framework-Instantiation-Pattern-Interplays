@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3061,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.event.dom.client.KeyPressHandler"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="hmiguellima-ugat",filePath="/hmiguellima-ugat/ugat-master/src/org/ucp/ugat/client/common/ui/ModalDialog.java",contextSignature="void showConfirmDialog(java.lang.String,java.lang.String,org.ucp.ugat.client.common.ui.ModalDialog.ModalDialog_ActionHandler)",graphId="3061"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.event.dom.client.KeyPressHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

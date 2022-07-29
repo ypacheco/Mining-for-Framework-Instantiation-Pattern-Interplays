@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4224,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.HTML"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="nextinterfaces-next",filePath="/nextinterfaces-next/next-master/src/next/i/view/widgets/XLabel.java",contextSignature="XLabel",graphId="4224"]
+0[label="next.i.view.widgets.XLabel",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.HTML",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

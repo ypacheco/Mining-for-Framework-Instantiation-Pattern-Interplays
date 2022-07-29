@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4267,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.event.Event"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="stepanovdg-VisualJadeMotionModel",filePath="/stepanovdg-VisualJadeMotionModel/VisualJadeMotionModel-master/src/by/bsu/kurs/stepanov/visualisation/MapEvent.java",contextSignature="MapEvent",graphId="4267"]
+0[label="by.bsu.kurs.stepanov.visualisation.MapEvent",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.event.Event",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3327,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.PopupPanel"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jumanor-matamarcianos",filePath="/jumanor-matamarcianos/matamarcianos-master/src/main/java/pck/client/librerias/TfrmCargando.java",contextSignature="TfrmCargando",graphId="3327"]
+0[label="main.java.pck.client.librerias.TfrmCargando",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.PopupPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

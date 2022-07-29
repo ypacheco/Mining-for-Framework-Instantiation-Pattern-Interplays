@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=4063,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Widget"]
+possibleCollaborationsInfo[0="4063~CLIENT_METHOD_DECLARATION-RETURN_TYPE-FIELD_DECLARATION-~com.google.gwt.user.client.ui.Widget ~com.google.gwt.core.client.JavaScriptObject ~false~false"]
+locationInfo[projectName="mstahv-g-leaflet",filePath="/mstahv-g-leaflet/g-leaflet-master/src/main/java/org/peimari/gleaflet/client/MapWidget.java",contextSignature="MapWidget",graphId="4063"]
+0[label="main.java.org.peimari.gleaflet.client.MapWidget",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Widget",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="map",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="main.java.org.peimari.gleaflet.client.Map",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+5[label="main.java.org.peimari.gleaflet.client.Map getMap()",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+3->4[label="EXTEND",color=blue]
+2->3[label="OF_TYPE"]
+0->5[label="DECLARE_METHOD"]
+5->3[label="RETURN"]
+}

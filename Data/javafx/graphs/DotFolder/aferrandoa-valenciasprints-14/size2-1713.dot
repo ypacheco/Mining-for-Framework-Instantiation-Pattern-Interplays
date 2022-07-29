@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1713,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.event.Event"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="aferrandoa-valenciasprints",filePath="/aferrandoa-valenciasprints/valenciasprints-master/src/eventos/ConfiguracionEvent.java",contextSignature="ConfiguracionEvent",graphId="1713"]
+0[label="eventos.ConfiguracionEvent",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.event.Event",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

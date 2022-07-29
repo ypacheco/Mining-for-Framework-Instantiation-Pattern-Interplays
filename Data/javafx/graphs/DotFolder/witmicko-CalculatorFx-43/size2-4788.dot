@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4788,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.animation.Transition"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="witmicko-CalculatorFx",filePath="/witmicko-CalculatorFx/CalculatorFx-master/src/calc/transitions/FadeInTransition.java",contextSignature="FadeInTransition",graphId="4788"]
+0[label="calc.transitions.FadeInTransition",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.animation.Transition",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1206,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/administration/AdminPanel.java~AdminPanel~204",1="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/sound-player/src/com/akjava/gwt/hangout/soundplayer/client/HangoutSoundPlayer.java~HangoutSoundPlayer~561"]
+13[label="com.google.gwt.user.client.ui.StackLayoutPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+221[label="VAR:com.google.gwt.user.client.ui.StackLayoutPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+221->13[label="OF_TYPE"]
+}

@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=983,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=16.0,patternRootClient=0]
+patternInstancesInfo[0="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/Project.java~Project~1849",1="taylorthurlow-panda~/taylorthurlow-panda/panda-master/src/edu/TaylorThurlow/WindowMainController.java~WindowMainController~4508",2="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/MainPane.java~MainPane~1847",3="tgregerson-lc3~/tgregerson-lc3/lc3-master/LC3Sim/src/lc3sim/ui/UIFXMain.java~UIFXMain~4520",4="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEGestionRemisesController.java~CEGestionRemisesController~2018",5="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEPrincipalController.java~CEPrincipalController~2114",6="matanghuy-SPCA~/matanghuy-SPCA/SPCA-master/SPCA/src/controllers/TransController.java~TransController~3572",7="making-todo-tsa~/making-todo-tsa/todo-tsa-master/todo-fx/src/main/java/todo/app/TodoController.java~TodoController~3522",8="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/TournamentController.java~TournamentController~3009",9="Technius-Starbound-Mod-Toolkit~/Technius-Starbound-Mod-Toolkit/Starbound-Mod-Toolkit-master/src/main/java/co/technius/starboundmodtoolkit/mod/assetpane/RecipeAssetPane.java~RecipeAssetPane~1429",10="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/FFmpegArgumentsManagerPane.java~FFmpegArgumentsManagerPane~1846",11="diogocs1-FPessoais~/diogocs1-FPessoais/FPessoais-master/FinancasPessoais/src/app/controllers/HomeController.java~HomeController~2490",12="demibenari-cd-catalog~/demibenari-cd-catalog/cd-catalog-master/src/cd/catalog/MainFormController.java~MainFormController~2392",13="NirmalL-Shark~/NirmalL-Shark/Shark-master/src/Controller.java~Controller~1009",14="crosswords-testEnvironment~/crosswords-testEnvironment/testEnvironment-master/src/GUI/MainController.java~MainController~2315",15="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CECommandeController.java~CECommandeController~2084"]
+47[label="FIELD:javafx.scene.control.TableView",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+25[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+11[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+23[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->47[label="DECLARE_FIELD"]
+0->23[label="DECLARE_FIELD"]
+0->11[label="DECLARE_FIELD"]
+0->25[label="DECLARE_FIELD"]
+}

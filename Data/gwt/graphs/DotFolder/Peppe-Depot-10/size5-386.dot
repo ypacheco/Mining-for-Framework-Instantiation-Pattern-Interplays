@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=386,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.vaadin.terminal.gwt.client.ComponentState"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Peppe-Depot",filePath="/Peppe-Depot/Depot-master/src/com/jensjansson/depot/client/ui/DepotState.java",contextSignature="DepotState",graphId="386"]
+0[label="com.jensjansson.depot.client.ui.DepotState",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.vaadin.terminal.gwt.client.ComponentState",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="component",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="com.vaadin.terminal.gwt.client.Connector",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+4[label="header",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+0->4[label="DECLARE_FIELD"]
+4->3[label="OF_TYPE"]
+}

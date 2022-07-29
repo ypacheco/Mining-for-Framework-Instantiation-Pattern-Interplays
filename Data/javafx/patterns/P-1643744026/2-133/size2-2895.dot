@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2895,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.event.EventTarget"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=0]
+patternInstancesInfo[0="abuczko-JFXDockManager~/abuczko-JFXDockManager/JFXDockManager-master/JFXDockManager/src/controller/DockPanel.java~DockPanel~1677",1="nielsmaneschijn-8bit~/nielsmaneschijn-8bit/8bit-master/src/net/maneschijn/bleep/ui/SourceUI.java~SourceUI~3771",2="abuczko-JFXDockManager~/abuczko-JFXDockManager/JFXDockManager-master/JFXDockManager/src/controller/HideableDockPanel.java~HideableDockPanel~1675",3="abuczko-JFXDockManager~/abuczko-JFXDockManager/JFXDockManager-master/JFXDockManager/src/controller/DocumentDocPanel.java~DocumentDocPanel~1672"]
+1[label="javafx.event.EventTarget",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="IMPLEMENT",color=red]
+}

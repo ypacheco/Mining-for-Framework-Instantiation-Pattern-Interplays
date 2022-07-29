@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=178,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="oussamazoghlami-TetrisGwt~/oussamazoghlami-TetrisGwt/TetrisGwt-master/Tetris/src/com/sfeir/tutorials/client/views/TetrisGameWidget.java~void clearWidget()~4246",1="oussamazoghlami-TetrisGwt~/oussamazoghlami-TetrisGwt/TetrisGwt-master/Tetris/src/com/sfeir/tutorials/client/views/TetrisGameWidget.java~void makeTranslationAnimation(double,java.util.List)~4248"]
+4[label="void run()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+5[label="VAR:com.google.gwt.canvas.dom.client.Context2d",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+19[label="setFillStyle()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+4->5[label="INSTANTIATE"]
+5->19[label="CALL"]
+}

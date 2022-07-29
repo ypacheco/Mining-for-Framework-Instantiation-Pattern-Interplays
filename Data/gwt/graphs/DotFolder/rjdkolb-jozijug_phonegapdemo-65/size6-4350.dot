@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=4350,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.activity.shared.ActivityMapper"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="rjdkolb-jozijug_phonegapdemo",filePath="/rjdkolb-jozijug_phonegapdemo/jozijug_phonegapdemo-master/src/main/java/org/openrap/jozijug/mgwtphonegap/client/PhoneActivityMapper.java",contextSignature="PhoneActivityMapper",graphId="4350"]
+0[label="main.java.org.openrap.jozijug.mgwtphonegap.client.PhoneActivityMapper",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.activity.shared.ActivityMapper",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="com.google.gwt.activity.shared.Activity getActivity(com.google.gwt.place.shared.Place)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="com.google.gwt.activity.shared.Activity",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+4[label="place",vertexType="PARAMETER_DECLARATION",isFrameworkType=true,peripheries=2]
+5[label="com.google.gwt.place.shared.Place",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+2->3[label="RETURN"]
+4->5[label="OF_TYPE"]
+2->4[label="PARAMETER"]
+}

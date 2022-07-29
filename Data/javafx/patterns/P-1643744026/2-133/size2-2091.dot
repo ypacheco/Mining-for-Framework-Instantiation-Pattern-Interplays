@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2091,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="miamidade-spook-detector~/miamidade-spook-detector/spook-detector-master/src/gov/miamidade/mediaviewer/MediaViewerPane.java~MediaViewerPane~3628",1="didygo-gce-display~/didygo-gce-display/gce-display-master/src/proto1/DashBoard.java~DashBoard~2407"]
+37[label="javafx.scene.media.MediaPlayer",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+38[label="FIELD:javafx.scene.media.MediaPlayer",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+38->37[label="OF_TYPE"]
+}

@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1460,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.junit.client.GWTTestCase"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=0]
+patternInstancesInfo[0="niloc132-celltable-tools~/niloc132-celltable-tools/celltable-tools-master/src/test/java/com/colinalworth/celltable/columns/client/ColumnsWithFactoryTest.java~ColumnsWithFactoryTest~4235",1="niloc132-celltable-tools~/niloc132-celltable-tools/celltable-tools-master/src/test/java/com/colinalworth/celltable/columns/client/ColumnsTest.java~ColumnsTest~4236",2="lauflabs-gwt-garmin-api~/lauflabs-gwt-garmin-api/gwt-garmin-api-master/gwt-garmin-api/src/test/java/com/garmin/gwt/communicator/client/AbstractGarminGWTTest.java~AbstractGarminGWTTest~3603",3="timeu-processing-js-gwt~/timeu-processing-js-gwt/processing-js-gwt-master/processingjs-gwt/src/test/java/com/github/timeu/gwtlibs/processingjsgwt/client/ProcessingTest.java~ProcessingTest~4546",4="ggeorgovassilis-flatbus~/ggeorgovassilis-flatbus/flatbus-master/flatbus-test/src/test/java/com/bazarooma/flatbus/test/Tests.java~Tests~1356"]
+2[label="java.lang.String getModuleName()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.junit.client.GWTTestCase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+}

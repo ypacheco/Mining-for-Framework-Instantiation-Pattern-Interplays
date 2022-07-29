@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3643,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.Group"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="mjchao-3D-Graphing-Calculator",filePath="/mjchao-3D-Graphing-Calculator/3D-Graphing-Calculator-master/src/mjchao/graph3d/graph/Line3D.java",contextSignature="Line3D",graphId="3643"]
+0[label="mjchao.graph3d.graph.Line3D",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.Group",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

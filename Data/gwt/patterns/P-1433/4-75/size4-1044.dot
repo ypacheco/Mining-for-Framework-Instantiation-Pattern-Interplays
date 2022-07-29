@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1044,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="avida-cookmaster~/avida-cookmaster/cookmaster-master/src/cookmaster/client/TableWithCells.java~void initTable()~774",1="Max-Hailperin-MessageBoard~/Max-Hailperin-MessageBoard/MessageBoard-master/MessageBoard/src/edu/gac/mcs270/messageboard/client/MessageBoard.java~void updateMessages()~330",2="Max-Hailperin-MessageBoard~/Max-Hailperin-MessageBoard/MessageBoard-master/MessageBoard/src/edu/gac/mcs270/messageboard/client/MessageBoard.java~MessageBoard~324"]
+44[label="new Anchor()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+45[label="VAR:com.google.gwt.user.client.ui.Anchor",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+46[label="com.google.gwt.user.client.ui.Anchor",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+48[label="setTarget()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+45->48[label="CALL"]
+45->46[label="OF_TYPE"]
+45->44[label="CALL"]
+}

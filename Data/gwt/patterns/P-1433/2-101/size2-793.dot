@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=793,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="Tok-Erwin~/Tok-Erwin/Erwin-master/src/main/java/erwin/client/Erwin.java~void onModuleLoad()~389",1="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/hangout-test/src/com/akjava/gwt/hangout/test2/client/ImageTest.java~ImageTest~525",2="oussamazoghlami-TetrisGwt~/oussamazoghlami-TetrisGwt/TetrisGwt-master/Tetris/src/com/sfeir/tutorials/client/views/TetrisGameWidget.java~TetrisGameWidget~4245",3="Tok-Erwin~/Tok-Erwin/Erwin-master/src/main/java/erwin/client/Erwin.java~Erwin~388"]
+5[label="com.google.gwt.canvas.dom.client.Context2d",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+20[label="VAR:com.google.gwt.canvas.dom.client.Context2d",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+20->5[label="OF_TYPE"]
+}

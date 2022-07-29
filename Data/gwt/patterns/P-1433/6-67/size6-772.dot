@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=772,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Composite"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/MVCTable.java~MVCTable~3009",1="vlapan-PhotoBank~/vlapan-PhotoBank/PhotoBank-master/src/com/vlapan/gwt/photobank/client/ui/PhotoBrowser.java~PhotoBrowser~4600"]
+50[label="PARAMETER:com.google.gwt.event.dom.client.KeyDownEvent",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+49[label="void onKeyDown(com.google.gwt.event.dom.client.KeyDownEvent)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Composite",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+33[label="FIELD:CLIENT",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+23[label="FIELD:CLIENT",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->23[label="DECLARE_FIELD"]
+0->49[label="OVERRIDE"]
+49->50[label="PARAMETER"]
+0->1[label="EXTEND",color=red]
+0->33[label="DECLARE_FIELD"]
+}

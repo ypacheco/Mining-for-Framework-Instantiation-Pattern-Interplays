@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=4571,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="projects4PB-biomet~/projects4PB-biomet/biomet-master/src/biomet/panels/RootPanel.java~javafx.scene.control.MenuBar createMenuBar()~3955",1="projects4PB-biomet~/projects4PB-biomet/biomet-master/src/biomet/panels/RootPanel.java~RootPanel~3950"]
+101[label="new BinarizationPopup()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+70[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+122[label="show()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+71[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+72[label="javafx.stage.Popup",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+70->101[label="CALL"]
+71->72[label="EXTEND",color=blue]
+70->122[label="CALL"]
+70->71[label="OF_TYPE"]
+}

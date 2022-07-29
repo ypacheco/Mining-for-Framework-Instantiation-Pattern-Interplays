@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=2332,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.stage.Stage"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="cyberaka-fxddp_poc",filePath="/cyberaka-fxddp_poc/fxddp_poc-master/fxddp-gui/src/main/java/com/cyberaka/fxddp/gui/common/FxMessageBox.java",contextSignature="FxMessageBox",graphId="2332"]
+0[label="main.java.com.cyberaka.fxddp.gui.common.FxMessageBox",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.stage.Stage",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

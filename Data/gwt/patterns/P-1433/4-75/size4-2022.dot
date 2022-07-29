@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2022,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.vaadin.terminal.gwt.server.ClientConnector",1="com.vaadin.terminal.gwt.server.RpcTarget"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="Peppe-Depot~/Peppe-Depot/Depot-master/src/com/jensjansson/depot/DepotRoot.java~DepotRoot~380",1="Peppe-Depot~/Peppe-Depot/Depot-master/src/com/jensjansson/depot/Depot.java~Depot~378"]
+2[label="com.vaadin.terminal.gwt.server.RpcTarget",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.vaadin.terminal.gwt.server.ClientConnector",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+21[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->21[label="DECLARE_METHOD"]
+0->2[label="IMPLEMENT",color=red]
+}

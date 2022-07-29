@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=4441,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.maps.client.event.MarkerClickHandler"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="rwl-GoogleMapWidget",filePath="/rwl-GoogleMapWidget/GoogleMapWidget-master/src/main/java/org/vaadin/hezamu/googlemapwidget/widgetset/client/ui/VGoogleMap.java",contextSignature="InfoWindowOpener",graphId="4441"]
+0[label="main.java.org.vaadin.hezamu.googlemapwidget.widgetset.client.ui.VGoogleMap.InfoWindowOpener",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.maps.client.event.MarkerClickHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void onClick(com.google.gwt.maps.client.event.MarkerClickHandler.MarkerClickEvent)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="event",vertexType="PARAMETER_DECLARATION",isFrameworkType=true,peripheries=2]
+4[label="com.google.gwt.maps.client.event.MarkerClickHandler.MarkerClickEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+3->4[label="OF_TYPE"]
+2->3[label="PARAMETER"]
+}

@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=479,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.util.tools.ArgHandlerInt"]
+possibleCollaborationsInfo[0="479~FIELD_DECLARATION-~com.google.gwt.util.tools.ArgHandlerInt ~com.google.gwt.dev.ArgProcessorBase ~false~false"]
+locationInfo[projectName="WeTheInternet-xapi-template",filePath="/WeTheInternet-xapi-template/xapi-template-master/src/main/java/wetheinter/net/dev/template/ProcessingInstructionOptions.java",contextSignature="SkipWordsArg",graphId="479"]
+0[label="main.java.wetheinter.net.dev.template.ProcessingInstructionOptions.SkipWordsArg",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.util.tools.ArgHandlerInt",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="opts",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="main.java.wetheinter.net.dev.template.ProcessingInstructionOptions",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="com.google.gwt.dev.ArgProcessorBase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+5[label="void setInt(int)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+3->4[label="EXTEND",color=blue]
+2->3[label="OF_TYPE"]
+0->5[label="OVERRIDE"]
+}

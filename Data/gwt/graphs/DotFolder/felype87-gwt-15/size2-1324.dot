@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1324,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.uibinder.client.UiBinder"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="felype87-gwt",filePath="/felype87-gwt/gwt-master/Minefield/src/com/felype/minefield/client/GameLevelDialog.java",contextSignature="GameLevelDialogUiBinder",graphId="1324"]
+0[label="com.felype.minefield.client.GameLevelDialog.GameLevelDialogUiBinder",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.uibinder.client.UiBinder",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

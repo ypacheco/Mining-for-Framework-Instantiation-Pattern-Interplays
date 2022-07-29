@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=581,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.ClickListener"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/EditableCombo.java~EditableCombo_ChoicesBtn_onClickAdapter~3036",1="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/ExpandableLabel.java~ExpandableLabel_onClick~2991"]
+2[label="void onClick(com.google.gwt.user.client.ui.Widget)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.ClickListener",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+15[label="VAR:com.google.gwt.user.client.ui.UIObject",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+0->2[label="OVERRIDE"]
+0->1[label="IMPLEMENT",color=red]
+2->15[label="INSTANTIATE"]
+}

@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2284,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="Jamakasi-JMCLauncherFX~/Jamakasi-JMCLauncherFX/JMCLauncherFX-master/src/jmclauncherfx/OptionsWindowController.java~OptionsWindowController~610",1="Tsaru-Java-MP3-Visualizations~/Tsaru-Java-MP3-Visualizations/Java-MP3-Visualizations-master/mp3 Visualization/src/VisualizationInterface.java~VisualizationInterface~1511"]
+27[label="javafx.stage.DirectoryChooser",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+26[label="FIELD:javafx.stage.DirectoryChooser",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+6[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->26[label="DECLARE_FIELD"]
+0->6[label="DECLARE_FIELD"]
+26->27[label="OF_TYPE"]
+}

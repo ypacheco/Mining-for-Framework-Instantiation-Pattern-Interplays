@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2366,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="Jojal-RadialMenu~/Jojal-RadialMenu/RadialMenu-master/src/main/java/fr/jojal/widget/radial/menu/RadialMenu.java~RadialMenu~698",1="Jojal-RadialMenu~/Jojal-RadialMenu/RadialMenu-master/src/main/java/fr/jojal/widget/radial/item/RadialItem.java~RadialItem~690"]
+121[label="javafx.beans.property.SimpleDoubleProperty",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+176[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+120[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+162[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+176->121[label="EXTEND",color=blue]
+162->121[label="EXTEND",color=blue]
+120->121[label="EXTEND",color=blue]
+}

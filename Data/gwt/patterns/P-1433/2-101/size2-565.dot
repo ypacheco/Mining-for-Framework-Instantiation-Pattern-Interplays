@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=565,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=8.0,patternRootClient=null]
+patternInstancesInfo[0="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/widgets/AnswerGrid.java~AnswerGrid~430",1="j78wu-HyperDex-GUI~/j78wu-HyperDex-GUI/HyperDex-GUI-master/src/com/hyperdex/web/client/view/HyperSpace.java~HyperSpace~3091",2="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/widgets/ReducedQuestionGrid.java~ReducedQuestionGrid~428",3="nextinterfaces-next~/nextinterfaces-next/next-master/src/next/i/view/XNavigationBar.java~XNavigationBar~4195",4="venkatra-GAEqB~/venkatra-GAEqB/GAEqB-master/src/ca/effacious/professional/gaeqb/gui/client/ItemQueryEntry.java~void searchForItemByName()~4582",5="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/presenter/ReportsPresenter.java~void prepareTable()~419",6="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/widgets/FullQuestionGrid.java~FullQuestionGrid~427",7="chrte-TemperatureWatcher~/chrte-TemperatureWatcher/TemperatureWatcher-master/src/com/google/gwt/sample/stockwatcher/client/TemperatureWatcher.java~TemperatureWatcher~1066"]
+103[label="com.google.gwt.user.client.ui.HTMLTable",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+144[label="VAR:com.google.gwt.user.client.ui.HTMLTable",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+144->103[label="OF_TYPE"]
+}

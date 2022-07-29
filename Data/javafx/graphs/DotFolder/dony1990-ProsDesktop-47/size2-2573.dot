@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=2573,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.Button"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="dony1990-ProsDesktop",filePath="/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/object/Icono.java",contextSignature="Icono",graphId="2573"]
+0[label="nicon.NiconDesktop.object.Icono",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.Button",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

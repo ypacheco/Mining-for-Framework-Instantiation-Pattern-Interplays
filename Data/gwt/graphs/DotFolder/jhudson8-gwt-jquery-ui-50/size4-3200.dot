@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=3200,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Panel",1="com.google.gwt.user.client.ui.IndexedPanel",2="com.google.gwt.user.client.ui.InsertPanel"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jhudson8-gwt-jquery-ui",filePath="/jhudson8-gwt-jquery-ui/gwt-jquery-ui-master/core/gwt-jquery-ui-mobile/src/main/java/com/google/gwt/jquery/mobile/ui/base/AbstractBar.java",contextSignature="AbstractBar",graphId="3200"]
+0[label="main.java.com.google.gwt.jquery.mobile.ui.base.AbstractBar",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Panel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="com.google.gwt.user.client.ui.IndexedPanel",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+3[label="com.google.gwt.user.client.ui.InsertPanel",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="IMPLEMENT",color=red]
+0->3[label="IMPLEMENT",color=red]
+}

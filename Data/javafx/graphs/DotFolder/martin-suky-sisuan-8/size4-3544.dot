@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=3544,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.GridPane"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="martin-suky-sisuan",filePath="/martin-suky-sisuan/sisuan-master/src/main/java/cz/none/sisuan/ui/controller/SettingsController.java",contextSignature="SettingsController",graphId="3544"]
+0[label="main.java.cz.none.sisuan.ui.controller.SettingsController",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.GridPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="stage",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.stage.Stage",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+}

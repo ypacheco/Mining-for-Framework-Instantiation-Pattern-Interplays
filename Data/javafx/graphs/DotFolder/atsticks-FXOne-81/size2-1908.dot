@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1908,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.image.ImageView"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="atsticks-FXOne",filePath="/atsticks-FXOne/FXOne-master/org.fxone/fxone-ui/src/main/java/org/fxone/ui/rt/components/header/Logo.java",contextSignature="Logo",graphId="1908"]
+0[label="main.java.org.fxone.ui.rt.components.header.Logo",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.image.ImageView",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

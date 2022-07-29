@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=1425,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="jumanor-matamarcianos~/jumanor-matamarcianos/matamarcianos-master/src/main/java/pck/client/TfrmMenu.java~TfrmMenu~3314",1="dapicard-gwt-surface~/dapicard-gwt-surface/gwt-surface-master/gwt-surface/src/main/java/com/axeiya/gwt/surface/client/control/image/ImageSize.java~ImageSize~1206"]
+3[label="FIELD:com.google.gwt.user.client.ui.IntegerBox",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+7[label="FIELD:com.google.gwt.user.client.ui.IntegerBox",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+4[label="com.google.gwt.user.client.ui.IntegerBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+7->4[label="OF_TYPE"]
+0->7[label="DECLARE_FIELD"]
+0->3[label="DECLARE_FIELD"]
+3->4[label="OF_TYPE"]
+}

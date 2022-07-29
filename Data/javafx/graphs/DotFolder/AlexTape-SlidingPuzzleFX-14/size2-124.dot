@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=124,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.Pane"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="AlexTape-SlidingPuzzleFX",filePath="/AlexTape-SlidingPuzzleFX/SlidingPuzzleFX-master/src/de/alextape/slidingpuzzle/SlidingPuzzleBoard.java",contextSignature="SlidingPuzzleBoard",graphId="124"]
+0[label="de.alextape.slidingpuzzle.SlidingPuzzleBoard",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.Pane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

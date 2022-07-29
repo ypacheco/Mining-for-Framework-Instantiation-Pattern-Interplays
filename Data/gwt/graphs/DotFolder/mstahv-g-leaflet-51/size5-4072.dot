@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=4072,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[0="4072~CLIENT_METHOD_DECLARATION-PARAMETER_DECLARATION-~com.google.gwt.core.client.JavaScriptObject ~com.google.gwt.core.client.JavaScriptObject ~false~false"]
+locationInfo[projectName="mstahv-g-leaflet",filePath="/mstahv-g-leaflet/g-leaflet-master/src/main/java/org/peimari/gleaflet/client/TileLayer.java",contextSignature="TileLayer",graphId="4072"]
+0[label="main.java.org.peimari.gleaflet.client.TileLayer",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="main.java.org.peimari.gleaflet.client.TileLayer create(java.lang.String,main.java.org.peimari.gleaflet.client.TileLayerOptions)",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="tileOptions",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+4[label="main.java.org.peimari.gleaflet.client.TileLayerOptions",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_METHOD"]
+4->1[label="EXTEND",color=blue]
+3->4[label="OF_TYPE"]
+2->3[label="PARAMETER"]
+}

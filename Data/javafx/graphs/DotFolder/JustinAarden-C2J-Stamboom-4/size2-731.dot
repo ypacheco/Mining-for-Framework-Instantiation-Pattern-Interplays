@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=731,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.stage.Stage"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="JustinAarden-C2J-Stamboom",filePath="/JustinAarden-C2J-Stamboom/C2J-Stamboom-master/src/stamboom/gui/Dialog.java",contextSignature="Dialog",graphId="731"]
+0[label="stamboom.gui.Dialog",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.stage.Stage",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

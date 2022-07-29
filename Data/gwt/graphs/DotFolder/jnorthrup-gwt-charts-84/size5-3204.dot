@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=3204,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[0="3204~CLIENT_METHOD_DECLARATION-RETURN_TYPE-CLIENT_METHOD_DECLARATION-RETURN_TYPE-~com.google.gwt.core.client.JavaScriptObject ~com.google.gwt.core.client.JavaScriptObject ~false~false"]
+locationInfo[projectName="jnorthrup-gwt-charts",filePath="/jnorthrup-gwt-charts/gwt-charts-master/gwt-charts/src/main/java/com/googlecode/gwt/charts/client/ColumnRange.java",contextSignature="ColumnRange",graphId="3204"]
+0[label="main.java.com.googlecode.gwt.charts.client.ColumnRange",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+11[label="main.java.com.googlecode.gwt.charts.client.TimeOfDay getMaxTimeOfDay()",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+12[label="main.java.com.googlecode.gwt.charts.client.TimeOfDay",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+24[label="main.java.com.googlecode.gwt.charts.client.TimeOfDay getMinTimeOfDay()",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->11[label="DECLARE_METHOD"]
+12->1[label="EXTEND",color=blue]
+11->12[label="RETURN"]
+0->24[label="DECLARE_METHOD"]
+24->12[label="RETURN"]
+}

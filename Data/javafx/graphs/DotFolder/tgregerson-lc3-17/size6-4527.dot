@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=4527,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.util.Callback"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="tgregerson-lc3",filePath="/tgregerson-lc3/lc3-master/LC3Sim/src/lc3sim/ui/UIFXMain.java",contextSignature="void InitMemory()",graphId="4527"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.util.Callback",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="javafx.collections.ObservableList observableArrayList(javafx.util.Callback)",vertexType="OUTSIDE_CALL",isFrameworkType=true,peripheries=2]
+3[label="javafx.collections.FXCollections",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="javafx.beans.Observable[] call(lc3sim.ui.UIState.MemoryEntry)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+5[label="javafx.beans.Observable[]",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+2->0[label="ARGUMENT"]
+2->3[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+4->5[label="RETURN"]
+}

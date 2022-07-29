@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=4376,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.googlecode.mgwt.dom.client.event.tap.TapHandler"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="rjdkolb-jozijug_phonegapdemo",filePath="/rjdkolb-jozijug_phonegapdemo/jozijug_phonegapdemo-master/src/main/java/org/openrap/jozijug/mgwtphonegap/client/activities/AboutActivity.java",contextSignature="void start(com.google.gwt.user.client.ui.AcceptsOneWidget,com.google.gwt.event.shared.EventBus)",graphId="4376"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.googlecode.mgwt.dom.client.event.tap.TapHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void onTap(com.googlecode.mgwt.dom.client.event.tap.TapEvent)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="event",vertexType="PARAMETER_DECLARATION",isFrameworkType=true,peripheries=2]
+4[label="com.googlecode.mgwt.dom.client.event.tap.TapEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+3->4[label="OF_TYPE"]
+2->3[label="PARAMETER"]
+}

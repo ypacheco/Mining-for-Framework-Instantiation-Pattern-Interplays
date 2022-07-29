@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=43,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.event.shared.GwtEvent"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Arctinus-SMVP",filePath="/Arctinus-SMVP/SMVP-master/src/com/krusche/smvp/client/Event.java",contextSignature="Event",graphId="43"]
+0[label="com.krusche.smvp.client.Event",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.event.shared.GwtEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

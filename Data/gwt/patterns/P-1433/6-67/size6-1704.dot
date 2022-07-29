@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1704,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="rwl-GoogleMapWidget~/rwl-GoogleMapWidget/GoogleMapWidget-master/src/main/java/org/vaadin/hezamu/googlemapwidget/widgetset/client/ui/VGoogleMap.java~MarkerRetrieveCommand~4442",1="daonb-obudget~/daonb-obudget/obudget-master/src/client/src/org/obudget/client/Application.java~Application~1154"]
+43[label="com.google.gwt.json.client.JSONString",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+41[label="VAR:com.google.gwt.json.client.JSONString",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+23[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+129[label="VAR:com.google.gwt.json.client.JSONNumber",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+138[label="VAR:com.google.gwt.json.client.JSONNumber",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+23->138[label="INSTANTIATE"]
+41->43[label="OF_TYPE"]
+0->23[label="DECLARE_METHOD"]
+23->41[label="INSTANTIATE"]
+23->129[label="INSTANTIATE"]
+}

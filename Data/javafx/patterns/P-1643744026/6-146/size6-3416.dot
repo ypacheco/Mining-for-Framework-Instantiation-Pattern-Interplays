@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=3416,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.fxml.Initializable"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="LichuanLu-ShunUI-FX~/LichuanLu-ShunUI-FX/ShunUI-FX-master/src/controllers/Controller.java~Controller~779",1="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEStatistiquesController.java~CEStatistiquesController~2023"]
+3[label="javafx.scene.chart.CategoryAxis",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+16[label="VAR:javafx.scene.chart.CategoryAxis",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+17[label="setCategories()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+12[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.fxml.Initializable",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+12->16[label="INSTANTIATE"]
+16->17[label="CALL"]
+16->3[label="OF_TYPE"]
+0->1[label="IMPLEMENT",color=red]
+0->12[label="OVERRIDE"]
+}

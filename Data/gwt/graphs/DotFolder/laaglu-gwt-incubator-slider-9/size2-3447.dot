@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3447,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.ImageBundle"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="laaglu-gwt-incubator-slider",filePath="/laaglu-gwt-incubator-slider/gwt-incubator-slider-master/src/main/java/com/google/gwt/widgetideas/client/VSliderBar.java",contextSignature="VSliderBarImages",graphId="3447"]
+0[label="main.java.com.google.gwt.widgetideas.client.VSliderBar.VSliderBarImages",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.ImageBundle",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

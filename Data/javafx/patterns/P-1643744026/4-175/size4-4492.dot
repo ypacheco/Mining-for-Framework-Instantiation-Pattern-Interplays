@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4492,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="Williamgood-CST517-VR~/Williamgood-CST517-VR/CST517-VR-master/src/VRApp.java~VRApp~1614",1="jackpaparian-FRED_Navigator_Classroom~/jackpaparian-FRED_Navigator_Classroom/FRED_Navigator_Classroom-master/JavaFX Code/FREDNavigatorTopic1/src/frednavigatortopic1/Topic1Controller.java~Topic1Controller~3239"]
+91[label="new MediaControl()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+92[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+93[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+3[label="javafx.scene.layout.BorderPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+92->91[label="CALL"]
+92->93[label="OF_TYPE"]
+93->3[label="EXTEND",color=blue]
+}

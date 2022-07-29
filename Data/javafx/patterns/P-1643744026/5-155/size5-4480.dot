@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=4480,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="digrach-FX_ParticleManager~/digrach-FX_ParticleManager/FX_ParticleManager-master/src/application/Main.java~Main~2457",1="digrach-FX_ParticleManager~/digrach-FX_ParticleManager/FX_ParticleManager-master/src/application/Main.java~javafx.scene.control.Button addParticleCanvasLauncher()~2458"]
+53[label="new ParticleCanvas()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+54[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+58[label="show()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+55[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+10[label="javafx.stage.Stage",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+54->58[label="CALL"]
+54->55[label="OF_TYPE"]
+54->53[label="CALL"]
+55->10[label="EXTEND",color=blue]
+}

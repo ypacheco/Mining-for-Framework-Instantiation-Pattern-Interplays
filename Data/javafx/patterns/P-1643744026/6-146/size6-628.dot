@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=628,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="zvakanaka-bitbit~/zvakanaka-bitbit/bitbit-master/src/bitbit/BitBit.java~BitBit~4923",1="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/TournamentController.java~TournamentController~3009",2="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/PrizesController.java~PrizesController~2951"]
+336[label="javafx.scene.control.SelectionModel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+400[label="VAR:javafx.scene.control.SelectionModel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+401[label="select()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+282[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+16[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+282->400[label="INSTANTIATE"]
+400->401[label="CALL"]
+0->282[label="DECLARE_METHOD"]
+0->16[label="DECLARE_FIELD"]
+400->336[label="OF_TYPE"]
+}

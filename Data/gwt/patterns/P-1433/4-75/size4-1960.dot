@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1960,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="boscomonkey-gwt_raster_panel~/boscomonkey-gwt_raster_panel/gwt_raster_panel-master/src/com/boscomonkey/gwtraster/client/RasterPanel.java~RasterPanel~902",1="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/TooltipMouseListener.java~TooltipMouseListener~2969"]
+39[label="void onMouseMove(com.google.gwt.user.client.ui.Widget,int,int)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+40[label="PARAMETER:com.google.gwt.user.client.ui.Widget",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+35[label="com.google.gwt.user.client.ui.Widget",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+34[label="PARAMETER:com.google.gwt.user.client.ui.Widget",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+39->40[label="PARAMETER"]
+34->35[label="OF_TYPE"]
+40->35[label="OF_TYPE"]
+}

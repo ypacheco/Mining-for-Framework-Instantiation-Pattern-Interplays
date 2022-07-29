@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4597,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="guigarage-mastering-javafx-controls~/guigarage-mastering-javafx-controls/mastering-javafx-controls-master/src/main/java/com/guigarage/chapter10/EffectsDemo.java~EffectsDemo~2841",1="RomeoGolf-BC~/RomeoGolf-BC/BC-master/src/romeogolf/bc/MainController.java~MainController~1142"]
+12[label="javafx.scene.effect.Reflection",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+11[label="VAR:javafx.scene.effect.Reflection",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+10[label="new Reflection()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+11->12[label="OF_TYPE"]
+11->10[label="CALL"]
+}

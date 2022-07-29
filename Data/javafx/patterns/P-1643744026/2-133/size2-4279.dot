@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=4279,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="rihani-PrayerTime~/rihani-PrayerTime/PrayerTime-master/src/javafxapplication4/JavaFXApplication4.java~JavaFXApplication4~4038",1="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/RadialSettingsLayout.java~RadialSettingsLayout~1170",2="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/LinearSettingsLayout.java~LinearSettingsLayout~1172"]
+785[label="javafx.scene.layout.ColumnConstraintsBuilder",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+848[label="VAR:javafx.scene.layout.ColumnConstraintsBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+848->785[label="OF_TYPE"]
+}

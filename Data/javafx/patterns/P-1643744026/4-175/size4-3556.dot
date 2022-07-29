@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=3556,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="warpcorebreach-AAH~/warpcorebreach-AAH/AAH-master/AAH/src/aah/ResidentHomepageController.java~ResidentHomepageController~4715",1="Johnmalc-JavaFX~/Johnmalc-JavaFX/JavaFX-master/src/game/SingleClassNoXmlBallGame.java~SingleClassNoXmlBallGame~649",2="mrempala-sp~/mrempala-sp/sp-master/src/application/VcProgramStart.java~VcProgramStart~3679"]
+5[label="javafx.scene.control.Hyperlink",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+4[label="FIELD:javafx.scene.control.Hyperlink",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+6[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->4[label="DECLARE_FIELD"]
+4->5[label="OF_TYPE"]
+0->6[label="DECLARE_FIELD"]
+}

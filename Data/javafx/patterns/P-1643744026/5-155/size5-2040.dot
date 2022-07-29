@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=2040,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="youseke-digitalclock~/youseke-digitalclock/digitalclock-master/src/puzzlewithtimer/model/Piece.java~Piece~4896",1="wwtg99-POMA~/wwtg99-POMA/POMA-master/src/cn/edu/suda/core/network/VisualNode.java~VisualNode~4801"]
+7[label="javafx.scene.shape.Shape",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+6[label="FIELD:javafx.scene.shape.Shape",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="FIELD:javafx.geometry.Point2D",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="javafx.geometry.Point2D",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->2[label="DECLARE_FIELD"]
+0->6[label="DECLARE_FIELD"]
+6->7[label="OF_TYPE"]
+2->3[label="OF_TYPE"]
+}

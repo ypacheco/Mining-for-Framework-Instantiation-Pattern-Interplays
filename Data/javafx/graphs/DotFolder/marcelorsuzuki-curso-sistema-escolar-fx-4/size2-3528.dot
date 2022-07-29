@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3528,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.stage.Stage"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="marcelorsuzuki-curso-sistema-escolar-fx",filePath="/marcelorsuzuki-curso-sistema-escolar-fx/curso-sistema-escolar-fx-master/src/br/com/curso/view/StageGeneric.java",contextSignature="StageGeneric",graphId="3528"]
+0[label="br.com.curso.view.StageGeneric",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.stage.Stage",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

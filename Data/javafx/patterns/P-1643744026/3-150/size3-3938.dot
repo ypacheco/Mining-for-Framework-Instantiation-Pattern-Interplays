@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=3938,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="HioLeong-DrawApp~/HioLeong-DrawApp/DrawApp-master/src/main/java/comp2013/hleong/drawapp/DrawApp.java~DrawApp~524",1="Hannibal0416-BackgroundRemoval~/Hannibal0416-BackgroundRemoval/BackgroundRemoval-master/BackgroundRemoval/src/main/java/com/sylksoft/img/backremoval/BackgroundViewer.java~BackgroundViewer~520"]
+10[label="javafx.scene.image.WritableImage",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+9[label="VAR:javafx.scene.image.WritableImage",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+8[label="new WritableImage()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+9->10[label="OF_TYPE"]
+9->8[label="CALL"]
+}

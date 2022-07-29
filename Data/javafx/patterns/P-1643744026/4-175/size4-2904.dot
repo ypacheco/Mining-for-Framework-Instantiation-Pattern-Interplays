@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2904,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="dodaio-SoftwareBlack21G~/dodaio-SoftwareBlack21G/SoftwareBlack21G-master/Blackjack/src/Viewer/MainGamev2Controller.java~MainGamev2Controller~2521",1="svadlamudi-GaussJordanElimination~/svadlamudi-GaussJordanElimination/GaussJordanElimination-master/src/gauss/jordan/elimination/MainController.java~MainController~4396"]
+71[label="FIELD:javafx.scene.control.RadioMenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+66[label="javafx.scene.control.RadioMenuItem",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+9[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+71->66[label="OF_TYPE"]
+0->71[label="DECLARE_FIELD"]
+0->9[label="DECLARE_FIELD"]
+}

@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=982,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[0="982~CLIENT_METHOD_DECLARATION-PARAMETER_DECLARATION-~com.google.gwt.core.client.JavaScriptObject ~com.google.gwt.core.client.JsArrayInteger ~false~false"]
+locationInfo[projectName="brychcy-gwt-jquery",filePath="/brychcy-gwt-jquery/gwt-jquery-master/src/com/xedge/jquery/ui/client/model/SliderOptions.java",contextSignature="SliderOptions",graphId="982"]
+0[label="com.xedge.jquery.ui.client.model.SliderOptions",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+18[label="void setValues(com.xedge.jquery.client.js.JavaScriptIntegerArray)",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+19[label="values",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+20[label="com.xedge.jquery.client.js.JavaScriptIntegerArray",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+21[label="com.google.gwt.core.client.JsArrayInteger",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->18[label="DECLARE_METHOD"]
+20->21[label="EXTEND",color=blue]
+19->20[label="OF_TYPE"]
+18->19[label="PARAMETER"]
+}

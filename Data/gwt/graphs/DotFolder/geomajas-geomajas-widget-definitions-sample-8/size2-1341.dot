@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1341,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.IsWidget"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="geomajas-geomajas-widget-definitions-sample",filePath="/geomajas-geomajas-widget-definitions-sample/geomajas-widget-definitions-sample-master/example/src/main/java/example/client/widget/example/ExampleWidgetView.java",contextSignature="ExampleWidgetView",graphId="1341"]
+0[label="main.java.example.client.widget.example.ExampleWidgetView",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.IsWidget",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

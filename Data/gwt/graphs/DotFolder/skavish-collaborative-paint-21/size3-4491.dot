@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=4491,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.rpc.AsyncCallback"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="skavish-collaborative-paint",filePath="/skavish-collaborative-paint/collaborative-paint-master/src/com/acme/collpaint/client/page/CollPaintPresenter.java",contextSignature="HandlingCallback",graphId="4491"]
+0[label="com.acme.collpaint.client.page.CollPaintPresenter.HandlingCallback",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.rpc.AsyncCallback",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void onFailure(java.lang.Throwable)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+}

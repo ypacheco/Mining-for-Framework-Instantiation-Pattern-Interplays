@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=2812,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.TableCell"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="greenua14-TicTacToeClient",filePath="/greenua14-TicTacToeClient/TicTacToeClient-master/src/sample/Controllers/CreateOrConnectToGameController.java",contextSignature="StringTableCell",graphId="2812"]
+0[label="",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.TableCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

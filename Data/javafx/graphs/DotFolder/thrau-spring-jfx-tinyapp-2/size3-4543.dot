@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=4543,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.util.Callback"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="thrau-spring-jfx-tinyapp",filePath="/thrau-spring-jfx-tinyapp/spring-jfx-tinyapp-master/src/main/java/at/ac/tuwien/ifs/tinyapp/BeanFactoryCallback.java",contextSignature="BeanFactoryCallback",graphId="4543"]
+0[label="main.java.at.ac.tuwien.ifs.tinyapp.BeanFactoryCallback",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.util.Callback",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="java.lang.Object call(java.lang.Class)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+}

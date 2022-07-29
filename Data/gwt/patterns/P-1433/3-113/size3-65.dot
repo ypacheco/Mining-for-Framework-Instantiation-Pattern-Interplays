@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=65,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="nextinterfaces-next~/nextinterfaces-next/next-master/src/next/i/view/widgets/XRadioButtonGroup.java~XRadioButtonGroup~4212",1="aramk-mechanix~/aramk-mechanix/mechanix-master/src/au/edu/unimelb/csse/smd/mechanix/client/view/MenuController.java~MenuController~733",2="nextinterfaces-next~/nextinterfaces-next/next-master/src/next/i/view/widgets/XCheckboxGroup.java~XCheckboxGroup~4204"]
+17[label="void onClick(com.google.gwt.event.dom.client.ClickEvent)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+51[label="VAR:com.google.gwt.user.client.ui.UIObject",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+17->51[label="INSTANTIATE"]
+0->17[label="OVERRIDE"]
+}

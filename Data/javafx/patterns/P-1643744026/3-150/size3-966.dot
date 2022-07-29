@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=966,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=null]
+patternInstancesInfo[0="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/BlindsController.java~BlindsController~2976",1="berker-RSSReader~/berker-RSSReader/RSSReader-master/src/com/deneme/rss/task/RSSReaderTask.java~RSSReaderTask~2002",2="novosga-painel-fx~/novosga-painel-fx/painel-fx-master/src/org/novosga/painel/client/ui/Controller.java~Controller~3787",3="c1um5y-ShotPatterns~/c1um5y-ShotPatterns/ShotPatterns-master/src/org/shotpatterns/ui/ShotPatternsFX.java~SearchSimilarMoviesButtonHandler~2233",4="borissuska-csv-tools~/borissuska-csv-tools/csv-tools-master/src/main/java/sk/suska/csv_tools/ui/FormController.java~FormController~2203"]
+47[label="javafx.collections.FXCollections",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+45[label="VAR:javafx.collections.FXCollections",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+46[label="observableList()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+45->46[label="CALL"]
+45->47[label="OF_TYPE"]
+}

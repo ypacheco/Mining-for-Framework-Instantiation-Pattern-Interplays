@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2114,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=9.0,patternRootClient=null]
+patternInstancesInfo[0="jasonwr-jhuep_ent_web_dev~/jasonwr-jhuep_ent_web_dev/jhuep_ent_web_dev-master/src/hw7/main/Amortization.java~Amortization~3285",1="zvakanaka-bitbit~/zvakanaka-bitbit/bitbit-master/src/bitbit/BitBit.java~BitBit~4923",2="cyberaka-fxddp_poc~/cyberaka-fxddp_poc/fxddp_poc-master/fxddp-gui/src/main/java/com/cyberaka/fxddp/gui/impl/FormView.java~FormView~2335",3="suxue-tetris~/suxue-tetris/tetris-master/src/tetris/core/UIController.java~UIController~4358",4="guigarage-mastering-javafx-controls~/guigarage-mastering-javafx-controls/mastering-javafx-controls-master/src/main/java/com/guigarage/chapter5/TooltipDemo.java~TooltipDemo~2863",5="zvakanaka-bitbit~/zvakanaka-bitbit/bitbit-master/src/bitbit/BitBit.java~void updateFileListView(bitbit.Bitmap)~4928",6="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEPrincipalController.java~CEPrincipalController~2114",7="Cslice-Province~/Cslice-Province/Province-master/ProvincialMiner/src/Provincial_Miner/Gui2.java~Gui2~260",8="aferrandoa-valenciasprints~/aferrandoa-valenciasprints/valenciasprints-master/src/controllers/MainController.java~MainController~1711"]
+12[label="javafx.scene.control.Tooltip",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+21[label="VAR:javafx.scene.control.Tooltip",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+21->12[label="OF_TYPE"]
+}

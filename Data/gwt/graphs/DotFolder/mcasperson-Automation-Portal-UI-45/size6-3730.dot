@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=3730,category="extension_graph",isAnonymous=true,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.cell.client.FieldUpdater"]
+possibleCollaborationsInfo[0="3730~OVERRIDING_METHOD_DECLARATION-PARAMETER_DECLARATION-~com.google.gwt.cell.client.FieldUpdater ~com.google.gwt.core.client.JavaScriptObject ~true~false"]
+locationInfo[projectName="mcasperson-Automation-Portal-UI",filePath="/mcasperson-Automation-Portal-UI/Automation-Portal-UI-master/src/com/redhat/automationportalui/client/pav/SVNStatsView.java",contextSignature="void display()",graphId="3730"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.cell.client.FieldUpdater",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void update(int,com.redhat.automationportalui.client.data.ConfigXMLData,java.lang.String)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="object",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+4[label="com.redhat.automationportalui.client.data.ConfigXMLData",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+5[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+4->5[label="EXTEND",color=blue]
+3->4[label="OF_TYPE"]
+2->3[label="PARAMETER"]
+}

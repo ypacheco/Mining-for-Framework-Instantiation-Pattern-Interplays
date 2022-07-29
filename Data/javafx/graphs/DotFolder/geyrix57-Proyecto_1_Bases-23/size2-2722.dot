@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=2722,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.Button"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="geyrix57-Proyecto_1_Bases",filePath="/geyrix57-Proyecto_1_Bases/Proyecto_1_Bases-master/src/Vista/BotonIr.java",contextSignature="BotonIr",graphId="2722"]
+0[label="Vista.BotonIr",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.Button",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

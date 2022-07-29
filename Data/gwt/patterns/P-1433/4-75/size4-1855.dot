@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1855,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="DeannaSurma-Census~/DeannaSurma-Census/Census-master/src/com/cs4302/census/client/Census.java~Census~109",1="DeannaSurma-Census~/DeannaSurma-Census/Census-master/src/com/cs4302/census/client/Census.java~void createStateTable(java.lang.String)~117",2="DeannaSurma-Census~/DeannaSurma-Census/Census-master/src/com/cs4302/census/client/Census.java~void buildcountytable(java.util.List,com.cs4302.census.shared.profiles.StateProfile)~116"]
+11[label="com.google.gwt.visualization.client.DataTable",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+12[label="VAR:com.google.gwt.visualization.client.DataTable",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+13[label="addColumn()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+18[label="addColumn()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+12->18[label="CALL"]
+12->11[label="OF_TYPE"]
+12->13[label="CALL"]
+}

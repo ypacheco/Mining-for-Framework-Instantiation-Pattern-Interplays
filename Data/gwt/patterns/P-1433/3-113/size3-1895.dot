@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1895,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.event.logical.shared.HasValueChangeHandlers",1="com.google.gwt.place.shared.PlaceHistoryHandler.Historian"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="carlos-aguayo-html5gwthistory~/carlos-aguayo-html5gwthistory/html5gwthistory-master/src/com/dreamskiale/client/history/CustomHistorian.java~CustomHistorian~1026",1="carlos-aguayo-html5gwthistory~/carlos-aguayo-html5gwthistory/html5gwthistory-master/src/com/dreamskiale/client/history/HashBangHistorian.java~HashBangHistorian~1027",2="carlos-aguayo-html5gwthistory~/carlos-aguayo-html5gwthistory/html5gwthistory-master/src/com/dreamskiale/client/history/Html5Historian.java~Html5Historian~1025"]
+1[label="com.google.gwt.place.shared.PlaceHistoryHandler.Historian",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="com.google.gwt.event.logical.shared.HasValueChangeHandlers",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0->2[label="IMPLEMENT",color=red]
+0->1[label="IMPLEMENT",color=red]
+}

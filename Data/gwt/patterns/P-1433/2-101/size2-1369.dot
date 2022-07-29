@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1369,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="j78wu-HyperDex-GUI~/j78wu-HyperDex-GUI/HyperDex-GUI-master/src/com/hyperdex/web/client/view/HyperSpace.java~HyperSpace~3091",1="woox-serverapp~/woox-serverapp/serverapp-master/src/wooxes/net/shared/Usuari.java~Usuari~4667"]
+32[label="com.google.gwt.user.client.ui.FlexTable.FlexCellFormatter",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+57[label="VAR:com.google.gwt.user.client.ui.FlexTable.FlexCellFormatter",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+57->32[label="OF_TYPE"]
+}

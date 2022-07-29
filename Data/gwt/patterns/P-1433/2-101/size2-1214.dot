@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1214,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/widgets/AnswerGrid.java~AnswerGrid~430",1="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/easyoverlay/src/com/akjava/gwt/hangout/easyoverlay/client/EasyOverlay.java~EasyOverlay~492",2="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/AlgebrApp.java~AlgebrApp~3667",3="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/accueil/AccueilPanel.java~AccueilPanel~198"]
+96[label="com.google.gwt.user.client.ui.RadioButton",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+184[label="VAR:com.google.gwt.user.client.ui.RadioButton",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+184->96[label="OF_TYPE"]
+}

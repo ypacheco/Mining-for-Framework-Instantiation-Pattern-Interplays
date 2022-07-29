@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4560,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/PrizesController.java~PrizesController~2951",1="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/PrizesController.java~void chargePrizeStructListView()~2958"]
+8[label="new ComposeDefinedPrizeStructCell()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+9[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+10[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+5[label="javafx.scene.control.ListCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+9->10[label="OF_TYPE"]
+9->8[label="CALL"]
+10->5[label="EXTEND",color=blue]
+}

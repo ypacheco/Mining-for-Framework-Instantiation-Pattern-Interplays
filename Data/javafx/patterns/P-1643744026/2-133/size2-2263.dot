@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2263,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="KraiZeur-library~/KraiZeur-library/library-master/src/application/presentationLayer/screens/bookScreens/BookRemoveScreen.java~javafx.scene.layout.Pane getPane()~753",1="KraiZeur-library~/KraiZeur-library/library-master/src/application/presentationLayer/screens/userScreens/UserFindScreen.java~javafx.scene.layout.Pane getPane()~773",2="miamidade-spook-detector~/miamidade-spook-detector/spook-detector-master/src/gov/miamidade/mediaviewer/MediaViewerPane.java~void initialize()~3629",3="KraiZeur-library~/KraiZeur-library/library-master/src/application/presentationLayer/screens/bookScreens/BookFindScreen.java~javafx.scene.layout.Pane getPane()~758"]
+8[label="javafx.geometry.Bounds",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+7[label="PARAMETER:javafx.geometry.Bounds",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+7->8[label="OF_TYPE"]
+}

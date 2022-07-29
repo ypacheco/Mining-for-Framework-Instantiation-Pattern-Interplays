@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=786,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="aviera-websockets-gwtready",filePath="/aviera-websockets-gwtready/websockets-gwtready-master/src/org/arielviera/gwt/websockets/client/websockets/WebSocketNative.java",contextSignature="WebSocketNative",graphId="786"]
+0[label="org.arielviera.gwt.websockets.client.websockets.WebSocketNative",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=124,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Button"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=7.0,patternRootClient=0]
+patternInstancesInfo[0="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/coffeeRoom/ChoixSallePanel.java~CarreChoixSalle~264",1="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/coffeeRoom/ListUserPanel.java~ejectBouton~234",2="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/Symbol.java~Symbol~3662",3="Christian-Achilli-ropasci~/Christian-Achilli-ropasci/ropasci-master/Rock-Paper-Scissor/src/main/java/com/chris/interview/client/RopasciGame.java~ChoiceButton~85",4="felype87-gwt~/felype87-gwt/gwt-master/Minefield/src/com/felype/minefield/client/ButtonField.java~ButtonField~1325",5="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/Monomial.java~Monomial~3654",6="Archerw-mastermind~/Archerw-mastermind/mastermind-master/nyu-smg-mastermind/src/org/mastermind/graphics/MasterMindGraphic.java~DragButton~35"]
+1[label="com.google.gwt.user.client.ui.Button",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

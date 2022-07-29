@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=2526,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.ToggleButton"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="dominique09-TP2-Demineur",filePath="/dominique09-TP2-Demineur/TP2-Demineur-master/src/ca/csf/minesweeper/MainController.java",contextSignature="CellButton",graphId="2526"]
+0[label="ca.csf.minesweeper.MainController.CellButton",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.ToggleButton",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

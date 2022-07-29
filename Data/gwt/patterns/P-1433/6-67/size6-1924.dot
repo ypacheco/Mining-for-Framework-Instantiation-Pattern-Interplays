@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1924,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/easyoverlay/src/com/akjava/gwt/hangout/easyoverlay/client/EasyOverlay.java~EasyOverlay~492",1="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/sound-player/src/com/akjava/gwt/hangout/soundplayer/client/HangoutSoundPlayer.java~HangoutSoundPlayer~561"]
+372[label="com.akjava.gwt.lib.client.StorageDataList.HeaderAndValue",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+546[label="VAR:com.akjava.gwt.lib.client.StorageDataList.HeaderAndValue",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+547[label="getId()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+550[label="getData()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+370[label="VAR:com.akjava.gwt.lib.client.StorageDataList.HeaderAndValue",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+371[label="getData()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+546->372[label="OF_TYPE"]
+546->547[label="CALL"]
+546->550[label="CALL"]
+370->372[label="OF_TYPE"]
+370->371[label="CALL"]
+}

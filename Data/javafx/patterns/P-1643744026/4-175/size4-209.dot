@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=209,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="RUAN0007-Simulator~/RUAN0007-Simulator/Simulator-master/Simulator/src/application/Main.java~Main~1118",1="gossipgirls-spacetraders~/gossipgirls-spacetraders/spacetraders-master/src/spacetraders/SpaceTraders.java~SpaceTraders~2782"]
+270[label="new Scene()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+271[label="VAR:javafx.scene.Scene",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+279[label="lookup()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+272[label="javafx.scene.Scene",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+271->272[label="OF_TYPE"]
+271->270[label="CALL"]
+271->279[label="CALL"]
+}

@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=2554,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/RadialSettingsLayout.java~RadialSettingsLayout~1170",1="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/LinearSettingsLayout.java~LinearSettingsLayout~1172",2="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/AbstractSettingsLayout.java~AbstractSettingsLayout~1175"]
+455[label="new SliderTextField()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+456[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+317[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+338[label="VAR:javafx.scene.NodeBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+0->317[label="DECLARE_METHOD"]
+456->455[label="CALL"]
+317->456[label="INSTANTIATE"]
+317->338[label="INSTANTIATE"]
+}

@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=4458,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="novosga-painel-fx~/novosga-painel-fx/painel-fx-master/src/org/novosga/painel/client/ui/Controller.java~void initialize(java.net.URL,java.util.ResourceBundle)~3797",1="novosga-painel-fx~/novosga-painel-fx/painel-fx-master/src/org/novosga/painel/client/ui/Controller.java~Controller~3787"]
+339[label="new VideoTester()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+340[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+44[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+353[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+354[label="start()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+24[label="javafx.application.Application",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+353->44[label="OF_TYPE"]
+44->24[label="EXTEND",color=blue]
+340->44[label="OF_TYPE"]
+340->339[label="CALL"]
+353->354[label="CALL"]
+}

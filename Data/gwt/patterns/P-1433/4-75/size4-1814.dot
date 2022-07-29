@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1814,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="betacraft-RdpGwtClient~/betacraft-RdpGwtClient/RdpGwtClient-master/src/com/droidcloud/viewer/client/MCS.java~void connect(java.lang.String,int,com.droidcloud.viewer.client.RdpPacket_Localised,com.droidcloud.viewer.client.Rdp)~844",1="betacraft-RdpGwtClient~/betacraft-RdpGwtClient/RdpGwtClient-master/src/com/droidcloud/viewer/client/DroidCloudViewer.java~DroidCloudViewer~825"]
+46[label="new SecureRecievedEvent()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+47[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+39[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+7[label="com.google.gwt.event.shared.GwtEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+47->39[label="OF_TYPE"]
+39->7[label="EXTEND",color=blue]
+47->46[label="CALL"]
+}

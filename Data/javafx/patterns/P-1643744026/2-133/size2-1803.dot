@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1803,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="tarchan-ClipFX~/tarchan-ClipFX/ClipFX-master/src/com/mac/tarchan/clipfx/ClipFXController.java~ClipFXController~4467",1="giatuyentiensinh-Project1~/giatuyentiensinh-Project1/Project1-master/Project1/src/control/MainUIController.java~MainUIController~2734"]
+37[label="javafx.scene.control.TitledPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+36[label="FIELD:javafx.scene.control.TitledPane",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+36->37[label="OF_TYPE"]
+}

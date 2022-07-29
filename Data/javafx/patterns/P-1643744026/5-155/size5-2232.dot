@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=2232,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="skrb-SimplePresenter~/skrb-SimplePresenter/SimplePresenter-master/src/net/javainthebox/jfx/simplepresenter/SimplePresenter.java~SimplePresenter~4239",1="Fisiu-skontrumFx~/Fisiu-skontrumFx/skontrumFx-master/skontrumFxApp/src/application/SkontrumController.java~SkontrumController~457"]
+8[label="javafx.scene.control.ContextMenu",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+38[label="VAR:javafx.scene.control.ContextMenu",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+7[label="FIELD:javafx.scene.control.ContextMenu",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+37[label="new ContextMenu()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+38->8[label="OF_TYPE"]
+7->8[label="OF_TYPE"]
+38->37[label="CALL"]
+0->7[label="DECLARE_FIELD"]
+}

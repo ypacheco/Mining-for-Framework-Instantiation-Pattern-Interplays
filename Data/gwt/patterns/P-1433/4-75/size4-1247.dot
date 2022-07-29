@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1247,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.animation.client.Animation"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="vlapan-PhotoBank~/vlapan-PhotoBank/PhotoBank-master/src/com/vlapan/gwt/photobank/client/animation/Opacity.java~Opacity~4589",1="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/DragMoveAnimation.java~DragMoveAnimation~3659"]
+17[label="void onComplete()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+18[label="super.onComplete()",vertexType="SUPER_CALL",isFrameworkType=false,shape=box]
+1[label="com.google.gwt.animation.client.Animation",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->17[label="OVERRIDE"]
+17->18[label="CALL"]
+0->1[label="EXTEND",color=red]
+}

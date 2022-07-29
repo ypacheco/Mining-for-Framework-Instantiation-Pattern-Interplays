@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=3763,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="tarchan-ClipFX~/tarchan-ClipFX/ClipFX-master/src/com/mac/tarchan/clipfx/ClipFXController.java~ClipFXController~4467",1="soonzsoonz-QuickFoot~/soonzsoonz-QuickFoot/QuickFoot-master/src/application/FXMLAdoptionController.java~FXMLAdoptionController~4247"]
+86[label="javafx.beans.binding.NumberExpressionBase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+84[label="VAR:javafx.beans.binding.NumberExpressionBase",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+63[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+50[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+84->86[label="OF_TYPE"]
+0->50[label="DECLARE_FIELD"]
+0->63[label="OVERRIDE"]
+63->84[label="INSTANTIATE"]
+}

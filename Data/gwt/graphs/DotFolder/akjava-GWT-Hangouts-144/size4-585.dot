@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=585,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[0="585~CLIENT_METHOD_DECLARATION-RETURN_TYPE-~com.google.gwt.core.client.JavaScriptObject ~com.google.gwt.core.client.JavaScriptObject ~false~false"]
+locationInfo[projectName="akjava-GWT-Hangouts",filePath="/akjava-GWT-Hangouts/GWT-Hangouts-master/src/com/akjava/gwt/lib/hangouts/client/Participant.java",contextSignature="Participant",graphId="585"]
+0[label="com.akjava.gwt.lib.hangouts.client.Participant",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+7[label="com.akjava.gwt.lib.hangouts.client.Person getPerson()",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+8[label="com.akjava.gwt.lib.hangouts.client.Person",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+0->1[label="EXTEND",color=red]
+0->7[label="DECLARE_METHOD"]
+8->1[label="EXTEND",color=blue]
+7->8[label="RETURN"]
+}

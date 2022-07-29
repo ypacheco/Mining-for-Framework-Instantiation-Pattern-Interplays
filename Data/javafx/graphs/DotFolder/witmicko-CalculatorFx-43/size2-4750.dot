@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4750,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.TextField"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="witmicko-CalculatorFx",filePath="/witmicko-CalculatorFx/CalculatorFx-master/src/calc/Display.java",contextSignature="Display",graphId="4750"]
+0[label="calc.Display",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.TextField",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

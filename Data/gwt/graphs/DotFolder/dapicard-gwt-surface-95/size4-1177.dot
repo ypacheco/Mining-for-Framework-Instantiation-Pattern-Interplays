@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=1177,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.IsWidget",1="com.google.gwt.user.client.ui.HasValue",2="com.google.gwt.event.dom.client.HasFocusHandlers"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="dapicard-gwt-surface",filePath="/dapicard-gwt-surface/gwt-surface-master/gwt-surface/src/main/java/com/axeiya/gwt/surface/client/Surface.java",contextSignature="Surface",graphId="1177"]
+0[label="main.java.com.axeiya.gwt.surface.client.Surface",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.IsWidget",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="com.google.gwt.user.client.ui.HasValue",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+3[label="com.google.gwt.event.dom.client.HasFocusHandlers",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="IMPLEMENT",color=red]
+0->3[label="IMPLEMENT",color=red]
+}

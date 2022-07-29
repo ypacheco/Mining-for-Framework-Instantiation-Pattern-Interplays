@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=618,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.HBox"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="taipeiben-DateTimePicker~/taipeiben-DateTimePicker/DateTimePicker-master/src/main/java/com/browniebytes/javafx/control/DateTimePicker.java~DateTimePicker~4449",1="v1ct04-lagbackup~/v1ct04-lagbackup/lagbackup-master/src/com/v1ct04/ces22/lagbackup/view/custom/FileChooseElement.java~FileChooseElement~4620"]
+1[label="javafx.scene.layout.HBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+6[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+7[label="javafx.scene.control.Button",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+4[label="FIELD:javafx.scene.control.TextField",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+5[label="javafx.scene.control.TextField",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->1[label="EXTEND",color=red]
+4->5[label="OF_TYPE"]
+0->6[label="DECLARE_FIELD"]
+6->7[label="OF_TYPE"]
+0->4[label="DECLARE_FIELD"]
+}

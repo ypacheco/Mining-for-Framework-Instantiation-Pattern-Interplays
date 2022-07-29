@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1767,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="Namrack-TeachToLearn~/Namrack-TeachToLearn/TeachToLearn-master/TeachToLearn/src/ttl/client/layout/MainLayout.java~MainLayout~349",1="Namrack-TeachToLearn~/Namrack-TeachToLearn/TeachToLearn-master/TeachToLearn/src/ttl/client/layout/widgets/ContainerWidget.java~ContainerWidget~372"]
+16[label="FIELD:com.smartgwt.client.widgets.layout.VLayout",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+10[label="com.smartgwt.client.widgets.layout.VLayout",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+16->10[label="OF_TYPE"]
+}

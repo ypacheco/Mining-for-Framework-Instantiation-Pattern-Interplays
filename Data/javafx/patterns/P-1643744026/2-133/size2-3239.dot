@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=3239,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/moviemenu/RadialMovieMenu.java~RadialMovieMenu~969",1="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/thermostat/NestNoCss.java~NestNoCss~985"]
+5[label="javafx.scene.paint.Paint",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+6[label="FIELD:javafx.scene.paint.Paint",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+6->5[label="OF_TYPE"]
+}

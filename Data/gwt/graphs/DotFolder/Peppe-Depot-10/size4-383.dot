@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=383,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.vaadin.terminal.gwt.client.communication.ClientRpc"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Peppe-Depot",filePath="/Peppe-Depot/Depot-master/src/com/jensjansson/depot/client/ui/DepotConnector.java",contextSignature="void init()",graphId="383"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.vaadin.terminal.gwt.client.communication.ClientRpc",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void registerRpc(java.lang.Class,com.jensjansson.depot.client.ui.DepotClientRpc)",vertexType="OUTSIDE_CALL",isFrameworkType=true,peripheries=2]
+3[label="com.vaadin.terminal.gwt.client.ui.AbstractConnector",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+2->0[label="ARGUMENT"]
+2->3[label="OF_TYPE"]
+}

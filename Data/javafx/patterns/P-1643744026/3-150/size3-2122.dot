@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2122,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=7.0,patternRootClient=0]
+patternInstancesInfo[0="mrempala-sp~/mrempala-sp/sp-master/src/application/VcSequencePreview.java~VcSequencePreview~3683",1="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/TournamentController.java~TournamentController~3009",2="dinder-mufflin-igtv~/dinder-mufflin-igtv/igtv-master/GUI/src/com/igtv/ui/ImportController.java~ImportController~2481",3="JoshuaHanrahan-DVDCollectionApp~/JoshuaHanrahan-DVDCollectionApp/DVDCollectionApp-master/src/dvdcollectionapp/view/DvdcollectionappfxmlController.java~DvdcollectionappfxmlController~728",4="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/NiconNavigator/NavegadorController.java~NavegadorController~2563",5="mathiasj33-VocLearn~/mathiasj33-VocLearn/VocLearn-master/src/net/softwarepage/voclearn/code/Gui.java~Gui~3576",6="mrempala-sp~/mrempala-sp/sp-master/src/application/VcSetupSquibGroups.java~VcSetupSquibGroups~3676"]
+4[label="FIELD:javafx.scene.control.TabPane",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+44[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->4[label="DECLARE_FIELD"]
+0->44[label="DECLARE_FIELD"]
+}

@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=3907,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="Orlando80-mongo_management_studio~/Orlando80-mongo_management_studio/mongo_management_studio-master/src/Presentation/Controllers/mainController.java~void initialize()~1067",1="sannies-isoviewer-fx~/sannies-isoviewer-fx/isoviewer-fx-master/src/main/java/com/googlecode/mp4parser/mp4inspector/AddBoxTabListener.java~AddBoxTabListener~4075"]
+4[label="void changed(javafx.beans.value.ObservableValue,javafx.scene.control.TreeItem,javafx.scene.control.TreeItem)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+5[label="PARAMETER:javafx.beans.value.ObservableValue",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+9[label="PARAMETER:javafx.scene.control.TreeItem",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+17[label="getValue()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+4->5[label="PARAMETER"]
+9->17[label="CALL"]
+4->9[label="PARAMETER"]
+}

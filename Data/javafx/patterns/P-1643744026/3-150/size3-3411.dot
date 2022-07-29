@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=3411,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="jackpaparian-FRED_Navigator_Classroom~/jackpaparian-FRED_Navigator_Classroom/FRED_Navigator_Classroom-master/JavaFX Code/FREDNavigatorTopic1/src/frednavigatortopic1/Topic1Controller.java~Topic1Controller~3239",1="Tsaru-Java-MP3-Visualizations~/Tsaru-Java-MP3-Visualizations/Java-MP3-Visualizations-master/mp3 Visualization/src/VisualizationInterface.java~void start(javafx.stage.Stage)~1512"]
+87[label="javafx.scene.media.Media",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+86[label="VAR:javafx.scene.media.Media",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+85[label="new Media()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+86->87[label="OF_TYPE"]
+86->85[label="CALL"]
+}

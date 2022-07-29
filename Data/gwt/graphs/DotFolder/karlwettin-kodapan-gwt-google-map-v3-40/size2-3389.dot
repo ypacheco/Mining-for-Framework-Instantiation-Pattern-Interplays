@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3389,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.ComplexPanel"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="karlwettin-kodapan-gwt-google-map-v3",filePath="/karlwettin-kodapan-gwt-google-map-v3/kodapan-gwt-google-map-v3-master/src/main/java/se/kodapan/gwt/google/maps/v3/client/InfoWindowFacade.java",contextSignature="FakePanel",graphId="3389"]
+0[label="main.java.se.kodapan.gwt.google.maps.v3.client.InfoWindowFacade.FakePanel",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.ComplexPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

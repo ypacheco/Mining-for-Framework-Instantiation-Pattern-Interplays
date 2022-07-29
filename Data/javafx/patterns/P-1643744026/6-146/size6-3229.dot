@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=3229,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="dimituri-milk~/dimituri-milk/milk-master/milk-core/src/main/java/lv/dimituri/milk/core/Folds.java~Folds~2471",1="dimituri-milk~/dimituri-milk/milk-master/milk-core/src/main/java/lv/dimituri/milk/core/Filters.java~Filters~2472",2="dimituri-milk~/dimituri-milk/milk-master/milk-core/src/main/java/lv/dimituri/milk/core/Maps.java~Maps~2475"]
+23[label="new AtomicSignal()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+24[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+17[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+51[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+35[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+17->24[label="INSTANTIATE"]
+0->51[label="DECLARE_METHOD"]
+24->23[label="CALL"]
+0->17[label="DECLARE_METHOD"]
+0->35[label="DECLARE_METHOD"]
+}

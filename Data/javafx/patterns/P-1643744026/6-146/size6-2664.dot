@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=2664,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/TournamentController.java~TournamentController~3009",1="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/PrizesController.java~PrizesController~2951"]
+934[label="new ContextMenu()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+935[label="VAR:javafx.scene.control.ContextMenu",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+897[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+8[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+79[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->8[label="DECLARE_FIELD"]
+935->934[label="CALL"]
+0->79[label="DECLARE_FIELD"]
+0->897[label="DECLARE_METHOD"]
+897->935[label="INSTANTIATE"]
+}

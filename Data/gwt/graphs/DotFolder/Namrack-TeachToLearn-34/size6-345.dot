@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=345,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="net.zschech.gwt.websockets.client.OpenHandler"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Namrack-TeachToLearn",filePath="/Namrack-TeachToLearn/TeachToLearn-master/TeachToLearn/src/ttl/client/TeachToLearn.java",contextSignature="void connect()",graphId="345"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="net.zschech.gwt.websockets.client.OpenHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void setOnOpen(net.zschech.gwt.websockets.client.OpenHandler)",vertexType="OUTSIDE_CALL",isFrameworkType=true,peripheries=2]
+3[label="net.zschech.gwt.websockets.client.WebSocket",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="void onOpen(net.zschech.gwt.websockets.client.WebSocket)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+5[label="webSocket",vertexType="PARAMETER_DECLARATION",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+2->0[label="ARGUMENT"]
+2->3[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+5->3[label="OF_TYPE"]
+4->5[label="PARAMETER"]
+}

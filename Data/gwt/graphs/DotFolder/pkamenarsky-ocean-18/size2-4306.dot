@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4306,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="gwt.g3d.client.shader.Shader"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="pkamenarsky-ocean",filePath="/pkamenarsky-ocean/ocean-master/src/com/eleven/client/gl/TextureShader.java",contextSignature="TextureShader",graphId="4306"]
+0[label="com.eleven.client.gl.TextureShader",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="gwt.g3d.client.shader.Shader",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

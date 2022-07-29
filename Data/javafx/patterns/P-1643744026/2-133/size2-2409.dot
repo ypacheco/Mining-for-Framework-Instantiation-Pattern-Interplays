@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2409,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="PatrickOtt-ReservationManager~/PatrickOtt-ReservationManager/ReservationManager-master/src/main/java/de/professional_webworkx/reservationmanager/controller/MainController.java~MainController~1080",1="warpcorebreach-AAH~/warpcorebreach-AAH/AAH-master/AAH/src/aah/ApplicationFormController.java~ApplicationFormController~4737",2="Cslice-Province~/Cslice-Province/Province-master/ProvincialMiner/src/Provincial_Miner/Gui2.java~Gui2~260"]
+9[label="javafx.scene.control.DatePicker",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+8[label="FIELD:javafx.scene.control.DatePicker",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+8->9[label="OF_TYPE"]
+}

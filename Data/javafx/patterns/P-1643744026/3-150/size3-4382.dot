@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4382,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.concurrent.Task"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="jdtommy-NiceTail~/jdtommy-NiceTail/NiceTail-master/src/sample/LoadFileTask.java~LoadFileTask~3305",1="Orfanik-GitSnapshot~/Orfanik-GitSnapshot/GitSnapshot-master/GitSnapshot/src/model/action/MakeGitSnapshot.java~MakeGitSnapshot~1063"]
+14[label="java.lang.String call()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.concurrent.Task",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->1[label="EXTEND",color=red]
+0->14[label="OVERRIDE"]
+}

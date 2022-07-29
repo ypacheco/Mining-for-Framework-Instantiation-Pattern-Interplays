@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=4873,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.VBox"]
+possibleCollaborationsInfo[0="4873~FIELD_DECLARATION-~javafx.scene.layout.VBox ~javafx.scene.control.TableView ~false~false"]
+locationInfo[projectName="yaw-javafx-jpa-crud",filePath="/yaw-javafx-jpa-crud/javafx-jpa-crud-master/src/main/java/br/com/yaw/jfx/ui/MercadoriaTable.java",contextSignature="MercadoriaTable",graphId="4873"]
+0[label="main.java.br.com.yaw.jfx.ui.MercadoriaTable",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.VBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="table",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="main.java.br.com.yaw.jfx.ui.MercadoriaTableView",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="javafx.scene.control.TableView",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+3->4[label="EXTEND",color=blue]
+2->3[label="OF_TYPE"]
+}

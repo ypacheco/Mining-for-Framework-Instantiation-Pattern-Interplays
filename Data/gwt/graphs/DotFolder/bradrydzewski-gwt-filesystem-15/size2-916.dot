@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=916,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.dom.client.NativeEvent"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="bradrydzewski-gwt-filesystem",filePath="/bradrydzewski-gwt-filesystem/gwt-filesystem-master/gwt-filesystem/src/main/java/com/google/gwt/filesystem/client/ProgressEvent.java",contextSignature="ProgressEvent",graphId="916"]
+0[label="main.java.com.google.gwt.filesystem.client.ProgressEvent",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.dom.client.NativeEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

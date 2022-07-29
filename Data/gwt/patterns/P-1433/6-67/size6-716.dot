@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=716,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.rpc.AsyncCallback"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="neilsh-gwtfb~/neilsh-gwtfb/gwtfb-master/GwtFB/src/com/gwtfb/client/UserInfoViewController.java~PostsCallback~4143",1="neilsh-gwtfb~/neilsh-gwtfb/gwtfb-master/GwtFB/src/com/gwtfb/client/GwtFB.java~SessionChangeCallback~4135"]
+3[label="PARAMETER:com.google.gwt.core.client.JavaScriptObject",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+2[label="void onSuccess(com.google.gwt.core.client.JavaScriptObject)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.rpc.AsyncCallback",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+4[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+6[label="cast()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+3->6[label="CALL"]
+2->3[label="PARAMETER"]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+3->4[label="OF_TYPE"]
+}

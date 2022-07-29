@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=650,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=13.0,patternRootClient=0]
+patternInstancesInfo[0="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/Project.java~Project~1849",1="if12b051-SWP_Paint~/if12b051-SWP_Paint/SWP_Paint-master/SWP_Paint/src/gui/MainController.java~MainController~3089",2="novosga-painel-fx~/novosga-painel-fx/painel-fx-master/src/org/novosga/painel/client/ui/Controller.java~Controller~3787",3="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/MainPane.java~MainPane~1847",4="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEGestionRemisesController.java~CEGestionRemisesController~2018",5="matanghuy-SPCA~/matanghuy-SPCA/SPCA-master/SPCA/src/controllers/TransController.java~TransController~3572",6="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/TournamentController.java~TournamentController~3009",7="JustinAarden-C2J-Stamboom~/JustinAarden-C2J-Stamboom/C2J-Stamboom-master/src/stamboom/gui/StamboomFXController.java~StamboomFXController~734",8="prashker-KingsSGF~/prashker-KingsSGF/KingsSGF-master/src/uiSam/FighterView.java~FighterView~3912",9="NirmalL-Shark~/NirmalL-Shark/Shark-master/src/Controller.java~Controller~1009",10="gleba-cppoints~/gleba-cppoints/cppoints-master/src/cpapp/view/ReadFormController.java~ReadFormController~2757",11="Tsaru-Java-MP3-Visualizations~/Tsaru-Java-MP3-Visualizations/Java-MP3-Visualizations-master/mp3 Visualization/src/VisualizationInterface.java~VisualizationInterface~1511",12="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CECommandeController.java~CECommandeController~2084"]
+110[label="FIELD:javafx.scene.control.ComboBox",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+52[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+59[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+79[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->110[label="DECLARE_FIELD"]
+0->52[label="DECLARE_FIELD"]
+0->79[label="DECLARE_FIELD"]
+0->59[label="DECLARE_FIELD"]
+}

@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=1520,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.media.AudioSpectrumListener"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Tsaru-Java-MP3-Visualizations",filePath="/Tsaru-Java-MP3-Visualizations/Java-MP3-Visualizations-master/mp3 Visualization/src/SpectrumListener.java",contextSignature="SpectrumListener",graphId="1520"]
+0[label="SpectrumListener",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.media.AudioSpectrumListener",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void spectrumDataUpdate(double,double,float[],float[])",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+}

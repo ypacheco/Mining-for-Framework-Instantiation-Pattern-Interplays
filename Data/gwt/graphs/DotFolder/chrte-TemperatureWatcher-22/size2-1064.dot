@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1064,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.FlexTable"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="chrte-TemperatureWatcher",filePath="/chrte-TemperatureWatcher/TemperatureWatcher-master/src/com/google/gwt/sample/stockwatcher/client/DnDFlexTable.java",contextSignature="DnDFlexTable",graphId="1064"]
+0[label="com.google.gwt.sample.stockwatcher.client.DnDFlexTable",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.FlexTable",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

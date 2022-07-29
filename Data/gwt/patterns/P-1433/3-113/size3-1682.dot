@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=1682,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.view.client.ProvidesKey"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/model/User.java~User~184",1="mcasperson-Automation-Portal-UI~/mcasperson-Automation-Portal-UI/Automation-Portal-UI-master/src/com/redhat/automationportalui/client/pav/SVNStatsView.java~void display()~3728"]
+1[label="com.google.gwt.view.client.ProvidesKey",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+2[label="VAR",vertexType="OUTSIDE_VARIABLE_EXPRESION",isFrameworkType=false]
+2->1[label="OF_TYPE"]
+0->2[label="ASSIGMENT"]
+0->1[label="IMPLEMENT",color=red]
+}

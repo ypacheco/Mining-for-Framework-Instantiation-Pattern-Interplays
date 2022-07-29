@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2975,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=8.0,patternRootClient=null]
+patternInstancesInfo[0="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/RadialSettingsLayout.java~RadialSettingsLayout~1170",1="yorlov-VirtualPointer~/yorlov-VirtualPointer/VirtualPointer-master/src/com/blogspot/captain1653/options/OptionsStage.java~OptionsStage~4889",2="VaibhavJain-JavaFx-2.0-Ludo~/VaibhavJain-JavaFx-2.0-Ludo/JavaFx-2.0-Ludo-master/src/org/vaib/LudoMain.java~LudoMain~1569",3="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/LinearSettingsLayout.java~LinearSettingsLayout~1172",4="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/AbstractSettingsLayout.java~AbstractSettingsLayout~1175",5="KraiZeur-library~/KraiZeur-library/library-master/src/application/presentationLayer/screens/bookScreens/BookFindScreen.java~bookInfoHandler~760",6="v1ct04-lagbackup~/v1ct04-lagbackup/lagbackup-master/src/com/v1ct04/ces22/lagbackup/view/main/controllers/MainWindowController.java~MainWindowController~4628",7="amonker-AmonkerFX~/amonker-AmonkerFX/AmonkerFX-master/src/cn/jingyun/javafx/amonker/ui/ButtonStyles.java~ButtonStyles~1840"]
+93[label="javafx.scene.control.LabeledBuilder",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+632[label="VAR:javafx.scene.control.LabeledBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+632->93[label="OF_TYPE"]
+}

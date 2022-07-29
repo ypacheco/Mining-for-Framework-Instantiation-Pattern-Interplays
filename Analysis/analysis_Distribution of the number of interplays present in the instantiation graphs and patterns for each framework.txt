@@ -1,0 +1,75 @@
+import pandas as pd
+import seaborn as sns
+import pandas as pd
+import matplotlib.pyplot as plt
+
+
+df_gwt_DistributionByNumberInterplaysPerGraphs = pd.read_csv('/gwt/graphs/DistributionByNumberInterplaysPerGraphs.csv', sep=";")
+
+df_gwt_DistributionByNumberInterplaysPerPatters = pd.read_csv('/gwt/patterns/DistributionByNumberInterplaysPerGraphs.csv', sep=";")
+
+
+df_javafx_DistributionByNumberInterplaysPerGraphs = pd.read_csv('/javafx/graphs/DistributionByNumberInterplaysPerGraphs.csv', sep=";")
+
+df_javafx_DistributionByNumberInterplaysPerPatters = pd.read_csv('/javafx/patterns/DistributionByNumberInterplaysPerGraphs.csv', sep=";")
+
+
+df_play_DistributionByNumberInterplaysPerGraphs = pd.read_csv('/play/graphs/DistributionByNumberInterplaysPerGraphs.csv', sep=";")
+
+df_play_DistributionByNumberInterplaysPerPatters = pd.read_csv('/play/patterns/DistributionByNumberInterplaysPerGraphs.csv', sep=";")
+
+df_spring_DistributionByNumberInterplaysPerGraphs = pd.read_csv('/spring/graphs/DistributionByNumberInterplaysPerGraphs.csv', sep=";")
+
+df_spring_DistributionByNumberInterplaysPerPatters = pd.read_csv('/spring/patterns/DistributionByNumberInterplaysPerGraphs.csv', sep=";")
+
+
+
+df_gwt_DistributionByNumberInterplaysPerGraphs['framework'] = "GWT"
+df_gwt_DistributionByNumberInterplaysPerPatters['framework'] = "GWT"
+
+df_javafx_DistributionByNumberInterplaysPerGraphs['framework'] = "JAVAFX"
+df_javafx_DistributionByNumberInterplaysPerPatters['framework'] = "JAVAFX"
+
+df_play_DistributionByNumberInterplaysPerGraphs['framework'] = "PLAY"
+df_play_DistributionByNumberInterplaysPerPatters['framework'] = "PLAY"
+
+df_spring_DistributionByNumberInterplaysPerGraphs['framework'] = "SPRING"
+df_spring_DistributionByNumberInterplaysPerPatters['framework'] = "SPRING"
+
+df_gwt_DistributionByNumberInterplaysPerGraphs['kind'] = "Graphs"
+df_gwt_DistributionByNumberInterplaysPerPatters['kind'] = "Patterns"
+
+df_javafx_DistributionByNumberInterplaysPerGraphs['kind'] = "Graphs"
+df_javafx_DistributionByNumberInterplaysPerPatters['kind'] = "Patterns"
+
+df_play_DistributionByNumberInterplaysPerGraphs['kind'] = "Graphs"
+df_play_DistributionByNumberInterplaysPerPatters['kind'] = "Patterns"
+
+df_spring_DistributionByNumberInterplaysPerGraphs['kind'] = "Graphs"
+df_spring_DistributionByNumberInterplaysPerPatters['kind'] = "Patterns"
+
+
+df_gwt_DistributionByNumberInterplaysPerGraphsPatterns = pd.concat([df_gwt_DistributionByNumberInterplaysPerGraphs,df_gwt_DistributionByNumberInterplaysPerPatters])
+
+df_javafx_DistributionByNumberInterplaysPerGraphsPatterns = pd.concat([df_javafx_DistributionByNumberInterplaysPerGraphs,df_javafx_DistributionByNumberInterplaysPerPatters])
+
+df_play_DistributionByNumberInterplaysPerGraphsPatterns = pd.concat([df_play_DistributionByNumberInterplaysPerGraphs,df_play_DistributionByNumberInterplaysPerPatters])
+
+df_spring_DistributionByNumberInterplaysPerGraphsPatterns = pd.concat([df_spring_DistributionByNumberInterplaysPerGraphs,df_spring_DistributionByNumberInterplaysPerPatters])
+
+
+
+df_all_DistributionByNumberInterplaysPerGraphsPatterns = pd.concat([df_gwt_DistributionByNumberInterplaysPerGraphsPatterns,df_javafx_DistributionByNumberInterplaysPerGraphsPatterns,df_play_DistributionByNumberInterplaysPerGraphsPatterns,df_spring_DistributionByNumberInterplaysPerGraphsPatterns]
+
+ax_all_DistributionByNumberInterplaysPerGraphsPatterns=sns.violinplot(data = df_all_DistributionByNumberInterplaysPerGraphsPatterns, x='framework', y='NumberInterplaysPerGraphs', hue='kind')
+ax_all_DistributionByNumberInterplaysPerGraphsPatterns.set_xlabel("")
+ax_all_DistributionByNumberInterplaysPerGraphsPatterns.set_ylabel("Number of interplays")
+ax_all_DistributionByNumberInterplaysPerGraphsPatterns.set_ylim(0,10)
+
+ax_all_DistributionByNumberInterplaysPerGraphsPatterns.figure.set_size_inches(9,3)
+fig = ax_all_DistributionByNumberInterplaysPerGraphsPatterns.get_figure()
+fig.savefig('DistributionByNumberInterplaysPerGraphsPatterns.pdf')
+
+
+df_gwt_DistributionByNumberInterplaysPerGraphs.NumberInterplaysPerGraphs.describe()
+df_gwt_DistributionByNumberInterplaysPerPatters.NumberInterplaysPerGraphs.describe()

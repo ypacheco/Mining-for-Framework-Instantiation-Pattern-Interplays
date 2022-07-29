@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=2659,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="javafx.fxml.Initializable"]
+possibleCollaborationsInfo[0="2659~FIELD_DECLARATION-~javafx.fxml.Initializable ~javafx.scene.control.SplitPane ~false~false"]
+locationInfo[projectName="eugener-dockyard",filePath="/eugener-dockyard/dockyard-master/src/org/dockyard/app/Controller.java",contextSignature="Controller",graphId="2659"]
+0[label="org.dockyard.app.Controller",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.fxml.Initializable",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="dockbase",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="org.dockyard.DockBase",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="javafx.scene.control.SplitPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+5[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="DECLARE_FIELD"]
+3->4[label="EXTEND",color=blue]
+2->3[label="OF_TYPE"]
+0->5[label="OVERRIDE"]
+}

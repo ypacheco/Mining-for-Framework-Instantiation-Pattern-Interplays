@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3864,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.event.EventHandler"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="pedrodonte-genjeefx",filePath="/pedrodonte-genjeefx/genjeefx-master/GenJeeFx/src/main/java/generar/ui/util/LoadEventHandler.java",contextSignature="LoadEventHandler",graphId="3864"]
+0[label="main.java.generar.ui.util.LoadEventHandler",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.event.EventHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

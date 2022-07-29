@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2125,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/easyoverlay/src/com/akjava/gwt/hangout/easyoverlay/client/EasyOverlay.java~EasyOverlay~492",1="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/easyoverlay/src/com/akjava/gwt/hangout/easyoverlay/client/EasyOverlay.java~void onApiReady()~508"]
+386[label="com.akjava.gwt.lib.client.StorageDataList.QuotaExceededError",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+384[label="VAR:com.akjava.gwt.lib.client.StorageDataList.QuotaExceededError",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+385[label="getMessage()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+384->386[label="OF_TYPE"]
+384->385[label="CALL"]
+}

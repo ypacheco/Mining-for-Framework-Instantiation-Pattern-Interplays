@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=791,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.activity.shared.AbstractActivity"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="bahkified-Test",filePath="/bahkified-Test/Test-master/src/main/java/com/blargh/AanP/client/activity/HomeActivity.java",contextSignature="HomeActivity",graphId="791"]
+0[label="main.java.com.blargh.AanP.client.activity.HomeActivity",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.activity.shared.AbstractActivity",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="java.lang.String mayStop()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+}

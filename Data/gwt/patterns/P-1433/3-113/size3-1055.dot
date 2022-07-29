@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1055,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="Max-Hailperin-MessageBoard~/Max-Hailperin-MessageBoard/MessageBoard-master/MessageBoard/src/edu/gac/mcs270/messageboard/client/MessageBoard.java~void onModuleLoad()~327"]
+3[label="com.google.gwt.user.client.ui.FormPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2[label="METHOD_CALL",vertexType="OUTSIDE_CALL",isFrameworkType=false]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+2->3[label="OF_TYPE"]
+2->0[label="ARGUMENT"]
+}

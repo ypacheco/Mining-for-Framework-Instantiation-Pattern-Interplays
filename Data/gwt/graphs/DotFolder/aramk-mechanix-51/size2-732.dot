@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=732,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.allen_sauer.gwt.dnd.client.drop.HorizontalPanelDropController"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="aramk-mechanix",filePath="/aramk-mechanix/mechanix-master/src/au/edu/unimelb/csse/smd/mechanix/client/view/BenchHorizontalDropController.java",contextSignature="BenchHorizontalDropController",graphId="732"]
+0[label="au.edu.unimelb.csse.smd.mechanix.client.view.BenchHorizontalDropController",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.allen_sauer.gwt.dnd.client.drop.HorizontalPanelDropController",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

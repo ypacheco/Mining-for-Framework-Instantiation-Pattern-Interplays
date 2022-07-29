@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=2383,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="bjornbil-reservatie~/bjornbil-reservatie/reservatie-master/ReservatieKommaFinal/src/be/khleuven/bjornbillen/controller/MainController.java~MainController~2178",1="Fisiu-skontrumFx~/Fisiu-skontrumFx/skontrumFx-master/skontrumFxApp/src/application/SkontrumController.java~SkontrumController~457"]
+22[label="FIELD:javafx.scene.Parent",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+23[label="javafx.scene.Parent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+18[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+40[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+8[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+22->23[label="OF_TYPE"]
+0->8[label="DECLARE_FIELD"]
+0->18[label="DECLARE_FIELD"]
+0->40[label="DECLARE_FIELD"]
+0->22[label="DECLARE_FIELD"]
+}

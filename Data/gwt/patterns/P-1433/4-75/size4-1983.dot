@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1983,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/easyoverlay/src/com/akjava/gwt/hangout/easyoverlay/client/EasyOverlay.java~EasyOverlay~492",1="skavish-collaborative-paint~/skavish-collaborative-paint/collaborative-paint-master/src/com/acme/collpaint/client/page/CollPaintView.java~CollPaintView~4493"]
+301[label="new MouseUpHandler()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+302[label="VAR:ANONYMOUS",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+303[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+304[label="com.google.gwt.event.dom.client.MouseUpHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+303->304[label="IMPLEMENT",color=blue]
+302->301[label="CALL"]
+302->303[label="OF_TYPE"]
+}

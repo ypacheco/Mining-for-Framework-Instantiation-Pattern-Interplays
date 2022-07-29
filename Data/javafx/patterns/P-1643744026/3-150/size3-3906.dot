@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=3906,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=null]
+patternInstancesInfo[0="mrempala-sp~/mrempala-sp/sp-master/src/application/VcSetupManualLoad.java~void initialize(java.net.URL,java.util.ResourceBundle)~3667",1="Orlando80-mongo_management_studio~/Orlando80-mongo_management_studio/mongo_management_studio-master/src/Presentation/Controllers/mainController.java~void initialize()~1067",2="berker-RSSReader~/berker-RSSReader/RSSReader-master/src/com/deneme/rss/view/main/MainController.java~void initialize(java.net.URL,java.util.ResourceBundle)~2009",3="sannies-isoviewer-fx~/sannies-isoviewer-fx/isoviewer-fx-master/src/main/java/com/googlecode/mp4parser/mp4inspector/AddBoxTabListener.java~AddBoxTabListener~4075",4="jsnsimpson-tilisty~/jsnsimpson-tilisty/tilisty-master/src/com/tilisty/views/TilistyView.java~void start(javafx.stage.Stage)~3408"]
+4[label="void changed(javafx.beans.value.ObservableValue,javafx.scene.control.TreeItem,javafx.scene.control.TreeItem)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+5[label="PARAMETER:javafx.beans.value.ObservableValue",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+7[label="PARAMETER:javafx.scene.control.TreeItem",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+4->5[label="PARAMETER"]
+4->7[label="PARAMETER"]
+}

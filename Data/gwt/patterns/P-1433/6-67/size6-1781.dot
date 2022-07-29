@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1781,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="vlapan-PhotoBank~/vlapan-PhotoBank/PhotoBank-master/src/com/vlapan/gwt/photobank/client/ui/PhotoView.java~PhotoView~4607",1="lambourg-WebGallery~/lambourg-WebGallery/WebGallery-master/client/src/com/lambourg/webgallery/client/pictureview/PictureView.java~PictureView~3541"]
+18[label="FIELD:com.google.gwt.animation.client.Animation",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+15[label="FIELD:CLIENT",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+439[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+441[label="PARAMETER:CLIENT",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+19[label="com.google.gwt.animation.client.Animation",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->18[label="DECLARE_FIELD"]
+439->441[label="PARAMETER"]
+0->15[label="DECLARE_FIELD"]
+0->439[label="DECLARE_METHOD"]
+18->19[label="OF_TYPE"]
+}

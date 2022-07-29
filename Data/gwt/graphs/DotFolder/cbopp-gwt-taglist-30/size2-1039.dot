@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1039,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.uibinder.client.UiBinder"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="cbopp-gwt-taglist",filePath="/cbopp-gwt-taglist/gwt-taglist-master/src/main/java/com/virilis_software/gwt/taglist/client/comp/taglist/TagListView.java",contextSignature="Binder",graphId="1039"]
+0[label="main.java.com.virilis_software.gwt.taglist.client.comp.taglist.TagListView.Binder",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.uibinder.client.UiBinder",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

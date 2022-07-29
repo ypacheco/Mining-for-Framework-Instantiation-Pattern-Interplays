@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2033,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.googlecode.gwtphonegap.client.geolocation.GeolocationCallback",1="com.google.gwt.user.client.ui.IsWidget"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="rjdkolb-jozijug_phonegapdemo~/rjdkolb-jozijug_phonegapdemo/jozijug_phonegapdemo-master/src/main/java/org/openrap/jozijug/mgwtphonegap/client/activities/gps/VerifyGPSViewGwtImpl.java~VerifyGPSViewGwtImpl~4399",1="rjdkolb-jozijug_phonegapdemo~/rjdkolb-jozijug_phonegapdemo/jozijug_phonegapdemo-master/src/main/java/org/openrap/jozijug/mgwtphonegap/client/activities/gps/VerifyGPSDoneView.java~VerifyGPSDoneView~4400"]
+2[label="com.googlecode.gwtphonegap.client.geolocation.GeolocationCallback",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.IsWidget",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0->2[label="IMPLEMENT",color=red]
+0->1[label="IMPLEMENT",color=red]
+}

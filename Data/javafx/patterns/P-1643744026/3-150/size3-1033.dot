@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1033,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=null]
+patternInstancesInfo[0="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/moviemenu/RadialMovieMenu.java~RadialMovieMenu~969",1="aferrandoa-valenciasprints~/aferrandoa-valenciasprints/valenciasprints-master/src/goldSprints/Reloj.java~Reloj~1714",2="iloop-kiosk-KIOSK-Project~/iloop-kiosk-KIOSK-Project/KIOSK-Project-master/src/oit/iloop/kiosk/kiosk_main/MainClock.java~MainClock~3142",3="JASCValentine-BrickBreaker~/JASCValentine-BrickBreaker/BrickBreaker-master/src/brickbreaker/Level.java~Level~554",4="Enriqe-Breaking-Bad-Brick-Breaker~/Enriqe-Breaking-Bad-Brick-Breaker/Breaking-Bad-Brick-Breaker-master/src/bbbrickbreaker/Level.java~Level~439"]
+39[label="javafx.animation.Timeline",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+154[label="VAR:javafx.animation.Timeline",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+99[label="VAR:javafx.animation.Timeline",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+99->39[label="OF_TYPE"]
+154->39[label="OF_TYPE"]
+}

@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=518,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="akjava-WebTestMaker~/akjava-WebTestMaker/WebTestMaker-master/src/com/akjava/gwt/webtestmaker/client/WebTestMaker.java~WebTestMaker~655",1="DeannaSurma-Census~/DeannaSurma-Census/Census-master/src/com/cs4302/census/client/Census.java~Census~109",2="Tok-Erwin~/Tok-Erwin/Erwin-master/src/main/java/erwin/client/Erwin.java~Erwin~388"]
+2[label="FIELD:com.google.gwt.user.client.ui.ListBox",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+10[label="FIELD:com.google.gwt.user.client.ui.CheckBox",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+6[label="FIELD:com.google.gwt.user.client.ui.Label",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->6[label="DECLARE_FIELD"]
+0->10[label="DECLARE_FIELD"]
+0->2[label="DECLARE_FIELD"]
+}

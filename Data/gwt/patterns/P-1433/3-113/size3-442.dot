@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=442,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.HasFocus",1="com.google.gwt.user.client.ui.SimplePanel"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/CustomTreeItem.java~FocusableTreeItem~3027",1="jhudson8-gwt-jquery-ui~/jhudson8-gwt-jquery-ui/gwt-jquery-ui-master/core/gwt-jquery-ui-mobile/src/main/java/com/google/gwt/jquery/mobile/ui/base/AbstractFocusWidget.java~AbstractFocusWidget~3196"]
+1[label="com.google.gwt.user.client.ui.SimplePanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+4[label="com.google.gwt.user.client.ui.HasFocus",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0->4[label="IMPLEMENT",color=red]
+0->1[label="EXTEND",color=red]
+}

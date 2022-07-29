@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=621,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="coldplayguy-flight87~/coldplayguy-flight87/flight87-master/BookFlight/src/bookflight/client/BookFlight.java~BookFlight~1091",1="lgrammel-gwtbenchmark~/lgrammel-gwtbenchmark/gwtbenchmark-master/gwt-benchmark/src/de/larsgrammel/gwtbenchmark/client/GWTBenchmark.java~GWTBenchmark~3628"]
+18[label="new ListBox()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+19[label="VAR:com.google.gwt.user.client.ui.ListBox",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+22[label="setVisibleItemCount()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+20[label="com.google.gwt.user.client.ui.ListBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+31[label="addItem()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+19->18[label="CALL"]
+19->31[label="CALL"]
+19->20[label="OF_TYPE"]
+19->22[label="CALL"]
+}

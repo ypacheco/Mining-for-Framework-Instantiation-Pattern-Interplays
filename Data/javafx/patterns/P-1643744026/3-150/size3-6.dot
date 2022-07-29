@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=6,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=12.0,patternRootClient=0]
+patternInstancesInfo[0="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLRegistroCompletadoController.java~FXMLRegistroCompletadoController~3380",1="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLMomentosyNoticiasController.java~FXMLMomentosyNoticiasController~3373",2="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLAdministracionController.java~FXMLAdministracionController~3375",3="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLNoticiaController.java~FXMLNoticiaController~3377",4="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLRegistroPreguntaTresController.java~FXMLRegistroPreguntaTresController~3376",5="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLAnadirNoticiaController.java~FXMLAnadirNoticiaController~3367",6="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLNuevasNoticiasController.java~FXMLNuevasNoticiasController~3371",7="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLRegistroPreguntaDosController.java~FXMLRegistroPreguntaDosController~3379",8="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLAnadirMomentoController.java~FXMLAnadirMomentoController~3384",9="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLRegistroController.java~FXMLRegistroController~3372",10="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLAcercaDeController.java~FXMLAcercaDeController~3383",11="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLMomentoController.java~FXMLMomentoController~3370"]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+34[label="FIELD:javafx.scene.shape.Line",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+28[label="FIELD:javafx.scene.shape.Circle",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->28[label="DECLARE_FIELD"]
+0->34[label="DECLARE_FIELD"]
+}

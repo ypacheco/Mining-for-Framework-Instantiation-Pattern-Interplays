@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=215,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/GradientBuilderApp.java~void configureToolBar()~1192",1="AndreasLehmann-SecureNote~/AndreasLehmann-SecureNote/SecureNote-master/src/javafxapplication1/FXMLDocumentController.java~NoteListChangeListener~144",2="Technius-Starbound-Mod-Toolkit~/Technius-Starbound-Mod-Toolkit/Starbound-Mod-Toolkit-master/src/main/java/co/technius/starboundmodtoolkit/utilui/AccordionSizeHack.java~AccordionSizeHack~1459",3="james-d-TicTacToe~/james-d-TicTacToe/TicTacToe-master/src/tictactoe/Game.java~void Game(tictactoe.Player,tictactoe.Player)~3262"]
+5[label="PARAMETER:javafx.beans.value.ObservableValue",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+6[label="javafx.beans.value.ObservableValue",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+5->6[label="OF_TYPE"]
+}

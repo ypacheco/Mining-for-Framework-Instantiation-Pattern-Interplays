@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4409,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="guigarage-mastering-javafx-controls~/guigarage-mastering-javafx-controls/mastering-javafx-controls-master/src/main/java/com/guigarage/chapter10/TriangleButtonSkin.java~TriangleButtonSkin~2839",1="guigarage-mastering-javafx-controls~/guigarage-mastering-javafx-controls/mastering-javafx-controls-master/src/main/java/com/guigarage/chapter10/TriangleButton.java~TriangleButton~2842"]
+6[label="FIELD:javafx.css.StyleableObjectProperty",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+7[label="javafx.css.StyleableObjectProperty",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+6->7[label="OF_TYPE"]
+0->6[label="DECLARE_FIELD"]
+}

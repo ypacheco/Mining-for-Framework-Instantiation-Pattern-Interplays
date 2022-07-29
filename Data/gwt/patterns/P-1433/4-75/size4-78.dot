@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=78,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="ashtonthomas-gwt-fast-touch-press~/ashtonthomas-gwt-fast-touch-press/gwt-fast-touch-press-master/src/io/ashton/fastpress/client/Gwt_fast_press.java~Gwt_fast_press~744",1="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/AppController.java~AppController~396"]
+48[label="com.google.gwt.event.shared.EventHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+119[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+193[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+131[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+119->48[label="IMPLEMENT",color=blue]
+193->48[label="IMPLEMENT",color=blue]
+131->48[label="IMPLEMENT",color=blue]
+}

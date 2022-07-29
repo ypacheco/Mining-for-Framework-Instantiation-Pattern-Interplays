@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=148,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Widget"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Duke-H--DDOPlanner",filePath="/Duke-H--DDOPlanner/DDOPlanner-master/DDOPlanner/src/com/ddoplanner/tree/ClassTree.java",contextSignature="ClassTree",graphId="148"]
+0[label="com.ddoplanner.tree.ClassTree",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Widget",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

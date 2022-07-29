@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2631,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="rluu-cyclehunter~/rluu-cyclehunter/cyclehunter-javafx-master/src/main/java/com/ryanluu/cyclehunter/ui/SettingsPane.java~SettingsPane~4042",1="joelburget-miftiwac~/joelburget-miftiwac/miftiwac-master/src/Solution_page.java~Solution_page~3351"]
+50[label="new TitledPane()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+51[label="VAR:javafx.scene.control.TitledPane",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+52[label="javafx.scene.control.TitledPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+51->52[label="OF_TYPE"]
+51->50[label="CALL"]
+}

@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=3754,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="javafx.concurrent.Task"]
+possibleCollaborationsInfo[0="3754~OVERRIDING_METHOD_DECLARATION-INSTANTIATION-~javafx.concurrent.Task ~javafx.concurrent.Task ~false~false"]
+locationInfo[projectName="nazymko-drive_manager",filePath="/nazymko-drive_manager/drive_manager-master/src/main/java/rt/threads/Sender.java",contextSignature="Sender",graphId="3754"]
+0[label="main.java.rt.threads.Sender",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.concurrent.Task",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="java.lang.Object call()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+4[label="VAR0",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+5[label="main.java.rt.threads.MailLoader",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+3[label="new MailLoader()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+2->4[label="INSTANTIATE"]
+5->1[label="EXTEND",color=blue]
+4->5[label="OF_TYPE"]
+4->3[label="CALL"]
+}

@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=3529,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.ScrollPanel"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="lambourg-WebGallery",filePath="/lambourg-WebGallery/WebGallery-master/client/src/com/lambourg/webgallery/client/folderview/Welcome.java",contextSignature="Welcome",graphId="3529"]
+0[label="com.lambourg.webgallery.client.folderview.Welcome",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.ScrollPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="panel",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="com.google.gwt.user.client.ui.FlowPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+}

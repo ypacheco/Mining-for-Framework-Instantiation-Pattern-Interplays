@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=103,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/view/QuestionView.java~QuestionView~425",1="mrsmastara-home~/mrsmastara-home/home-master/youtube/src/main/java/com/youtube/play/client/local/KitchenSink.java~KitchenSink~4059"]
+8[label="com.google.gwt.user.client.ui.Label",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+7[label="FIELD:com.google.gwt.user.client.ui.Label",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+15[label="FIELD:com.google.gwt.user.client.ui.Label",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+22[label="FIELD:com.google.gwt.user.client.ui.Label",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+20[label="FIELD:com.google.gwt.user.client.ui.Label",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+37[label="FIELD:com.google.gwt.user.client.ui.Label",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+22->8[label="OF_TYPE"]
+37->8[label="OF_TYPE"]
+15->8[label="OF_TYPE"]
+20->8[label="OF_TYPE"]
+7->8[label="OF_TYPE"]
+}

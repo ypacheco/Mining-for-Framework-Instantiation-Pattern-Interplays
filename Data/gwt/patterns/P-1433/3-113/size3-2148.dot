@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2148,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="akjava-GWTRecorderjs~/akjava-GWTRecorderjs/GWTRecorderjs-master/src/com/akjava/gwt/recorder/client/GWTRecorder.java~GWTRecorder~639",1="Archerw-mastermind~/Archerw-mastermind/mastermind-master/nyu-smg-mastermind/src/org/mastermind/graphics/WidgetAnimation.java~WidgetAnimation~27"]
+2[label="FIELD:com.google.gwt.media.client.Audio",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+3[label="com.google.gwt.media.client.Audio",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+}

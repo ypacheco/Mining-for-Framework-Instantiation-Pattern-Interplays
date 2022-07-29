@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=2450,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="PatrickOtt-ReservationManager~/PatrickOtt-ReservationManager/ReservationManager-master/src/main/java/de/professional_webworkx/reservationmanager/controller/MainController.java~MainController~1080",1="sk44-javafx-mirroring-tool~/sk44-javafx-mirroring-tool/javafx-mirroring-tool-master/src/main/java/sk44/mirroringtool/MainWindowController.java~MainWindowController~4211"]
+108[label="javafx.beans.value.WritableBooleanValue",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+112[label="VAR:javafx.beans.value.WritableBooleanValue",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+30[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+20[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+18[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+30->112[label="INSTANTIATE"]
+0->20[label="DECLARE_FIELD"]
+0->18[label="DECLARE_FIELD"]
+112->108[label="OF_TYPE"]
+0->30[label="OVERRIDE"]
+}

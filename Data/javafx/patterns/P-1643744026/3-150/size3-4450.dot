@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4450,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.concurrent.Task"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="DC37-Super-Mario-Paint~/DC37-Super-Mario-Paint/Super-Mario-Paint-master/src/smp/components/staff/Staff.java~ArrangementTask~284",1="DC37-Super-Mario-Paint~/DC37-Super-Mario-Paint/Super-Mario-Paint-master/src/smp/components/staff/Staff.java~AnimationTask~283"]
+2[label="smp.components.staff.Staff call()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.concurrent.Task",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->2[label="OVERRIDE"]
+0->1[label="EXTEND",color=red]
+}

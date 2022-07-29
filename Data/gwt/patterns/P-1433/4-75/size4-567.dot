@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=567,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/coffeeRoom/VueSalle.java~void refresh()~240",1="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/coffeeRoom/VueSalle.java~VueSalle~237",2="chrte-TemperatureWatcher~/chrte-TemperatureWatcher/TemperatureWatcher-master/src/com/google/gwt/sample/stockwatcher/client/TemperatureWatcher.java~TemperatureWatcher~1066"]
+103[label="com.google.gwt.user.client.ui.HTMLTable",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+357[label="VAR:com.google.gwt.user.client.ui.HTMLTable",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+366[label="setWidget()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+379[label="setWidget()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+357->103[label="OF_TYPE"]
+357->366[label="CALL"]
+357->379[label="CALL"]
+}

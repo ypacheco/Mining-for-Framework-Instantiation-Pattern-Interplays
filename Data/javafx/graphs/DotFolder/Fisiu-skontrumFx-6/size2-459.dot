@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=459,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.ListCell"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Fisiu-skontrumFx",filePath="/Fisiu-skontrumFx/skontrumFx-master/skontrumFxApp/src/application/DefaultListCell.java",contextSignature="DefaultListCell",graphId="459"]
+0[label="application.DefaultListCell",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.ListCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

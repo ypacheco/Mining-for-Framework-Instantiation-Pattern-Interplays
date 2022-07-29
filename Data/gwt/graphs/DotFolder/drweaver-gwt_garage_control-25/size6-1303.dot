@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=1303,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Composite",1="com.google.gwt.user.client.ui.IsWidget"]
+possibleCollaborationsInfo[0="1303~FIELD_DECLARATION-~com.google.gwt.user.client.ui.Composite com.google.gwt.user.client.ui.IsWidget ~com.google.gwt.uibinder.client.UiBinder ~false~false"]
+locationInfo[projectName="drweaver-gwt_garage_control",filePath="/drweaver-gwt_garage_control/gwt_garage_control-master/src/drweaver/garagecontrol/client/view/desktop/GarageControlViewDesktop.java",contextSignature="GarageControlViewDesktop",graphId="1303"]
+0[label="drweaver.garagecontrol.client.view.desktop.GarageControlViewDesktop",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Composite",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="com.google.gwt.user.client.ui.IsWidget",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+3[label="uiBinder",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+4[label="drweaver.garagecontrol.client.view.desktop.GarageControlViewDesktop.GarageControlViewDesktopUiBinder",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+5[label="com.google.gwt.uibinder.client.UiBinder",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="IMPLEMENT",color=red]
+0->3[label="DECLARE_FIELD"]
+4->5[label="IMPLEMENT",color=blue]
+3->4[label="OF_TYPE"]
+}

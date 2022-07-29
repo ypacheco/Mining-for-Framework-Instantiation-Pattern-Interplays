@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4486,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="net.zschech.gwt.comet.client.CometSerializer"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="skavish-collaborative-paint",filePath="/skavish-collaborative-paint/collaborative-paint-master/src/com/acme/collpaint/client/comet/CollPaintCometSerializer.java",contextSignature="CollPaintCometSerializer",graphId="4486"]
+0[label="com.acme.collpaint.client.comet.CollPaintCometSerializer",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="net.zschech.gwt.comet.client.CometSerializer",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

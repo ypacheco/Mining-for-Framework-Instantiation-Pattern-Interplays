@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4425,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.HBox"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="sztorman-PSZT",filePath="/sztorman-PSZT/PSZT-master/src/Freedom.java",contextSignature="GameControls",graphId="4425"]
+0[label="GameControls",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.HBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1034,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="aferrandoa-valenciasprints~/aferrandoa-valenciasprints/valenciasprints-master/src/goldSprints/Reloj.java~Reloj~1714",1="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/moviemenu/RadialMovieMenu.java~RadialMovieMenu~969",2="iloop-kiosk-KIOSK-Project~/iloop-kiosk-KIOSK-Project/KIOSK-Project-master/src/oit/iloop/kiosk/kiosk_main/MainClock.java~MainClock~3142"]
+7[label="javafx.animation.Timeline",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+25[label="VAR:javafx.animation.Timeline",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+23[label="VAR:javafx.animation.Timeline",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+42[label="VAR:javafx.animation.Timeline",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+23->7[label="OF_TYPE"]
+42->7[label="OF_TYPE"]
+25->7[label="OF_TYPE"]
+}

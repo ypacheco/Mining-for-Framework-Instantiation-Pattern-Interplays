@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1738,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/sound-player/src/com/akjava/gwt/hangout/soundplayer/client/HangoutSoundPlayer.java~HangoutSoundPlayer~561",1="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/sound-player/src/com/akjava/gwt/hangout/soundplayer/client/HangoutSoundPlayer.java~void onApiReady()~563"]
+27[label="com.akjava.gwt.html5.client.file.File",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+25[label="VAR:com.akjava.gwt.html5.client.file.File",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+26[label="getFileName()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+25->27[label="OF_TYPE"]
+25->26[label="CALL"]
+}

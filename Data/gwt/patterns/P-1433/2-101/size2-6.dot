@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=6,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="brychcy-gwt-jquery~/brychcy-gwt-jquery/gwt-jquery-master/src/com/xedge/jquery/client/Deferred.java~Deferred~924",1="brychcy-gwt-jquery~/brychcy-gwt-jquery/gwt-jquery-master/src/com/xedge/jquery/client/JQuery.java~JQuery~923",2="pandurangpatil-gwt-youtube~/pandurangpatil-gwt-youtube/gwt-youtube-master/gwt-youtube-player/src/main/java/open/pandurang/gwt/youtube/client/YouTubePlayer.java~YouTubePlayer~4258"]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+198[label="PARAMETER:com.google.gwt.core.client.JavaScriptObject",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+198->1[label="OF_TYPE"]
+}

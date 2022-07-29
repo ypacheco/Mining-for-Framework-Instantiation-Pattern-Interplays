@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=383,category="pattern",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.resources.client.ClientBundle"]
+possibleCollaborationsInfo[0="383~RETURN_TYPE_DECLARATION-CLIENT_METHOD_DECLARATION-~com.google.gwt.resources.client.ClientBundle ~com.google.gwt.resources.client.CssResource ~false~false"]
+patternInfo[frequency=9.0,patternRootClient=0]
+patternInstancesInfo[0="cbopp-gwt-taglist~/cbopp-gwt-taglist/gwt-taglist-master/src/main/java/com/virilis_software/gwt/taglist/client/resource/Resources.java~Resources~1046",1="bebenko-leksi~/bebenko-leksi/leksi-master/gwted/src/main/java/sk/portugal/leksi/editor/client/LoginResources.java~LoginResources~819",2="svor-SimpleGWTProject~/svor-SimpleGWTProject/SimpleGWTProject-master/src/com/tutorialspoint/client/LoginResources.java~LoginResources~4524",3="nextinterfaces-next~/nextinterfaces-next/next-master/src/next/i/controller/C.java~C~4146",4="domi1wa-List-Navigation-Tree~/domi1wa-List-Navigation-Tree/List-Navigation-Tree-master/NavigationTree/src/de/navigation/tree/client/resources/NavigationTreeResources.java~NavigationTreeResources~1284",5="svandecappelle-AppriseGwt~/svandecappelle-AppriseGwt/AppriseGwt-master/src/main/java/com/mizore/gwt/apprise/client/AppriseClientBundle.java~AppriseClientBundle~4514",6="mansiT-UiBinder~/mansiT-UiBinder/UiBinder-master/uibinder/src/com/allen_sauer/gwt/dnd/client/util/DragClientBundle.java~DragClientBundle~3682",7="geomajas-geomajas-widget-definitions-sample~/geomajas-geomajas-widget-definitions-sample/geomajas-widget-definitions-sample-master/example/src/main/java/example/client/widget/example/ExampleWidgetResource.java~ExampleWidgetResource~1343",8="wolfie-ColumnText~/wolfie-ColumnText/ColumnText-master/src/com/github/wolfie/columntext/client/ui/ColumnTextResources.java~ColumnTextResources~4644"]
+1[label="com.google.gwt.resources.client.ClientBundle",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="com.google.gwt.resources.client.CssResource",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="DECLARE_METHOD"]
+2->3[label="RETURN"]
+3->4[label="IMPLEMENT",color=blue]
+}

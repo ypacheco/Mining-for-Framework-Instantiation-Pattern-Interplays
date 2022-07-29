@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1211,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=6.0,patternRootClient=null]
+patternInstancesInfo[0="matanghuy-SPCA~/matanghuy-SPCA/SPCA-master/SPCA/src/controllers/FindContact.java~FindContact~3568",1="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/PrizesController.java~PrizesController~2951",2="sebbafer-Sebanana~/sebbafer-Sebanana/Sebanana-master/src/sebanana/views/instellingenwin/InstellingenController.java~InstellingenController~4137",3="Stormwall-Schedule-Visualizer~/Stormwall-Schedule-Visualizer/Schedule-Visualizer-master/src/sv/creation/adress/EditMultipleTimeDetailsLayoutController.java~void initialize()~1369",4="wwtg99-POMA~/wwtg99-POMA/POMA-master/src/cn/edu/suda/gui/NetworkViewerController.java~NetworkViewerController~4855"]
+27[label="javafx.scene.control.ChoiceBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+411[label="VAR:javafx.scene.control.ChoiceBox",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+417[label="getItems()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+411->417[label="CALL"]
+411->27[label="OF_TYPE"]
+}

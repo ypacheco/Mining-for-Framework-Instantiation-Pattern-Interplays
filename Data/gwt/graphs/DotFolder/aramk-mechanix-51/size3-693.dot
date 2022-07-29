@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=693,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.EntryPoint"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="aramk-mechanix",filePath="/aramk-mechanix/mechanix-master/src/au/edu/unimelb/csse/smd/mechanix/client/Mechanix.java",contextSignature="Mechanix",graphId="693"]
+0[label="au.edu.unimelb.csse.smd.mechanix.client.Mechanix",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.EntryPoint",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void onModuleLoad()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+}

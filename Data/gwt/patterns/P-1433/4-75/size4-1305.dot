@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1305,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="puxapuak-jext~/puxapuak-jext/jext-master/jext/src/jext/net/client/jextmain.java~jextmain~4321",1="karandit-gwt-sandbox~/karandit-gwt-sandbox/gwt-sandbox-master/src/hu/evosoft/eo/downloadstats/client/StatisticsByTimeWithRangePanel.java~StatisticsByTimeWithRangePanel~3356"]
+11[label="com.google.gwt.user.client.ui.DockLayoutPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+10[label="VAR:com.google.gwt.user.client.ui.DockLayoutPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+49[label="addSouth()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+24[label="addNorth()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+10->11[label="OF_TYPE"]
+10->49[label="CALL"]
+10->24[label="CALL"]
+}

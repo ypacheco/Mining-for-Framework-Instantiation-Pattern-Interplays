@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=333,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.Group"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="DenisTyschenko-JavaFx-Graph",filePath="/DenisTyschenko-JavaFx-Graph/JavaFx-Graph-master/src/main/java/graph/impl/WeightedJfxGraph.java",contextSignature="WeightedJfxGraph",graphId="333"]
+0[label="main.java.graph.impl.WeightedJfxGraph",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.Group",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

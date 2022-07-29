@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3479,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="laaglu-lib-gwt-file",filePath="/laaglu-lib-gwt-file/lib-gwt-file-master/src/main/java/org/vectomatic/file/impl/FileReaderImpl.java",contextSignature="FileReaderImpl",graphId="3479"]
+0[label="main.java.org.vectomatic.file.impl.FileReaderImpl",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

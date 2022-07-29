@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4919,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.shape.Circle"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="yusiangpotato-Potato3",filePath="/yusiangpotato-Potato3/Potato3-master/src/particle/Particle.java",contextSignature="Particle",graphId="4919"]
+0[label="particle.Particle",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.shape.Circle",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

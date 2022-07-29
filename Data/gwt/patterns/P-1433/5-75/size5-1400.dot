@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1400,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Composite"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="cbopp-gwt-taglist~/cbopp-gwt-taglist/gwt-taglist-master/src/main/java/com/virilis_software/gwt/taglist/client/comp/tag/TagView.java~TagView~1029",1="pandurangpatil-gwt-youtube~/pandurangpatil-gwt-youtube/gwt-youtube-master/gwt-youtube-player/src/main/java/open/pandurang/gwt/youtube/client/YouTubePlayer.java~YouTubePlayer~4258"]
+7[label="com.google.gwt.dom.client.DivElement",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+6[label="FIELD:com.google.gwt.dom.client.DivElement",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Composite",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+15[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+6->7[label="OF_TYPE"]
+0->15[label="DECLARE_METHOD"]
+0->6[label="DECLARE_FIELD"]
+}

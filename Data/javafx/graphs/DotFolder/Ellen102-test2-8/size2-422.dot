@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=422,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.TableCell"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Ellen102-test2",filePath="/Ellen102-test2/test2-master/src/Rugzak/ItemImageCellFactory.java",contextSignature="ItemImageCell",graphId="422"]
+0[label="Rugzak.ItemImageCellFactory.ItemImageCell",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.TableCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

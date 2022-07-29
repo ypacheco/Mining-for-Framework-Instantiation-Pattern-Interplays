@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2004,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="mcasperson-Automation-Portal-UI~/mcasperson-Automation-Portal-UI/Automation-Portal-UI-master/src/com/redhat/automationportalui/client/AutomationPortalUI.java~AutomationPortalUI~3712",1="mcasperson-Automation-Portal-UI~/mcasperson-Automation-Portal-UI/Automation-Portal-UI-master/src/com/redhat/automationportalui/client/pav/BugzillaReportGeneratorPlace.java~Tokenizer~3742"]
+8[label="new BugzillaReportGeneratorPlace()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+9[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+4[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+5[label="com.google.gwt.place.shared.Place",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+9->8[label="CALL"]
+4->5[label="EXTEND",color=blue]
+9->4[label="OF_TYPE"]
+}

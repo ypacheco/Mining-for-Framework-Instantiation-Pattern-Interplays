@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4400,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.shape.Circle"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="svanimpe-fx-game-loops",filePath="/svanimpe-fx-game-loops/fx-game-loops-master/src/main/java/svanimpe/fxgameloop/game/Ball.java",contextSignature="Ball",graphId="4400"]
+0[label="main.java.svanimpe.fxgameloop.game.Ball",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.shape.Circle",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

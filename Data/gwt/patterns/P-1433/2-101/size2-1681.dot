@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1681,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.view.client.ProvidesKey"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="rdomingonl-layoutTest~/rdomingonl-layoutTest/layoutTest-master/src/main/java/nl/tc/rd/exp/layouttest/client/buildingblock/flowlayoutcontainer/FlowLayoutContainerBB.java~com.google.gwt.user.client.ui.Widget getPropertiesWidget()~4336",1="kospiotr-gwt-layout-designer~/kospiotr-gwt-layout-designer/gwt-layout-designer-master/src/main/java/pl/pkosmowski/gxtshowcase/client/navigator/NavigationComponent.java~com.sencha.gxt.data.shared.ModelKeyProvider createModelKeyProvider()~3425"]
+1[label="com.google.gwt.view.client.ProvidesKey",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="IMPLEMENT",color=red]
+}

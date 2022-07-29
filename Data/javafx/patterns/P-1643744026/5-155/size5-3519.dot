@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=3519,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/NiconNavigator/NavegadorController.java~void AddTabsChangeListener()~2564",1="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/NiconNavigator/NavegadorController.java~void AddWebsChangeListener()~2566",2="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/NiconNavigator/NavegadorController.java~NavegadorController~2563"]
+16[label="new TABs()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+17[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+21[label="setClosable()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+18[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+8[label="javafx.scene.control.Tab",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+17->21[label="CALL"]
+18->8[label="EXTEND",color=blue]
+17->16[label="CALL"]
+17->18[label="OF_TYPE"]
+}

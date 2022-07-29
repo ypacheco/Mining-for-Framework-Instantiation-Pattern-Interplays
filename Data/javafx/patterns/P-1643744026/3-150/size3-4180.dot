@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4180,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="NukeName-MazeFramework~/NukeName-MazeFramework/MazeFramework-master/MazeFramework/src/mazeframework/MazeFramework.java~MazeFramework~1024",1="nablex-jfx-control-date~/nablex-jfx-control-date/jfx-control-date-master/src/main/java/be/nabu/jfx/control/date/DatePicker.java~DatePicker~3721"]
+106[label="javafx.scene.control.CustomMenuItem",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+105[label="VAR:javafx.scene.control.CustomMenuItem",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+104[label="new CustomMenuItem()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+105->104[label="CALL"]
+105->106[label="OF_TYPE"]
+}

@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1183,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.TextField"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="SaiPradeepDandem-javafx2-gradient-builder",filePath="/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/ColorPicker.java",contextSignature="ColorTextField",graphId="1183"]
+0[label="main.java.com.javafx.gradientbuilder.application.ColorPicker.ColorTextField",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.TextField",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

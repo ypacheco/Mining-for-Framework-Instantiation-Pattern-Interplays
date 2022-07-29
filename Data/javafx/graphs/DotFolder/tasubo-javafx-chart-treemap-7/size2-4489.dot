@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4489,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.Tooltip"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="tasubo-javafx-chart-treemap",filePath="/tasubo-javafx-chart-treemap/javafx-chart-treemap-master/src/main/java/javafx/scene/chart/treemap/TreemapRectangle.java",contextSignature="NodeTooltip",graphId="4489"]
+0[label="main.java.javafx.scene.chart.treemap.TreemapRectangle.NodeTooltip",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.Tooltip",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

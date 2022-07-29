@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=961,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.activity.shared.AbstractActivity"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=8.0,patternRootClient=0]
+patternInstancesInfo[0="anozaki-GwtHelloMvpTest~/anozaki-GwtHelloMvpTest/GwtHelloMvpTest-master/src/main/java/com/hellomvp/client/activity/GoodbyeActivity.java~GoodbyeActivity~666",1="bahkified-Test~/bahkified-Test/Test-master/src/main/java/com/blargh/AanP/client/activity/ItemListActivity.java~ItemListActivity~790",2="carlos-aguayo-html5gwthistory~/carlos-aguayo-html5gwthistory/html5gwthistory-master/src/com/dreamskiale/client/HelloActivity.java~HelloActivity~1023",3="carlos-aguayo-html5gwthistory~/carlos-aguayo-html5gwthistory/html5gwthistory-master/src/com/dreamskiale/client/GoodbyeActivity.java~GoodbyeActivity~1012",4="mcasperson-Automation-Portal-UI~/mcasperson-Automation-Portal-UI/Automation-Portal-UI-master/src/com/redhat/automationportalui/client/pav/BugzillaReportGeneratorActivity.java~BugzillaReportGeneratorActivity~3744",5="mcasperson-Automation-Portal-UI~/mcasperson-Automation-Portal-UI/Automation-Portal-UI-master/src/com/redhat/automationportalui/client/pav/RegenSplashActivity.java~RegenSplashActivity~3743",6="mcasperson-Automation-Portal-UI~/mcasperson-Automation-Portal-UI/Automation-Portal-UI-master/src/com/redhat/automationportalui/client/pav/FlagSearchActivity.java~FlagSearchActivity~3720",7="mcasperson-Automation-Portal-UI~/mcasperson-Automation-Portal-UI/Automation-Portal-UI-master/src/com/redhat/automationportalui/client/pav/SVNStatsActivity.java~SVNStatsActivity~3717"]
+1[label="com.google.gwt.activity.shared.AbstractActivity",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

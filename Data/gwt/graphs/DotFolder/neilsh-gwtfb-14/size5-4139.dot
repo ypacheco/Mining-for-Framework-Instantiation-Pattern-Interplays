@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=4139,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.event.dom.client.ClickHandler"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="neilsh-gwtfb",filePath="/neilsh-gwtfb/gwtfb-master/GwtFB/src/com/gwtfb/client/UserInfoViewController.java",contextSignature="PublishHandler",graphId="4139"]
+0[label="",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.event.dom.client.ClickHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void onClick(com.google.gwt.event.dom.client.ClickEvent)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="event",vertexType="PARAMETER_DECLARATION",isFrameworkType=true,peripheries=2]
+4[label="com.google.gwt.event.dom.client.ClickEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+3->4[label="OF_TYPE"]
+2->3[label="PARAMETER"]
+}

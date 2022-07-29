@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=3099,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.beans.binding.BooleanBinding"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="if12b051-SWP_Paint",filePath="/if12b051-SWP_Paint/SWP_Paint-master/SWP_Paint/src/gui/ToolsButtonsMediator.java",contextSignature="ToolsButtonsMediator",graphId="3099"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.beans.binding.BooleanBinding",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="disableSlider",vertexType="OUTSIDE_VARIABLE_EXPRESION",isFrameworkType=true,peripheries=2]
+4[label="boolean computeValue()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="ASSIGMENT"]
+2->1[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+}

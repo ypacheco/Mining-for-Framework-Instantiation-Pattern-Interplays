@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=4336,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.view.client.ProvidesKey"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="rdomingonl-layoutTest",filePath="/rdomingonl-layoutTest/layoutTest-master/src/main/java/nl/tc/rd/exp/layouttest/client/buildingblock/flowlayoutcontainer/FlowLayoutContainerBB.java",contextSignature="com.google.gwt.user.client.ui.Widget getPropertiesWidget()",graphId="4336"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.view.client.ProvidesKey",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+12[label="java.lang.String getKey(main.java.nl.tc.rd.exp.layouttest.client.buildingblock.flowlayoutcontainer.FlowLayoutContainerBB.PropDev)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->12[label="OVERRIDE"]
+}

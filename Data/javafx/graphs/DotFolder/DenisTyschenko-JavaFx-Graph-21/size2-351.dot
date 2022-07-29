@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=351,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.application.Application"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="DenisTyschenko-JavaFx-Graph",filePath="/DenisTyschenko-JavaFx-Graph/JavaFx-Graph-master/src/samples/java/graph/samples/DirectedWeightedGraphSample.java",contextSignature="DirectedWeightedGraphSample",graphId="351"]
+0[label="samples.java.graph.samples.DirectedWeightedGraphSample",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.application.Application",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

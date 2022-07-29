@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=971,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.smartgwt.client.widgets.Canvas"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="Namrack-TeachToLearn~/Namrack-TeachToLearn/TeachToLearn-master/TeachToLearn/src/ttl/client/layout/MainLayout.java~MainLayout~349",1="mrsmastara-home~/mrsmastara-home/home-master/youtube/src/main/java/com/youtube/play/client/local/YouTubePlay.java~YouTubePlay~4058"]
+1[label="com.smartgwt.client.widgets.Canvas",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

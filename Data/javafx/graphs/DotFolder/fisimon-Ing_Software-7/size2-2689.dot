@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=2689,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.Group"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="fisimon-Ing_Software",filePath="/fisimon-Ing_Software/Ing_Software-master/src/application/Stickman.java",contextSignature="Stickman",graphId="2689"]
+0[label="application.Stickman",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.Group",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

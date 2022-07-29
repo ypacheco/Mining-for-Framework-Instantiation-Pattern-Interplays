@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=394,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="vlapan-PhotoBank~/vlapan-PhotoBank/PhotoBank-master/src/com/vlapan/gwt/photobank/client/ui/NotificationPanel.java~NotificationPanel~4614",1="Tok-Erwin~/Tok-Erwin/Erwin-master/src/main/java/erwin/client/Erwin.java~Erwin~388"]
+26[label="FIELD:com.google.gwt.user.client.ui.VerticalPanel",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+38[label="FIELD:com.google.gwt.user.client.Timer",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+30[label="FIELD:com.google.gwt.user.client.ui.Label",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->30[label="DECLARE_FIELD"]
+0->38[label="DECLARE_FIELD"]
+0->26[label="DECLARE_FIELD"]
+}

@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=788,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.HasValue",1="com.google.gwt.user.client.ui.IsWidget",2="com.google.gwt.event.dom.client.HasFocusHandlers"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="dapicard-gwt-surface~/dapicard-gwt-surface/gwt-surface-master/gwt-surface/src/main/java/com/axeiya/gwt/surface/client/ContentEditableSurface.java~ContentEditableSurface~1180",1="dapicard-gwt-surface~/dapicard-gwt-surface/gwt-surface-master/gwt-surface/src/main/java/com/axeiya/gwt/surface/client/Surface.java~Surface~1177"]
+2[label="com.google.gwt.user.client.ui.HasValue",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+3[label="com.google.gwt.event.dom.client.HasFocusHandlers",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+1[label="com.google.gwt.user.client.ui.IsWidget",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0->2[label="IMPLEMENT",color=red]
+0->1[label="IMPLEMENT",color=red]
+0->3[label="IMPLEMENT",color=red]
+}

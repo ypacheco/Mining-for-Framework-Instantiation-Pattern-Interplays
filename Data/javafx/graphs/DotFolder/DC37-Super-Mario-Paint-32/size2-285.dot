@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=285,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.image.ImageView"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="DC37-Super-Mario-Paint",filePath="/DC37-Super-Mario-Paint/Super-Mario-Paint-master/src/smp/components/staff/sequences/StaffNote.java",contextSignature="StaffNote",graphId="285"]
+0[label="smp.components.staff.sequences.StaffNote",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.image.ImageView",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

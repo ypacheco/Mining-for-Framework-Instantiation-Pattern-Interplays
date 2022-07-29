@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=3590,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/colormenu/RadialColorMenu.java~RadialColorMenu~958",1="mrempala-sp~/mrempala-sp/sp-master/src/application/VcPtVisualSchematicView.java~VcPtVisualSchematicView~3690"]
+8[label="PARAMETER:javafx.scene.paint.Color",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+9[label="javafx.scene.paint.Color",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+7[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+10[label="VAR:javafx.scene.Group",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+11[label="getChildren()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+7->8[label="PARAMETER"]
+0->7[label="DECLARE_METHOD"]
+8->9[label="OF_TYPE"]
+7->10[label="INSTANTIATE"]
+10->11[label="CALL"]
+}

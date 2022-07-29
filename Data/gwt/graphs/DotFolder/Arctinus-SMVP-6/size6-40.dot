@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=40,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.RunAsyncCallback"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Arctinus-SMVP",filePath="/Arctinus-SMVP/SMVP-master/src/com/krusche/smvp/client/AppController.java",contextSignature="void onValueChange(com.google.gwt.event.logical.shared.ValueChangeEvent)",graphId="40"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.RunAsyncCallback",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void runAsync(com.google.gwt.core.client.RunAsyncCallback)",vertexType="OUTSIDE_CALL",isFrameworkType=true,peripheries=2]
+3[label="com.google.gwt.core.client.GWT",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="void onFailure(java.lang.Throwable)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+5[label="void onSuccess()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+2->0[label="ARGUMENT"]
+2->3[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+0->5[label="OVERRIDE"]
+}

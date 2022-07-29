@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=3360,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.Group"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="johnwatson11218-cardcitefx",filePath="/johnwatson11218-cardcitefx/cardcitefx-master/Cardcite/src/main/java/cardcite/ui/BasicStrategy.java",contextSignature="BasicStrategy",graphId="3360"]
+0[label="main.java.cardcite.ui.BasicStrategy",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.Group",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="f",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.scene.text.Font",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+}

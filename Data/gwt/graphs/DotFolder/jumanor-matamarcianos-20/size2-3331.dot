@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3331,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.resources.client.CssResource"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jumanor-matamarcianos",filePath="/jumanor-matamarcianos/matamarcianos-master/src/main/java/pck/client/recursos/css/CssMotorJuego.java",contextSignature="CssMotorJuego",graphId="3331"]
+0[label="main.java.pck.client.recursos.css.CssMotorJuego",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.resources.client.CssResource",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2265,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=12.0,patternRootClient=null]
+patternInstancesInfo[0="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/thermostat/NestNoCss.java~void initGraphcis()~988",1="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CECommandeController.java~void initialize(java.net.URL,java.util.ResourceBundle)~2097",2="Johnmalc-JavaFX~/Johnmalc-JavaFX/JavaFX-master/src/game/SingleClassNoXmlBallGame.java~SingleClassNoXmlBallGame~654",3="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/colormenu/RadialColorMenu.java~RadialColorMenu~958",4="atsticks-FXOne~/atsticks-FXOne/FXOne-master/org.fxone/fxone-ui/src/main/java/org/fxone/ui/rt/nav/MenuButton.java~void MenuButton()~1949",5="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/thermostat/NestNoCss.java~NestNoCss~985",6="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/thermostat/Nest.java~void initGraphcis()~995",7="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CECommandeController.java~CECommandeController~2084",8="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/thermostat/Nest.java~Nest~992"]
+7[label="javafx.beans.value.WritableDoubleValue",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+5[label="VAR:javafx.beans.value.WritableDoubleValue",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+5->7[label="OF_TYPE"]
+}

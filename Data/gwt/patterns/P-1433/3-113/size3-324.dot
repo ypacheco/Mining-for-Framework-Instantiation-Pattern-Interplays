@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=324,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="12010994-GLI-TP1~/12010994-GLI-TP1/GLI-TP1-master/src/main/java/fr/istic/m2gl/gli/client/gli.java~gli~1",1="rwl-GoogleMapWidget~/rwl-GoogleMapWidget/GoogleMapWidget-master/src/main/java/org/vaadin/hezamu/googlemapwidget/widgetset/client/ui/VGoogleMap.java~MarkerRetrieveCommand~4442",2="12010994-GLI-TP1~/12010994-GLI-TP1/GLI-TP1-master/src/main/java/fr/istic/m2gl/gli/client/TableWidget.java~TableWidget~8"]
+65[label="com.google.gwt.http.client.Response",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+63[label="VAR:com.google.gwt.http.client.Response",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+94[label="getText()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+63->65[label="OF_TYPE"]
+63->94[label="CALL"]
+}

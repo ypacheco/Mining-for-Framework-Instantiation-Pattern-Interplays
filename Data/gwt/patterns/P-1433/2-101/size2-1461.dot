@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1461,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="rwl-GoogleMapWidget~/rwl-GoogleMapWidget/GoogleMapWidget-master/src/main/java/org/vaadin/hezamu/googlemapwidget/widgetset/client/ui/VGoogleMap.java~VGoogleMap~4438",1="jounik-DashLayout~/jounik-DashLayout/DashLayout-master/src/org/vaadin/jouni/dashlayout/client/ui/VDashLayout.java~VDashLayout~3303"]
+64[label="com.vaadin.terminal.gwt.client.UIDL",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+63[label="PARAMETER:com.vaadin.terminal.gwt.client.UIDL",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+63->64[label="OF_TYPE"]
+}

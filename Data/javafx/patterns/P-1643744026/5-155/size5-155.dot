@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=155,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=13.0,patternRootClient=null]
+patternInstancesInfo[0="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/FormatController.java~FormatController~2993",1="if12b051-SWP_Paint~/if12b051-SWP_Paint/SWP_Paint-master/SWP_Paint/src/gui/MainController.java~MainController~3089",2="nablex-jfx-control-date~/nablex-jfx-control-date/jfx-control-date-master/src/main/java/be/nabu/jfx/control/date/DatePicker.java~DatePicker~3721",3="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEAjouterTypeLotController.java~CEAjouterTypeLotController~2052",4="suxue-tetris~/suxue-tetris/tetris-master/src/tetris/core/UIController.java~UIController~4358",5="amau-classifier~/amau-classifier/classifier-master/src/main/java/me/data/DataController.java~DataController~1800",6="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEPrincipalController.java~CEPrincipalController~2114",7="markosankovic-CP1401901_BUCKeUSBAccessory~/markosankovic-CP1401901_BUCKeUSBAccessory/CP1401901_BUCKeUSBAccessory-master/src/main/java/com/synapticon/buckeusbaccessory/FXMLController.java~FXMLController~3534",8="Totenfluch-TPrivateChat-Client~/Totenfluch-TPrivateChat-Client/TPrivateChat-Client-master/TPvtChat-C/src/me/Totenfluch/pack/Main.java~Main~1483",9="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/TournamentController.java~TournamentController~3009",10="gossipgirls-spacetraders~/gossipgirls-spacetraders/spacetraders-master/src/spacetraders/NewGameController.java~NewGameController~2775",11="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CECommandeController.java~CECommandeController~2084",12="didygo-gce-display~/didygo-gce-display/gce-display-master/src/proto1/DashBoard.java~DashBoard~2407"]
+174[label="javafx.beans.value.ChangeListener",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+201[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+314[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+389[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+173[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+173->174[label="IMPLEMENT",color=blue]
+201->174[label="IMPLEMENT",color=blue]
+314->174[label="IMPLEMENT",color=blue]
+389->174[label="IMPLEMENT",color=blue]
+}

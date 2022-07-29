@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=210,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.cellview.client.TextColumn"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="MainMain-ChatCafeine",filePath="/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/administration/AdminPanel.java",contextSignature="com.google.gwt.user.client.ui.Widget creerListeSallePanel()",graphId="210"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.cellview.client.TextColumn",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void addColumn(com.google.gwt.user.cellview.client.Column,java.lang.String)",vertexType="OUTSIDE_CALL",isFrameworkType=true,peripheries=2]
+3[label="com.google.gwt.user.cellview.client.AbstractCellTable",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+2->0[label="ARGUMENT"]
+2->3[label="OF_TYPE"]
+}

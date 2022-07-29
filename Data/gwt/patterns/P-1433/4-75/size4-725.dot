@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=725,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/sound-player/src/com/akjava/gwt/hangout/soundplayer/client/HangoutSoundPlayer.java~HangoutSoundPlayer~561",1="Duke-H--DDOPlanner~/Duke-H--DDOPlanner/DDOPlanner-master/DDOPlanner/src/com/ddoplanner/enhancement/Enhancement.java~Enhancement~144"]
+20[label="com.google.gwt.event.dom.client.MouseOverHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+19[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+18[label="VAR:ANONYMOUS",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+17[label="new MouseOverHandler()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+18->17[label="CALL"]
+19->20[label="IMPLEMENT",color=blue]
+18->19[label="OF_TYPE"]
+}

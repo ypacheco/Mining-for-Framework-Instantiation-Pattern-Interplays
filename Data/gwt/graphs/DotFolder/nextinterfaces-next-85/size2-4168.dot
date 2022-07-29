@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4168,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.event.shared.EventHandler"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="nextinterfaces-next",filePath="/nextinterfaces-next/next-master/src/next/i/mobile/DragEventsHandler.java",contextSignature="DragEventsHandler",graphId="4168"]
+0[label="next.i.mobile.DragEventsHandler",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.event.shared.EventHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

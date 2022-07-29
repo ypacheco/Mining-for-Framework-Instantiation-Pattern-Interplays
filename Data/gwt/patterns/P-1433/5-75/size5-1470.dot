@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1470,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.Command"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="ghillairet-gef-gwt~/ghillairet-gef-gwt/gef-gwt-master/src/main/java/org/eclipse/swt/widgets/Control.java~void buildMenuBar(main.java.org.eclipse.swt.widgets.Menu,com.google.gwt.user.client.ui.MenuBar)~1368",1="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/MVCTable.java~void addColumnSelectionBox()~3024"]
+3[label="com.google.gwt.user.client.ui.MenuItem",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2[label="CONSTRUCTOR_CALL",vertexType="OUTSIDE_CONSTRUCTOR_CALL",isFrameworkType=false]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+4[label="void execute()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+1[label="com.google.gwt.user.client.Command",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+2->3[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+2->0[label="ARGUMENT"]
+0->1[label="IMPLEMENT",color=red]
+}

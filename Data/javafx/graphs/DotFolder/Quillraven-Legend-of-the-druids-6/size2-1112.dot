@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1112,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.image.Image"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Quillraven-Legend-of-the-druids",filePath="/Quillraven-Legend-of-the-druids/Legend-of-the-druids-master/Legend of the Druids/src/com/lotd/view/Texture.java",contextSignature="Texture",graphId="1112"]
+0[label="com.lotd.view.Texture",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.image.Image",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

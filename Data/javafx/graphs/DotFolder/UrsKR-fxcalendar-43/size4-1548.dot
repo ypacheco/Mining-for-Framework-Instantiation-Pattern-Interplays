@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=1548,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.StackPane"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="UrsKR-fxcalendar",filePath="/UrsKR-fxcalendar/fxcalendar-master/src/main/java/com/sai/javafx/calendar/cell/AbstractCell.java",contextSignature="AbstractCell",graphId="1548"]
+0[label="main.java.com.sai.javafx.calendar.cell.AbstractCell",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.StackPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="txt",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.scene.text.Text",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+}

@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1977,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="rjdkolb-jozijug_phonegapdemo~/rjdkolb-jozijug_phonegapdemo/jozijug_phonegapdemo-master/src/main/java/org/openrap/jozijug/mgwtphonegap/client/DetailActivity.java~DetailActivity~4360",1="rjdkolb-jozijug_phonegapdemo~/rjdkolb-jozijug_phonegapdemo/jozijug_phonegapdemo-master/src/main/java/org/openrap/jozijug/mgwtphonegap/client/DetailActivity.java~void start(com.google.gwt.user.client.ui.AcceptsOneWidget,com.google.web.bindery.event.shared.EventBus)~4361"]
+18[label="new ShowMasterEvent()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+19[label="VAR:com.googlecode.mgwt.ui.client.event.ShowMasterEvent",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+20[label="com.googlecode.mgwt.ui.client.event.ShowMasterEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+19->20[label="OF_TYPE"]
+19->18[label="CALL"]
+}

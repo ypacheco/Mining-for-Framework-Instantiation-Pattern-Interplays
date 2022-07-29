@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1990,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/presenter/ReportsPresenter.java~void prepareTable()~419",1="bohdaq-DeedleJSON~/bohdaq-DeedleJSON/DeedleJSON-master/src/com/appspot/deedleit/client/Deedle.java~Deedle~890"]
+27[label="new Hyperlink()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+28[label="VAR:com.google.gwt.user.client.ui.Hyperlink",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+29[label="com.google.gwt.user.client.ui.Hyperlink",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+28->27[label="CALL"]
+28->29[label="OF_TYPE"]
+}

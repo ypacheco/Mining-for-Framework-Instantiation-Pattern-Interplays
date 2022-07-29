@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1469,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.util.tools.ArgHandlerString"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=0]
+patternInstancesInfo[0="WeTheInternet-xapi-template~/WeTheInternet-xapi-template/xapi-template-master/src/main/java/wetheinter/net/dev/template/TemplateGeneratorOptions.java~TemplateLocationArg~475",1="WeTheInternet-xapi-template~/WeTheInternet-xapi-template/xapi-template-master/src/main/java/wetheinter/net/dev/template/TemplateGeneratorOptions.java~ExtraOptionsArg~476",2="WeTheInternet-xapi-template~/WeTheInternet-xapi-template/xapi-template-master/src/main/java/wetheinter/net/dev/template/TemplateGeneratorOptions.java~PayloadTypeArg~477",3="WeTheInternet-xapi-template~/WeTheInternet-xapi-template/xapi-template-master/src/main/java/wetheinter/net/dev/template/TemplateGeneratorOptions.java~TemplateOutputLocationArg~474"]
+1[label="com.google.gwt.util.tools.ArgHandlerString",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+6[label="boolean setString(java.lang.String)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->6[label="OVERRIDE"]
+0->1[label="EXTEND",color=red]
+}

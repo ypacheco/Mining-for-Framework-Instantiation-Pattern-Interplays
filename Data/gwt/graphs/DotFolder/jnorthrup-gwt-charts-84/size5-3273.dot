@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=3273,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[0="3273~CLIENT_METHOD_DECLARATION-PARAMETER_DECLARATION-~com.google.gwt.core.client.JavaScriptObject ~com.google.gwt.core.client.JavaScriptObject ~false~false"]
+locationInfo[projectName="jnorthrup-gwt-charts",filePath="/jnorthrup-gwt-charts/gwt-charts-master/gwt-charts/src/main/java/com/googlecode/gwt/charts/client/options/ColorAxis.java",contextSignature="ColorAxis",graphId="3273"]
+0[label="main.java.com.googlecode.gwt.charts.client.options.ColorAxis",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+10[label="void setLegend(main.java.com.googlecode.gwt.charts.client.options.ColorAxisLegend)",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+11[label="legend",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+12[label="main.java.com.googlecode.gwt.charts.client.options.ColorAxisLegend",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+0->1[label="EXTEND",color=red]
+0->10[label="DECLARE_METHOD"]
+12->1[label="EXTEND",color=blue]
+11->12[label="OF_TYPE"]
+10->11[label="PARAMETER"]
+}

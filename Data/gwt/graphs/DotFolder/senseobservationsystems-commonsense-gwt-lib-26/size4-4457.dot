@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4457,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[0="4457~CLIENT_METHOD_DECLARATION-RETURN_TYPE-~com.google.gwt.core.client.JavaScriptObject ~com.google.gwt.core.client.JavaScriptObject ~false~false"]
+locationInfo[projectName="senseobservationsystems-commonsense-gwt-lib",filePath="/senseobservationsystems-commonsense-gwt-lib/commonsense-gwt-lib-master/src/nl/sense_os/commonsense/lib/client/model/httpresponse/CreateEnvironmentResponse.java",contextSignature="CreateEnvironmentResponse",graphId="4457"]
+0[label="nl.sense_os.commonsense.lib.client.model.httpresponse.CreateEnvironmentResponse",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="nl.sense_os.commonsense.lib.client.model.apiclass.Environment getEnvironment()",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="nl.sense_os.commonsense.lib.client.model.apiclass.Environment",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_METHOD"]
+3->1[label="EXTEND",color=blue]
+2->3[label="RETURN"]
+}

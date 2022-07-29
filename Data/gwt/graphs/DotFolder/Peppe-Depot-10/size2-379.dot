@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=379,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.vaadin.terminal.gwt.client.communication.ServerRpc"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Peppe-Depot",filePath="/Peppe-Depot/Depot-master/src/com/jensjansson/depot/Depot.java",contextSignature="Depot",graphId="379"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.vaadin.terminal.gwt.client.communication.ServerRpc",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

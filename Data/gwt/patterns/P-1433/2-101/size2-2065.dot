@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=2065,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.gadgets.client.Gadget"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/hello-hangout/src/test/hello/client/SimpleGadget.java~SimpleGadget~559",1="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/hello-hangout/src/test/hello/client/HelloHangout.java~HelloHangout~560"]
+1[label="com.google.gwt.gadgets.client.Gadget",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

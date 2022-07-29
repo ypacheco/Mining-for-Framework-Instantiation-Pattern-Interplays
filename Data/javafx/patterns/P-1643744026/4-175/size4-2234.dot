@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2234,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=10.0,patternRootClient=0]
+patternInstancesInfo[0="zvakanaka-bitbit~/zvakanaka-bitbit/bitbit-master/src/bitbit/BitBit.java~BitBit~4923",1="Totenfluch-TPrivateChat-Client~/Totenfluch-TPrivateChat-Client/TPrivateChat-Client-master/TPvtChat-C/src/me/Totenfluch/pack/Main.java~Main~1483",2="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/NiconImage/NiconImageFXMLController.java~NiconImageFXMLController~2548",3="tarchan-ClipFX~/tarchan-ClipFX/ClipFX-master/src/com/mac/tarchan/clipfx/ClipFXController.java~ClipFXController~4467",4="LichuanLu-ShunUI-FX~/LichuanLu-ShunUI-FX/ShunUI-FX-master/src/dialog/Dialog.java~Dialog~787",5="JCake-CoupGameProgram~/JCake-CoupGameProgram/CoupGameProgram-master/src/game/remote/PlayerUi.java~PlayerUi~579",6="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/Wall/WallController.java~WallController~2571",7="yaw-javafx-jpa-crud~/yaw-javafx-jpa-crud/javafx-jpa-crud-master/src/main/java/br/com/yaw/jfx/ui/Dialog.java~Dialog~4875",8="RomeoGolf-BC~/RomeoGolf-BC/BC-master/src/romeogolf/bc/MainController.java~MainController~1142",9="FloconDeNeige-Programme-Cyprien~/FloconDeNeige-Programme-Cyprien/Programme-Cyprien-master/CYPRIEN/src/name/antonsmirnov/javafx/dialog/Dialog.java~Dialog~474"]
+27[label="FIELD:javafx.scene.control.ScrollPane",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+28[label="javafx.scene.control.ScrollPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+25[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+27->28[label="OF_TYPE"]
+0->25[label="DECLARE_FIELD"]
+0->27[label="DECLARE_FIELD"]
+}

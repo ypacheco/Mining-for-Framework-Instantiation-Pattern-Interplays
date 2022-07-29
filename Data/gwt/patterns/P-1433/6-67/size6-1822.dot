@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1822,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="henrikerola-FaceLogin~/henrikerola-FaceLogin/FaceLogin-master/src/main/java/com/github/henrikerola/facelogin/client/FaceLogin.java~FaceLogin~1381",1="wuiidl-webservice~/wuiidl-webservice/webservice-master/tourGuide/src/webServices/tourGuide/presentation/client/controller/TourGuideController.java~TourGuideController~4673"]
+40[label="new LoginView()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+41[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+32[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+42[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+43[label="com.google.gwt.user.client.ui.Composite",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+41->42[label="OF_TYPE"]
+42->43[label="EXTEND",color=blue]
+32->41[label="INSTANTIATE"]
+0->32[label="DECLARE_METHOD"]
+41->40[label="CALL"]
+}

@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=2082,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="mguiral-GwtSvgLib~/mguiral-GwtSvgLib/GwtSvgLib-master/src/gwt/html5/svg/client/user/ui/SVGWidget.java~SVGWidget~3992",1="mguiral-GwtSvgLib~/mguiral-GwtSvgLib/GwtSvgLib-master/src/gwt/html5/svg/client/dom/SVGSVGElement.java~SVGSVGElement~3837"]
+134[label="com.google.gwt.dom.client.NodeList",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+133[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+137[label="PARAMETER:CLIENT",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+135[label="PARAMETER:CLIENT",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+128[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->128[label="DECLARE_METHOD"]
+0->133[label="DECLARE_METHOD"]
+133->135[label="PARAMETER"]
+133->134[label="RETURN"]
+133->137[label="PARAMETER"]
+}

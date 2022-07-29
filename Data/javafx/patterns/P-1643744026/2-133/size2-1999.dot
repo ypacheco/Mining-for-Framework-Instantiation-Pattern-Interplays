@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1999,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=7.0,patternRootClient=null]
+patternInstancesInfo[0="ersobcz-JavaFX-JAXB~/ersobcz-JavaFX-JAXB/JavaFX-JAXB-master/src/controller/ViewController.java~ViewController~2650",1="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/PrizesController.java~PrizesController~2951",2="mathiasj33-VocLearn~/mathiasj33-VocLearn/VocLearn-master/src/net/softwarepage/voclearn/code/Bearbeitenmodus.java~columnHandler~3588",3="tgregerson-lc3~/tgregerson-lc3/lc3-master/LC3Sim/src/lc3sim/ui/UIFXMain.java~UIFXMain~4520",4="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/AnnouncementsController.java~AnnouncementsController~2965",5="svadlamudi-GaussJordanElimination~/svadlamudi-GaussJordanElimination/GaussJordanElimination-master/src/gauss/jordan/elimination/EditingTableCell.java~EditingTableCell~4374",6="gleba-cppoints~/gleba-cppoints/cppoints-master/src/cpapp/view/EditTableController.java~EditTableController~2746"]
+176[label="javafx.scene.control.TablePosition",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+202[label="VAR:javafx.scene.control.TablePosition",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+202->176[label="OF_TYPE"]
+}

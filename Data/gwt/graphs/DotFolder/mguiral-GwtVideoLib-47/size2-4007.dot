@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4007,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.dom.client.Element"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="mguiral-GwtVideoLib",filePath="/mguiral-GwtVideoLib/GwtVideoLib-master/src/gwt/html5/video/client/dom/VideoSourceElement.java",contextSignature="VideoSourceElement",graphId="4007"]
+0[label="gwt.html5.video.client.dom.VideoSourceElement",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.dom.client.Element",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

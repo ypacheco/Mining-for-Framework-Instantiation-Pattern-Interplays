@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=243,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.HorizontalPanel"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/hangout-test/src/com/akjava/gwt/hangout/test2/client/RequestTest.java~ParticipantInfo~547",1="xephoid-YS~/xephoid-YS/YS-master/src/com/ionmarkgames/ys/client/ui/LifePanel.java~LifePanel~4696",2="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/MVCTable.java~RowCountBox~3014"]
+1[label="com.google.gwt.user.client.ui.HorizontalPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

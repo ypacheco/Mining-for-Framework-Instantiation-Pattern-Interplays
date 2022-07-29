@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=797,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.activity.shared.ActivityMapper"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="bahkified-Test",filePath="/bahkified-Test/Test-master/src/main/java/com/blargh/AanP/client/mvp/AppActivityMapper.java",contextSignature="AppActivityMapper",graphId="797"]
+0[label="main.java.com.blargh.AanP.client.mvp.AppActivityMapper",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.activity.shared.ActivityMapper",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="com.google.gwt.activity.shared.Activity getActivity(com.google.gwt.place.shared.Place)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="com.google.gwt.activity.shared.Activity",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+4[label="place",vertexType="PARAMETER_DECLARATION",isFrameworkType=true,peripheries=2]
+5[label="com.google.gwt.place.shared.Place",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+2->3[label="RETURN"]
+4->5[label="OF_TYPE"]
+2->4[label="PARAMETER"]
+}

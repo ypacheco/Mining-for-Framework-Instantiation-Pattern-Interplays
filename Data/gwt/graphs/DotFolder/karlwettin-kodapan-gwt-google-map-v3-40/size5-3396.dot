@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=3396,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[0="3396~CLIENT_METHOD_DECLARATION-PARAMETER_DECLARATION-~com.google.gwt.core.client.JavaScriptObject ~com.google.gwt.core.client.JavaScriptObject ~false~false"]
+locationInfo[projectName="karlwettin-kodapan-gwt-google-map-v3",filePath="/karlwettin-kodapan-gwt-google-map-v3/kodapan-gwt-google-map-v3-master/src/main/java/se/kodapan/gwt/google/maps/v3/client/auto/Geocoder.java",contextSignature="Geocoder",graphId="3396"]
+0[label="main.java.se.kodapan.gwt.google.maps.v3.client.auto.Geocoder",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+3[label="void geocode(main.java.se.kodapan.gwt.google.maps.v3.client.auto.GeocoderRequest,main.java.se.kodapan.gwt.google.maps.v3.client.auto.GeocoderCallback)",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+4[label="request",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+5[label="main.java.se.kodapan.gwt.google.maps.v3.client.auto.GeocoderRequest",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+0->1[label="EXTEND",color=red]
+0->3[label="DECLARE_METHOD"]
+5->1[label="EXTEND",color=blue]
+4->5[label="OF_TYPE"]
+3->4[label="PARAMETER"]
+}

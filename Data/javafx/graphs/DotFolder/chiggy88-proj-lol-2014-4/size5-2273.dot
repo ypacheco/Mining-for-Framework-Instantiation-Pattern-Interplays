@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=2273,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.application.Application"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="chiggy88-proj-lol-2014",filePath="/chiggy88-proj-lol-2014/proj-lol-2014-master/src/main/java/ch/chiggy/development/leaguetimer/controller/Controller.java",contextSignature="Controller",graphId="2273"]
+0[label="main.java.ch.chiggy.development.leaguetimer.controller.Controller",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.application.Application",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void start(javafx.stage.Stage)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="primaryStage",vertexType="PARAMETER_DECLARATION",isFrameworkType=true,peripheries=2]
+4[label="javafx.stage.Stage",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+3->4[label="OF_TYPE"]
+2->3[label="PARAMETER"]
+}

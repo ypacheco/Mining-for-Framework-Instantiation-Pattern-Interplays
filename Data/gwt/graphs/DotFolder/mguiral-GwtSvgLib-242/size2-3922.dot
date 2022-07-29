@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3922,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.dom.client.Element"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="mguiral-GwtSvgLib",filePath="/mguiral-GwtSvgLib/GwtSvgLib-master/src/gwt/html5/svg/client/dom/SVGPresentationElement.java",contextSignature="SVGPresentationElement",graphId="3922"]
+0[label="gwt.html5.svg.client.dom.SVGPresentationElement",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.dom.client.Element",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

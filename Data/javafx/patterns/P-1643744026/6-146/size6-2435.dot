@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=2435,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=0]
+patternInstancesInfo[0="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLRegistroPreguntaUnoController.java~FXMLRegistroPreguntaUnoController~3390",1="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLRegistroPreguntaTresController.java~FXMLRegistroPreguntaTresController~3376",2="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLAnadirNoticiaController.java~FXMLAnadirNoticiaController~3367",3="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLRegistroPreguntaDosController.java~FXMLRegistroPreguntaDosController~3379",4="josesoler7-agendavital~/josesoler7-agendavital/agendavital-master/src/agendavital/vista/FXMLAnadirMomentoController.java~FXMLAnadirMomentoController~3384"]
+18[label="FIELD:javafx.scene.control.DatePicker",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+6[label="FIELD:javafx.scene.shape.Circle",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+8[label="FIELD:javafx.scene.shape.Circle",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+26[label="FIELD:javafx.scene.shape.Line",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+24[label="FIELD:javafx.scene.shape.Line",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->8[label="DECLARE_FIELD"]
+0->18[label="DECLARE_FIELD"]
+0->6[label="DECLARE_FIELD"]
+0->26[label="DECLARE_FIELD"]
+0->24[label="DECLARE_FIELD"]
+}

@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=27,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=6.0,patternRootClient=null]
+patternInstancesInfo[0="lauflabs-gwt-garmin-api~/lauflabs-gwt-garmin-api/gwt-garmin-api-master/gwt-garmin-showcase/src/main/java/com/garmin/gwt/communicator/testing/client/Showcase.java~Showcase~3605",1="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/easyoverlay/src/com/akjava/gwt/hangout/easyoverlay/client/EasyOverlay.java~EasyOverlay~492",2="bobvash-Resolution-Tracker~/bobvash-Resolution-Tracker/Resolution-Tracker-master/ResolutionTracker/src/com/bobvash/resolutiontracker/client/ResolutionDayWidget.java~ResolutionDayWidget~867",3="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/AlgebrApp.java~AlgebrApp~3667",4="12010994-GLI-TP1~/12010994-GLI-TP1/GLI-TP1-master/src/main/java/fr/istic/m2gl/gli/client/TableWidget.java~TableWidget~8",5="woox-serverapp~/woox-serverapp/serverapp-master/src/wooxes/net/client/Serverapp.java~Serverapp~4647"]
+33[label="com.google.gwt.event.dom.client.ClickHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+89[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+107[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+32[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+143[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+68[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+89->33[label="IMPLEMENT",color=blue]
+143->33[label="IMPLEMENT",color=blue]
+68->33[label="IMPLEMENT",color=blue]
+107->33[label="IMPLEMENT",color=blue]
+32->33[label="IMPLEMENT",color=blue]
+}

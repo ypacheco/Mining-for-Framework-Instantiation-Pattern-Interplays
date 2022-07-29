@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=4270,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="tomoTaka01-JavaOne2013Presentation~/tomoTaka01-JavaOne2013Presentation/JavaOne2013Presentation-master/src/controller/Page13Controller.java~Page13Controller~4587",1="tomoTaka01-JavaOne2013Presentation~/tomoTaka01-JavaOne2013Presentation/JavaOne2013Presentation-master/src/controller/Page04Controller.java~Page04Controller~4580",2="tomoTaka01-JavaOne2013Presentation~/tomoTaka01-JavaOne2013Presentation/JavaOne2013Presentation-master/src/controller/Page03Controller.java~Page03Controller~4579"]
+17[label="javafx.scene.text.Text[]",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+16[label="FIELD:javafx.scene.text.Text[]",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+18[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+8[label="FIELD:javafx.scene.text.Text",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+12[label="FIELD:javafx.scene.text.Text",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->12[label="DECLARE_FIELD"]
+0->18[label="OVERRIDE"]
+16->17[label="OF_TYPE"]
+0->16[label="DECLARE_FIELD"]
+0->8[label="DECLARE_FIELD"]
+}

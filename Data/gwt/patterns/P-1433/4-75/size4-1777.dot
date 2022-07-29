@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1777,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Composite"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="dandrew2-CS230-Software-Project~/dandrew2-CS230-Software-Project/CS230-Software-Project-master/src/edu/ycp/casino/client/RouletteView.java~RouletteView~1118",1="dandrew2-CS230-Software-Project~/dandrew2-CS230-Software-Project/CS230-Software-Project-master/src/edu/ycp/casino/client/SlotsViewGWT.java~SlotsViewGWT~1123"]
+16[label="FIELD:com.google.gwt.user.client.ui.DialogBox",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Composite",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+18[label="FIELD:com.google.gwt.user.client.ui.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->1[label="EXTEND",color=red]
+0->18[label="DECLARE_FIELD"]
+0->16[label="DECLARE_FIELD"]
+}

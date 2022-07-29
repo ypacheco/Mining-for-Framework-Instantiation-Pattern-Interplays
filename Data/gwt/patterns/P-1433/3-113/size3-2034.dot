@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=2034,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="rjdkolb-jozijug_phonegapdemo~/rjdkolb-jozijug_phonegapdemo/jozijug_phonegapdemo-master/src/main/java/org/openrap/jozijug/mgwtphonegap/client/ClientFactoryImpl.java~void ClientFactoryImpl()~4355"]
+3[label="com.googlecode.gwtphonegap.client.PhoneGap",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+2[label="METHOD_CALL",vertexType="OUTSIDE_CALL",isFrameworkType=false]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+2->3[label="OF_TYPE"]
+2->0[label="ARGUMENT"]
+}

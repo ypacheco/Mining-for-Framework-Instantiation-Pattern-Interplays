@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=257,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.RunAsyncCallback"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="wuiidl-webservice~/wuiidl-webservice/webservice-master/tourGuide/src/webServices/tourGuide/presentation/client/controller/TourGuideController.java~void goLogin()~4676",1="Arctinus-SMVP~/Arctinus-SMVP/SMVP-master/src/com/krusche/smvp/client/AppController.java~void onValueChange(com.google.gwt.event.logical.shared.ValueChangeEvent)~40"]
+3[label="com.google.gwt.core.client.GWT",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2[label="METHOD_CALL",vertexType="OUTSIDE_CALL",isFrameworkType=false]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+4[label="void onSuccess()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+1[label="com.google.gwt.core.client.RunAsyncCallback",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+12[label="void onFailure(java.lang.Throwable)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+2->3[label="OF_TYPE"]
+2->0[label="ARGUMENT"]
+0->12[label="OVERRIDE"]
+0->1[label="IMPLEMENT",color=red]
+0->4[label="OVERRIDE"]
+}

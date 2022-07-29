@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1434,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=8.0,patternRootClient=null]
+patternInstancesInfo[0="pedrodonte-genjeefx~/pedrodonte-genjeefx/genjeefx-master/GenJeeFx/src/main/java/generar/ui/EntidadTabPane.java~EntidadTabPane~3860",1="amr390-SAT~/amr390-SAT/SAT-master/src/satcucharitas/SatMainViewController.java~SatMainViewController~1853",2="JustinAarden-C2J-Stamboom~/JustinAarden-C2J-Stamboom/C2J-Stamboom-master/src/stamboom/gui/StamboomFXController.java~StamboomFXController~734",3="JoshuaHanrahan-DVDCollectionApp~/JoshuaHanrahan-DVDCollectionApp/DVDCollectionApp-master/src/dvdcollectionapp/view/DvdcollectionappfxmlController.java~DvdcollectionappfxmlController~728",4="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/NiconNavigator/NavegadorController.java~NavegadorController~2563",5="giatuyentiensinh-Project1~/giatuyentiensinh-Project1/Project1-master/Project1/src/control/MainUIController.java~MainUIController~2734",6="mathiasj33-VocLearn~/mathiasj33-VocLearn/VocLearn-master/src/net/softwarepage/voclearn/code/Gui.java~Gui~3576",7="TomaszKorecki-InvestorAssistant~/TomaszKorecki-InvestorAssistant/InvestorAssistant-master/Investor's assistant/src/investor/MainMenu.java~MainMenu~1471"]
+3[label="javafx.scene.control.Tab",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+6[label="FIELD:javafx.scene.control.Tab",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+6->3[label="OF_TYPE"]
+}

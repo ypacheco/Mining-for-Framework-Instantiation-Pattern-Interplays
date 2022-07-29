@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=239,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=13.0,patternRootClient=null]
+patternInstancesInfo[0="karuto-cloud-storage-gallery~/karuto-cloud-storage-gallery/cloud-storage-gallery-master/src/com/mycompany/cloudstoragegallery/client/CloudStorageGallery.java~void sendNameToServer()~3403",1="ravitle-JBTest~/ravitle-JBTest/JBTest-master/JBTest/src/jbtestPro_v1/client/JbtestPro_v1.java~void sendNameToServer()~4332",2="bobvash-Resolution-Tracker~/bobvash-Resolution-Tracker/Resolution-Tracker-master/ResolutionTracker/src/com/bobvash/resolutiontracker/client/ResolutionTracker.java~void sendNameToServer()~866",3="robinkeunen-shiny-octo-ironman~/robinkeunen-shiny-octo-ironman/shiny-octo-ironman-master/Guestbook/src/guestbook/client/Guestbook.java~void sendNameToServer()~4422",4="chap19150-SeptaSquared~/chap19150-SeptaSquared/SeptaSquared-master/SeptaSquare/src/com/chapslife/septasquare/client/SeptaSquare.java~void sendNameToServer()~1062",5="marchold-BandRidesServer~/marchold-BandRidesServer/BandRidesServer-master/Band-Rides-Server/src/com/catglo/bandridesserver/client/Band_Rides_Server.java~void sendNameToServer()~3708",6="ph73nt-fuzzy-archer~/ph73nt-fuzzy-archer/fuzzy-archer-master/src/couk/fishlegs/nucmedone/client/NucMedOne.java~void sendNameToServer()~4292",7="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/ChatCafeine.java~void sendNameToServer()~183",8="BrianHenryIE-GwtDropwizard~/BrianHenryIE-GwtDropwizard/GwtDropwizard-master/src/main/java/ie/brianhenry/gwtdropwizard/client/GwtDropwizardClient.java~void sendNameToServer()~47",9="hershal-supertictactoe~/hershal-supertictactoe/supertictactoe-master/src/com/supertictactoe/supertictactoe/client/SuperTicTacToe.java~void sendNameToServer()~1410",10="AquaWolf-frontier-manager~/AquaWolf-frontier-manager/frontier-manager-master/Frontier Manager Server/src/de/waldmeisterundfreunde/frontiermanger/client/Frontier_Manager.java~void sendNameToServer()~23",11="xinl-feedlosophor~/xinl-feedlosophor/feedlosophor-master/Feedlosophor/src/feedlosophor/client/Feedlosophor.java~void sendNameToServer()~4711",12="lferna-Padel~/lferna-Padel/Padel-master/src/padel/client/Padel.java~void sendNameToServer()~3624"]
+5[label="com.google.gwt.user.client.ui.DialogBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+3[label="VAR:com.google.gwt.user.client.ui.DialogBox",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+12[label="center()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+17[label="VAR:com.google.gwt.user.client.ui.DialogBox",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+26[label="center()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+18[label="setText()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+3->12[label="CALL"]
+3->5[label="OF_TYPE"]
+17->5[label="OF_TYPE"]
+17->18[label="CALL"]
+17->26[label="CALL"]
+}

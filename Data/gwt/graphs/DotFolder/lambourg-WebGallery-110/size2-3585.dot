@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3585,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Label"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="lambourg-WebGallery",filePath="/lambourg-WebGallery/WebGallery-master/client/src/com/lambourg/webgallery/client/widgets/TitleBarLink.java",contextSignature="TitleBarLink",graphId="3585"]
+0[label="com.lambourg.webgallery.client.widgets.TitleBarLink",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Label",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

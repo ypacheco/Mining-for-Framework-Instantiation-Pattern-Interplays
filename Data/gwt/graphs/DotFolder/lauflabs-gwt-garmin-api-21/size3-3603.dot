@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=3603,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.junit.client.GWTTestCase"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="lauflabs-gwt-garmin-api",filePath="/lauflabs-gwt-garmin-api/gwt-garmin-api-master/gwt-garmin-api/src/test/java/com/garmin/gwt/communicator/client/AbstractGarminGWTTest.java",contextSignature="AbstractGarminGWTTest",graphId="3603"]
+0[label="test.java.com.garmin.gwt.communicator.client.AbstractGarminGWTTest",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.junit.client.GWTTestCase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="java.lang.String getModuleName()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+}

@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=967,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="novosga-painel-fx~/novosga-painel-fx/painel-fx-master/src/org/novosga/painel/client/ui/Controller.java~Controller~3787",1="borissuska-csv-tools~/borissuska-csv-tools/csv-tools-master/src/main/java/sk/suska/csv_tools/ui/FormController.java~FormController~2203",2="Geekly-fieldmarshalfx~/Geekly-fieldmarshalfx/fieldmarshalfx-master/src/net/geeklythings/fm/ui/fxml/LoadTournamentDialogController.java~LoadTournamentDialogController~500"]
+70[label="javafx.collections.FXCollections",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+68[label="VAR:javafx.collections.FXCollections",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+69[label="observableList()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+12[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+68->69[label="CALL"]
+0->12[label="OVERRIDE"]
+0->2[label="DECLARE_FIELD"]
+68->70[label="OF_TYPE"]
+12->68[label="INSTANTIATE"]
+}

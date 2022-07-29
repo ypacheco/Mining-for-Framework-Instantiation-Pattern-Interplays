@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=799,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.place.shared.Place"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="bahkified-Test",filePath="/bahkified-Test/Test-master/src/main/java/com/blargh/AanP/client/place/ItemListPlace.java",contextSignature="ItemListPlace",graphId="799"]
+0[label="main.java.com.blargh.AanP.client.place.ItemListPlace",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.place.shared.Place",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

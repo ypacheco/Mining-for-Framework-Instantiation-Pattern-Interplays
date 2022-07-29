@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1675,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.event.EventTarget"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="abuczko-JFXDockManager",filePath="/abuczko-JFXDockManager/JFXDockManager-master/JFXDockManager/src/controller/HideableDockPanel.java",contextSignature="HideableDockPanel",graphId="1675"]
+0[label="controller.HideableDockPanel",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.event.EventTarget",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

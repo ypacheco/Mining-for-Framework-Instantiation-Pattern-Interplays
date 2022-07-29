@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=490,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.event.shared.HandlerRegistration"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="ahome-it-ahome-sencha-shared",filePath="/ahome-it-ahome-sencha-shared/ahome-sencha-shared-master/ahome-sencha-shared/src/main/java/com/ait/toolkit/sencha/shared/client/core/handlers/CallbackRegistration.java",contextSignature="CallbackRegistration",graphId="490"]
+0[label="main.java.com.ait.toolkit.sencha.shared.client.core.handlers.CallbackRegistration",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.event.shared.HandlerRegistration",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="callback",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="target",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+0->4[label="DECLARE_FIELD"]
+4->3[label="OF_TYPE"]
+}

@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4550,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.shape.Rectangle"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="timyates-ShadowFX",filePath="/timyates-ShadowFX/ShadowFX-master/src/main/java/com/bloidonia/shadowtest/presentation/main/MainPresenter.java",contextSignature="void initialize(java.net.URL,java.util.ResourceBundle)",graphId="4550"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.shape.Rectangle",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

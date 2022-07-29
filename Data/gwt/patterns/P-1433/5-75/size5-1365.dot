@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1365,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/profil/ProfilPanel.java~ProfilPanel~278",1="woox-serverapp~/woox-serverapp/serverapp-master/src/wooxes/net/shared/Usuari.java~Usuari~4667",2="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/accueil/AccueilPanel.java~AccueilPanel~198"]
+128[label="com.google.gwt.user.client.ui.PasswordTextBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+127[label="VAR:com.google.gwt.user.client.ui.PasswordTextBox",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+133[label="VAR:com.google.gwt.user.client.ui.PasswordTextBox",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+130[label="VAR:com.google.gwt.user.client.ui.PasswordTextBox",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+129[label="new PasswordTextBox()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+133->128[label="OF_TYPE"]
+127->128[label="OF_TYPE"]
+130->128[label="OF_TYPE"]
+130->129[label="CALL"]
+}

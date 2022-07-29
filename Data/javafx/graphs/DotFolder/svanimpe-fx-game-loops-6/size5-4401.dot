@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=4401,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.animation.AnimationTimer"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="svanimpe-fx-game-loops",filePath="/svanimpe-fx-game-loops/fx-game-loops-master/src/main/java/svanimpe/fxgameloop/loop/FixedSteps.java",contextSignature="FixedSteps",graphId="4401"]
+0[label="main.java.svanimpe.fxgameloop.loop.FixedSteps",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.animation.AnimationTimer",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void handle(long)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="void stop()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+4[label="super.stop()",vertexType="SUPER_CALL",isFrameworkType=true,peripheries=2,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+0->3[label="OVERRIDE"]
+3->4[label="CALL"]
+}

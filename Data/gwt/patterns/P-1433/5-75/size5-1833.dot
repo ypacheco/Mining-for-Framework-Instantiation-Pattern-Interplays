@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1833,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="anozaki-GwtHelloMvpTest~/anozaki-GwtHelloMvpTest/GwtHelloMvpTest-master/src/main/java/com/hellomvp/client/place/HelloPlace.java~Tokenizer~671",1="carlos-aguayo-html5gwthistory~/carlos-aguayo-html5gwthistory/html5gwthistory-master/src/com/dreamskiale/client/HelloPlace.java~Tokenizer~1014"]
+8[label="new HelloPlace()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+9[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+4[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+5[label="com.google.gwt.place.shared.Place",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+3[label="PARAMETER:CLIENT",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+9->4[label="OF_TYPE"]
+9->8[label="CALL"]
+3->4[label="OF_TYPE"]
+4->5[label="EXTEND",color=blue]
+}

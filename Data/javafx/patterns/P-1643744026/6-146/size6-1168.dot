@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1168,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="crosswords-testEnvironment~/crosswords-testEnvironment/testEnvironment-master/src/GUI/MainController.java~void initialize(java.net.URL,java.util.ResourceBundle)~2317",1="crosswords-testEnvironment~/crosswords-testEnvironment/testEnvironment-master/src/GUI/MainController.java~MainController~2315"]
+199[label="new FileChooser()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+200[label="VAR:javafx.stage.FileChooser",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+201[label="javafx.stage.FileChooser",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+208[label="setInitialDirectory()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+206[label="getExtensionFilters()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+210[label="showOpenDialog()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+200->206[label="CALL"]
+200->199[label="CALL"]
+200->208[label="CALL"]
+200->210[label="CALL"]
+200->201[label="OF_TYPE"]
+}

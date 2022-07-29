@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1583,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="Tok-Ziraja222~/Tok-Ziraja222/Ziraja222-master/src/ziraja/client/AppController.java~AppController~396",1="j78wu-HyperDex-GUI~/j78wu-HyperDex-GUI/HyperDex-GUI-master/src/com/hyperdex/web/client/view/HyperDex.java~HyperDex~3084"]
+4[label="FIELD:com.google.gwt.user.client.ui.TabPanel",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+51[label="VAR:com.google.gwt.user.client.ui.TabPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+7[label="VAR:com.google.gwt.user.client.ui.TabPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+8[label="add()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+7->8[label="CALL"]
+4->51[label="REFERENCE"]
+0->4[label="DECLARE_FIELD"]
+4->7[label="REFERENCE"]
+}

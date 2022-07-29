@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=3605,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/NiconNavigator/NavegadorController.java~NavegadorController~2563",1="fieryphoenix-screen-caster~/fieryphoenix-screen-caster/screen-caster-master/ScreenCaster/src/by/bsuir/zuyeu/controller/ConnectController.java~ConnectController~2678",2="novosga-painel-fx~/novosga-painel-fx/painel-fx-master/src/org/novosga/painel/client/ui/Controller.java~Controller~3787"]
+43[label="FIELD:javafx.scene.control.ProgressIndicator",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+44[label="javafx.scene.control.ProgressIndicator",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+43->44[label="OF_TYPE"]
+0->2[label="DECLARE_FIELD"]
+0->43[label="DECLARE_FIELD"]
+}

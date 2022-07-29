@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=466,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/ugat/client/common/AppModule.java~AppModule~3041",1="lambourg-WebGallery~/lambourg-WebGallery/WebGallery-master/client/src/com/lambourg/webgallery/client/WebGallery.java~WebGallery~3490",2="rjdkolb-jozijug_phonegapdemo~/rjdkolb-jozijug_phonegapdemo/jozijug_phonegapdemo-master/src/main/java/org/openrap/jozijug/mgwtphonegap/client/AppHistoryObserver.java~AppHistoryObserver~4349"]
+54[label="com.google.gwt.user.client.History",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+104[label="VAR:com.google.gwt.user.client.History",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+104->54[label="OF_TYPE"]
+}

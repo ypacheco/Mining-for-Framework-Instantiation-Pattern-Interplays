@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=1955,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.rpc.AsyncCallback"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="chrte-TemperatureWatcher~/chrte-TemperatureWatcher/TemperatureWatcher-master/src/com/google/gwt/sample/stockwatcher/client/TemperatureWatcher.java~java.util.ArrayList addCity(com.google.gwt.sample.stockwatcher.client.DnDFlexTable)~1077",1="chrte-TemperatureWatcher~/chrte-TemperatureWatcher/TemperatureWatcher-master/src/com/google/gwt/sample/stockwatcher/client/TemperatureWatcher.java~void deleteEntryFromDb(com.google.gwt.sample.stockwatcher.client.Temperature)~1080"]
+5[label="void onSuccess(com.google.gwt.sample.stockwatcher.client.Temperature)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.rpc.AsyncCallback",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+2[label="VAR",vertexType="OUTSIDE_VARIABLE_EXPRESION",isFrameworkType=false]
+4[label="void onFailure(java.lang.Throwable)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->5[label="OVERRIDE"]
+2->1[label="OF_TYPE"]
+0->2[label="ASSIGMENT"]
+0->4[label="OVERRIDE"]
+0->1[label="IMPLEMENT",color=red]
+}

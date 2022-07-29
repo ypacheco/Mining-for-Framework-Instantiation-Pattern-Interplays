@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=4601,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="jalbertcruz-Documentation-manager~/jalbertcruz-Documentation-manager/Documentation-manager-master/src/documentation/manager/DocumentationManager.java~DocumentationManager~3242",1="yorlov-VirtualPointer~/yorlov-VirtualPointer/VirtualPointer-master/src/com/blogspot/captain1653/options/OptionsStage.java~OptionsStage~4889"]
+28[label="javafx.scene.control.TextInputControlBuilder",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+26[label="VAR:javafx.scene.control.TextInputControlBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+26->28[label="OF_TYPE"]
+}

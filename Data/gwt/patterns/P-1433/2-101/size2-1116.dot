@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1116,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=5.0,patternRootClient=null]
+patternInstancesInfo[0="WSDOT-WSDOT-Search-GWT~/WSDOT-WSDOT-Search-GWT/WSDOT-Search-GWT-master/src/gov/wa/wsdot/search/client/SearchWidget.java~SearchWidget~449",1="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/AlgebrApp.java~AlgebrApp~3667",2="jumanor-matamarcianos~/jumanor-matamarcianos/matamarcianos-master/src/main/java/pck/client/TMotorJuego.java~void ejecutar()~3319",3="daonb-obudget~/daonb-obudget/obudget-master/src/client/src/org/obudget/client/Application.java~Application~1154",4="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/ugat/client/common/ui/TopPanel.java~TopPanel~3049"]
+5[label="com.google.gwt.user.client.Window.Location",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+24[label="VAR:com.google.gwt.user.client.Window.Location",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+24->5[label="OF_TYPE"]
+}

@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=1792,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.VBox",1="javafx.fxml.Initializable"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="alexei-yasko-PoissonDistributionDemo",filePath="/alexei-yasko-PoissonDistributionDemo/PoissonDistributionDemo-master/src/main/java/agd/yaskoam/poisson/BaseComponent.java",contextSignature="BaseComponent",graphId="1792"]
+0[label="main.java.agd.yaskoam.poisson.BaseComponent",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.VBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="javafx.fxml.Initializable",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+3[label="fxmlLoader",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+4[label="javafx.fxml.FXMLLoader",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+5[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="IMPLEMENT",color=red]
+0->3[label="DECLARE_FIELD"]
+3->4[label="OF_TYPE"]
+0->5[label="OVERRIDE"]
+}

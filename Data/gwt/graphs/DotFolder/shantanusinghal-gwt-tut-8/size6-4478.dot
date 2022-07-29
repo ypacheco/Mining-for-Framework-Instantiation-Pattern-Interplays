@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=4478,category="extension_graph",isAnonymous=true,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.event.shared.EventHandler"]
+possibleCollaborationsInfo[0="4478~CLIENT_METHOD_DECLARATION-PARAMETER_DECLARATION-~com.google.gwt.event.shared.EventHandler ~com.google.gwt.event.shared.GwtEvent ~true~false"]
+locationInfo[projectName="shantanusinghal-gwt-tut",filePath="/shantanusinghal-gwt-tut/gwt-tut-master/src/com/ptc/tut/client/presenters/PersonPresenter.java",contextSignature="void bind()",graphId="4478"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.event.shared.EventHandler",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+5[label="void onShowFullName(com.ptc.tut.client.events.ShowFullNameEvent)",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+6[label="event",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+7[label="com.ptc.tut.client.events.ShowFullNameEvent",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+8[label="com.google.gwt.event.shared.GwtEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->5[label="DECLARE_METHOD"]
+7->8[label="EXTEND",color=blue]
+6->7[label="OF_TYPE"]
+5->6[label="PARAMETER"]
+}

@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1533,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="luxferrari-AlgebrApp~/luxferrari-AlgebrApp/AlgebrApp-master/AlgebrApp/src/org/luxferrari/algebrapp/client/AlgebrApp.java~AlgebrApp~3667",1="chrte-TemperatureWatcher~/chrte-TemperatureWatcher/TemperatureWatcher-master/src/com/google/gwt/sample/stockwatcher/client/TemperatureWatcher.java~TemperatureWatcher~1066"]
+62[label="com.allen_sauer.gwt.dnd.client.AbstractDragController",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+60[label="VAR:com.allen_sauer.gwt.dnd.client.AbstractDragController",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+117[label="addDragHandler()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+60->62[label="OF_TYPE"]
+60->117[label="CALL"]
+}

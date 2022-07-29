@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=3248,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="gpshenoy-Bank354~/gpshenoy-Bank354/Bank354-master/src/bank354/Bank354.java~Bank354~2784",1="cmd802-projectmain~/cmd802-projectmain/projectmain-master/GroupProject/src/menu/Menu.java~Menu~2281",2="indysvision-EatWorldEditor~/indysvision-EatWorldEditor/EatWorldEditor-master/src/com/indyvision/eatworld/editor/Main.java~Main~3178",3="guigarage-mastering-javafx-controls~/guigarage-mastering-javafx-controls/mastering-javafx-controls-master/src/main/java/com/guigarage/chapter5/SeperatorInToolbarDemo.java~SeperatorInToolbarDemo~2872"]
+100[label="javafx.scene.control.Separator",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+99[label="VAR:javafx.scene.control.Separator",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+99->100[label="OF_TYPE"]
+}

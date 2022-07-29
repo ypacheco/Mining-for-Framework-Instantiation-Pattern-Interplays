@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3227,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.i18n.client.Constants"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jnorthrup-gwt-charts",filePath="/jnorthrup-gwt-charts/gwt-charts-master/gwt-charts/src/main/java/com/googlecode/gwt/charts/client/ajaxloader/AjaxKeyConstants.java",contextSignature="AjaxKeyConstants",graphId="3227"]
+0[label="main.java.com.googlecode.gwt.charts.client.ajaxloader.AjaxKeyConstants",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.i18n.client.Constants",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

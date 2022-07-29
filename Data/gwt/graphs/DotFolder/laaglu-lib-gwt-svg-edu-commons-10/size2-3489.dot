@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3489,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.uibinder.client.UiBinder"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="laaglu-lib-gwt-svg-edu-commons",filePath="/laaglu-lib-gwt-svg-edu-commons/lib-gwt-svg-edu-commons-master/src/main/java/org/vectomatic/svg/edu/client/commons/ConfirmBox.java",contextSignature="RestartBinder",graphId="3489"]
+0[label="main.java.org.vectomatic.svg.edu.client.commons.ConfirmBox.RestartBinder",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.uibinder.client.UiBinder",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

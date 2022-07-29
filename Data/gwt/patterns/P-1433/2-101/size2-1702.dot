@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1702,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="rwl-GoogleMapWidget~/rwl-GoogleMapWidget/GoogleMapWidget-master/src/main/java/org/vaadin/hezamu/googlemapwidget/widgetset/client/ui/VGoogleMap.java~MarkerRetrieveCommand~4442",1="daonb-obudget~/daonb-obudget/obudget-master/src/client/src/org/obudget/client/Application.java~Application~1154",2="daonb-obudget~/daonb-obudget/obudget-master/src/client/src/org/obudget/client/BudgetSuggestionOracle.java~BudgetSuggestionOracle~1160",3="neilsh-gwtfb~/neilsh-gwtfb/gwtfb-master/GwtFB/src/com/gwtfb/client/UserInfoViewController.java~UserInfoViewController~4138"]
+43[label="com.google.gwt.json.client.JSONString",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+70[label="VAR:com.google.gwt.json.client.JSONString",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+70->43[label="OF_TYPE"]
+}

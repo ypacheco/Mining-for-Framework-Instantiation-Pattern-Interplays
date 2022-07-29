@@ -1,0 +1,68 @@
+import pandas as pd
+import seaborn as sns
+import pandas as pd
+import matplotlib.pyplot as plt
+
+
+df_gwt_GraphsPerFrameworkTypes = pd.read_csv('/gwt/graphs/DistributionByNumberGraphsPerFrameworkTypes.csv', sep=";")
+
+df_gwt_InterplaysPerFrameworkType = pd.read_csv('/gwt/graphs/DistributionByNumberInterplaysPerFrameworkType.csv', sep=";")
+
+df_javafx_GraphsPerFrameworkTypes = pd.read_csv('/javafx/graphs/DistributionByNumberGraphsPerFrameworkTypes.csv', sep=";")
+
+df_javafx_InterplaysPerFrameworkType = pd.read_csv('/javafx/graphs/DistributionByNumberInterplaysPerFrameworkType.csv', sep=";")
+
+df_play_GraphsPerFrameworkTypes = pd.read_csv('/play/graphs/DistributionByNumberGraphsPerFrameworkTypes.csv', sep=";")
+
+df_play_InterplaysPerFrameworkType = pd.read_csv('/play/graphs/DistributionByNumberInterplaysPerFrameworkType.csv', sep=";")
+
+df_spring_GraphsPerFrameworkTypes = pd.read_csv('/spring/graphs/DistributionByNumberGraphsPerFrameworkTypes.csv', sep=";")
+
+df_spring_InterplaysPerFrameworkType = pd.read_csv('/spring/graphs/DistributionByNumberInterplaysPerFrameworkType.csv', sep=";")
+
+df_gwt_GraphsPerFrameworkTypes['framework'] = "GWT"
+df_gwt_InterplaysPerFrameworkType['framework'] = "GWT"
+
+df_javafx_GraphsPerFrameworkTypes['framework'] = "JAVAFX"
+df_javafx_InterplaysPerFrameworkType['framework'] = "JAVAFX"
+
+df_play_GraphsPerFrameworkTypes['framework'] = "PLAY"
+df_play_InterplaysPerFrameworkType['framework'] = "PLAY"
+
+df_spring_GraphsPerFrameworkTypes['framework'] = "SPRING"
+df_spring_InterplaysPerFrameworkType['framework'] = "SPRING"
+
+df_gwt_GraphsPerFrameworkTypes['kind'] = "Graphs"
+df_gwt_InterplaysPerFrameworkType['kind'] = "Interplays"
+
+df_javafx_GraphsPerFrameworkTypes['kind'] = "Graphs"
+df_javafx_InterplaysPerFrameworkType['kind'] = "Interplays"
+
+df_play_GraphsPerFrameworkTypes['kind'] = "Graphs"
+df_play_InterplaysPerFrameworkType['kind'] = "Interplays"
+
+df_spring_GraphsPerFrameworkTypes['kind'] = "Graphs"
+df_spring_InterplaysPerFrameworkType['kind'] = "Interplays"
+
+df_gwt_GraphsInterplaysPerFrameworkTypes = pd.concat([df_gwt_GraphsPerFrameworkTypes.rename(columns={'NumberGraphsPerFrameworkTypes':'value'})
+           ,df_gwt_InterplaysPerFrameworkType.rename(columns={'NumberInterplaysPerFrameworkType':'value'})])
+
+df_javafx_GraphsInterplaysPerFrameworkTypes = pd.concat([df_javafx_GraphsPerFrameworkTypes.rename(columns={'NumberGraphsPerFrameworkTypes':'value'})
+		   ,df_javafx_InterplaysPerFrameworkType.rename(columns={'NumberInterplaysPerFrameworkType':'value'})])
+
+df_play_GraphsInterplaysPerFrameworkTypes = pd.concat([df_play_GraphsPerFrameworkTypes.rename(columns={'NumberGraphsPerFrameworkTypes':'value'})
+		   ,df_play_InterplaysPerFrameworkType.rename(columns={'NumberInterplaysPerFrameworkType':'value'})])
+
+df_spring_GraphsInterplaysPerFrameworkTypes = pd.concat([df_spring_GraphsPerFrameworkTypes.rename(columns={'NumberGraphsPerFrameworkTypes':'value'})
+		   ,df_spring_InterplaysPerFrameworkType.rename(columns={'NumberInterplaysPerFrameworkType':'value'})])
+
+df_all_GraphsInterplaysPerFrameworkTypes = pd.concat([df_gwt_GraphsInterplaysPerFrameworkTypes,df_javafx_GraphsInterplaysPerFrameworkTypes,df_play_GraphsInterplaysPerFrameworkTypes,df_spring_GraphsInterplaysPerFrameworkTypes])
+
+ax_all_GraphsInterplaysPerFrameworkTypes=sns.violinplot(data = df_all_GraphsInterplaysPerFrameworkTypes, x='framework', y='value', hue='kind')
+ax_all_GraphsInterplaysPerFrameworkTypes.set_xlabel("")
+ax_all_GraphsInterplaysPerFrameworkTypes.set_ylabel("Framework Types")
+ax_all_GraphsInterplaysPerFrameworkTypes.set_ylim(0,200)
+
+ax_all_GraphsInterplaysPerFrameworkTypes.figure.set_size_inches(9,3)
+fig = ax_all_GraphsInterplaysPerFrameworkTypes.get_figure()
+fig.savefig('GraphsInterplaysPerFrameworkTypes.pdf')

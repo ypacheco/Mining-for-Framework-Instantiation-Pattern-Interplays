@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=685,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.rpc.RemoteService"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="aramk-mechanix",filePath="/aramk-mechanix/mechanix-master/src/au/edu/unimelb/csse/mugle/client/api/KeyValueService.java",contextSignature="KeyValueService",graphId="685"]
+0[label="au.edu.unimelb.csse.mugle.client.api.KeyValueService",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.rpc.RemoteService",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

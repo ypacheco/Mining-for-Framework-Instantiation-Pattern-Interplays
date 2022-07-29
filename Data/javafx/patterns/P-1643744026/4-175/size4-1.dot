@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.beans.property.SimpleObjectProperty"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="guigarage-mastering-javafx-controls~/guigarage-mastering-javafx-controls/mastering-javafx-controls-master/src/main/java/com/guigarage/chapter4/AreaRegion.java~javafx.beans.property.ObjectProperty contentBiasProperty()~2851",1="Jojal-RadialMenu~/Jojal-RadialMenu/RadialMenu-master/src/main/java/fr/jojal/widget/radial/item/RadialItem.java~javafx.beans.property.ObjectProperty imageProperty()~696"]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.beans.property.SimpleObjectProperty",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2[label="VAR",vertexType="OUTSIDE_VARIABLE_EXPRESION",isFrameworkType=false]
+3[label="javafx.beans.property.ObjectProperty",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->2[label="ASSIGMENT"]
+0->1[label="EXTEND",color=red]
+2->3[label="OF_TYPE"]
+}

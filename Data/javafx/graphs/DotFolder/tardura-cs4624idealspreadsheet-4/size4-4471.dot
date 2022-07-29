@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=4471,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.VBox"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="tardura-cs4624idealspreadsheet",filePath="/tardura-cs4624idealspreadsheet/cs4624idealspreadsheet-master/IdealInterfaceDesign/src/CheckBoxList.java",contextSignature="CheckBoxList",graphId="4471"]
+0[label="CheckBoxList",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.VBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="label",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.scene.text.Text",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+}

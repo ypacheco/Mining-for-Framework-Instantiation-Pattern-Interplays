@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4582,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="adrianjarvis-ryanswordgame~/adrianjarvis-ryanswordgame/ryanswordgame-master/src/wordgame/Fireworks.java~SanFranciscoFireworks~1707",1="VaibhavJain-JavaFx-2.0-Ludo~/VaibhavJain-JavaFx-2.0-Ludo/JavaFx-2.0-Ludo-master/src/org/vaib/LudoMain.java~LudoMain~1569"]
+8[label="javafx.scene.paint.Paint[]",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+7[label="FIELD:javafx.scene.paint.Paint[]",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+7->8[label="OF_TYPE"]
+0->7[label="DECLARE_FIELD"]
+}

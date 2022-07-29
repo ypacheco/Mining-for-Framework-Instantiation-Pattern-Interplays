@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=244,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.HorizontalPanel"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="xephoid-YS~/xephoid-YS/YS-master/src/com/ionmarkgames/ys/client/ui/NameInqueryPanel.java~NameInqueryPanel~4700",1="lptr-csopibeszi~/lptr-csopibeszi/csopibeszi-master/src/main/java/hu/lptr/test/gae/csopibeszi/client/ui/MessageForm.java~MessageForm~3637"]
+1[label="com.google.gwt.user.client.ui.HorizontalPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="FIELD:com.google.gwt.user.client.ui.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="com.google.gwt.user.client.ui.Button",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+4[label="FIELD:com.google.gwt.user.client.ui.TextBox",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+5[label="com.google.gwt.user.client.ui.TextBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+0->4[label="DECLARE_FIELD"]
+4->5[label="OF_TYPE"]
+}

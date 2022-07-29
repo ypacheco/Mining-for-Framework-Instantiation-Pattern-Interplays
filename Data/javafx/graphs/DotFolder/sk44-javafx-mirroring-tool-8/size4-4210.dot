@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=4210,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.beans.property.BooleanPropertyBase"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="sk44-javafx-mirroring-tool",filePath="/sk44-javafx-mirroring-tool/javafx-mirroring-tool-master/src/main/java/sk44/mirroringtool/MainWindowViewModel.java",contextSignature="MainWindowViewModel",graphId="4210"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.beans.property.BooleanPropertyBase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="onCancelled",vertexType="OUTSIDE_VARIABLE_EXPRESION",isFrameworkType=true,peripheries=2]
+3[label="javafx.beans.property.BooleanProperty",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="ASSIGMENT"]
+2->3[label="OF_TYPE"]
+}

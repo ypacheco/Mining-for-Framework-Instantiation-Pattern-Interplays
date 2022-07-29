@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=4035,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="lochmis-checkers~/lochmis-checkers/checkers-master/checkersGUI/src/checkersgui/CheckersGUI.java~CheckersGUI~3497",1="FChapeau-RMI_Connect4~/FChapeau-RMI_Connect4/RMI_Connect4-master/src/main/java/client/mainView/MainViewController.java~MainViewController~452"]
+14[label="new RowConstraints()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+15[label="VAR:javafx.scene.layout.RowConstraints",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+16[label="javafx.scene.layout.RowConstraints",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+15->16[label="OF_TYPE"]
+15->14[label="CALL"]
+}

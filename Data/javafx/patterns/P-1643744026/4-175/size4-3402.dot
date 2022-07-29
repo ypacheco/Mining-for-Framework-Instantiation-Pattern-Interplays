@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=3402,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="SamuelSital-Tetris~/SamuelSital-Tetris/Tetris-master/src/application/MainScreenController.java~MainScreenController~1198",1="RUAN0007-FastestPathSimulator~/RUAN0007-FastestPathSimulator/FastestPathSimulator-master/FastPathSimulator/src/application/FastestPathSimulatorController.java~FastestPathSimulatorController~1116",2="walker-clint-AIProj3~/walker-clint-AIProj3/AIProj3-master/src/application/GameBoardController.java~GameBoardController~4712"]
+80[label="javafx.scene.shape.Rectangle[][]",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+79[label="FIELD:javafx.scene.shape.Rectangle[][]",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+103[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->79[label="DECLARE_FIELD"]
+79->80[label="OF_TYPE"]
+0->103[label="DECLARE_FIELD"]
+}

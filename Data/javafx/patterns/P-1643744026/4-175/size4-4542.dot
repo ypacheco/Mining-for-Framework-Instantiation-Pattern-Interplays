@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4542,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="gleba-cppoints~/gleba-cppoints/cppoints-master/src/cpapp/view/EditTableController.java~void initialize(java.net.URL,java.util.ResourceBundle)~2747",1="gleba-cppoints~/gleba-cppoints/cppoints-master/src/cpapp/view/EditTableController.java~EditTableController~2746"]
+27[label="new EditingCell()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+28[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+29[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+30[label="javafx.scene.control.TableCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+28->29[label="OF_TYPE"]
+29->30[label="EXTEND",color=blue]
+28->27[label="CALL"]
+}

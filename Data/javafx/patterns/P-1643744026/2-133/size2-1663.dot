@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1663,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.canvas.Canvas"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=6.0,patternRootClient=0]
+patternInstancesInfo[0="Xenoage-Labs~/Xenoage-Labs/Labs-master/JavaFXSymbolsTest/src/com/xenoage/labs/javafxsymbolstest/BaseCanvas.java~BaseCanvas~1616",1="Xenoage-Labs~/Xenoage-Labs/Labs-master/JavaFXSymbolsTest/src/com/xenoage/labs/javafxsymbolstest/font/FontCanvas.java~FontCanvas~1619",2="dejanristic78-snake~/dejanristic78-snake/snake-master/src/dejan/snake/GameCanvas.java~GameCanvas~2386",3="Xenoage-Labs~/Xenoage-Labs/Labs-master/JavaFXSymbolsTest/src/com/xenoage/labs/javafxsymbolstest/paths/PathCanvas.java~PathCanvas~1622",4="Meldanor-GraphDemo~/Meldanor-GraphDemo/GraphDemo-master/src/main/java/de/meldanor/graphdemo/gui/GraphCanvas.java~GraphCanvas~957",5="SelfGamer-Timeline~/SelfGamer-Timeline/Timeline-master/src/de/bmsoft/timeline/drawmanager/DrawCanvas.java~DrawCanvas~1199"]
+1[label="javafx.scene.canvas.Canvas",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

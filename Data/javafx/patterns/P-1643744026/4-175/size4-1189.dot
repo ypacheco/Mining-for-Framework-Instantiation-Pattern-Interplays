@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1189,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=15.0,patternRootClient=0]
+patternInstancesInfo[0="dony1990-ProsDesktop~/dony1990-ProsDesktop/ProsDesktop-master/src/nicon/NiconDesktop/guifx/Plugins/PluginsController.java~PluginsController~2568",1="Technius-Starbound-Mod-Toolkit~/Technius-Starbound-Mod-Toolkit/Starbound-Mod-Toolkit-master/src/main/java/co/technius/starboundmodtoolkit/utilui/SwappableNodePane.java~SwappableNodePane~1458",2="candybibby-Snake~/candybibby-Snake/Snake-master/src/graphicsJavaFX/Controller.java~Controller~2239",3="cmd802-projectmain~/cmd802-projectmain/projectmain-master/GroupProject/src/topicpane/SHM.java~SHM~2292",4="tarchan-ClipFX~/tarchan-ClipFX/ClipFX-master/src/com/mac/tarchan/clipfx/ClipFXController.java~ClipFXController~4467",5="if12b051-SWP_Paint~/if12b051-SWP_Paint/SWP_Paint-master/SWP_Paint/src/gui/MainController.java~MainController~3089",6="Daniel-Cristian-MusicPlayerStuff~/Daniel-Cristian-MusicPlayerStuff/MusicPlayerStuff-master/src/Controllers/VimMainController.java~VimMainController~314",7="DOOOOOM-jmpd-shared~/DOOOOOM-jmpd-shared/jmpd-shared-master/src/dooooom/jmpd/client/gui/javafx/MainViewController.java~MainViewController~294",8="Daniel-Cristian-MusicPlayerStuff~/Daniel-Cristian-MusicPlayerStuff/MusicPlayerStuff-master/src/Controllers/MusicVimController.java~MusicVimController~318",9="markosankovic-CP1401901_BUCKeUSBAccessory~/markosankovic-CP1401901_BUCKeUSBAccessory/CP1401901_BUCKeUSBAccessory-master/src/main/java/com/synapticon/buckeusbaccessory/FXMLController.java~FXMLController~3534",10="soonzsoonz-QuickFoot~/soonzsoonz-QuickFoot/QuickFoot-master/src/application/FXMLAdoptionController.java~FXMLAdoptionController~4247",11="MasterGlaISTIC-aocproject~/MasterGlaISTIC-aocproject/aocproject-master/metronome/src/main/java/fr/istic/aocproject/ihm/IHMController.java~IHMController~898",12="Tsaru-Java-MP3-Visualizations~/Tsaru-Java-MP3-Visualizations/Java-MP3-Visualizations-master/mp3 Visualization/src/VisualizationInterface.java~VisualizationInterface~1511",13="ireardon-cs32-final~/ireardon-cs32-final/cs32-final-master/src/edu/brown/cs32/final_group/fx/AdvancedMenu.java~AdvancedMenu~3207",14="didygo-gce-display~/didygo-gce-display/gce-display-master/src/proto1/DashBoard.java~DashBoard~2407"]
+11[label="javafx.scene.control.Slider",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+10[label="FIELD:javafx.scene.control.Slider",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+4[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->10[label="DECLARE_FIELD"]
+10->11[label="OF_TYPE"]
+0->4[label="DECLARE_FIELD"]
+}

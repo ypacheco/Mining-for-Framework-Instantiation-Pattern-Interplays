@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=4341,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=null]
+patternInstancesInfo[0="LichuanLu-ShunUI-FX~/LichuanLu-ShunUI-FX/ShunUI-FX-master/src/view/chart/StackedBarChart.java~StackedBarChart~811",1="philippone-EMGClassifier~/philippone-EMGClassifier/EMGClassifier-master/src/gui/EMGClassifierGUI.java~EMGClassifierGUI~3875",2="TomaszKorecki-InvestorAssistant~/TomaszKorecki-InvestorAssistant/InvestorAssistant-master/Investor's assistant/src/investor/charts/CandleChart.java~CandleStickChart~1473"]
+174[label="javafx.scene.chart.Axis",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+301[label="VAR:javafx.scene.chart.Axis",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+270[label="VAR:javafx.scene.chart.Axis",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+256[label="VAR:javafx.scene.chart.Axis",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+263[label="VAR:javafx.scene.chart.Axis",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+542[label="VAR:javafx.scene.chart.Axis",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+256->174[label="OF_TYPE"]
+542->174[label="OF_TYPE"]
+263->174[label="OF_TYPE"]
+301->174[label="OF_TYPE"]
+270->174[label="OF_TYPE"]
+}

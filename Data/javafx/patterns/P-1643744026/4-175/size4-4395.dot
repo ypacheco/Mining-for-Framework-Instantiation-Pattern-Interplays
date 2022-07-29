@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4395,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="aglassman-java-design-pattern-examples~/aglassman-java-design-pattern-examples/java-design-pattern-examples-master/design-patterns/src/main/java/designpatterns/prototype/toolbar/PrototypeToolbar.java~PrototypeToolbar~1739",1="youseke-digitalclock~/youseke-digitalclock/digitalclock-master/src/puzzlewithtimer/controller/FXMLController.java~FXMLController~4893"]
+3[label="PARAMETER:javafx.scene.image.Image",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+2[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+4[label="javafx.scene.image.Image",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+3->4[label="OF_TYPE"]
+2->3[label="PARAMETER"]
+0->2[label="DECLARE_METHOD"]
+}

@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=1663,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.fxml.Initializable"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="a1153tm-FXProtoType",filePath="/a1153tm-FXProtoType/FXProtoType-master/src/prototype/InputBoxesController.java",contextSignature="InputBoxesController",graphId="1663"]
+0[label="prototype.InputBoxesController",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.fxml.Initializable",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+}

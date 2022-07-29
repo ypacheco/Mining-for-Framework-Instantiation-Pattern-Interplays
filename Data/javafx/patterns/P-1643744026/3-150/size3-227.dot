@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=227,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="mrempala-sp~/mrempala-sp/sp-master/src/application/VcPtVisualSchematicView.java~VcPtVisualSchematicView~3690",1="mrempala-sp~/mrempala-sp/sp-master/src/application/VcPtVisualSchematicViewClickable.java~VcPtVisualSchematicViewClickable~3668"]
+42[label="javafx.scene.input.MouseEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+40[label="VAR:javafx.scene.input.MouseEvent",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+56[label="getSceneY()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+40->42[label="OF_TYPE"]
+40->56[label="CALL"]
+}

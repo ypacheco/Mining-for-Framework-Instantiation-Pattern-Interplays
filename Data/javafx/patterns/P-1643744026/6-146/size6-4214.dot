@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=4214,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.VBox"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="LichuanLu-ShunUI-FX~/LichuanLu-ShunUI-FX/ShunUI-FX-master/src/view/WindowButtons.java~WindowButtons~799",1="AMITCCILGITHUB-Contacts~/AMITCCILGITHUB-Contacts/Contacts-master/Contacts/src/org/apandey/utils/WindowButtons.java~WindowButtons~49"]
+2[label="FIELD:javafx.geometry.Rectangle2D",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+4[label="FIELD:javafx.stage.Stage",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+5[label="javafx.stage.Stage",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+3[label="javafx.geometry.Rectangle2D",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+1[label="javafx.scene.layout.VBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2->3[label="OF_TYPE"]
+4->5[label="OF_TYPE"]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+0->4[label="DECLARE_FIELD"]
+}

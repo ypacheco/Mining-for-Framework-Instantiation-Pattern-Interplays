@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=3568,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="ChrisWongAtCUHK-JavaFX~/ChrisWongAtCUHK-JavaFX/JavaFX-master/IssueTrackingLite/src/issuetrackinglite/model/TrackingServiceStub.java~TrackingServiceStub~246",1="almibe-ResourceTree~/almibe-ResourceTree/resource-tree-master/src/main/java/org/almibe/resourcetree/ResourceTree.java~ ResourceTree(NestingRule<T>,ResourceTreeEventHandler<T>,ResourceTreeItemDisplay<T>,ResourceTreePersistence<T>,java.util.Comparator)~1795",2="santi-gonzalez-javafx-tutos~/santi-gonzalez-javafx-tutos/javafx-tutos-master/IssueTrackingLite/src/issuetrackinglite/model/TrackingServiceStub.java~TrackingServiceStub~4090",3="sergiohpl-PMS~/sergiohpl-PMS/PMS-master/IssueTrackingLite/src/issuetrackinglite/model/TrackingServiceStub.java~TrackingServiceStub~4158"]
+6[label="javafx.collections.MapChangeListener.Change",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+5[label="PARAMETER:javafx.collections.MapChangeListener.Change",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+14[label="getKey()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+5->6[label="OF_TYPE"]
+5->14[label="CALL"]
+}

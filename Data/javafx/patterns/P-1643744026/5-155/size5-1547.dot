@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1547,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.animation.AnimationTimer"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="svanimpe-fx-game-loops~/svanimpe-fx-game-loops/fx-game-loops-master/src/main/java/svanimpe/fxgameloop/loop/FixedStepsWithInterpolation.java~FixedStepsWithInterpolation~4403",1="svanimpe-fx-game-loops~/svanimpe-fx-game-loops/fx-game-loops-master/src/main/java/svanimpe/fxgameloop/loop/FixedSteps.java~FixedSteps~4401",2="svanimpe-fx-game-loops~/svanimpe-fx-game-loops/fx-game-loops-master/src/main/java/svanimpe/fxgameloop/loop/VariableSteps.java~VariableSteps~4404"]
+1[label="javafx.animation.AnimationTimer",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="void handle(long)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="void stop()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+4[label="super.stop()",vertexType="SUPER_CALL",isFrameworkType=false,shape=box]
+3->4[label="CALL"]
+0->2[label="OVERRIDE"]
+0->1[label="EXTEND",color=red]
+0->3[label="OVERRIDE"]
+}

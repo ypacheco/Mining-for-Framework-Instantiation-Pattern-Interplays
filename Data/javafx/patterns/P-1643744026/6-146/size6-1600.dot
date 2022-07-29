@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1600,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEPrincipalController.java~CEPrincipalController~2114",1="aferrandoa-valenciasprints~/aferrandoa-valenciasprints/valenciasprints-master/src/controllers/MainController.java~MainController~1711"]
+30[label="new Tooltip()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+31[label="VAR:javafx.scene.control.Tooltip",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+21[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+10[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+8[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+31->30[label="CALL"]
+0->8[label="DECLARE_FIELD"]
+0->10[label="DECLARE_FIELD"]
+0->21[label="OVERRIDE"]
+21->31[label="INSTANTIATE"]
+}

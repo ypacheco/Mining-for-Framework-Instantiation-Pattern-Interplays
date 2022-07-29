@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1558,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.StackPane"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="UrsKR-fxcalendar",filePath="/UrsKR-fxcalendar/fxcalendar-master/src/main/java/com/sai/javafx/calendar/controls/CalendarToggleButton.java",contextSignature="CalendarToggleButton",graphId="1558"]
+0[label="main.java.com.sai.javafx.calendar.controls.CalendarToggleButton",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.StackPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="sp",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+4[label="txt",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+5[label="javafx.scene.text.Text",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->1[label="OF_TYPE"]
+0->4[label="DECLARE_FIELD"]
+4->5[label="OF_TYPE"]
+}

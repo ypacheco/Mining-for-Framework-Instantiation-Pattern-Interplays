@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1740,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="joelburget-miftiwac~/joelburget-miftiwac/miftiwac-master/src/Dynamic_page.java~Dynamic_page~3333",1="philippone-EMGClassifier~/philippone-EMGClassifier/EMGClassifier-master/src/gui/EMGClassifierGUI.java~EMGClassifierGUI~3875"]
+3[label="javafx.scene.control.ToggleButton",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+207[label="VAR:javafx.scene.control.ToggleButton",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+206[label="new ToggleButton()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+300[label="VAR:javafx.scene.control.ToggleButton",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+299[label="new ToggleButton()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+312[label="VAR:javafx.scene.control.ToggleButton",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+300->3[label="OF_TYPE"]
+312->3[label="OF_TYPE"]
+207->206[label="CALL"]
+300->299[label="CALL"]
+207->3[label="OF_TYPE"]
+}

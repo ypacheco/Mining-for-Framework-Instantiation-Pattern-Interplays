@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=4106,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="AaronJRubin-javafx-pong~/AaronJRubin-javafx-pong/javafx-pong-master/src/main/java/game/Game.java~Game~98",1="JASCValentine-BrickBreaker~/JASCValentine-BrickBreaker/BrickBreaker-master/src/brickbreaker/Level.java~Level~554",2="Enriqe-Breaking-Bad-Brick-Breaker~/Enriqe-Breaking-Bad-Brick-Breaker/Breaking-Bad-Brick-Breaker-master/src/bbbrickbreaker/Level.java~Level~439"]
+14[label="new Ball()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+15[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+13[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+9[label="FIELD:CLIENT",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->13[label="DECLARE_METHOD"]
+0->9[label="DECLARE_FIELD"]
+13->15[label="INSTANTIATE"]
+15->14[label="CALL"]
+}

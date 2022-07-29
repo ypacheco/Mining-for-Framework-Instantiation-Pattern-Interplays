@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2262,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="gossipgirls-spacetraders~/gossipgirls-spacetraders/spacetraders-master/src/spacetraders/SpaceTraders.java~void gotoTravel()~2783",1="gossipgirls-spacetraders~/gossipgirls-spacetraders/spacetraders-master/src/spacetraders/SpaceTraders.java~SpaceTraders~2782"]
+310[label="javafx.scene.control.Toggle",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+308[label="VAR:javafx.scene.control.Toggle",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+309[label="setSelected()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+312[label="getUserData()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+308->310[label="OF_TYPE"]
+308->312[label="CALL"]
+308->309[label="CALL"]
+}

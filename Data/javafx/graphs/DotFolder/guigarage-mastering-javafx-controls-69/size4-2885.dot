@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=2885,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.ListCell"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="guigarage-mastering-javafx-controls",filePath="/guigarage-mastering-javafx-controls/mastering-javafx-controls-master/src/main/java/com/guigarage/chapter6/ColorListCell.java",contextSignature="ColorListCell",graphId="2885"]
+0[label="main.java.com.guigarage.chapter6.ColorListCell",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.ListCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void startEdit()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="super.startEdit()",vertexType="SUPER_CALL",isFrameworkType=true,peripheries=2,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+2->3[label="CALL"]
+}

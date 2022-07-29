@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=868,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.stage.Stage"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Manzzz-DBClient",filePath="/Manzzz-DBClient/DBClient-master/src/main/java/com/application/view/AboutDialog.java",contextSignature="DialogWindow",graphId="868"]
+0[label="main.java.com.application.view.AboutDialog.DialogWindow",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.stage.Stage",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=572,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.akjava.gwt.lib.hangoutsutils.client.widgets.VolumeRadioboxes.VolumeRadioboxesListener"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="akjava-GWT-Hangouts",filePath="/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/sound-player/src/com/akjava/gwt/hangout/soundplayer/client/HangoutSoundPlayer.java",contextSignature="void EditorData(int,java.lang.String,java.lang.String)",graphId="572"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.akjava.gwt.lib.hangoutsutils.client.widgets.VolumeRadioboxes.VolumeRadioboxesListener",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void addListener(com.akjava.gwt.lib.hangoutsutils.client.widgets.VolumeRadioboxes.VolumeRadioboxesListener)",vertexType="OUTSIDE_CALL",isFrameworkType=true,peripheries=2]
+3[label="com.akjava.gwt.lib.hangoutsutils.client.widgets.VolumeRadioboxes",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="void changed(int)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+2->0[label="ARGUMENT"]
+2->3[label="OF_TYPE"]
+0->4[label="OVERRIDE"]
+}

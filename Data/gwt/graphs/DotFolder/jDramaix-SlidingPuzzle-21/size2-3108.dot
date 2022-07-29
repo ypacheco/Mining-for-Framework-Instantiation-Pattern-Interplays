@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3108,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.safehtml.client.SafeHtmlTemplates"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jDramaix-SlidingPuzzle",filePath="/jDramaix-SlidingPuzzle/SlidingPuzzle-master/src/be/dramaix/ai/slidingpuzzle/client/ConfigPanel.java",contextSignature="Templates",graphId="3108"]
+0[label="be.dramaix.ai.slidingpuzzle.client.ConfigPanel.Templates",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.safehtml.client.SafeHtmlTemplates",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

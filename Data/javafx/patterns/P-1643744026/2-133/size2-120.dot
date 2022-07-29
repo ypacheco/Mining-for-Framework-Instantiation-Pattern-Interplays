@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=120,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.application.Application"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=9.0,patternRootClient=0]
+patternInstancesInfo[0="m2rtt-Poomine~/m2rtt-Poomine/Poomine-master/src/application/Faililugeja.java~Faililugeja~3512",1="dominique09-TP2-Demineur~/dominique09-TP2-Demineur/TP2-Demineur-master/src/ca/csf/minesweeper/Main.java~Main~2524",2="Dricus-game-of-life~/Dricus-game-of-life/game-of-life-master/src/main/java/nl/dricus/gameoflife/app/Application.java~Application~387",3="DenisTyschenko-JavaFx-Graph~/DenisTyschenko-JavaFx-Graph/JavaFx-Graph-master/src/samples/java/graph/samples/DirectedWeightedGraphSample.java~DirectedWeightedGraphSample~351",4="m2rtt-Poomine~/m2rtt-Poomine/Poomine-master/src/application/Taimer.java~Taimer~3509",5="nwaldispuehl-java-introduction-solutions~/nwaldispuehl-java-introduction-solutions/java-intro-solutions-master/hands_on_examples_sample_implementations/src/main/java/solution_01/TreasureHunt.java~TreasureHunt~3803",6="m2rtt-Poomine~/m2rtt-Poomine/Poomine-master/src/application/Edetabel.java~Edetabel~3510",7="m2rtt-Poomine~/m2rtt-Poomine/Poomine-master/src/application/Kontroll.java~Kontroll~3507",8="nwaldispuehl-java-introduction~/nwaldispuehl-java-introduction/java-intro-master/hands_on_examples/src/main/java/example_01/TreasureHunt.java~TreasureHunt~3800"]
+1[label="javafx.application.Application",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

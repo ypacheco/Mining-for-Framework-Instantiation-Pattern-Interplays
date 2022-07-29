@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1556,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="tarchan-ClipFX~/tarchan-ClipFX/ClipFX-master/src/com/mac/tarchan/clipfx/ClipFXController.java~ClipFXController~4467",1="novosga-painel-fx~/novosga-painel-fx/painel-fx-master/src/org/novosga/painel/client/ui/Controller.java~Controller~3787",2="crosswords-testEnvironment~/crosswords-testEnvironment/testEnvironment-master/src/GUI/MainController.java~MainController~2315"]
+202[label="new FileChooser.ExtensionFilter()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+203[label="VAR:javafx.stage.FileChooser.ExtensionFilter",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+54[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->54[label="OVERRIDE"]
+0->2[label="DECLARE_FIELD"]
+203->202[label="CALL"]
+54->203[label="INSTANTIATE"]
+}

@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=813,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.HasHTML"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="WSDOT-WSDOT-Search-GWT~/WSDOT-WSDOT-Search-GWT/WSDOT-Search-GWT-master/src/gov/wa/wsdot/search/client/ListItem.java~ListItem~442",1="domi1wa-List-Navigation-Tree~/domi1wa-List-Navigation-Tree/List-Navigation-Tree-master/NavigationTree/src/de/navigation/tree/client/TreeItem.java~TreeItem~1282"]
+3[label="com.google.gwt.user.client.ui.HasHTML",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+23[label="java.lang.String getHTML()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+27[label="VAR:com.google.gwt.user.client.ui.UIObject",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+30[label="void setHTML(java.lang.String)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+28[label="getElement()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+27->28[label="CALL"]
+0->23[label="OVERRIDE"]
+23->27[label="INSTANTIATE"]
+0->3[label="IMPLEMENT",color=red]
+0->30[label="OVERRIDE"]
+}

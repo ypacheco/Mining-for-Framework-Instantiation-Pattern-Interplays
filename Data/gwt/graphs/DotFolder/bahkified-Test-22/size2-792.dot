@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=792,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="bahkified-Test",filePath="/bahkified-Test/Test-master/src/main/java/com/blargh/AanP/client/model/Armor.java",contextSignature="Armor",graphId="792"]
+0[label="main.java.com.blargh.AanP.client.model.Armor",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

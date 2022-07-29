@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4208,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.RadioButton"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="nextinterfaces-next",filePath="/nextinterfaces-next/next-master/src/next/i/view/widgets/XRadioButton.java",contextSignature="XRadioButton",graphId="4208"]
+0[label="next.i.view.widgets.XRadioButton",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.RadioButton",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

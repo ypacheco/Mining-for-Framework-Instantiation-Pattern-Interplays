@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3630,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.i18n.client.ConstantsWithLookup"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="llinder-gwt-lwvl",filePath="/llinder-gwt-lwvl/gwt-lwvl-master/src/main/java/com/dtornkaew/gwt/validation/client/Validator.java",contextSignature="ValidationMessageBundle",graphId="3630"]
+0[label="main.java.com.dtornkaew.gwt.validation.client.Validator.ValidationMessageBundle",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.i18n.client.ConstantsWithLookup",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=3256,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.TableCell"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jalbertcruz-Documentation-manager",filePath="/jalbertcruz-Documentation-manager/Documentation-manager-master/src/documentation/manager/CopyButtonCell.java",contextSignature="CopyButtonCell",graphId="3256"]
+0[label="documentation.manager.CopyButtonCell",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.TableCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

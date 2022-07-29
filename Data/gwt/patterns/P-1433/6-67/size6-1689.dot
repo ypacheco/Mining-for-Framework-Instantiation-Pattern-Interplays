@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1689,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.ResizeComposite"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="j78wu-HyperDex-GUI~/j78wu-HyperDex-GUI/HyperDex-GUI-master/src/com/hyperdex/web/client/view/spaceList.java~spaceList~3085",1="j78wu-HyperDex-GUI~/j78wu-HyperDex-GUI/HyperDex-GUI-master/src/com/hyperdex/web/client/view/spaceDetail.java~spaceDetail~3100"]
+1[label="com.google.gwt.user.client.ui.ResizeComposite",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+7[label="FIELD:CLIENT",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+5[label="FIELD:com.google.gwt.user.client.ui.FlexTable",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+6[label="com.google.gwt.user.client.ui.FlexTable",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+8[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+7->8[label="OF_TYPE"]
+5->6[label="OF_TYPE"]
+0->5[label="DECLARE_FIELD"]
+0->1[label="EXTEND",color=red]
+0->7[label="DECLARE_FIELD"]
+}

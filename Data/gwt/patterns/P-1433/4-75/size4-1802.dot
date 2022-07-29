@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=1802,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/hangout-test/src/com/akjava/gwt/hangout/test2/client/Test2.java~Test2~529",1="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/ApplicationPanel.java~ApplicationPanel~197"]
+11[label="new TabPanel()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+12[label="VAR:com.google.gwt.user.client.ui.TabPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+31[label="add()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+23[label="add()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+12->23[label="CALL"]
+12->31[label="CALL"]
+12->11[label="CALL"]
+}

@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=1479,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.DockPanel"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="MainMain-ChatCafeine~/MainMain-ChatCafeine/ChatCafeine-master/ChatCafeine/src/sources/client/vue/ApplicationPanel.java~ApplicationPanel~197",1="CarlRazmus-WebStore~/CarlRazmus-WebStore/WebStore-master/src/tddd24/project/widgets/ProductWidget.java~ProductWidget~73"]
+1[label="com.google.gwt.user.client.ui.DockPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+34[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->34[label="DECLARE_METHOD"]
+}

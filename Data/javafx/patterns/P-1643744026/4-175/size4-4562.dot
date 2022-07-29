@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4562,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/TournamentController.java~TournamentController~3009",1="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/TournamentController.java~void initialize(java.net.URL,java.util.ResourceBundle)~3015"]
+252[label="new ComposeActionHistoryCell()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+253[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+254[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+255[label="javafx.scene.control.ListCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+253->254[label="OF_TYPE"]
+253->252[label="CALL"]
+254->255[label="EXTEND",color=blue]
+}

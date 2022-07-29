@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=3810,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[0="3810~CLIENT_METHOD_DECLARATION-RETURN_TYPE-~com.google.gwt.core.client.JavaScriptObject ~com.google.gwt.dom.client.EventTarget ~false~false"]
+locationInfo[projectName="mguiral-GwtSvgLib",filePath="/mguiral-GwtSvgLib/GwtSvgLib-master/src/gwt/html5/svg/client/core/SVGElementInstanceList.java",contextSignature="SVGElementInstanceList",graphId="3810"]
+0[label="gwt.html5.svg.client.core.SVGElementInstanceList",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+3[label="gwt.html5.svg.client.core.SVGElementInstance item(int)",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+4[label="gwt.html5.svg.client.core.SVGElementInstance",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+5[label="com.google.gwt.dom.client.EventTarget",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->3[label="DECLARE_METHOD"]
+4->5[label="EXTEND",color=blue]
+3->4[label="RETURN"]
+}

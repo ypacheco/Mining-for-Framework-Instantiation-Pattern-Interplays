@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=4126,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/futurist/Futurist.java~Futurist~964",1="AMITCCILGITHUB-Contacts~/AMITCCILGITHUB-Contacts/Contacts-master/Contacts/src/org/apandey/preloader/Loading.java~Loading~34",2="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/thermostat/NestNoCss.java~NestNoCss~985",3="MrLoNee-RadialFx~/MrLoNee-RadialFx/RadialFx-master/src/com/mrlonee/radialfx/thermostat/Nest.java~Nest~992"]
+20[label="javafx.scene.shape.SVGPath",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+19[label="FIELD:javafx.scene.shape.SVGPath",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+19->20[label="OF_TYPE"]
+}

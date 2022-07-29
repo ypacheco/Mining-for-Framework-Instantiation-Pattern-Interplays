@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=894,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.TextArea"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Mareck-playground",filePath="/Mareck-playground/playground-master/javafx2/src/main/java/eu/scilled/javafx/util/LogViewer.java",contextSignature="LogViewer",graphId="894"]
+0[label="main.java.eu.scilled.javafx.util.LogViewer",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.TextArea",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

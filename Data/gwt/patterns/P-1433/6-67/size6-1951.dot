@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1951,category="pattern",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.util.tools.ArgHandlerInt"]
+possibleCollaborationsInfo[0="1951~FIELD_TYPE_DECLARATION-~com.google.gwt.util.tools.ArgHandlerInt ~com.google.gwt.dev.ArgProcessorBase ~false~false"]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="WeTheInternet-xapi-template~/WeTheInternet-xapi-template/xapi-template-master/src/main/java/wetheinter/net/dev/template/ProcessingInstructionOptions.java~SkipLinesArg~480",1="WeTheInternet-xapi-template~/WeTheInternet-xapi-template/xapi-template-master/src/main/java/wetheinter/net/dev/template/ProcessingInstructionOptions.java~SkipWordsArg~479"]
+5[label="void setInt(int)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="FIELD:CLIENT",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+1[label="com.google.gwt.util.tools.ArgHandlerInt",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+3[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="com.google.gwt.dev.ArgProcessorBase",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->2[label="DECLARE_FIELD"]
+0->5[label="OVERRIDE"]
+0->1[label="EXTEND",color=red]
+3->4[label="EXTEND",color=blue]
+2->3[label="OF_TYPE"]
+}

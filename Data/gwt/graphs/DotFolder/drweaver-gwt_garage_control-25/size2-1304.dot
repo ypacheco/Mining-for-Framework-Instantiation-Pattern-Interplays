@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1304,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.uibinder.client.UiBinder"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="drweaver-gwt_garage_control",filePath="/drweaver-gwt_garage_control/gwt_garage_control-master/src/drweaver/garagecontrol/client/view/desktop/GarageControlViewDesktop.java",contextSignature="GarageControlViewDesktopUiBinder",graphId="1304"]
+0[label="drweaver.garagecontrol.client.view.desktop.GarageControlViewDesktop.GarageControlViewDesktopUiBinder",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.uibinder.client.UiBinder",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+}

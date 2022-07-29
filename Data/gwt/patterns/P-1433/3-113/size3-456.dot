@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=456,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/ugat/client/common/ui/ModalDialog.java~void show()~3059",1="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/EventsCalendarTable.java~EventsCalendarTable_EventRenderer_OnRender~2963"]
+7[label="com.google.gwt.user.client.ui.FocusPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+5[label="VAR:com.google.gwt.user.client.ui.FocusPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+4[label="void execute()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+5->7[label="OF_TYPE"]
+4->5[label="INSTANTIATE"]
+}

@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1236,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=6.0,patternRootClient=0]
+patternInstancesInfo[0="yamin-elmakis-IronDome2~/yamin-elmakis-IronDome2/IronDome2-master/IronDome2Client/src/WarClient.java~WarClient~4857",1="hock323-eventManager~/hock323-eventManager/EventManager-master/src/eventManager/controller/pokerTournament/PrizesController.java~PrizesController~2951",2="henrik-bak-scbuildplanner~/henrik-bak-scbuildplanner/scbuildplanner-master/src/main/java/com/ezzored/starcraftbuildplanner/controller/MainWindowController.java~MainWindowController~2923",3="RUAN0007-FastestPathSimulator~/RUAN0007-FastestPathSimulator/FastestPathSimulator-master/FastPathSimulator/src/application/FastestPathSimulatorController.java~FastestPathSimulatorController~1116",4="stoeffu-LotterySystem~/stoeffu-LotterySystem/LotterySystem-master/src/gui/Controller.java~Controller~4315",5="warpcorebreach-AAH~/warpcorebreach-AAH/AAH-master/AAH/src/aah/MgrHomepageController.java~MgrHomepageController~4734"]
+22[label="FIELD:javafx.scene.control.ChoiceBox",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+23[label="javafx.scene.control.ChoiceBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+6[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+10[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+22->23[label="OF_TYPE"]
+0->6[label="DECLARE_FIELD"]
+0->22[label="DECLARE_FIELD"]
+0->10[label="DECLARE_FIELD"]
+}

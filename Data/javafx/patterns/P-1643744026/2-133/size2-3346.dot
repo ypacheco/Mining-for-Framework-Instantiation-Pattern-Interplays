@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=3346,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="jalbertcruz-Documentation-manager~/jalbertcruz-Documentation-manager/Documentation-manager-master/src/documentation/manager/DocumentationManager.java~DocumentationManager~3242",1="yorlov-VirtualPointer~/yorlov-VirtualPointer/VirtualPointer-master/src/com/blogspot/captain1653/options/OptionsStage.java~OptionsStage~4889",2="SaiPradeepDandem-javafx2-gradient-builder~/SaiPradeepDandem-javafx2-gradient-builder/javafx2-gradient-builder-master/src/main/java/com/javafx/gradientbuilder/application/LinearSettingsLayout.java~LinearSettingsLayout~1172",3="AMITCCILGITHUB-Contacts~/AMITCCILGITHUB-Contacts/Contacts-master/Contacts/src/org/apandey/view/parts/Body.java~Body~60"]
+105[label="javafx.scene.control.ControlBuilder",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+729[label="VAR:javafx.scene.control.ControlBuilder",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+729->105[label="OF_TYPE"]
+}

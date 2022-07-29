@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=661,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=14.0,patternRootClient=0]
+patternInstancesInfo[0="antoniotorres-CAPOS~/antoniotorres-CAPOS/CAPOS-master/src/main/imprimirController.java~imprimirController~1880",1="fieryphoenix-screen-caster~/fieryphoenix-screen-caster/screen-caster-master/ScreenCaster/src/by/bsuir/zuyeu/controller/ConnectController.java~ConnectController~2678",2="sushkrish-CityLife~/sushkrish-CityLife/CityLife-master/src/view/StartScene.java~StartScene~4318",3="sushkrish-CityLife~/sushkrish-CityLife/CityLife-master/src/view/SelectHome.java~SelectHome~4329",4="JCake-CoupGameProgram~/JCake-CoupGameProgram/CoupGameProgram-master/src/game/remote/PlayerUi.java~PlayerUi~579",5="sushkrish-CityLife~/sushkrish-CityLife/CityLife-master/src/view/SelectWork.java~SelectWork~4347",6="djapal-sfvchecker~/djapal-sfvchecker/sfvchecker-master/src/gr/djapal/sfv/SFVCheckerApplication.java~SFVCheckerApplication~2512",7="mrempala-sp~/mrempala-sp/sp-master/src/application/VcProgramStart.java~VcProgramStart~3679",8="Totenfluch-TPrivateChat-Client~/Totenfluch-TPrivateChat-Client/TPrivateChat-Client-master/TPvtChat-C/src/me/Totenfluch/pack/Main.java~Main~1483",9="Seraphiana-SecretaryProblemSimulator~/Seraphiana-SecretaryProblemSimulator/SecretaryProblemSimulator-master/src/main/Java/GUI/GUIController.java~GUIController~1202",10="skrb-SimplePresenter~/skrb-SimplePresenter/SimplePresenter-master/src/contents/page3.java~page3~4232",11="Johnmalc-JavaFX~/Johnmalc-JavaFX/JavaFX-master/src/game/BallGameController.java~BallGameController~640",12="Johnmalc-JavaFX~/Johnmalc-JavaFX/JavaFX-master/src/game/SingleClassNoXmlBallGame.java~SingleClassNoXmlBallGame~649",13="sandeepb-CiscoECG~/sandeepb-CiscoECG/CiscoECG-master/src/ciscoECGFrontend/MyController.java~MyController~4063"]
+8[label="FIELD:javafx.scene.text.Text",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+4[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->8[label="DECLARE_FIELD"]
+0->4[label="DECLARE_FIELD"]
+}

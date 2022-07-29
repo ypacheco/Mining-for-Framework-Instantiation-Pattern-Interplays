@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=3233,category="extension_graph",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.Pane"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="jackpaparian-FRED_Navigator_Classroom",filePath="/jackpaparian-FRED_Navigator_Classroom/FRED_Navigator_Classroom-master/JavaFX Code/FREDNavigatorTopic1/src/frednavigatortopic1/MediaControl.java",contextSignature="void MediaControl(javafx.scene.media.MediaPlayer)",graphId="3233"]
+0[label="ROOT_ANONYMOUS_DECLARATION",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.Pane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="mvPane",vertexType="OUTSIDE_VARIABLE_EXPRESION",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="ASSIGMENT"]
+2->1[label="OF_TYPE"]
+}

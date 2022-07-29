@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=3914,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="vaalfreja-Time~/vaalfreja-Time/Time-master/src/time/TimeController.java~void initPane(javafx.scene.layout.VBox)~4645",1="vaalfreja-Time~/vaalfreja-Time/Time-master/src/time/TimeController.java~TimeController~4643"]
+12[label="new TicketUI()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+13[label="VAR:CLIENT",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+14[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+15[label="javafx.scene.layout.StackPane",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+13->14[label="OF_TYPE"]
+14->15[label="EXTEND",color=blue]
+13->12[label="CALL"]
+}

@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=245,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.ComplexPanel"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="jounik-DashLayout~/jounik-DashLayout/DashLayout-master/src/org/vaadin/jouni/dashlayout/client/ui/VDashLayout.java~VDashLayout~3303",1="WSDOT-WSDOT-Search-GWT~/WSDOT-WSDOT-Search-GWT/WSDOT-Search-GWT-master/src/gov/wa/wsdot/search/client/BulletList.java~BulletList~440",2="karlwettin-kodapan-gwt-google-map-v3~/karlwettin-kodapan-gwt-google-map-v3/kodapan-gwt-google-map-v3-master/src/main/java/se/kodapan/gwt/google/maps/v3/client/InfoWindowFacade.java~FakePanel~3389"]
+1[label="com.google.gwt.user.client.ui.ComplexPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

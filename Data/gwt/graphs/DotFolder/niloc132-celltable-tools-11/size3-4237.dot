@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=4237,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.cell.client.FieldUpdater"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="niloc132-celltable-tools",filePath="/niloc132-celltable-tools/celltable-tools-master/src/test/java/com/colinalworth/celltable/columns/client/ColumnsTest.java",contextSignature="EditableBeanModelFieldUpdater",graphId="4237"]
+0[label="test.java.com.colinalworth.celltable.columns.client.ColumnsTest.EditableBeanModelFieldUpdater",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.cell.client.FieldUpdater",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void update(int,test.java.com.colinalworth.celltable.columns.client.ColumnsTest.EditableBeanModel,java.lang.String)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+}

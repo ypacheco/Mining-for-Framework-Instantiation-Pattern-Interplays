@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=907,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.core.client.JavaScriptObject"]
+possibleCollaborationsInfo[0="907~CLIENT_METHOD_DECLARATION-PARAMETER_DECLARATION-~com.google.gwt.core.client.JavaScriptObject ~com.google.gwt.core.client.JavaScriptObject ~false~false"]
+locationInfo[projectName="bradrydzewski-gwt-filesystem",filePath="/bradrydzewski-gwt-filesystem/gwt-filesystem-master/gwt-filesystem/src/main/java/com/google/gwt/filesystem/client/FileWriter.java",contextSignature="FileWriter",graphId="907"]
+0[label="main.java.com.google.gwt.filesystem.client.FileWriter",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="void write(main.java.com.google.gwt.filesystem.client.Blob)",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+5[label="data",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+6[label="main.java.com.google.gwt.filesystem.client.Blob",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+0->1[label="EXTEND",color=red]
+0->4[label="DECLARE_METHOD"]
+6->1[label="EXTEND",color=blue]
+5->6[label="OF_TYPE"]
+4->5[label="PARAMETER"]
+}

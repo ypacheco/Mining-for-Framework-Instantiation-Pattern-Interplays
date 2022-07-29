@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=4154,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/Project.java~Project~1849",1="amonker-Trans~/amonker-Trans/Trans-master/src/cn/jingyun/trans/Project.java~void initialize()~1850"]
+11[label="javafx.scene.control.cell.ComboBoxTableCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+10[label="ANONYMOUS",vertexType="REFERENCE_ANONYMOUS_DECLARATION",isFrameworkType=false,color=blue]
+9[label="VAR:ANONYMOUS",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+8[label="new ComboBoxTableCell()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+10->11[label="EXTEND",color=blue]
+9->8[label="CALL"]
+9->10[label="OF_TYPE"]
+}

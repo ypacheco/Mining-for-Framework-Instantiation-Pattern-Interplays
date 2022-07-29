@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=314,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.ScrollPanel"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="MathieuLorber-GWT-console",filePath="/MathieuLorber-GWT-console/GWT-console-master/src/main/java/net/mlorber/gwt/console/client/ScrollPanelWithMinSize.java",contextSignature="ScrollPanelWithMinSize",graphId="314"]
+0[label="main.java.net.mlorber.gwt.console.client.ScrollPanelWithMinSize",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.ScrollPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

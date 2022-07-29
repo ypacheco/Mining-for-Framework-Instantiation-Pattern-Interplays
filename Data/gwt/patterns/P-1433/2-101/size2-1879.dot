@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=1879,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="j78wu-HyperDex-GUI~/j78wu-HyperDex-GUI/HyperDex-GUI-master/src/com/hyperdex/web/client/view/HyperDex.java~HyperDex~3084",1="mansiT-UiBinder~/mansiT-UiBinder/UiBinder-master/uibinder/src/com/mansi/client/board/MultiRowTabPanel.java~MultiRowTabPanel~3698"]
+50[label="com.google.gwt.user.client.ui.TabBar",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+48[label="VAR:com.google.gwt.user.client.ui.TabBar",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+48->50[label="OF_TYPE"]
+}

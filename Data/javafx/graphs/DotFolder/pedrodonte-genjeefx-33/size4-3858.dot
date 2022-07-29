@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=3858,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.HBox"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="pedrodonte-genjeefx",filePath="/pedrodonte-genjeefx/genjeefx-master/GenJeeFx/src/main/java/generar/ui/BarraEstadoHBox.java",contextSignature="BarraEstadoHBox",graphId="3858"]
+0[label="main.java.generar.ui.BarraEstadoHBox",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.HBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="lblEntidades",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.scene.text.Text",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+}

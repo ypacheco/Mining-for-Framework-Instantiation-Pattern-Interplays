@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=3999,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.concurrent.Task"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="kaizawa-esximonitor~/kaizawa-esximonitor/esximonitor-master/src/com/cafeform/esxi/esximonitor/EsxiMonitorViewController.java~void updateVmListPanel()~3426",1="wwtg99-POMA~/wwtg99-POMA/POMA-master/src/cn/edu/suda/gui/LoadingDialog.java~void show()~4854"]
+6[label="super.succeeded()",vertexType="SUPER_CALL",isFrameworkType=false,shape=box]
+5[label="void succeeded()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.concurrent.Task",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0->1[label="EXTEND",color=red]
+5->6[label="CALL"]
+0->5[label="OVERRIDE"]
+}

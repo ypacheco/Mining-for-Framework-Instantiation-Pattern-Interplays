@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1515,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.HasEnabled"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="rdomingonl-layoutTest~/rdomingonl-layoutTest/layoutTest-master/src/main/java/nl/tc/rd/exp/layouttest/client/mvp/view/WidgetDesignerView.java~WidgetDesignerView~4344",1="kospiotr-gwt-layout-designer~/kospiotr-gwt-layout-designer/gwt-layout-designer-master/src/main/java/pl/pkosmowski/gxtshowcase/client/EditorsPanel.java~EditorsPanel~3411"]
+77[label="com.google.gwt.event.logical.shared.HasBeforeSelectionHandlers",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+72[label="CLIENT",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+3[label="com.google.gwt.user.client.ui.HasEnabled",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+32[label="FIELD:CLIENT",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+20[label="FIELD:CLIENT",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->32[label="DECLARE_FIELD"]
+72->3[label="IMPLEMENT",color=blue]
+0->3[label="IMPLEMENT",color=red]
+72->77[label="IMPLEMENT",color=blue]
+0->20[label="DECLARE_FIELD"]
+}

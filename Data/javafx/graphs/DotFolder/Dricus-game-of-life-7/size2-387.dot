@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=387,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.application.Application"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Dricus-game-of-life",filePath="/Dricus-game-of-life/game-of-life-master/src/main/java/nl/dricus/gameoflife/app/Application.java",contextSignature="Application",graphId="387"]
+0[label="main.java.nl.dricus.gameoflife.app.Application",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.application.Application",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

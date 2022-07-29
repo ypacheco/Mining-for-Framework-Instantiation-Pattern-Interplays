@@ -1,0 +1,17 @@
+digraph {
+baseInfo[graphId=4613,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.animation.client.Animation"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="vlapan-PhotoBank",filePath="/vlapan-PhotoBank/PhotoBank-master/src/com/vlapan/gwt/photobank/client/ui/PhotoWidget.java",contextSignature="ShowAnimation",graphId="4613"]
+0[label="com.vlapan.gwt.photobank.client.ui.PhotoWidget.ShowAnimation",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.animation.client.Animation",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void onComplete()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="_:com.google.gwt.user.client.ui.Image",vertexType="VARIABLE_EXPRESION",isFrameworkType=true,peripheries=2,shape=circle]
+5[label="com.google.gwt.user.client.ui.Image",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+4[label="addMouseMoveHandler()",vertexType="INSIDE_CALL",isFrameworkType=true,peripheries=2,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+2->3[label="INSTANTIATE"]
+3->5[label="OF_TYPE"]
+3->4[label="CALL"]
+}

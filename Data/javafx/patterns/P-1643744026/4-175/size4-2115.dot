@@ -1,0 +1,14 @@
+digraph {
+baseInfo[graphId=2115,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=null]
+patternInstancesInfo[0="cyberaka-fxddp_poc~/cyberaka-fxddp_poc/fxddp_poc-master/fxddp-gui/src/main/java/com/cyberaka/fxddp/gui/impl/FormView.java~FormView~2335",1="suxue-tetris~/suxue-tetris/tetris-master/src/tetris/core/UIController.java~UIController~4358",2="bianconejo-CEFX~/bianconejo-CEFX/CEFX-master/src/cefx/CEPrincipalController.java~CEPrincipalController~2114",3="Cslice-Province~/Cslice-Province/Province-master/ProvincialMiner/src/Provincial_Miner/Gui2.java~Gui2~260"]
+101[label="javafx.scene.control.Tooltip",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+136[label="VAR:javafx.scene.control.Tooltip",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+135[label="new Tooltip()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+148[label="VAR:javafx.scene.control.Tooltip",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+136->135[label="CALL"]
+148->101[label="OF_TYPE"]
+136->101[label="OF_TYPE"]
+}

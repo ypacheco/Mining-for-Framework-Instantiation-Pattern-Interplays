@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=899,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Composite"]
+possibleCollaborationsInfo[0="899~CLIENT_METHOD_DECLARATION-RETURN_TYPE-~com.google.gwt.user.client.ui.Composite ~com.google.gwt.core.client.JavaScriptObject ~false~false"]
+locationInfo[projectName="boscomonkey-gwt_raster_panel",filePath="/boscomonkey-gwt_raster_panel/gwt_raster_panel-master/src/com/boscomonkey/gwtraster/client/PanelWidget.java",contextSignature="PanelWidget",graphId="899"]
+0[label="com.boscomonkey.gwtraster.client.PanelWidget",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Composite",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+17[label="com.boscomonkey.gwtraster.client.PanelWidget.Dot newDot(int,int)",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+18[label="com.boscomonkey.gwtraster.client.PanelWidget.Dot",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+19[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->17[label="DECLARE_METHOD"]
+18->19[label="EXTEND",color=blue]
+17->18[label="RETURN"]
+}

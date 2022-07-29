@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=921,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.Parent"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="Maxxa-MT-common",filePath="/Maxxa-MT-common/MT-common-master/src/cz/commons/example/graphics/node/ExampleNode.java",contextSignature="ExampleNode",graphId="921"]
+0[label="cz.commons.example.graphics.node.ExampleNode",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.Parent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="rectangle",vertexType="FIELD_DECLARATION",isFrameworkType=true,peripheries=2,shape=circle]
+3[label="javafx.scene.shape.Rectangle",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+2->3[label="OF_TYPE"]
+}

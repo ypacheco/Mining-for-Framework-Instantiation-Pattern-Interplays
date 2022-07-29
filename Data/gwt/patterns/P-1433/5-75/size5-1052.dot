@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1052,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="akjava-GWT-Hangouts~/akjava-GWT-Hangouts/GWT-Hangouts-master/apps/hangout-test/src/com/akjava/gwt/hangout/test2/client/Test2.java~Test2~529",1="j78wu-HyperDex-GUI~/j78wu-HyperDex-GUI/HyperDex-GUI-master/src/com/hyperdex/web/client/view/HyperDex.java~HyperDex~3084"]
+5[label="com.google.gwt.user.client.ui.TabPanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+4[label="VAR:com.google.gwt.user.client.ui.TabPanel",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+39[label="add()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+51[label="add()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+15[label="add()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+4->5[label="OF_TYPE"]
+4->51[label="CALL"]
+4->15[label="CALL"]
+4->39[label="CALL"]
+}

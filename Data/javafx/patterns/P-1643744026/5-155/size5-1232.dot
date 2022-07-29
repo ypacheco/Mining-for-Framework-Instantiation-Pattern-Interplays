@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1232,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="antoniotorres-CAPOS~/antoniotorres-CAPOS/CAPOS-master/src/main/imprimirController.java~imprimirController~1880",1="crosswords-testEnvironment~/crosswords-testEnvironment/testEnvironment-master/src/GUI/MainController.java~MainController~2315"]
+23[label="new Font()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+24[label="VAR:javafx.scene.text.Font",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+13[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="FIELD:javafx.scene.control.Button",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0->13[label="OVERRIDE"]
+13->24[label="INSTANTIATE"]
+24->23[label="CALL"]
+0->2[label="DECLARE_FIELD"]
+}

@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=1956,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.Button"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="atsticks-FXOne",filePath="/atsticks-FXOne/FXOne-master/org.fxone/fxone-ui/src/main/java/org/fxone/ui/rt/nav/CommandButton.java",contextSignature="CommandButton",graphId="1956"]
+0[label="main.java.org.fxone.ui.rt.nav.CommandButton",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.control.Button",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

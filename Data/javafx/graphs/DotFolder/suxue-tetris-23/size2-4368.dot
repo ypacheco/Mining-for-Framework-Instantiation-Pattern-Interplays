@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4368,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.layout.Region"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="suxue-tetris",filePath="/suxue-tetris/tetris-master/src/tetris/ui/HSpacer.java",contextSignature="HSpacer",graphId="4368"]
+0[label="tetris.ui.HSpacer",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.scene.layout.Region",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

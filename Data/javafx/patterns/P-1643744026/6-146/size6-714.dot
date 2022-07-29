@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=714,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=10.0,patternRootClient=null]
+patternInstancesInfo[0="zvakanaka-bitbit~/zvakanaka-bitbit/bitbit-master/src/bitbit/BitBit.java~BitBit~4923",1="kevinkdo-draw~/kevinkdo-draw/draw-master/src/views/DrawMenuBar.java~DrawMenuBar~3444",2="weltensturm-milca~/weltensturm-milca/milca-master/src/milca/GUI.java~GUI~4747",3="jasonwr-jhuep_ent_web_dev~/jasonwr-jhuep_ent_web_dev/jhuep_ent_web_dev-master/src/hw10/main/Retail.java~Retail~3269",4="tarchan-ClipFX~/tarchan-ClipFX/ClipFX-master/src/com/mac/tarchan/clipfx/ClipFXController.java~ClipFXController~4467",5="JoshuaHanrahan-DVDCollectionApp~/JoshuaHanrahan-DVDCollectionApp/DVDCollectionApp-master/src/dvdcollectionapp/view/DvdcollectionappfxmlController.java~DvdcollectionappfxmlController~728",6="atsticks-FXOne~/atsticks-FXOne/FXOne-master/org.fxone/fxone-ui/src/main/java/org/fxone/ui/rt/components/view/ViewMenu.java~ViewMenu~1931",7="Technius-Starbound-Mod-Toolkit~/Technius-Starbound-Mod-Toolkit/Starbound-Mod-Toolkit-master/src/main/java/co/technius/starboundmodtoolkit/ModToolkitMenu.java~ModToolkitMenu~1420",8="jasonwr-jhuep_ent_web_dev~/jasonwr-jhuep_ent_web_dev/jhuep_ent_web_dev-master/src/hw8/main/Retail.java~Retail~3291",9="sebbafer-Sebanana~/sebbafer-Sebanana/Sebanana-master/src/sebanana/views/MyMenubar.java~MyMenubar~4131"]
+60[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+61[label="javafx.scene.control.MenuItem",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+62[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+66[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+68[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+70[label="FIELD:javafx.scene.control.MenuItem",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+66->61[label="OF_TYPE"]
+68->61[label="OF_TYPE"]
+70->61[label="OF_TYPE"]
+62->61[label="OF_TYPE"]
+60->61[label="OF_TYPE"]
+}

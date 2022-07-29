@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=1847,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="betacraft-RdpGwtClient~/betacraft-RdpGwtClient/RdpGwtClient-master/src/com/droidcloud/viewer/client/ISO.java~ISO~836",1="Namrack-TeachToLearn~/Namrack-TeachToLearn/TeachToLearn-master/TeachToLearn/src/ttl/client/TeachToLearn.java~void connect()~348"]
+43[label="net.zschech.gwt.websockets.client.MessageEvent",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+42[label="PARAMETER:net.zschech.gwt.websockets.client.MessageEvent",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+48[label="getData()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+39[label="void onMessage(net.zschech.gwt.websockets.client.WebSocket,net.zschech.gwt.websockets.client.MessageEvent)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+40[label="PARAMETER:net.zschech.gwt.websockets.client.WebSocket",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+8[label="net.zschech.gwt.websockets.client.WebSocket",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+39->42[label="PARAMETER"]
+40->8[label="OF_TYPE"]
+42->43[label="OF_TYPE"]
+42->48[label="CALL"]
+39->40[label="PARAMETER"]
+}

@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=823,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.server.rpc.RemoteServiceServlet"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="bebenko-leksi",filePath="/bebenko-leksi/leksi-master/gwted/src/main/java/sk/portugal/leksi/editor/server/GreetingServiceImpl.java",contextSignature="GreetingServiceImpl",graphId="823"]
+0[label="main.java.sk.portugal.leksi.editor.server.GreetingServiceImpl",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.server.rpc.RemoteServiceServlet",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

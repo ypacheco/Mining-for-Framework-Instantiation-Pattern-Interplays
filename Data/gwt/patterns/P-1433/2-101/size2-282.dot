@@ -1,0 +1,10 @@
+digraph {
+baseInfo[graphId=282,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.server.rpc.RemoteServiceServlet"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=0]
+patternInstancesInfo[0="skavish-collaborative-paint~/skavish-collaborative-paint/collaborative-paint-master/src/com/acme/collpaint/server/ServletWithCometSessions.java~ServletWithCometSessions~4503",1="rombert-gwt-dispatch-sample~/rombert-gwt-dispatch-sample/gwt-dispatch-sample-master/dispatch-sample-manual/src/main/java/ro/lmn/gwt/dispatch/server/SimpleDispatchServlet.java~SimpleDispatchServlet~4431",2="lptr-csopibeszi~/lptr-csopibeszi/csopibeszi-master/src/main/java/hu/lptr/test/gae/csopibeszi/web/MessagesServiceImpl.java~MessagesServiceImpl~3643",3="bebenko-leksi~/bebenko-leksi/leksi-master/gwted/src/main/java/sk/portugal/leksi/editor/server/GreetingServiceImpl.java~GreetingServiceImpl~823"]
+1[label="com.google.gwt.user.server.rpc.RemoteServiceServlet",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+0->1[label="EXTEND",color=red]
+}

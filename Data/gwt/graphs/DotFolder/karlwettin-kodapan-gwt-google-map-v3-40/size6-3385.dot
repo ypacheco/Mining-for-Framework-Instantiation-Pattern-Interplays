@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=3385,category="extension_graph",isAnonymous=false,possibleRelation=true]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Widget"]
+possibleCollaborationsInfo[0="3385~CLIENT_METHOD_DECLARATION-RETURN_TYPE-FIELD_DECLARATION-~com.google.gwt.user.client.ui.Widget ~com.google.gwt.core.client.JavaScriptObject ~false~false"]
+locationInfo[projectName="karlwettin-kodapan-gwt-google-map-v3",filePath="/karlwettin-kodapan-gwt-google-map-v3/kodapan-gwt-google-map-v3-master/src/main/java/se/kodapan/gwt/google/maps/v3/client/StreetViewPanoramaWidget.java",contextSignature="StreetViewPanoramaWidget",graphId="3385"]
+0[label="main.java.se.kodapan.gwt.google.maps.v3.client.StreetViewPanoramaWidget",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Widget",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="panorama",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+3[label="main.java.se.kodapan.gwt.google.maps.v3.client.StreetViewPanorama",vertexType="REFERENCE_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=blue]
+4[label="com.google.gwt.core.client.JavaScriptObject",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+5[label="main.java.se.kodapan.gwt.google.maps.v3.client.StreetViewPanorama getPanorama()",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="DECLARE_FIELD"]
+3->4[label="EXTEND",color=blue]
+2->3[label="OF_TYPE"]
+0->5[label="DECLARE_METHOD"]
+5->3[label="RETURN"]
+}

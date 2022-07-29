@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=1569,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="karlwettin-kodapan-gwt-google-map-v3~/karlwettin-kodapan-gwt-google-map-v3/kodapan-gwt-google-map-v3-master/src/main/java/se/kodapan/gwt/google/maps/v3/client/Map.java~Map~3366",1="mstahv-g-leaflet~/mstahv-g-leaflet/g-leaflet-master/src/main/java/org/peimari/gleaflet/client/Map.java~Map~4095",2="karlwettin-kodapan-gwt-google-map-v3~/karlwettin-kodapan-gwt-google-map-v3/kodapan-gwt-google-map-v3-master/src/main/java/se/kodapan/gwt/google/maps/v3/client/StreetViewPanorama.java~StreetViewPanorama~3360"]
+3[label="PARAMETER:com.google.gwt.dom.client.Element",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+2[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+5[label="PARAMETER:CLIENT",vertexType="PARAMETER_DECLARATION",isFrameworkType=false]
+14[label="METHOD_DECLARATION",vertexType="CLIENT_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->2[label="DECLARE_METHOD"]
+2->5[label="PARAMETER"]
+2->3[label="PARAMETER"]
+0->14[label="DECLARE_METHOD"]
+}

@@ -1,0 +1,15 @@
+digraph {
+baseInfo[graphId=3970,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.event.dom.client.HasLoadHandlers",1="com.google.gwt.event.dom.client.HasErrorHandlers",2="com.google.gwt.event.logical.shared.HasResizeHandlers",3="com.google.gwt.event.dom.client.HasScrollHandlers"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="mguiral-GwtSvgLib",filePath="/mguiral-GwtSvgLib/GwtSvgLib-master/src/gwt/html5/svg/client/user/events/HasDocumentHandlers.java",contextSignature="HasDocumentHandlers",graphId="3970"]
+0[label="gwt.html5.svg.client.user.events.HasDocumentHandlers",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.event.dom.client.HasLoadHandlers",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="com.google.gwt.event.dom.client.HasErrorHandlers",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+3[label="com.google.gwt.event.logical.shared.HasResizeHandlers",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+4[label="com.google.gwt.event.dom.client.HasScrollHandlers",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="IMPLEMENT",color=red]
+0->3[label="IMPLEMENT",color=red]
+0->4[label="IMPLEMENT",color=red]
+}

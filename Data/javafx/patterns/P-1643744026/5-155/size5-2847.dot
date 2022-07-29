@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=2847,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=null]
+patternInstancesInfo[0="Maxxa-MT-common~/Maxxa-MT-common/MT-common-master/src/cz/commons/example/animation/SimpleAnimationExample.java~SimpleAnimationExample~908",1="steveonjava-AlpesJUG~/steveonjava-AlpesJUG/AlpesJUG-master/JUGAlpesJavaFXApplication/src/jugalpesjavafxapplication/SampleController.java~SampleController~4309"]
+7[label="javafx.animation.ParallelTransition",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+61[label="VAR:javafx.animation.ParallelTransition",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+66[label="VAR:javafx.animation.ParallelTransition",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+60[label="new ParallelTransition()",vertexType="CONSTRUCTOR_CALL",isFrameworkType=false]
+67[label="getChildren()",vertexType="INSIDE_CALL",isFrameworkType=false,shape=box]
+61->7[label="OF_TYPE"]
+61->60[label="CALL"]
+66->7[label="OF_TYPE"]
+66->67[label="CALL"]
+}

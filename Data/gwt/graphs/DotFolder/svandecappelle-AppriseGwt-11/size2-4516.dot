@@ -1,0 +1,9 @@
+digraph {
+baseInfo[graphId=4516,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.SimplePanel"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="svandecappelle-AppriseGwt",filePath="/svandecappelle-AppriseGwt/AppriseGwt-master/src/main/java/com/mizore/gwt/apprise/client/AppriseElement.java",contextSignature="AppriseElement",graphId="4516"]
+0[label="main.java.com.mizore.gwt.apprise.client.AppriseElement",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.SimplePanel",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+}

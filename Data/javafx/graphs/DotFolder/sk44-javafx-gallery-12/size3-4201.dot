@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=4201,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.concurrent.Task"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="sk44-javafx-gallery",filePath="/sk44-javafx-gallery/javafx-gallery-master/src/main/java/sk44/jfxgallery/controllers/MainWindowController.java",contextSignature="LoadImageTask",graphId="4201"]
+0[label="main.java.sk44.jfxgallery.controllers.MainWindowController.LoadImageTask",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.concurrent.Task",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="java.lang.Void call()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+}

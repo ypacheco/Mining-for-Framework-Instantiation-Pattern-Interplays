@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=997,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.rpc.AsyncCallback"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=2.0,patternRootClient=0]
+patternInstancesInfo[0="tle-BillNun~/tle-BillNun/BillNun-master/src/com/testapp/client/ui/Sample_gwt.java~com.google.gwt.user.client.ui.FlowPanel getFriendsPanel()~4568",1="tle-BillNun~/tle-BillNun/BillNun-master/src/com/testapp/client/ui/Sample_gwt.java~void refreshFriendStatus()~4569"]
+3[label="void onSuccess(java.util.List)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+14[label="VAR:com.google.gwt.user.client.ui.CheckBox",vertexType="VARIABLE_EXPRESION",isFrameworkType=false,shape=circle]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.rpc.AsyncCallback",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+15[label="com.google.gwt.user.client.ui.CheckBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2[label="void onFailure(java.lang.Throwable)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->2[label="OVERRIDE"]
+3->14[label="INSTANTIATE"]
+0->3[label="OVERRIDE"]
+0->1[label="IMPLEMENT",color=red]
+14->15[label="OF_TYPE"]
+}

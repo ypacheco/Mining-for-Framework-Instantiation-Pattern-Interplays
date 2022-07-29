@@ -1,0 +1,18 @@
+digraph {
+baseInfo[graphId=4410,category="pattern",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.scene.control.TableCell"]
+possibleCollaborationsInfo[]
+patternInfo[frequency=3.0,patternRootClient=0]
+patternInstancesInfo[0="Nordgaimer-GMStoXMLb2~/Nordgaimer-GMStoXMLb2/GMStoXMLb2-master/src/FXMLControllers/MainFrameController.java~CheckBoxTableCell~1022",1="mathiasj33-VocLearn~/mathiasj33-VocLearn/VocLearn-master/src/net/softwarepage/voclearn/code/Bearbeitenmodus.java~CheckBoxTableCell~3586",2="gleba-cppoints~/gleba-cppoints/cppoints-master/src/cpapp/view/EditTableController.java~CheckBoxTableCell~2754"]
+4[label="FIELD:javafx.beans.value.ObservableValue",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+0[label="CLIENT",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+2[label="FIELD:javafx.scene.control.CheckBox",vertexType="FIELD_DECLARATION",isFrameworkType=false,shape=circle]
+1[label="javafx.scene.control.TableCell",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+3[label="javafx.scene.control.CheckBox",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+5[label="javafx.beans.value.ObservableValue",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=false]
+0->4[label="DECLARE_FIELD"]
+0->1[label="EXTEND",color=red]
+2->3[label="OF_TYPE"]
+4->5[label="OF_TYPE"]
+0->2[label="DECLARE_FIELD"]
+}

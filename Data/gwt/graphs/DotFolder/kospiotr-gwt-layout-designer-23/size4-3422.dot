@@ -1,0 +1,13 @@
+digraph {
+baseInfo[graphId=3422,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.ui.Widget",1="com.google.gwt.event.logical.shared.HasResizeHandlers",2="com.google.gwt.user.client.ui.HasEnabled"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="kospiotr-gwt-layout-designer",filePath="/kospiotr-gwt-layout-designer/gwt-layout-designer-master/src/main/java/pl/pkosmowski/gxtshowcase/client/PropertiesEditorPanel.java",contextSignature="PropertiesEditorPanel",graphId="3422"]
+0[label="main.java.pl.pkosmowski.gxtshowcase.client.PropertiesEditorPanel",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.ui.Widget",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="com.google.gwt.event.logical.shared.HasResizeHandlers",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+3[label="com.google.gwt.user.client.ui.HasEnabled",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+0->1[label="EXTEND",color=red]
+0->2[label="IMPLEMENT",color=red]
+0->3[label="IMPLEMENT",color=red]
+}

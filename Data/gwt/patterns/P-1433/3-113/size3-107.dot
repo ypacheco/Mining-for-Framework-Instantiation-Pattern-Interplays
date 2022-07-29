@@ -1,0 +1,12 @@
+digraph {
+baseInfo[graphId=107,category="pattern",isAnonymous=true,possibleRelation=false]
+frameworkRelatedTypesInfo[]
+possibleCollaborationsInfo[]
+patternInfo[frequency=4.0,patternRootClient=0]
+patternInstancesInfo[0="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/ugat/client/common/AppModule.java~void addTopPanel()~3045",1="hmiguellima-ugat~/hmiguellima-ugat/ugat-master/src/org/ucp/gwt/widgets/CMenu.java~void CMenu()~2974",2="acharneski-LangtonAnts~/acharneski-LangtonAnts/LangtonAnts-master/gwt/HyperAnt/src/org/simiacryptus/ant/gwt/AntLib.java~void AntDialog(int,int,com.google.gwt.canvas.client.Canvas,java.lang.String)~482",3="skavish-collaborative-paint~/skavish-collaborative-paint/collaborative-paint-master/src/com/acme/collpaint/client/page/CollPaintPresenter.java~void whenLoggedIn(java.lang.String)~4490"]
+3[label="com.google.gwt.user.client.Window",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=false]
+2[label="METHOD_CALL",vertexType="OUTSIDE_CALL",isFrameworkType=false]
+0[label="ANONYMOUS",vertexType="ROOT_ANONYMOUS_DECLARATION",isFrameworkType=false,color=red]
+2->3[label="OF_TYPE"]
+2->0[label="ARGUMENT"]
+}

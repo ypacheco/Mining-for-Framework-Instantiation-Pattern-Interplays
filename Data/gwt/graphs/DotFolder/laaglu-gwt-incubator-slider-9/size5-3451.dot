@@ -1,0 +1,16 @@
+digraph {
+baseInfo[graphId=3451,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="com.google.gwt.user.client.Timer"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="laaglu-gwt-incubator-slider",filePath="/laaglu-gwt-incubator-slider/gwt-incubator-slider-master/src/main/java/com/google/gwt/widgetideas/client/SliderBar.java",contextSignature="KeyTimer",graphId="3451"]
+0[label="main.java.com.google.gwt.widgetideas.client.SliderBar.KeyTimer",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="com.google.gwt.user.client.Timer",vertexType="FRAMEWORK_CLASS_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void run()",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+3[label="_:com.google.gwt.user.client.Timer",vertexType="VARIABLE_EXPRESION",isFrameworkType=true,peripheries=2,shape=circle]
+4[label="schedule()",vertexType="INSIDE_CALL",isFrameworkType=true,peripheries=2,shape=box]
+0->1[label="EXTEND",color=red]
+0->2[label="OVERRIDE"]
+2->3[label="INSTANTIATE"]
+3->1[label="OF_TYPE"]
+3->4[label="CALL"]
+}

@@ -1,0 +1,11 @@
+digraph {
+baseInfo[graphId=4717,category="extension_graph",isAnonymous=false,possibleRelation=false]
+frameworkRelatedTypesInfo[0="javafx.fxml.Initializable"]
+possibleCollaborationsInfo[]
+locationInfo[projectName="warpcorebreach-AAH",filePath="/warpcorebreach-AAH/AAH-master/AAH/src/aah/ProspResidentLoginController.java",contextSignature="ProspResidentLoginController",graphId="4717"]
+0[label="aah.ProspResidentLoginController",vertexType="ROOT_CLIENT_CLASS_DECLARATION",isFrameworkType=false,color=red]
+1[label="javafx.fxml.Initializable",vertexType="FRAMEWORK_INTERFACE_TYPE",isFrameworkType=true,peripheries=2]
+2[label="void initialize(java.net.URL,java.util.ResourceBundle)",vertexType="OVERRIDING_METHOD_DECLARATION",isFrameworkType=false,shape=box]
+0->1[label="IMPLEMENT",color=red]
+0->2[label="OVERRIDE"]
+}
